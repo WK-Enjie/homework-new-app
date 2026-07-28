@@ -55,15 +55,15 @@
     "time": 25
   },
   {
-    "question": "Concentrated NH3 and concentrated HCl are placed at opposite ends of a sealed glass tube. A white ring of NH4Cl forms closer to the HCl end. Why?",
+    "question": "When steam condenses into liquid water, what happens to the forces of attraction between particles and the average distance between them?",
     "options": [
-      "NH3 molecules have a lower relative molecular mass and diffuse faster than HCl",
-      "HCl molecules have a lower relative molecular mass and diffuse faster than NH3",
-      "NH3 is denser than air and settles faster",
-      "HCl molecules move with higher average kinetic energy at room temperature"
+      "Forces of attraction become stronger; average distance decreases",
+      "Forces of attraction become weaker; average distance increases",
+      "Forces of attraction remain unchanged; average distance decreases",
+      "Forces of attraction become stronger; average distance increases"
     ],
-    "answer": "NH3 molecules have a lower relative molecular mass and diffuse faster than HCl",
-    "time": 35
+    "answer": "Forces of attraction become stronger; average distance decreases",
+    "time": 25
   },
   {
     "question": "Which row correctly states the relative charges of a proton, neutron, and electron?",
@@ -165,15 +165,15 @@
     "time": 25
   },
   {
-    "question": "Naturally occurring Chlorine exists as 75% Chlorine-35 and 25% Chlorine-37. What is the relative atomic mass of Chlorine?",
+    "question": "Atom X has 17 protons and 18 neutrons. Atom Y has 17 protons and 20 neutrons. Which statement about X and Y is correct?",
     "options": [
-      "35.5",
-      "36.0",
-      "35.0",
-      "36.5"
+      "They are isotopes of the same element with different physical properties",
+      "They are different elements with identical chemical properties",
+      "They are isotopes with different numbers of valence electrons",
+      "They are ions of the same element with different overall charges"
     ],
-    "answer": "35.5",
-    "time": 40
+    "answer": "They are isotopes of the same element with different physical properties",
+    "time": 30
   },
   {
     "question": "What is the electronic configuration of a neutral Potassium atom (proton number 19)?",
@@ -200,12 +200,12 @@
   {
     "question": "An element X has an atomic number of 15. In which Group of the Periodic Table is element X found?",
     "options": [
-      "Group 15",
-      "Group 13",
-      "Group 12",
-      "Group 17"
+      "Group V",
+      "Group III",
+      "Group II",
+      "Group VII"
     ],
-    "answer": "Group 15",
+    "answer": "Group V",
     "time": 25
   },
   {
@@ -220,14 +220,14 @@
     "time": 30
   },
   {
-    "question": "When a Calcium atom forms a Ca^{2+} ion, what happens to its subatomic particles and nuclear charge?",
+    "question": "When a Calcium atom forms a Ca^{2+} ion, what happens to its subatomic particles and the charge of its nucleus?",
     "options": [
-      "It loses 2 electrons; the nuclear charge remains +20",
-      "It gains 2 protons; the nuclear charge increases to +22",
-      "It loses 2 protons; the nuclear charge decreases to +18",
-      "It gains 2 electrons; the nuclear charge remains +20"
+      "It loses 2 electrons; the charge of its nucleus remains +20",
+      "It gains 2 protons; the charge of its nucleus increases to +22",
+      "It loses 2 protons; the charge of its nucleus decreases to +18",
+      "It gains 2 electrons; the charge of its nucleus remains +20"
     ],
-    "answer": "It loses 2 electrons; the nuclear charge remains +20",
+    "answer": "It loses 2 electrons; the charge of its nucleus remains +20",
     "time": 35
   },
   {
@@ -244,12 +244,12 @@
   {
     "question": "Consider the ions N^{3-}, O^{2-}, and F^-. Which statement correctly describes the charge of their nuclei?",
     "options": [
-      "F^- has a nuclear charge of +9, O^{2-} is +8, and N^{3-} is +7",
-      "All three ions have identical nuclear charges of +10",
-      "N^{3-} has the highest nuclear charge because it gained 3 electrons",
-      "F^- has a negative nuclear charge because it is a halogen"
+      "The nucleus of F^- has a charge of +9, O^{2-} is +8, and N^{3-} is +7",
+      "All three ions have an identical positive charge of +10 in their nuclei",
+      "N^{3-} has the highest positive charge in its nucleus because it gained 3 electrons",
+      "F^- has a negative charge in its nucleus because it is a halogen"
     ],
-    "answer": "F^- has a nuclear charge of +9, O^{2-} is +8, and N^{3-} is +7",
+    "answer": "The nucleus of F^- has a charge of +9, O^{2-} is +8, and N^{3-} is +7",
     "time": 35
   },
   {
