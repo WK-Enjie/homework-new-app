@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Which statement best describes the arrangement and movement of particles in a liquid?",
+    "options": [
+      "Closely packed in a disorderly arrangement, sliding past each other",
+      "Closely packed in an orderly arrangement, vibrating about fixed positions",
+      "Far apart in a random arrangement, moving rapidly in all directions",
+      "Widely spaced in a fixed lattice, moving in continuous straight lines"
+    ],
+    "answer": "Closely packed in a disorderly arrangement, sliding past each other",
+    "time": 20
+  },
+  {
+    "question": "What happens to the average kinetic energy of gas particles when the gas is heated from 25°C to 80°C?",
+    "options": [
+      "It increases",
+      "It decreases",
+      "It remains constant",
+      "It drops to zero"
+    ],
+    "answer": "It increases",
+    "time": 20
+  },
+  {
+    "question": "During the melting of a pure solid, why does the temperature remain constant even though heat energy is continuously supplied?",
+    "options": [
+      "Heat energy is used to overcome attractive forces, increasing average potential energy",
+      "Heat energy is converted into kinetic energy, increasing particle speed",
+      "Heat energy is lost to the surroundings at the exact same rate",
+      "Particles stop moving completely during phase change"
+    ],
+    "answer": "Heat energy is used to overcome attractive forces, increasing average potential energy",
+    "time": 35
+  },
+  {
+    "question": "A liquid is cooling and freezing into a solid at its freezing point. Which energy change occurs during this process?",
+    "options": [
+      "Average potential energy decreases while average kinetic energy remains constant",
+      "Average kinetic energy decreases while average potential energy increases",
+      "Both average kinetic energy and potential energy decrease rapidly",
+      "Average potential energy increases while average kinetic energy remains constant"
+    ],
+    "answer": "Average potential energy decreases while average kinetic energy remains constant",
+    "time": 35
+  },
+  {
+    "question": "Which state change requires energy to completely overcome the attractive forces between particles?",
+    "options": [
+      "Boiling",
+      "Melting",
+      "Freezing",
+      "Condensing"
+    ],
+    "answer": "Boiling",
+    "time": 25
+  },
+  {
+    "question": "Concentrated NH3 and concentrated HCl are placed at opposite ends of a sealed glass tube. A white ring of NH4Cl forms closer to the HCl end. Why?",
+    "options": [
+      "NH3 molecules have a lower relative molecular mass and diffuse faster than HCl",
+      "HCl molecules have a lower relative molecular mass and diffuse faster than NH3",
+      "NH3 is denser than air and settles faster",
+      "HCl molecules move with higher average kinetic energy at room temperature"
+    ],
+    "answer": "NH3 molecules have a lower relative molecular mass and diffuse faster than HCl",
+    "time": 35
+  },
+  {
+    "question": "Which row correctly states the relative charges of a proton, neutron, and electron?",
+    "options": [
+      "Proton: +1, Neutron: 0, Electron: -1",
+      "Proton: +1, Neutron: -1, Electron: 0",
+      "Proton: 0, Neutron: +1, Electron: -1",
+      "Proton: -1, Neutron: 0, Electron: +1"
+    ],
+    "answer": "Proton: +1, Neutron: 0, Electron: -1",
+    "time": 20
+  },
+  {
+    "question": "What is the overall electrical charge of an atomic nucleus containing 12 protons and 12 neutrons?",
+    "options": [
+      "+12",
+      "0",
+      "+24",
+      "-12"
+    ],
+    "answer": "+12",
+    "time": 25
+  },
+  {
+    "question": "A neutral atom of Sodium has a mass number of 23 and an atomic number of 11. How many protons, neutrons, and electrons does it contain?",
+    "options": [
+      "11 protons, 12 neutrons, 11 electrons",
+      "11 protons, 23 neutrons, 11 electrons",
+      "12 protons, 11 neutrons, 12 electrons",
+      "11 protons, 12 neutrons, 12 electrons"
+    ],
+    "answer": "11 protons, 12 neutrons, 11 electrons",
+    "time": 25
+  },
+  {
+    "question": "An atom has 17 protons, 18 neutrons, and 17 electrons. What is its nucleon number?",
+    "options": [
+      "35",
+      "17",
+      "18",
+      "52"
+    ],
+    "answer": "35",
+    "time": 20
+  },
+  {
+    "question": "An oxide ion, O^{2-}, is formed from an oxygen atom with proton number 8 and mass number 16. How many electrons and neutrons are in O^{2-}?",
+    "options": [
+      "10 electrons, 8 neutrons",
+      "8 electrons, 8 neutrons",
+      "10 electrons, 10 neutrons",
+      "6 electrons, 8 neutrons"
+    ],
+    "answer": "10 electrons, 8 neutrons",
+    "time": 30
+  },
+  {
+    "question": "An ion X^{3+} has 10 electrons and 14 neutrons. What is the proton number and mass number of element X?",
+    "options": [
+      "Proton number: 13, Mass number: 27",
+      "Proton number: 7, Mass number: 21",
+      "Proton number: 10, Mass number: 24",
+      "Proton number: 13, Mass number: 23"
+    ],
+    "answer": "Proton number: 13, Mass number: 27",
+    "time": 35
+  },
+  {
+    "question": "Which statement correctly defines isotopes of the same element?",
+    "options": [
+      "Atoms with the same proton number but different number of neutrons",
+      "Atoms with the same nucleon number but different proton numbers",
+      "Atoms with the same number of neutrons but different electron numbers",
+      "Ions of different elements with the same electronic structure"
+    ],
+    "answer": "Atoms with the same proton number but different number of neutrons",
+    "time": 20
+  },
+  {
+    "question": "Why do chlorine isotopes, Chlorine-35 and Chlorine-37, possess identical chemical properties?",
+    "options": [
+      "They have the same number of valence electrons and electronic configuration",
+      "They have the same mass number and physical properties",
+      "They have the same number of neutrons in their nucleus",
+      "They both react with water to produce hydrogen gas at different rates"
+    ],
+    "answer": "They have the same number of valence electrons and electronic configuration",
+    "time": 30
+  },
+  {
+    "question": "Carbon-12 and Carbon-14 are isotopes of carbon (proton number 6). How do their subatomic particle counts compare?",
+    "options": [
+      "Carbon-14 has 2 more neutrons than Carbon-12",
+      "Carbon-14 has 2 more protons than Carbon-12",
+      "Carbon-14 has 2 more electrons than Carbon-12",
+      "Carbon-14 has 2 fewer neutrons than Carbon-12"
+    ],
+    "answer": "Carbon-14 has 2 more neutrons than Carbon-12",
+    "time": 25
+  },
+  {
+    "question": "Naturally occurring Chlorine exists as 75% Chlorine-35 and 25% Chlorine-37. What is the relative atomic mass of Chlorine?",
+    "options": [
+      "35.5",
+      "36.0",
+      "35.0",
+      "36.5"
+    ],
+    "answer": "35.5",
+    "time": 40
+  },
+  {
+    "question": "What is the electronic configuration of a neutral Potassium atom (proton number 19)?",
+    "options": [
+      "2.8.8.1",
+      "2.8.9",
+      "2.8.8.2",
+      "2.8.7"
+    ],
+    "answer": "2.8.8.1",
+    "time": 20
+  },
+  {
+    "question": "Magnesium has an electronic configuration of 2.8.2. In which Period of the Periodic Table is Magnesium located and why?",
+    "options": [
+      "Period 3, because it has 3 occupied electron shells",
+      "Period 2, because it has 2 valence electrons",
+      "Period 2, because it forms a 2+ ion",
+      "Period 3, because it has 3 valence electrons"
+    ],
+    "answer": "Period 3, because it has 3 occupied electron shells",
+    "time": 25
+  },
+  {
+    "question": "An element X has an atomic number of 15. In which Group of the Periodic Table is element X found?",
+    "options": [
+      "Group 15",
+      "Group 13",
+      "Group 12",
+      "Group 17"
+    ],
+    "answer": "Group 15",
+    "time": 25
+  },
+  {
+    "question": "Sulfur has a proton number of 16. What are the electronic configurations of a Sulfur atom and a sulfide ion, S^{2-}?",
+    "options": [
+      "Sulfur atom: 2.8.6, Sulfide ion: 2.8.8",
+      "Sulfur atom: 2.8.6, Sulfide ion: 2.8.4",
+      "Sulfur atom: 2.8.8, Sulfide ion: 2.8.6",
+      "Sulfur atom: 2.8.6, Sulfide ion: 2.8.6"
+    ],
+    "answer": "Sulfur atom: 2.8.6, Sulfide ion: 2.8.8",
+    "time": 30
+  },
+  {
+    "question": "When a Calcium atom forms a Ca^{2+} ion, what happens to its subatomic particles and nuclear charge?",
+    "options": [
+      "It loses 2 electrons; the nuclear charge remains +20",
+      "It gains 2 protons; the nuclear charge increases to +22",
+      "It loses 2 protons; the nuclear charge decreases to +18",
+      "It gains 2 electrons; the nuclear charge remains +20"
+    ],
+    "answer": "It loses 2 electrons; the nuclear charge remains +20",
+    "time": 35
+  },
+  {
+    "question": "The species Na^+, Mg^{2+}, and F^- all have the same electronic configuration (2.8). Which species has the highest number of protons in its nucleus?",
+    "options": [
+      "Mg^{2+}",
+      "Na^+",
+      "F^-",
+      "All have the same number of protons"
+    ],
+    "answer": "Mg^{2+}",
+    "time": 35
+  },
+  {
+    "question": "Consider the ions N^{3-}, O^{2-}, and F^-. Which statement correctly describes the charge of their nuclei?",
+    "options": [
+      "F^- has a nuclear charge of +9, O^{2-} is +8, and N^{3-} is +7",
+      "All three ions have identical nuclear charges of +10",
+      "N^{3-} has the highest nuclear charge because it gained 3 electrons",
+      "F^- has a negative nuclear charge because it is a halogen"
+    ],
+    "answer": "F^- has a nuclear charge of +9, O^{2-} is +8, and N^{3-} is +7",
+    "time": 35
+  },
+  {
+    "question": "During the boiling of pure water at 100°C, heat is continually added but the temperature does not rise. Which combination of statements is correct?",
+    "options": [
+      "Average kinetic energy stays constant; average potential energy increases",
+      "Average kinetic energy increases; average potential energy stays constant",
+      "Both average kinetic energy and average potential energy increase",
+      "Average kinetic energy decreases; attractive forces strengthen"
+    ],
+    "answer": "Average kinetic energy stays constant; average potential energy increases",
+    "time": 40
+  }
+]
