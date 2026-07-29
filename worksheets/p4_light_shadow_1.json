@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Which of the following is a source of light?",
+    "options": [
+      "The Sun",
+      "The Moon",
+      "A glass mirror",
+      "A shiny metal spoon"
+    ],
+    "answer": "The Sun",
+    "time": 20
+  },
+  {
+    "question": "How are we able to see a textbook placed on a wooden desk in a brightly lit classroom?",
+    "options": [
+      "Light from the lamp reflects off the textbook into our eyes",
+      "The textbook produces its own light which enters our eyes",
+      "Our eyes shine light onto the textbook",
+      "Light travels directly from our eyes to the lamp"
+    ],
+    "answer": "Light from the lamp reflects off the textbook into our eyes",
+    "time": 25
+  },
+  {
+    "question": "Why can we see the Moon at night even though it is not a source of light?",
+    "options": [
+      "It reflects light from the Sun into our eyes",
+      "It produces its own light when the sky gets dark",
+      "It absorbs sunlight during the day and glows at night",
+      "Light from street lamps on Earth reflects off the Moon"
+    ],
+    "answer": "It reflects light from the Sun into our eyes",
+    "time": 25
+  },
+  {
+    "question": "Siti enters a completely dark room with no light sources. Why is she unable to see a red apple on the table?",
+    "options": [
+      "There is no light to reflect off the apple into her eyes",
+      "The apple stops reflecting red light in the dark",
+      "Human eyes cannot function without sunlight",
+      "The apple becomes transparent in total darkness"
+    ],
+    "answer": "There is no light to reflect off the apple into her eyes",
+    "time": 25
+  },
+  {
+    "question": "Which object allows ALL or MOST light to pass through it?",
+    "options": [
+      "Clear plastic sheet",
+      "Frosted glass window",
+      "Thick wooden block",
+      "Aluminium foil"
+    ],
+    "answer": "Clear plastic sheet",
+    "time": 20
+  },
+  {
+    "question": "Ali tried to look at a lit candle through a bent plastic pipe. He could not see the flame. What property of light does this demonstrate?",
+    "options": [
+      "Light travels in straight lines",
+      "Light can bend around curved objects",
+      "Light reflects off plastic pipes",
+      "Light cannot travel through air"
+    ],
+    "answer": "Light travels in straight lines",
+    "time": 25
+  },
+  {
+    "question": "Why is a shadow formed when a wooden toy is placed in front of a turned-on torch?",
+    "options": [
+      "The wooden toy blocks light because light travels in straight lines",
+      "The torch pulls darkness toward the wooden toy",
+      "The wooden toy absorbs all the heat from the torch",
+      "Light bends around the wooden toy and creates a dark area"
+    ],
+    "answer": "The wooden toy blocks light because light travels in straight lines",
+    "time": 25
+  },
+  {
+    "question": "Three sheets of different materials (X, Y, and Z) were placed in front of a torch. Sheet X formed a dark shadow, Sheet Y formed a faint shadow, and Sheet Z formed no shadow. Which row correctly identifies the materials?",
+    "options": [
+      "X: Cardboard, Y: Tracing paper, Z: Clear glass",
+      "X: Clear glass, Y: Cardboard, Z: Tracing paper",
+      "X: Tracing paper, Y: Clear glass, Z: Cardboard",
+      "X: Cardboard, Y: Clear glass, Z: Tracing paper"
+    ],
+    "answer": "X: Cardboard, Y: Tracing paper, Z: Clear glass",
+    "time": 35
+  },
+  {
+    "question": "What type of shadow will a clear glass cup cast on a screen when light shines on it?",
+    "options": [
+      "No shadow or a very faint shadow",
+      "A very dark shadow",
+      "A shadow shaped like a square",
+      "A shadow much larger than an opaque cup"
+    ],
+    "answer": "No shadow or a very faint shadow",
+    "time": 20
+  },
+  {
+    "question": "John wants to make the shadow of a wooden ball on the screen LARGER. What should he do?",
+    "options": [
+      "Move the wooden ball closer to the torch",
+      "Move the wooden ball further from the torch",
+      "Move the screen closer to the wooden ball",
+      "Move the torch further from the wooden ball"
+    ],
+    "answer": "Move the wooden ball closer to the torch",
+    "time": 30
+  },
+  {
+    "question": "In an experiment, Meiling keeps the distance between the torch and the screen constant. What happens to the size of the shadow if she moves the object CLOSER to the screen?",
+    "options": [
+      "The shadow becomes smaller",
+      "The shadow becomes larger",
+      "The shadow stays the same size",
+      "No shadow will be formed on the screen"
+    ],
+    "answer": "The shadow becomes smaller",
+    "time": 30
+  },
+  {
+    "question": "Devi set up a torch, an opaque mug, and a screen. Which change will result in the SMALLEST shadow on the screen?",
+    "options": [
+      "Torch furthest from mug, screen closest to mug",
+      "Torch closest to mug, screen furthest from mug",
+      "Torch closest to mug, screen closest to mug",
+      "Torch furthest from mug, screen furthest from mug"
+    ],
+    "answer": "Torch furthest from mug, screen closest to mug",
+    "time": 35
+  },
+  {
+    "question": "To investigate how the distance between a torch and an object affects shadow size, which variable MUST be kept the same?",
+    "options": [
+      "Distance between the object and the screen",
+      "Distance between the torch and the object",
+      "Size of the shadow on the screen",
+      "Position of the light source"
+    ],
+    "answer": "Distance between the object and the screen",
+    "time": 30
+  },
+  {
+    "question": "A student moved a torch closer to an opaque cylinder and recorded the shadow height: at 40 cm away, shadow was 10 cm; at 30 cm away, shadow was 15 cm; at 20 cm away, shadow was 20 cm. What shadow height can be expected when the torch is 10 cm away?",
+    "options": [
+      "25 cm",
+      "15 cm",
+      "10 cm",
+      "5 cm"
+    ],
+    "answer": "25 cm",
+    "time": 35
+  },
+  {
+    "question": "A solid cone is placed between a torch and a screen. Depending on how the cone is positioned relative to the torch, which two shadow shapes can it form?",
+    "options": [
+      "A circle and a triangle",
+      "A circle and a square",
+      "A triangle and a rectangle",
+      "An oval and a square"
+    ],
+    "answer": "A circle and a triangle",
+    "time": 30
+  },
+  {
+    "question": "A cylindrical wooden block can form two different shadow shapes on a screen depending on how it is held. What are these two shapes?",
+    "options": [
+      "A circle and a rectangle",
+      "A circle and a triangle",
+      "A square and a triangle",
+      "An oval and a square"
+    ],
+    "answer": "A circle and a rectangle",
+    "time": 30
+  },
+  {
+    "question": "At what time of the day will a vertical flagpole outdoors cast its SHORTEST shadow on the ground?",
+    "options": [
+      "12:00 pm (noon)",
+      "8:00 am (morning)",
+      "5:00 pm (late afternoon)",
+      "7:00 pm (sunset)"
+    ],
+    "answer": "12:00 pm (noon)",
+    "time": 20
+  },
+  {
+    "question": "Why is a person's shadow on the ground longest in the early morning and late afternoon?",
+    "options": [
+      "The Sun is low in the sky, shining at a sharp slant",
+      "The Sun is directly overhead",
+      "Light travels slower in the morning and evening",
+      "The Sun produces more light during these times"
+    ],
+    "answer": "The Sun is low in the sky, shining at a sharp slant",
+    "time": 30
+  },
+  {
+    "question": "An opaque square card with a triangular hole cut out of its center is placed between a torch and a screen. What shadow will appear on the screen?",
+    "options": [
+      "A dark square shadow with a bright triangular patch in the center",
+      "A dark triangular shadow with a bright square patch in the center",
+      "A completely dark square shadow with no bright patch",
+      "A completely bright screen with a dark triangle"
+    ],
+    "answer": "A dark square shadow with a bright triangular patch in the center",
+    "time": 35
+  },
+  {
+    "question": "Ben shines a torch at a ball on a table from Position A (directly above), Position B (at 45 degrees), and Position C (low on the side). Which position produces the LONGEST shadow?",
+    "options": [
+      "Position C",
+      "Position A",
+      "Position B",
+      "Positions A and C give equal shadows"
+    ],
+    "answer": "Position C",
+    "time": 30
+  },
+  {
+    "question": "An experiment measured light passing through four material sheets (P, Q, R, S) using a light sensor. Light sensor readings: P = 0 units, Q = 450 units, R = 150 units, S = 900 units. The torch produced 900 units. Which sheet is OPAQUE?",
+    "options": [
+      "Sheet P",
+      "Sheet Q",
+      "Sheet R",
+      "Sheet S"
+    ],
+    "answer": "Sheet P",
+    "time": 35
+  },
+  {
+    "question": "Based on the experiment data above (Torch = 900 units; P = 0, Q = 450, R = 150, S = 900), which sheet allowed ALL light to pass through, behaving like a clear glass sheet?",
+    "options": [
+      "Sheet S",
+      "Sheet P",
+      "Sheet Q",
+      "Sheet R"
+    ],
+    "answer": "Sheet S",
+    "time": 25
+  },
+  {
+    "question": "A student measured shadow heights at different object-to-screen distances while keeping the torch position fixed: at 10 cm apart, shadow was 8 cm; at 20 cm apart, shadow was 12 cm; at 30 cm apart, shadow was 16 cm. What conclusion can be drawn from this data?",
+    "options": [
+      "As distance between object and screen increases, shadow height increases",
+      "As distance between object and screen increases, shadow height decreases",
+      "Distance between object and screen does not affect shadow height",
+      "Moving the screen closer to the object makes the shadow taller"
+    ],
+    "answer": "As distance between object and screen increases, shadow height increases",
+    "time": 35
+  },
+  {
+    "question": "An opaque cutout of the letter 'F' is placed between a light source and a screen. What shape will the shadow cast on the screen have?",
+    "options": [
+      "The letter F shape",
+      "A plain square shape",
+      "A circular shape",
+      "No shadow will be cast"
+    ],
+    "answer": "The letter F shape",
+    "time": 20
+  }
+]

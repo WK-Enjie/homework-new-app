@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Which of the following is the primary natural source of heat for the Earth?",
+    "options": [
+      "The Sun",
+      "An electric heater",
+      "A burning candle",
+      "The Moon"
+    ],
+    "answer": "The Sun",
+    "time": 20
+  },
+  {
+    "question": "Which action generates heat through friction?",
+    "options": [
+      "Rubbing two hands together vigorously",
+      "Holding an ice cube in a cup",
+      "Switching off a table lamp",
+      "Pouring cold water into a glass"
+    ],
+    "answer": "Rubbing two hands together vigorously",
+    "time": 20
+  },
+  {
+    "question": "What is the definition of the temperature of an object?",
+    "options": [
+      "A measurement of its degree of hotness",
+      "The total amount of heat energy inside it",
+      "The time taken for an object to melt",
+      "The size and weight of the object"
+    ],
+    "answer": "A measurement of its degree of hotness",
+    "time": 20
+  },
+  {
+    "question": "Which statement correctly describes heat?",
+    "options": [
+      "Heat is a form of energy",
+      "Heat is measured using a measuring cylinder",
+      "Heat is the same thing as temperature",
+      "Heat always flows from cold objects to hot objects"
+    ],
+    "answer": "Heat is a form of energy",
+    "time": 20
+  },
+  {
+    "question": "What is the main difference between heat and temperature?",
+    "options": [
+      "Heat is a form of energy, while temperature is a measure of degree of hotness",
+      "Heat is measured in degree Celsius, while temperature is measured in Joules",
+      "Temperature flows from hot to cold, while heat stays inside an object",
+      "Temperature increases when heat is lost, while heat increases when temperature drops"
+    ],
+    "answer": "Heat is a form of energy, while temperature is a measure of degree of hotness",
+    "time": 25
+  },
+  {
+    "question": "Beaker A contains 500 ml of water at 80°C. Beaker B contains 100 ml of water at 80°C. Which statement is correct?",
+    "options": [
+      "Both beakers have the same temperature, but Beaker A contains more heat energy",
+      "Beaker A has a higher temperature than Beaker B",
+      "Beaker B contains more heat energy because it has less water",
+      "Both beakers contain the exact same amount of heat energy"
+    ],
+    "answer": "Both beakers have the same temperature, but Beaker A contains more heat energy",
+    "time": 30
+  },
+  {
+    "question": "A hot metal rod at 90°C is placed into a basin of water at 25°C. In which direction does heat flow?",
+    "options": [
+      "From the hot metal rod to the cooler water",
+      "From the cooler water to the hot metal rod",
+      "Heat flows back and forth equally between both",
+      "No heat flows because both are solids and liquids"
+    ],
+    "answer": "From the hot metal rod to the cooler water",
+    "time": 25
+  },
+  {
+    "question": "When Meiling holds an ice cube in her bare hand, the ice cube begins to melt. Why?",
+    "options": [
+      "The ice cube gains heat from her warmer hand",
+      "Coldness leaves the ice cube and enters her hand",
+      "Her hand loses temperature to the surrounding air",
+      "The ice cube loses heat to her hand"
+    ],
+    "answer": "The ice cube gains heat from her warmer hand",
+    "time": 25
+  },
+  {
+    "question": "What happens to the temperature of an object when it LOSES heat?",
+    "options": [
+      "Its temperature decreases",
+      "Its temperature increases",
+      "Its temperature remains unchanged",
+      "Its temperature rises then drops suddenly"
+    ],
+    "answer": "Its temperature decreases",
+    "time": 20
+  },
+  {
+    "question": "What happens to the temperature of a cup of water when it GAINS heat?",
+    "options": [
+      "Its temperature increases",
+      "Its temperature decreases",
+      "Its temperature drops to 0°C",
+      "Its temperature remains constant"
+    ],
+    "answer": "Its temperature increases",
+    "time": 20
+  },
+  {
+    "question": "A mug of hot milo at 85°C is left on a dining table in a room at 28°C. When will heat stop flowing from the mug to the room?",
+    "options": [
+      "When the milo cools down to 28°C",
+      "When the milo reaches 0°C",
+      "When all the milo evaporates",
+      "After exactly 5 minutes"
+    ],
+    "answer": "When the milo cools down to 28°C",
+    "time": 25
+  },
+  {
+    "question": "A glass of cold milk at 5°C is left on a table in a room at 30°C. What happens to the milk over time?",
+    "options": [
+      "It gains heat from the surroundings until its temperature reaches 30°C",
+      "It loses heat to the surroundings until its temperature reaches 0°C",
+      "It gains heat until its temperature reaches 100°C",
+      "Its temperature stays at 5°C indefinitely"
+    ],
+    "answer": "It gains heat from the surroundings until its temperature reaches 30°C",
+    "time": 25
+  },
+  {
+    "question": "Two metal blocks, Block X (50°C) and Block Y (50°C), are placed in direct contact. Which statement about heat flow is correct?",
+    "options": [
+      "No net heat flows between X and Y because they are at the same temperature",
+      "Heat flows from Block X to Block Y continuously",
+      "Heat flows from Block Y to Block X continuously",
+      "Both blocks lose heat until they reach 0°C"
+    ],
+    "answer": "No net heat flows between X and Y because they are at the same temperature",
+    "time": 25
+  },
+  {
+    "question": "Which instrument is specifically used to measure temperature?",
+    "options": [
+      "Thermometer",
+      "Measuring cylinder",
+      "Spring balance",
+      "Stopwatch"
+    ],
+    "answer": "Thermometer",
+    "time": 20
+  },
+  {
+    "question": "What is the standard unit of measurement for temperature commonly used in Singapore schools?",
+    "options": [
+      "Degree Celsius (°C)",
+      "Joule (J)",
+      "Centimeter (cm)",
+      "Grams (g)"
+    ],
+    "answer": "Degree Celsius (°C)",
+    "time": 20
+  },
+  {
+    "question": "How should a student position his line of sight when reading a liquid-in-glass thermometer?",
+    "options": [
+      "Level with the top of the liquid column",
+      "Looking down from above the thermometer",
+      "Looking up from below the thermometer bulb",
+      "At any convenient angle"
+    ],
+    "answer": "Level with the top of the liquid column",
+    "time": 25
+  },
+  {
+    "question": "What is a major advantage of using a datalogger with a temperature sensor instead of a glass thermometer?",
+    "options": [
+      "It can record continuous temperature changes automatically over time",
+      "It does not require any power or batteries to function",
+      "It makes the liquid inside heat up much faster",
+      "It turns heat energy directly into light"
+    ],
+    "answer": "It can record continuous temperature changes automatically over time",
+    "time": 25
+  },
+  {
+    "question": "A warm metal spoon is placed into a bowl of cold ice cream. What happens to the spoon?",
+    "options": [
+      "The spoon loses heat energy and its temperature decreases",
+      "The spoon gains heat energy and its temperature increases",
+      "The spoon loses coldness and its temperature increases",
+      "The spoon keeps its heat energy and temperature unchanged"
+    ],
+    "answer": "The spoon loses heat energy and its temperature decreases",
+    "time": 25
+  },
+  {
+    "question": "Which electrical appliance is designed specifically to produce heat as its main function?",
+    "options": [
+      "An electric bread toaster",
+      "An electric ceiling fan",
+      "A digital wristwatch",
+      "A television screen"
+    ],
+    "answer": "An electric bread toaster",
+    "time": 20
+  },
+  {
+    "question": "When a student steps out of a swimming pool on a windy day, she feels cold. Why?",
+    "options": [
+      "Water on her skin gains heat from her body to evaporate, causing her body to lose heat",
+      "Coldness from the air enters her body directly through her skin",
+      "Her body temperature rises rapidly in the wind",
+      "The swimming pool water transfers heat into her body"
+    ],
+    "answer": "Water on her skin gains heat from her body to evaporate, causing her body to lose heat",
+    "time": 30
+  },
+  {
+    "question": "A laboratory thermometer is moved from room-temperature air into a beaker of hot water. Why does the liquid column inside the thermometer rise?",
+    "options": [
+      "The liquid gains heat from the hot water and expands",
+      "The liquid loses heat to the hot water and contracts",
+      "The glass tube contracts and squeezes the liquid upward",
+      "Air enters the bulb and pushes the liquid upward"
+    ],
+    "answer": "The liquid gains heat from the hot water and expands",
+    "time": 25
+  },
+  {
+    "question": "Cup A contains 100 ml of water at 90°C. Cup B contains 100 ml of water at 40°C. Which statement is true?",
+    "options": [
+      "Cup A contains more heat energy than Cup B",
+      "Cup B contains more heat energy than Cup A",
+      "Both cups contain the same amount of heat energy",
+      "Neither cup contains any heat energy"
+    ],
+    "answer": "Cup A contains more heat energy than Cup B",
+    "time": 20
+  },
+  {
+    "question": "A hot copper key at 70°C is dropped into a beaker of water at 25°C. Which row correctly describes the heat changes?",
+    "options": [
+      "Copper key loses heat; Water gains heat",
+      "Copper key gains heat; Water loses heat",
+      "Both copper key and water gain heat",
+      "Both copper key and water lose heat"
+    ],
+    "answer": "Copper key loses heat; Water gains heat",
+    "time": 25
+  },
+  {
+    "question": "Heat will continue to flow between two objects placed in contact until:",
+    "options": [
+      "Both objects reach the exact same temperature",
+      "One object reaches 0°C and the other reaches 100°C",
+      "All heat energy in both objects is completely used up",
+      "The smaller object absorbs all heat from the larger object"
+    ],
+    "answer": "Both objects reach the exact same temperature",
+    "time": 25
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "question": "A student recorded the temperature of hot water cooling in a room: Min 0 = 80°C, Min 5 = 60°C, Min 10 = 45°C, Min 15 = 30°C, Min 20 = 30°C, Min 25 = 30°C. What is the room temperature?",
+    "options": [
+      "30°C",
+      "80°C",
+      "45°C",
+      "0°C"
+    ],
+    "answer": "30°C",
+    "time": 30
+  },
+  {
+    "question": "Based on the cooling data (Min 0 = 80°C, Min 5 = 60°C, Min 10 = 45°C, Min 15 = 30°C, Min 20 = 30°C), during which 5-minute interval did the water lose heat the FASTEST?",
+    "options": [
+      "From Min 0 to Min 5",
+      "From Min 5 to Min 10",
+      "From Min 10 to Min 15",
+      "From Min 15 to Min 20"
+    ],
+    "answer": "From Min 0 to Min 5",
+    "time": 30
+  },
+  {
+    "question": "A datalogger tracked two beakers heated by identical flames: Beaker X (100 ml water) reached 80°C in 4 minutes, while Beaker Y (300 ml water) reached 80°C in 10 minutes. Why did Beaker X reach 80°C faster?",
+    "options": [
+      "Beaker X needed less heat energy to raise its temperature to 80°C",
+      "Beaker X had a higher starting temperature than Beaker Y",
+      "Water in Beaker X gains heat at a higher speed than water in Beaker Y",
+      "Beaker Y lost all its heat energy to the flame"
+    ],
+    "answer": "Beaker X needed less heat energy to raise its temperature to 80°C",
+    "time": 35
+  },
+  {
+    "question": "Siti wants to test if a metal mug loses heat faster than a plastic mug. Which set of variables MUST she keep the same for a fair test?",
+    "options": [
+      "Volume of water, starting water temperature, and location of mugs",
+      "Type of material of mug, volume of water, and cooling time",
+      "Starting water temperature, type of material of mug, and thickness of mug",
+      "Volume of water, final temperature of water, and type of material"
+    ],
+    "answer": "Volume of water, starting water temperature, and location of mugs",
+    "time": 35
+  },
+  {
+    "question": "An identical ice cube is dropped into Container A (100 ml water at 80°C) and Container B (400 ml water at 80°C). In which container will the ice cube melt faster, and why?",
+    "options": [
+      "Container B, because 400 ml of water contains more heat energy",
+      "Container A, because 100 ml of water is hotter than 400 ml of water",
+      "Both melt at the exact same speed because both containers are at 80°C",
+      "Container A, because smaller volume transfers coldness faster"
+    ],
+    "answer": "Container B, because 400 ml of water contains more heat energy",
+    "time": 35
+  },
+  {
+    "question": "A student claims: 'When I touch an ice block, coldness flows from the ice into my fingers.' Is this explanation scientifically correct?",
+    "options": [
+      "No, because heat flows from the warmer fingers into the colder ice block",
+      "Yes, because coldness is a form of energy that travels into warm objects",
+      "Yes, because the ice block has a higher temperature than the fingers",
+      "No, because heat and coldness flow in both directions at the same time"
+    ],
+    "answer": "No, because heat flows from the warmer fingers into the colder ice block",
+    "time": 30
+  },
+  {
+    "question": "A datalogger recorded the following temperatures for a heated liquid: Min 0 = 20°C, Min 1 = 25°C, Min 2 = 30°C, Min 3 = 35°C, Min 4 = 40°C. What was the rate of temperature increase per minute?",
+    "options": [
+      "5°C per minute",
+      "10°C per minute",
+      "20°C per minute",
+      "2°C per minute"
+    ],
+    "answer": "5°C per minute",
+    "time": 25
+  },
+  {
+    "question": "Four metal blocks of equal mass at different temperatures (Block A: 90°C, Block B: 70°C, Block C: 50°C, Block D: 35°C) were placed in room air at 25°C. Which block lost the MOST heat energy to reach room temperature?",
+    "options": [
+      "Block A",
+      "Block B",
+      "Block C",
+      "Block D"
+    ],
+    "answer": "Block A",
+    "time": 30
+  },
+  {
+    "question": "When using a glass thermometer to measure the temperature of hot water in a glass beaker, which practice ensures an ACCURATE reading?",
+    "options": [
+      "Keep the bulb fully submerged in the water without touching the bottom or sides of the beaker",
+      "Rest the thermometer bulb firmly on the bottom surface of the beaker",
+      "Remove the thermometer completely from the water before reading the scale",
+      "Hold the thermometer bulb with bare fingers while taking the reading"
+    ],
+    "answer": "Keep the bulb fully submerged in the water without touching the bottom or sides of the beaker",
+    "time": 30
+  },
+  {
+    "question": "A scientist measures water temperature every 5 seconds for 10 minutes using a datalogger instead of a glass thermometer. Why is the datalogger the BETTER choice here?",
+    "options": [
+      "It automatically records fast, frequent data points accurately without human timing errors",
+      "It generates extra heat energy to make the water boil faster",
+      "It prevents the water from losing heat to the surrounding air",
+      "It changes the degree of hotness of the water to match room temperature"
+    ],
+    "answer": "It automatically records fast, frequent data points accurately without human timing errors",
+    "time": 35
+  },
+  {
+    "question": "Cup P has 100 ml of water at 60°C. Cup Q has 100 ml of water at 60°C. If both cups are poured together into a large basin, what is the temperature of the combined water immediately after mixing?",
+    "options": [
+      "60°C",
+      "120°C",
+      "30°C",
+      "0°C"
+    ],
+    "answer": "60°C",
+    "time": 25
+  },
+  {
+    "question": "If 100 ml of water at 80°C is mixed thoroughly with 100 ml of water at 20°C in an insulated flask, what is the expected final temperature of the mixture?",
+    "options": [
+      "50°C",
+      "100°C",
+      "80°C",
+      "20°C"
+    ],
+    "answer": "50°C",
+    "time": 30
+  },
+  {
+    "question": "A datalogger recorded temperature for Cup 1 (with lid) and Cup 2 (without lid) containing hot water at 90°C. After 15 minutes: Cup 1 = 75°C, Cup 2 = 50°C. What valid conclusion does this data support?",
+    "options": [
+      "Adding a lid reduces the rate of heat loss from the hot water",
+      "Adding a lid causes the hot water to gain extra heat energy",
+      "Water without a lid gains heat from the surrounding air",
+      "Both cups lost heat energy at the exact same rate"
+    ],
+    "answer": "Adding a lid reduces the rate of heat loss from the hot water",
+    "time": 35
+  },
+  {
+    "question": "Three touching metal blocks are arranged in a row: Block X (80°C) -- Block Y (50°C) -- Block Z (20°C). What is the initial direction of heat flow among the blocks?",
+    "options": [
+      "From X to Y, and from Y to Z",
+      "From Z to Y, and from Y to X",
+      "From Y to X, and from Z to Y",
+      "Heat flows from Y to both X and Z"
+    ],
+    "answer": "From X to Y, and from Y to Z",
+    "time": 30
+  },
+  {
+    "question": "A wooden block and a steel block have both been resting in a room at 25°C for 24 hours. A temperature sensor confirms both blocks are at 25°C. Why does the steel block feel colder when touched?",
+    "options": [
+      "Steel conducts heat away from the hand faster than wood",
+      "Steel has a lower temperature than wood",
+      "Wood transfers coldness into the hand faster than steel",
+      "Steel contains less heat energy than wood"
+    ],
+    "answer": "Steel conducts heat away from the hand faster than wood",
+    "time": 35
+  },
+  {
+    "question": "Water is heated continuously over a flame. Temperature readings: Min 0 = 25°C, Min 2 = 45°C, Min 4 = 65°C, Min 6 = 85°C, Min 8 = 100°C, Min 10 = 100°C. Why did the temperature stop increasing after Min 8?",
+    "options": [
+      "The water reached its boiling point where temperature remains constant during boiling",
+      "The flame stopped supplying heat energy to the water at Min 8",
+      "The water lost all its heat energy to the surrounding air at Min 8",
+      "The datalogger sensor broke down after reaching 100°C"
+    ],
+    "answer": "The water reached its boiling point where temperature remains constant during boiling",
+    "time": 35
+  },
+  {
+    "question": "Four identical ice cubes were placed on plates made of different materials (W, X, Y, Z) at 25°C. Time taken for ice to melt completely: Plate W = 3 min, Plate X = 8 min, Plate Y = 12 min, Plate Z = 20 min. Which plate transferred heat to the ice cube the FASTEST?",
+    "options": [
+      "Plate W",
+      "Plate X",
+      "Plate Y",
+      "Plate Z"
+    ],
+    "answer": "Plate W",
+    "time": 30
+  },
+  {
+    "question": "John wants to test if the VOLUME of water affects how quickly it cools down. Which pair of setups should he compare for a fair test?",
+    "options": [
+      "100 ml water at 80°C in Cup A and 300 ml water at 80°C in identical Cup B",
+      "100 ml water at 80°C in Cup A and 100 ml water at 50°C in identical Cup B",
+      "100 ml water at 80°C in a metal cup and 300 ml water at 50°C in a plastic cup",
+      "200 ml water at 90°C in Cup A and 200 ml water at 90°C in Cup B with a lid"
+    ],
+    "answer": "100 ml water at 80°C in Cup A and 300 ml water at 80°C in identical Cup B",
+    "time": 35
+  },
+  {
+    "question": "A datalogger graph tracking a cooling liquid shows a flat horizontal line at 25°C from Min 20 to Min 40. What does this horizontal line indicate?",
+    "options": [
+      "The liquid reached room temperature and heat flow balanced with the surroundings",
+      "The liquid stopped losing heat and its temperature dropped to 0°C",
+      "The liquid started boiling at 25°C",
+      "The temperature sensor stopped receiving heat from the room"
+    ],
+    "answer": "The liquid reached room temperature and heat flow balanced with the surroundings",
+    "time": 30
+  },
+  {
+    "question": "Four temperature sensors were placed in different spots in a classroom: Spot 1 = 25°C, Spot 2 = 25°C, Spot 3 = 29°C, Spot 4 = 25°C. Spot 3 was located directly beside a glass window under sunlight. What objective conclusion can be drawn?",
+    "options": [
+      "Direct sunlight near the window causes higher temperatures than shaded indoor areas",
+      "Spot 3 has a lower temperature because air flows through windows",
+      "Sensors at Spots 1, 2, and 4 failed because their readings were identical",
+      "Heat energy flows from Spot 1 to Spot 3"
+    ],
+    "answer": "Direct sunlight near the window causes higher temperatures than shaded indoor areas",
+    "time": 35
+  },
+  {
+    "question": "A student recorded these temperature readings for a liquid over time: 80°C, 70°C, 60°C, 50°C, 40°C, 28°C, 28°C, 28°C. What can be concluded about the surrounding air temperature?",
+    "options": [
+      "The surrounding air temperature is 28°C",
+      "The surrounding air temperature is 80°C",
+      "The surrounding air temperature is 0°C",
+      "The surrounding air temperature changes every minute"
+    ],
+    "answer": "The surrounding air temperature is 28°C",
+    "time": 30
+  },
+  {
+    "question": "Which data table correctly shows a liquid GAINING heat over a 4-minute period?",
+    "options": [
+      "Min 0: 20°C, Min 1: 35°C, Min 2: 50°C, Min 3: 65°C, Min 4: 80°C",
+      "Min 0: 80°C, Min 1: 65°C, Min 2: 50°C, Min 3: 35°C, Min 4: 20°C",
+      "Min 0: 30°C, Min 1: 30°C, Min 2: 30°C, Min 3: 30°C, Min 4: 30°C",
+      "Min 0: 50°C, Min 1: 40°C, Min 2: 30°C, Min 3: 40°C, Min 4: 50°C"
+    ],
+    "answer": "Min 0: 20°C, Min 1: 35°C, Min 2: 50°C, Min 3: 65°C, Min 4: 80°C",
+    "time": 30
+  },
+  {
+    "question": "Student A reads 50°C on a glass thermometer. Student B uses a digital temperature sensor and reads 50.3°C. Why do these readings differ slightly?",
+    "options": [
+      "The digital sensor has higher precision than the glass thermometer scale",
+      "Student A's thermometer lost all its heat energy during reading",
+      "The digital sensor created extra heat energy while measuring",
+      "Glass thermometers cannot measure liquids above 30°C"
+    ],
+    "answer": "The digital sensor has higher precision than the glass thermometer scale",
+    "time": 30
+  },
+  {
+    "question": "Two identical beakers, Beaker 1 and Beaker 2, contain 100 ml of water at 25°C. Beaker 1 receives 2000 units of heat, while Beaker 2 receives 5000 units of heat. Which statement is supported by this data?",
+    "options": [
+      "Beaker 2 will reach a higher final temperature than Beaker 1",
+      "Beaker 1 will reach a higher final temperature than Beaker 2",
+      "Both beakers will reach the exact same temperature",
+      "Beaker 2 will lose heat faster than it gains heat"
+    ],
+    "answer": "Beaker 2 will reach a higher final temperature than Beaker 1",
+    "time": 30
+  }
+]

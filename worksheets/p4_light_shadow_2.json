@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Four items were placed inside a pitch-black box with a small viewing hole: a glow stick, a silver coin, a flat glass mirror, and a live firefly. Which items can be seen WITHOUT turning on any external torch?",
+    "options": [
+      "Glow stick and firefly only",
+      "Silver coin and mirror only",
+      "All four items",
+      "Glow stick, firefly, and mirror"
+    ],
+    "answer": "Glow stick and firefly only",
+    "time": 30
+  },
+  {
+    "question": "A light sensor measured the light passing through three equal-sized sheets placed one by one in front of a 100-unit torch: Sheet P (0 units), Sheet Q (50 units), and Sheet R (100 units). If Sheet Q is placed between Sheet P and Sheet R in a straight line in front of the torch, what shadow appears on the screen behind Sheet R?",
+    "options": [
+      "A dark shadow because Sheet P blocks all light",
+      "A faint shadow because Sheet Q lets some light pass",
+      "No shadow because Sheet R allows 100 units of light",
+      "Two separate shadows on the screen"
+    ],
+    "answer": "A dark shadow because Sheet P blocks all light",
+    "time": 35
+  },
+  {
+    "question": "An L-shaped wooden block is held in front of a light source. Depending on how the block is rotated, which shadow shape is IMPOSSIBLE for this block to cast on a flat screen?",
+    "options": [
+      "A circle",
+      "A square",
+      "A rectangle",
+      "An L-shape"
+    ],
+    "answer": "A circle",
+    "time": 30
+  },
+  {
+    "question": "Farhan wants to increase the size of a puppet's shadow on a screen without moving the screen itself. What two adjustments can he make?",
+    "options": [
+      "Move torch closer to puppet, or puppet further from screen",
+      "Move torch further from puppet, or puppet closer to screen",
+      "Move both torch and puppet further from the screen",
+      "Move torch closer to screen, and puppet closer to screen"
+    ],
+    "answer": "Move torch closer to puppet, or puppet further from screen",
+    "time": 35
+  },
+  {
+    "question": "In an experiment, a torch is placed 50 cm from a screen. An opaque toy is placed at varying distances from the torch: 10 cm away → shadow height 25 cm; 20 cm away → shadow height 15 cm; 30 cm away → shadow height 10 cm. What conclusion can be drawn from this data?",
+    "options": [
+      "Decreasing the distance between light source and object increases shadow size",
+      "Increasing the distance between light source and object increases shadow size",
+      "Distance between light source and object has no effect on shadow size",
+      "Moving the screen further away always decreases shadow size"
+    ],
+    "answer": "Decreasing the distance between light source and object increases shadow size",
+    "time": 35
+  },
+  {
+    "question": "An opaque wooden card has two cut-out shapes: a small circle and a small square. A torch shines through the card onto a screen. What pattern will be observed on the screen?",
+    "options": [
+      "A dark rectangle shadow with a bright circle and a bright square",
+      "A bright background with a dark circle shadow and a dark square shadow",
+      "A completely dark shadow covering the entire screen",
+      "Two dark square shadows with bright circle centers"
+    ],
+    "answer": "A dark rectangle shadow with a bright circle and a bright square",
+    "time": 35
+  },
+  {
+    "question": "Sheet X is clear glass (transparent), Sheet Y is tracing paper (translucent), and Sheet Z is cardboard (opaque). The three sheets overlap each other partially in front of a torch. Which region of the shadow on the screen will be the DARKEST?",
+    "options": [
+      "The region where Sheet Z is present",
+      "The region where Sheet X and Sheet Y overlap",
+      "The region where Sheet X alone is present",
+      "All regions will have equal darkness"
+    ],
+    "answer": "The region where Sheet Z is present",
+    "time": 30
+  },
+  {
+    "question": "Bala sets up three cardboard sheets (A, B, C) in a line, each with a pinhole in the center. A lit candle is at one end and Bala looks through from the other end. What happens if sheet B is shifted 2 cm to the left?",
+    "options": [
+      "Bala cannot see the flame because light travels in straight lines and is blocked by sheet B",
+      "Bala can still see the flame because light bends around the shifted pinhole",
+      "The flame appears dimmer but stays visible",
+      "The shadow of the flame becomes twice as large"
+    ],
+    "answer": "Bala cannot see the flame because light travels in straight lines and is blocked by sheet B",
+    "time": 35
+  },
+  {
+    "question": "Two identical torches, T1 and T2, are placed side-by-side pointing at a single opaque water bottle in front of a screen. What will be observed on the screen?",
+    "options": [
+      "Two shadow regions that may partially overlap",
+      "Only one single black shadow",
+      "No shadow because the light sources cancel each other out",
+      "Four separate circular shadows"
+    ],
+    "answer": "Two shadow regions that may partially overlap",
+    "time": 35
+  },
+  {
+    "question": "A hollow toilet paper cardboard roll (open at both ends) is held in front of a torch. Which pair of shadow shapes can it form on a screen depending on how it is held?",
+    "options": [
+      "A ring or a rectangle",
+      "A solid circle or a triangle",
+      "A triangle or a ring",
+      "A square or a solid circle"
+    ],
+    "answer": "A ring or a rectangle",
+    "time": 35
+  },
+  {
+    "question": "Kai wants to test if the MATERIAL of an object affects the darkness of its shadow. Which set of variables MUST he keep constant to conduct a fair test?",
+    "options": [
+      "Size of object, shape of object, and distances between torch, object, and screen",
+      "Type of material, size of object, and brightness of light source",
+      "Distance between torch and object, type of material, and screen position",
+      "Darkness of shadow, shape of object, and type of material"
+    ],
+    "answer": "Size of object, shape of object, and distances between torch, object, and screen",
+    "time": 35
+  },
+  {
+    "question": "A periscope uses two flat mirrors set at angles to let a sailor inside a submarine view objects on the sea surface. How does light travel through the periscope?",
+    "options": [
+      "Light from the ship reflects off the top mirror, then off the bottom mirror into the eye",
+      "Light from the eye reflects off the bottom mirror, then off the top mirror to the ship",
+      "Light bends continuously inside the tube without touching any mirrors",
+      "Light from the ship is absorbed by the top mirror and recreated at the bottom mirror"
+    ],
+    "answer": "Light from the ship reflects off the top mirror, then off the bottom mirror into the eye",
+    "time": 35
+  },
+  {
+    "question": "The length of a flagpole's shadow was measured outdoors at four different times: Time W = 4 m, Time X = 0.5 m, Time Y = 2 m, Time Z = 5 m. Which time most likely represents 12:00 noon?",
+    "options": [
+      "Time X",
+      "Time W",
+      "Time Y",
+      "Time Z"
+    ],
+    "answer": "Time X",
+    "time": 25
+  },
+  {
+    "question": "Susan stacks identical tracing paper sheets between a torch and a light sensor. 1 sheet: 600 units; 2 sheets: 300 units; 3 sheets: 150 units; 4 sheets: 0 units. What can she conclude about stacking translucent materials?",
+    "options": [
+      "As the number of sheets increases, less light passes through until it becomes opaque",
+      "Adding more sheets increases the amount of light reaching the sensor",
+      "Tracing paper becomes transparent when 4 sheets are stacked",
+      "The thickness of tracing paper has no effect on light transmission"
+    ],
+    "answer": "As the number of sheets increases, less light passes through until it becomes opaque",
+    "time": 35
+  },
+  {
+    "question": "A vertical stick is placed on open ground under the Sun in Singapore. From 8:00 am to 12:00 noon, how do the LENGTH and POSITION of the stick's shadow change?",
+    "options": [
+      "Shadow length decreases, and shadow position moves from west towards south/middle",
+      "Shadow length increases, and shadow position moves from east to west",
+      "Shadow length remains constant, and shadow position moves from north to south",
+      "Shadow length decreases, and shadow position moves from east to west"
+    ],
+    "answer": "Shadow length decreases, and shadow position moves from west towards south/middle",
+    "time": 35
+  },
+  {
+    "question": "A cat sits inside a completely pitch-black room containing a large glass mirror. Can the cat see its own reflection in the mirror?",
+    "options": [
+      "No, because there is no light source to reflect off the cat onto the mirror and into its eyes",
+      "Yes, because cats can see in total darkness without any light",
+      "Yes, because mirrors produce their own faint light in dark rooms",
+      "No, because mirrors stop reflecting light when nobody is looking"
+    ],
+    "answer": "No, because there is no light source to reflect off the cat onto the mirror and into its eyes",
+    "time": 30
+  },
+  {
+    "question": "An object is placed 20 cm from a torch and 20 cm from a screen. If the torch is moved 10 cm further BACK while the object and screen stay in place, what happens to the shadow size?",
+    "options": [
+      "The shadow becomes smaller because the light source is further from the object",
+      "The shadow becomes larger because the total distance increased",
+      "The shadow stays the same size because the object did not move",
+      "The shadow disappears completely"
+    ],
+    "answer": "The shadow becomes smaller because the light source is further from the object",
+    "time": 35
+  },
+  {
+    "question": "A triangular chocolate box (with triangular ends and rectangular sides) is rotated in front of a fixed light source. Which pair of shadow shapes can be projected on the screen?",
+    "options": [
+      "A triangle and a rectangle",
+      "A circle and a triangle",
+      "A square and a circle",
+      "A triangle and a circle"
+    ],
+    "answer": "A triangle and a rectangle",
+    "time": 30
+  },
+  {
+    "question": "A torch giving off 1000 units of light is pointed at a screen. Four objects (A, B, C, D) of identical size are placed one at a time between torch and screen. Sensor readings at screen: A = 1000 units, B = 0 units, C = 400 units, D = 850 units. Which object forms the DARKEST shadow?",
+    "options": [
+      "Object B",
+      "Object A",
+      "Object C",
+      "Object D"
+    ],
+    "answer": "Object B",
+    "time": 30
+  },
+  {
+    "question": "A light ray from a laser pointer hits a smooth flat mirror at a 45-degree angle. What happens to the light ray after hitting the mirror?",
+    "options": [
+      "It bounces off the mirror in a straight line at an equal angle",
+      "It stops completely at the mirror surface and turns into a shadow",
+      "It scatters randomly in all directions because mirrors bend light",
+      "It passes straight through the mirror without changing direction"
+    ],
+    "answer": "It bounces off the mirror in a straight line at an equal angle",
+    "time": 25
+  },
+  {
+    "question": "During a shadow puppet performance, an actor wants a dragon puppet's shadow to cover the ENTIRE screen. What two adjustments should be made without changing light brightness?",
+    "options": [
+      "Move torch closer to puppet, and move screen further from puppet",
+      "Move torch further from puppet, and move screen closer to puppet",
+      "Move puppet closer to screen, and move torch further from screen",
+      "Move torch and puppet together closer to the screen"
+    ],
+    "answer": "Move torch closer to puppet, and move screen further from puppet",
+    "time": 35
+  },
+  {
+    "question": "Three square sheets (M1, M2, M3) are lined up between a torch and a screen. M1 is transparent glass, M2 is translucent tracing paper, and M3 is opaque cardboard. In which order should they be arranged from torch to screen so that M3 receives light, but NO light reaches the screen?",
+    "options": [
+      "Torch -> M1 -> M2 -> M3 -> Screen",
+      "Torch -> M3 -> M2 -> M1 -> Screen",
+      "Torch -> M2 -> M3 -> M1 -> Screen",
+      "Torch -> M1 -> M3 -> M2 -> Screen"
+    ],
+    "answer": "Torch -> M1 -> M2 -> M3 -> Screen",
+    "time": 40
+  },
+  {
+    "question": "An object casts a CIRCULAR shadow on the wall when light shines from the top, and a RECTANGULAR shadow when light shines from the side. Which everyday object could this be?",
+    "options": [
+      "An unopened soup can",
+      "A basketball",
+      "A party hat",
+      "A Rubik's cube"
+    ],
+    "answer": "An unopened soup can",
+    "time": 30
+  },
+  {
+    "question": "An object casts a CIRCULAR shadow on the table when light shines from the bottom, and a TRIANGULAR shadow on the wall when light shines from the side. Which everyday object could this be?",
+    "options": [
+      "A party hat",
+      "An unopened soup can",
+      "A tennis ball",
+      "A wooden dice"
+    ],
+    "answer": "A party hat",
+    "time": 30
+  }
+]
