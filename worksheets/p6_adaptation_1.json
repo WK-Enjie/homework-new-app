@@ -1,6 +1,15 @@
 [
   {
-    "question": "Background: Animals lose body heat to their surroundings through blood vessels near the surface of their skin. Larger skin surface areas allow faster heat loss.\n\n| Mammal | Ear Surface Area (cm²) | Heat Lost Per Hour (units) |\n|---|---|---|\n| Mammal P | 50 | 10 |\n| Mammal Q | 120 | 25 |\n| Mammal R | 200 | 45 |\n\nBased on this data, how do large ears serve as a structural adaptation for desert mammals?",
+    "question": "Animals lose body heat to their surroundings through blood vessels near the surface of their skin. Larger skin surface areas allow faster heat loss.",
+    "table": {
+      "headers": ["Mammal", "Ear Surface Area (cm²)", "Heat Lost Per Hour (units)"],
+      "rows": [
+        ["Mammal P", "50",  "10"],
+        ["Mammal Q", "120", "25"],
+        ["Mammal R", "200", "45"]
+      ]
+    },
+    "stem": "Based on this data, how do large ears serve as a structural adaptation for desert mammals?",
     "options": [
       "They increase skin surface area to lose body heat faster, preventing overheating",
       "They decrease skin surface area to trap cold air near the body",
@@ -11,7 +20,17 @@
     "time": 50
   },
   {
-    "question": "Background: Plants lose water through tiny breathing pores called stomata. A waxy cuticle layer on the leaf surface blocks water from escaping through stomata.\n\n| Shoot | Coating | Water Lost in 6 Hours (ml) |\n|---|---|---|\n| Shoot A | Coated top and bottom | 2 |\n| Shoot B | Coated top only | 8 |\n| Shoot C | Coated bottom only | 18 |\n| Shoot D | Uncoated | 24 |\n\nWhat can be concluded about the location of stomata on these leaves?",
+    "question": "Plants lose water through tiny breathing pores called stomata. A waxy cuticle layer on the leaf surface blocks water from escaping through stomata.",
+    "table": {
+      "headers": ["Shoot", "Coating", "Water Lost in 6 Hours (ml)"],
+      "rows": [
+        ["Shoot A", "Coated top and bottom", "2"],
+        ["Shoot B", "Coated top only",       "8"],
+        ["Shoot C", "Coated bottom only",    "18"],
+        ["Shoot D", "Uncoated",              "24"]
+      ]
+    },
+    "stem": "What can be concluded about the location of stomata on these leaves?",
     "options": [
       "Most stomata are located on the bottom surface of the leaves",
       "Most stomata are located on the top surface of the leaves",
@@ -22,7 +41,17 @@
     "time": 55
   },
   {
-    "question": "Background: Seeds dispersed by wind need to stay floating in the air as long as possible so wind currents can carry them far away from the parent tree.\n\n| Seed | Wing Type | Time to Land (seconds) |\n|---|---|---|\n| Seed W | No wing | 0.8 |\n| Seed X | Short single wing | 1.5 |\n| Seed Y | Long single wing | 3.2 |\n| Seed Z | Two large wings | 5.0 |\n\nWhich seed's structural adaptation allows it to be carried the FURTHEST distance away by wind?",
+    "question": "Seeds dispersed by wind need to stay floating in the air as long as possible so wind currents can carry them far away from the parent tree.",
+    "table": {
+      "headers": ["Seed", "Wing Type", "Time to Land (seconds)"],
+      "rows": [
+        ["Seed W", "No wing",           "0.8"],
+        ["Seed X", "Short single wing", "1.5"],
+        ["Seed Y", "Long single wing",  "3.2"],
+        ["Seed Z", "Two large wings",   "5.0"]
+      ]
+    },
+    "stem": "Which seed's structural adaptation allows it to be carried the FURTHEST distance away by wind?",
     "options": [
       "Seed Z",
       "Seed W",
@@ -33,7 +62,16 @@
     "time": 45
   },
   {
-    "question": "Background: Finches use their beaks to crack open seeds. Deeper, stronger beaks can exert greater force to crack hard seed shells.\n\n| Beak Depth (mm) | Maximum Seed Hardness Cracked (units) |\n|---|---|\n| 6 | 10 |\n| 10 | 35 |\n| 14 | 80 |\n\nDuring a severe drought, soft seeds failed to grow and only plants producing seeds with 70 units of hardness survived. Which finches are most likely to survive this environmental change?",
+    "question": "Finches use their beaks to crack open seeds. Deeper, stronger beaks can exert greater force to crack hard seed shells.",
+    "table": {
+      "headers": ["Beak Depth (mm)", "Maximum Seed Hardness Cracked (units)"],
+      "rows": [
+        ["6",  "10"],
+        ["10", "35"],
+        ["14", "80"]
+      ]
+    },
+    "stem": "During a severe drought, soft seeds failed to grow and only plants producing seeds with 70 units of hardness survived. Which finches are most likely to survive this environmental change?",
     "options": [
       "Finches with 14 mm beak depth, because they can crack hard seeds to obtain food",
       "Finches with 6 mm beak depth, because they need less food to survive",
@@ -44,7 +82,16 @@
     "time": 55
   },
   {
-    "question": "Background: Blubber is a thick layer of insulating fat beneath the skin of marine mammals living in freezing ocean waters.\n\n| Blubber Thickness (cm) | Temperature Drop After 10 Minutes (°C) |\n|---|---|\n| 0 | 20 |\n| 2 | 8 |\n| 4 | 2 |\n\nHow does a thick blubber layer enhance arctic animal survival in cold ocean waters?",
+    "question": "Blubber is a thick layer of insulating fat beneath the skin of marine mammals living in freezing ocean waters.",
+    "table": {
+      "headers": ["Blubber Thickness (cm)", "Temperature Drop After 10 Minutes (°C)"],
+      "rows": [
+        ["0", "20"],
+        ["2", "8"],
+        ["4", "2"]
+      ]
+    },
+    "stem": "How does a thick blubber layer enhance arctic animal survival in cold ocean waters?",
     "options": [
       "Thicker blubber layers reduce heat loss, allowing animals to maintain body temperature in cold waters",
       "Thicker blubber layers increase heat loss, preventing animals from overheating",
@@ -55,7 +102,8 @@
     "time": 50
   },
   {
-    "question": "Background: Mud at the bottom of deep riverbeds contains very little dissolved oxygen. Water animals need oxygen to carry out respiration and stay alive.\n\nA small water insect living buried deep in riverbed mud possesses a long, hollow tube extending from its tail all the way up to the water surface.\n\nHow does this structural adaptation enhance the insect's survival?",
+    "question": "Mud at the bottom of deep riverbeds contains very little dissolved oxygen. Water animals need oxygen to carry out respiration and stay alive.\n\nA small water insect living buried deep in riverbed mud possesses a long, hollow tube extending from its tail all the way up to the water surface.",
+    "stem": "How does this structural adaptation enhance the insect's survival?",
     "options": [
       "It allows the insect to take in atmospheric oxygen from above the water surface while staying buried safely in mud",
       "It absorbs sunlight for photosynthesis while hiding from predators in the mud",
@@ -66,7 +114,16 @@
     "time": 50
   },
   {
-    "question": "Background: Water exerts drag (resistance) on objects moving through it, slowing them down. Streamlined shapes taper smoothly at both ends to push through water with minimal resistance.\n\n| Shape | Water Resistance (units) |\n|---|---|\n| Flat box shape | 90 |\n| Curved wedge shape | 45 |\n| Streamlined fish shape | 12 |\n\nHow does a streamlined body shape help fast-swimming predatory fish survive?",
+    "question": "Water exerts drag (resistance) on objects moving through it, slowing them down. Streamlined shapes taper smoothly at both ends to push through water with minimal resistance.",
+    "table": {
+      "headers": ["Shape", "Water Resistance (units)"],
+      "rows": [
+        ["Flat box shape",       "90"],
+        ["Curved wedge shape",   "45"],
+        ["Streamlined fish shape","12"]
+      ]
+    },
+    "stem": "How does a streamlined body shape help fast-swimming predatory fish survive?",
     "options": [
       "It reduces water resistance, allowing the fish to swim faster with less energy effort to catch prey",
       "It increases water resistance, helping the fish come to a sudden stop",
@@ -77,7 +134,15 @@
     "time": 50
   },
   {
-    "question": "Background: Camouflage helps animals blend into their background color so they are difficult for predators to spot.\n\n| Mouse Type | Number Placed | Caught by Hawk |\n|---|---|---|\n| White mice | 50 | 42 |\n| Brown mice | 50 | 8 |\n\nWhat does this investigation prove about structural camouflage?",
+    "question": "Camouflage helps animals blend into their background color so they are difficult for predators to spot.",
+    "table": {
+      "headers": ["Mouse Type", "Number Placed", "Caught by Hawk"],
+      "rows": [
+        ["White mice", "50", "42"],
+        ["Brown mice", "50", "8"]
+      ]
+    },
+    "stem": "What does this investigation prove about structural camouflage?",
     "options": [
       "Camouflage matching the background color improves survival by reducing predator detection",
       "White mice run faster than brown mice when chased by predators",
@@ -88,7 +153,16 @@
     "time": 50
   },
   {
-    "question": "Background: Seeds dispersed by ocean currents must float on water and prevent salt water from soaking inside and rotting the seed embryo.\n\n| Seed | Coat Type | Days Floating | Germination Rate |\n|---|---|---|---|\n| Seed P | Thin papery coat | 0 (sank) | 0% |\n| Seed Q | Hard non-waxy shell | 3 | 15% |\n| Seed R | Waxy coat + fibrous husk | 20 | 90% |\n\nWhich structural features make Seed R best adapted for ocean dispersal?",
+    "question": "Seeds dispersed by ocean currents must float on water and prevent salt water from soaking inside and rotting the seed embryo.",
+    "table": {
+      "headers": ["Seed", "Coat Type", "Days Floating", "Germination Rate"],
+      "rows": [
+        ["Seed P", "Thin papery coat",           "0 (sank)", "0%"],
+        ["Seed Q", "Hard non-waxy shell",         "3",        "15%"],
+        ["Seed R", "Waxy coat + fibrous husk",    "20",       "90%"]
+      ]
+    },
+    "stem": "Which structural features make Seed R best adapted for ocean dispersal?",
     "options": [
       "A waxy waterproof coat to prevent water soaking, and a fibrous air-filled husk to keep it floating",
       "A thin papery coat that absorbs seawater rapidly",
@@ -99,7 +173,16 @@
     "time": 55
   },
   {
-    "question": "Background: Animals lose body heat rapidly when exposed to freezing winds. Reducing the total body surface area exposed to wind helps conserve heat.\n\n| Location in Huddle | Recorded Temperature |\n|---|---|\n| Air outside huddle | -30°C |\n| Outer edge of huddle | -10°C |\n| Center of huddle | +35°C |\n\nHow does this behavioural adaptation help the penguin flock survive?",
+    "question": "Animals lose body heat rapidly when exposed to freezing winds. Reducing the total body surface area exposed to wind helps conserve heat.",
+    "table": {
+      "headers": ["Location in Huddle", "Recorded Temperature"],
+      "rows": [
+        ["Air outside huddle",  "-30°C"],
+        ["Outer edge of huddle","-10°C"],
+        ["Center of huddle",    "+35°C"]
+      ]
+    },
+    "stem": "How does this behavioural adaptation help the penguin flock survive?",
     "options": [
       "It reduces total body surface area exposed to freezing wind, conserving body heat as a group",
       "It protects penguin eggs from predatory sea eagles flying overhead",
@@ -110,7 +193,16 @@
     "time": 55
   },
   {
-    "question": "Background: Flowers rely on specific animals or wind to transfer pollen for reproduction. Animal-pollinated flowers produce nectar, scents, or bright colors to attract specific pollinators.\n\n| Flower | Color | Scent | Nectar | Main Pollinator |\n|---|---|---|---|---|\n| Flower A | Red | None | High | Hummingbirds |\n| Flower B | White | Sweet (night) | High | Night moths |\n| Flower C | Dull green | None | None | Wind (no animals) |\n\nWhat conclusion is supported by this data?",
+    "question": "Flowers rely on specific animals or wind to transfer pollen for reproduction. Animal-pollinated flowers produce nectar, scents, or bright colors to attract specific pollinators.",
+    "table": {
+      "headers": ["Flower", "Color", "Scent", "Nectar", "Main Pollinator"],
+      "rows": [
+        ["Flower A", "Red",       "None",         "High", "Hummingbirds"],
+        ["Flower B", "White",     "Sweet (night)", "High", "Night moths"],
+        ["Flower C", "Dull green","None",          "None", "Wind (no animals)"]
+      ]
+    },
+    "stem": "What conclusion is supported by this data?",
     "options": [
       "Flower structural characteristics (color, scent, nectar) correspond to specific pollination vectors",
       "All flowers require sweet scents to attract animal pollinators successfully",
@@ -121,7 +213,8 @@
     "time": 55
   },
   {
-    "question": "Background: Plants scatter seeds away from parent plants to prevent overcrowding and competition for sunlight, water, and soil minerals.\n\nAs the Rubber tree fruit matures under the hot sun, the woody pod dries out and shrinks unevenly. This creates strong internal tension until the pod suddenly splits open with a loud pop, flinging seeds up to 15 meters away.\n\nWhat type of seed dispersal mechanism is demonstrated by this structural adaptation?",
+    "question": "Plants scatter seeds away from parent plants to prevent overcrowding and competition for sunlight, water, and soil minerals.\n\nAs the Rubber tree fruit matures under the hot sun, the woody pod dries out and shrinks unevenly. This creates strong internal tension until the pod suddenly splits open with a loud pop, flinging seeds up to 15 metres away.",
+    "stem": "What type of seed dispersal mechanism is demonstrated by this structural adaptation?",
     "options": [
       "Explosive action (splitting mechanism)",
       "Wind dispersal",
@@ -132,7 +225,16 @@
     "time": 45
   },
   {
-    "question": "Background: Pushing against water with a larger surface area creates more backward thrust, pushing a swimming animal forward faster.\n\n| Flipper Type | Surface Area (cm²) | Time for 50 m (seconds) |\n|---|---|---|\n| No flippers | — | 60 |\n| Small flippers | 200 | 45 |\n| Large flippers | 500 | 30 |\n\nHow do webbed feet serve as a structural adaptation for aquatic animals like frogs and ducks?",
+    "question": "Pushing against water with a larger surface area creates more backward thrust, pushing a swimming animal forward faster.",
+    "table": {
+      "headers": ["Flipper Type", "Surface Area (cm²)", "Time for 50 m (seconds)"],
+      "rows": [
+        ["No flippers",    "—",   "60"],
+        ["Small flippers", "200", "45"],
+        ["Large flippers", "500", "30"]
+      ]
+    },
+    "stem": "How do webbed feet serve as a structural adaptation for aquatic animals like frogs and ducks?",
     "options": [
       "They increase surface area to push more water backward, increasing swimming speed to catch prey or escape danger",
       "They decrease water resistance, allowing animals to float effortlessly on the surface",
@@ -143,7 +245,8 @@
     "time": 55
   },
   {
-    "question": "Background: In Arctic regions, the landscape changes dramatically from brown dirt and rocks during summer to white ice and snow during winter.\n\nThe Arctic fox sheds its fur coat twice a year: growing dark brown fur in spring, and growing pure white fur in autumn.\n\nWhat is the survival advantage of this seasonal coat change?",
+    "question": "In Arctic regions, the landscape changes dramatically from brown dirt and rocks during summer to white ice and snow during winter.\n\nThe Arctic fox sheds its fur coat twice a year: growing dark brown fur in spring, and growing pure white fur in autumn.",
+    "stem": "What is the survival advantage of this seasonal coat change?",
     "options": [
       "It maintains effective camouflage against changing seasonal backgrounds (dirt in summer, snow in winter)",
       "White fur absorbs more heat energy from the weak winter sun than brown fur",
@@ -154,7 +257,8 @@
     "time": 50
   },
   {
-    "question": "Background: Mangrove trees grow in salty coastal seawater. High concentrations of salt absorbed into plant tissues can cause cell damage and death.\n\nMangrove leaves possess special salt-excreting glands on their upper surface. When grown in salty water, tiny white salt crystals form on the leaves. When grown in fresh water, no salt crystals form.\n\nWhat function does this structural adaptation serve?",
+    "question": "Mangrove trees grow in salty coastal seawater. High concentrations of salt absorbed into plant tissues can cause cell damage and death.\n\nMangrove leaves possess special salt-excreting glands on their upper surface. When grown in salty water, tiny white salt crystals form on the leaves. When grown in fresh water, no salt crystals form.",
+    "stem": "What function does this structural adaptation serve?",
     "options": [
       "To remove excess salt absorbed by roots, preventing toxic salt buildup inside plant cells",
       "To attract plant-eating insects to lick salt off the leaf surface",
@@ -165,7 +269,15 @@
     "time": 50
   },
   {
-    "question": "Background: Small insect-eating birds are preyed upon by large predatory owls. Birds instinctively avoid flying near owl eyes.\n\n| Moth Type | Number Placed | Eaten After 3 Days |\n|---|---|---|\n| Plain brown moths | 30 | 22 |\n| Eye-pattern moths | 30 | 4 |\n\nWhy did wing eye-patterns enhance the survival of the mutant moths?",
+    "question": "Small insect-eating birds are preyed upon by large predatory owls. Birds instinctively avoid flying near owl eyes.",
+    "table": {
+      "headers": ["Moth Type", "Number Placed", "Eaten After 3 Days"],
+      "rows": [
+        ["Plain brown moths", "30", "22"],
+        ["Eye-pattern moths", "30", "4"]
+      ]
+    },
+    "stem": "Why did wing eye-patterns enhance the survival of the mutant moths?",
     "options": [
       "The eye patterns startled birds by mimicking a larger predator like an owl",
       "The eye patterns allowed the moths to fly faster away from birds",
@@ -176,7 +288,8 @@
     "time": 55
   },
   {
-    "question": "Background: In dry desert habitats, rain may not fall for up to 9 months. Amphibians like toads require moisture to prevent their thin skin from drying out.\n\nWhen desert mud ponds dry up, the Spadefoot toad uses spade-like growths on its hind feet to dig 1 meter underground into moist soil, forming a jelly cocoon to enter a deep sleep until heavy rain returns.\n\nHow should this sleeping behaviour in underground mud be classified?",
+    "question": "In dry desert habitats, rain may not fall for up to 9 months. Amphibians like toads require moisture to prevent their thin skin from drying out.\n\nWhen desert mud ponds dry up, the Spadefoot toad uses spade-like growths on its hind feet to dig 1 metre underground into moist soil, forming a jelly cocoon to enter a deep sleep until heavy rain returns.",
+    "stem": "How should this sleeping behaviour in underground mud be classified?",
     "options": [
       "Behavioural adaptation to survive extreme heat and lack of water",
       "Structural adaptation to catch underground earthworms",
@@ -187,7 +300,8 @@
     "time": 50
   },
   {
-    "question": "Background: Flying insects hunt for plant nectar in complete darkness at night. Bats prey on flying insects without using eyesight.\n\nA bat produces high-frequency sound squeaks through its mouth. The sound waves travel through air, bounce off a flying moth, and echo back to the bat's large, sensitive ears, letting the bat pinpoint the exact position of the moth.\n\nHow should echolocation in bats be classified?",
+    "question": "Flying insects hunt for plant nectar in complete darkness at night. Bats prey on flying insects without using eyesight.\n\nA bat produces high-frequency sound squeaks through its mouth. The sound waves travel through air, bounce off a flying moth, and echo back to the bat's large, sensitive ears, letting the bat pinpoint the exact position of the moth.",
+    "stem": "How should echolocation in bats be classified?",
     "options": [
       "A combination of structural features (specialized ears/vocal organs) and behavioural actions (emitting/listening to sound waves)",
       "A purely structural feature present only on the bat's wing membranes",
@@ -198,7 +312,16 @@
     "time": 55
   },
   {
-    "question": "Background: Fruits dispersed by animals attach to animal fur. Stronger attachment ensures the fruit is carried further before falling off.\n\n| Fruit | Spine Type | Force to Detach (N) |\n|---|---|---|\n| Fruit X | Smooth rounded spines | 0.2 |\n| Fruit Y | Straight rigid spines | 0.8 |\n| Fruit Z | Curved hooked spines | 3.5 |\n\nWhich structural feature makes Fruit Z most effective for animal dispersal?",
+    "question": "Fruits dispersed by animals attach to animal fur. Stronger attachment ensures the fruit is carried further before falling off.",
+    "table": {
+      "headers": ["Fruit", "Spine Type", "Force to Detach (N)"],
+      "rows": [
+        ["Fruit X", "Smooth rounded spines", "0.2"],
+        ["Fruit Y", "Straight rigid spines",  "0.8"],
+        ["Fruit Z", "Curved hooked spines",   "3.5"]
+      ]
+    },
+    "stem": "Which structural feature makes Fruit Z most effective for animal dispersal?",
     "options": [
       "Curved hooked spines that catch tightly onto animal fur",
       "Smooth rounded spines that slide off fur easily",
@@ -209,10 +332,11 @@
     "time": 50
   },
   {
-    "question": "Background: In deserts, rain falls in brief, light showers that only wet the top few centimeters of soil before rapidly evaporating in the hot sun.\n\nA desert cactus has roots that spread horizontally 5 meters wide around its base, growing just 2 cm beneath the soil surface, rather than a single deep taproot.\n\nHow does this shallow, wide root structure enhance survival?",
+    "question": "In deserts, rain falls in brief, light showers that only wet the top few centimetres of soil before rapidly evaporating in the hot sun.\n\nA desert cactus has roots that spread horizontally 5 metres wide around its base, growing just 2 cm beneath the soil surface, rather than a single deep taproot.",
+    "stem": "How does this shallow, wide root structure enhance survival?",
     "options": [
       "It quickly absorbs water from rare, light desert rain showers over a large area before it evaporates",
-      "It reaches deep underground water tables located 50 meters below the surface",
+      "It reaches deep underground water tables located 50 metres below the surface",
       "It anchors the cactus so large desert animals cannot push it over to eat its stem",
       "It prevents other plants from growing anywhere near the cactus"
     ],
@@ -220,7 +344,15 @@
     "time": 55
   },
   {
-    "question": "Background: Lions hunt by singling out individual prey from a distance and judging the exact distance needed to pounce.\n\n| Situation | Lion Attack Success Rate |\n|---|---|\n| Single zebra standing alone | 70% |\n| Single zebra inside moving striped herd | 25% |\n\nHow do zebra stripes enhance survival against predators?",
+    "question": "Lions hunt by singling out individual prey from a distance and judging the exact distance needed to pounce.",
+    "table": {
+      "headers": ["Situation", "Lion Attack Success Rate"],
+      "rows": [
+        ["Single zebra standing alone",          "70%"],
+        ["Single zebra inside moving striped herd","25%"]
+      ]
+    },
+    "stem": "How do zebra stripes enhance survival against predators?",
     "options": [
       "They are a structural adaptation that works with herd behaviour to confuse predators and reduce capture rate",
       "They are a behavioural adaptation that frightens lions into running away",
@@ -231,7 +363,15 @@
     "time": 55
   },
   {
-    "question": "Background: Pitcher plants grow in nitrogen-poor soil and obtain nutrients by trapping insects inside leaf cups filled with digestive fluids. Insects walk along the rim (peristome) to feed on sweet nectar.\n\n| Rim Condition | Ants That Fell In (out of 50) |\n|---|---|\n| Dry rim | 2 |\n| Wet rim (dew or rain) | 46 |\n\nHow does water on the rim help the pitcher plant obtain nutrients?",
+    "question": "Pitcher plants grow in nitrogen-poor soil and obtain nutrients by trapping insects inside leaf cups filled with digestive fluids. Insects walk along the rim (peristome) to feed on sweet nectar.",
+    "table": {
+      "headers": ["Rim Condition", "Ants That Fell In (out of 50)"],
+      "rows": [
+        ["Dry rim", "2"],
+        ["Wet rim (dew or rain)", "46"]
+      ]
+    },
+    "stem": "How does water on the rim help the pitcher plant obtain nutrients?",
     "options": [
       "It lubricates the rim surface, causing insects to lose their footing and slide into digestive fluid",
       "It dilutes the digestive fluid so insects can swim easily inside the pitcher",
@@ -242,7 +382,15 @@
     "time": 55
   },
   {
-    "question": "Background: Plant leaves lose water to the air through transpiration pores. During a prolonged drought, soil water is extremely scarce.\n\n| Plant | Leaf Behaviour | Outcome After 30 Days |\n|---|---|---|\n| Plant M | Dropped 80% of leaves within 5 days | Survived |\n| Plant N | Retained all broad leaves | Wilted and died by Day 12 |\n\nWhy did dropping leaves enhance Plant M's survival during the drought?",
+    "question": "Plant leaves lose water to the air through transpiration pores. During a prolonged drought, soil water is extremely scarce.",
+    "table": {
+      "headers": ["Plant", "Leaf Behaviour", "Outcome After 30 Days"],
+      "rows": [
+        ["Plant M", "Dropped 80% of leaves within 5 days", "Survived"],
+        ["Plant N", "Retained all broad leaves",           "Wilted and died by Day 12"]
+      ]
+    },
+    "stem": "Why did dropping leaves enhance Plant M's survival during the drought?",
     "options": [
       "Fewer leaves reduced the total surface area for water loss through transpiration",
       "Dropping leaves allowed Plant M to absorb water directly through its branches",
@@ -253,7 +401,8 @@
     "time": 50
   },
   {
-    "question": "Background: Archerfish feed on land insects resting on plant leaves hanging over riverbanks.\n\nThe archerfish has a special groove in the roof of its mouth. It swims to the water surface, aims carefully at an insect resting 2 meters above, and shoots a powerful droplet of water from its mouth, knocking the insect into the river to eat.\n\nWhich combination best describes this adaptation for obtaining food?",
+    "question": "Archerfish feed on land insects resting on plant leaves hanging over riverbanks.\n\nThe archerfish has a special groove in the roof of its mouth. It swims to the water surface, aims carefully at an insect resting 2 metres above, and shoots a powerful droplet of water from its mouth, knocking the insect into the river to eat.",
+    "stem": "Which combination best describes this adaptation for obtaining food?",
     "options": [
       "Structural adaptation (specialized mouth groove) + Behavioural adaptation (aiming and shooting water)",
       "Structural adaptation (webbed fins) + Behavioural adaptation (swimming backward)",

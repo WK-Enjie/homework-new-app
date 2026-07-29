@@ -1,6 +1,15 @@
 [
   {
-    "question": "Background: Animals lose body heat to their surroundings through blood vessels near the skin surface. Larger ear surface areas allow heat to radiate away faster, while smaller ears retain heat.\n\n| Animal | Ear Surface Area (cm²) | Body Heat Lost per Hour in Cold Room (units) |\n|---|---|---|\n| Fox A (Arctic region) | 35 | 8 |\n| Fox B (Temperate forest) | 90 | 22 |\n| Fox C (Hot desert) | 180 | 48 |\n\nHow do the small ears of Fox A serve as a structural adaptation for surviving in freezing Arctic environments?",
+    "question": "Animals lose body heat to their surroundings through blood vessels near the skin surface. Larger ear surface areas allow heat to radiate away faster, while smaller ears retain heat.",
+    "table": {
+      "headers": ["Animal", "Ear Surface Area (cm²)", "Body Heat Lost per Hour (units)"],
+      "rows": [
+        ["Fox A (Arctic region)",    "35",  "8"],
+        ["Fox B (Temperate forest)", "90",  "22"],
+        ["Fox C (Hot desert)",       "180", "48"]
+      ]
+    },
+    "stem": "How do the small ears of Fox A serve as a structural adaptation for surviving in freezing Arctic environments?",
     "options": [
       "Small ear surface area reduces heat loss, helping Fox A retain body heat in cold climates",
       "Small ear surface area increases heat loss, preventing Fox A from overheating in snow",
@@ -11,7 +20,15 @@
     "time": 50
   },
   {
-    "question": "Background: Predators that hunt fast prey in open grasslands rely on high speed, while ambush predators rely on stealth and sudden acceleration.\n\n| Predator | Top Running Speed (km/h) | Time to Reach Top Speed (seconds) | Hunting Strategy |\n|---|---|---|---|\n| Cheetah | 110 | 3 | Chases fast antelopes across open plains |\n| Lion | 80 | 7 | Stalks close in tall grass, then leaps |\n\nHow does the cheetah's ability to reach 110 km/h in just 3 seconds aid its survival?",
+    "question": "Predators that hunt fast prey in open grasslands rely on high speed, while ambush predators rely on stealth and sudden acceleration.",
+    "table": {
+      "headers": ["Predator", "Top Speed (km/h)", "Time to Top Speed (seconds)", "Hunting Strategy"],
+      "rows": [
+        ["Cheetah", "110", "3", "Chases fast antelopes across open plains"],
+        ["Lion",    "80",  "7", "Stalks close in tall grass, then leaps"]
+      ]
+    },
+    "stem": "How does the cheetah's ability to reach 110 km/h in just 3 seconds aid its survival?",
     "options": [
       "It allows the cheetah to catch fast-running prey before the prey can escape in open spaces",
       "It helps the cheetah blend into tall grass without being seen by prey",
@@ -22,7 +39,15 @@
     "time": 50
   },
   {
-    "question": "Background: Plants open stomata (pores) to take in carbon dioxide for photosynthesis, but water vapor escapes through stomata at the same time. Desert plants must minimize water loss during hot daytime hours.\n\n| Desert Plant | Water Lost During Day (ml) | Water Lost During Night (ml) | Stomata Condition During Hot Day |\n|---|---|---|---|\n| Plant X | 2 | 28 | Closed |\n| Plant Y | 35 | 5 | Open |\n\nHow does closing stomata during the day serve as an adaptation for Plant X in a hot, dry environment?",
+    "question": "Plants open stomata (pores) to take in carbon dioxide for photosynthesis, but water vapour escapes through stomata at the same time. Desert plants must minimise water loss during hot daytime hours.",
+    "table": {
+      "headers": ["Desert Plant", "Water Lost During Day (ml)", "Water Lost During Night (ml)", "Stomata Condition During Hot Day"],
+      "rows": [
+        ["Plant X", "2",  "28", "Closed"],
+        ["Plant Y", "35", "5",  "Open"]
+      ]
+    },
+    "stem": "How does closing stomata during the day serve as an adaptation for Plant X in a hot, dry environment?",
     "options": [
       "It prevents excessive water loss through transpiration during the hottest hours of the day",
       "It stops herbivores from eating the leaves during daylight hours",
@@ -33,7 +58,8 @@
     "time": 55
   },
   {
-    "question": "Background: Deep-sea fish live in complete darkness where food is extremely scarce. Prey animals encountered may be larger than the predator's own head.\n\nObservation: The deep-sea viperfish has long, needle-like teeth that curve inward toward its throat, and a jaw that can unhinge to open at a 90-degree angle.\n\nHow do these structural adaptations help the viperfish survive in its deep-sea environment?",
+    "question": "Deep-sea fish live in complete darkness where food is extremely scarce. Prey animals encountered may be larger than the predator's own head.\n\nThe deep-sea viperfish has long, needle-like teeth that curve inward toward its throat, and a jaw that can unhinge to open at a 90-degree angle.",
+    "stem": "How do these structural adaptations help the viperfish survive in its deep-sea environment?",
     "options": [
       "They allow the viperfish to swallow large prey whole and prevent prey from escaping once caught",
       "They help the viperfish chew tough seaweed growing on the dark ocean floor",
@@ -44,7 +70,16 @@
     "time": 50
   },
   {
-    "question": "Background: Chameleons hunt fast-moving flying insects on tree branches. Moving closer to an insect risks startling it away.\n\n| Chameleon Type | Tongue Length Relative to Body | Prey Capture Success Rate at 20 cm Distance |\n|---|---|---|\n| Type P | 0.5 times body length | 15% |\n| Type Q | 1.0 times body length | 55% |\n| Type R | 2.0 times body length | 95% |\n\nHow does a long, sticky projectile tongue enhance the survival of Type R chameleons?",
+    "question": "Chameleons hunt fast-moving flying insects on tree branches. Moving closer to an insect risks startling it away.",
+    "table": {
+      "headers": ["Chameleon Type", "Tongue Length Relative to Body", "Prey Capture Success Rate at 20 cm Distance"],
+      "rows": [
+        ["Type P", "0.5 times body length", "15%"],
+        ["Type Q", "1.0 times body length", "55%"],
+        ["Type R", "2.0 times body length", "95%"]
+      ]
+    },
+    "stem": "How does a long, sticky projectile tongue enhance the survival of Type R chameleons?",
     "options": [
       "It allows the chameleon to capture fast insects from a safe distance without moving its body and scaring prey",
       "It helps the chameleon swing between tree branches to escape ground predators",
@@ -55,7 +90,15 @@
     "time": 55
   },
   {
-    "question": "Background: Porcupines are slow-moving mammals that cannot outrun fast predators like leopards.\n\n| Predator Attack Test | Outcome for Predator | Porcupine Survival Rate |\n|---|---|---|\n| Attack on smooth-furred rodent | Rodent captured and eaten | 0% |\n| Attack on quilled porcupine | Barbed quills pierce predator's face, causing severe pain | 92% |\n\nHow do sharp, barbed quills serve as a structural adaptation against hunting predators?",
+    "question": "Porcupines are slow-moving mammals that cannot outrun fast predators like leopards.",
+    "table": {
+      "headers": ["Predator Attack Test", "Outcome for Predator", "Porcupine Survival Rate"],
+      "rows": [
+        ["Attack on smooth-furred rodent", "Rodent captured and eaten",                          "0%"],
+        ["Attack on quilled porcupine",    "Barbed quills pierce predator's face, causing pain", "92%"]
+      ]
+    },
+    "stem": "How do sharp, barbed quills serve as a structural adaptation against hunting predators?",
     "options": [
       "They inflict severe pain and injury, forcing predators to break off their attack and leave",
       "They allow the porcupine to run faster by reducing air resistance",
@@ -66,7 +109,15 @@
     "time": 50
   },
   {
-    "question": "Background: Floating aquatic plants need air to stay afloat and stomata to take in gases for photosynthesis. Submerged leaf surfaces are surrounded by water.\n\n| Leaf Surface Coated with Wax | Floating Ability | Gas Exchange Rate |\n|---|---|---|\n| Top surface coated | Leaves sink | Very Low |\n| Bottom surface coated | Leaves float normally | Normal |\n\nWhat does this experiment reveal about the structural adaptation of floating water lily leaves?",
+    "question": "Floating aquatic plants need air to stay afloat and stomata to take in gases for photosynthesis. Submerged leaf surfaces are surrounded by water.",
+    "table": {
+      "headers": ["Leaf Surface Coated with Wax", "Floating Ability", "Gas Exchange Rate"],
+      "rows": [
+        ["Top surface coated",    "Leaves sink",          "Very Low"],
+        ["Bottom surface coated", "Leaves float normally", "Normal"]
+      ]
+    },
+    "stem": "What does this experiment reveal about the structural adaptation of floating water lily leaves?",
     "options": [
       "Stomata are located on the top surface of leaves to take in air from above water",
       "Stomata are located on the bottom surface to absorb gases dissolved in water",
@@ -77,7 +128,15 @@
     "time": 50
   },
   {
-    "question": "Background: Birds of prey hunt live rodents and fish from high in the air. Grasping struggling prey requires strong clamping force and sharp points that penetrate hides.\n\n| Bird Type | Foot Structure | Prey Escape Rate After Capture |\n|---|---|---|\n| Bird M (Flat webbed feet) | Soft skin, blunt claws | 85% |\n| Bird N (Talons) | Curved, sharp talons with strong muscular grip | 4% |\n\nHow do curved, sharp talons aid Bird N in hunting?",
+    "question": "Birds of prey hunt live rodents and fish from high in the air. Grasping struggling prey requires strong clamping force and sharp points that penetrate hides.",
+    "table": {
+      "headers": ["Bird Type", "Foot Structure", "Prey Escape Rate After Capture"],
+      "rows": [
+        ["Bird M (Flat webbed feet)", "Soft skin, blunt claws",                          "85%"],
+        ["Bird N (Talons)",           "Curved, sharp talons with strong muscular grip",   "4%"]
+      ]
+    },
+    "stem": "How do curved, sharp talons aid Bird N in hunting?",
     "options": [
       "They pierce and lock onto struggling prey firmly so it cannot drop or escape during flight",
       "They allow Bird N to paddle through river water faster to chase fish",
@@ -88,7 +147,8 @@
     "time": 50
   },
   {
-    "question": "Background: When cornered by coyotes, the Texas horned lizard squirts a stream of foul-testing blood from the corners of its eyes directly into the predator's mouth.\n\nObservation: Coyotes that receive blood in their mouth immediately drop the lizard, shake their heads, and shake off the bitter taste, allowing the lizard to scamper away.\n\nHow should this defensive reaction be classified?",
+    "question": "When cornered by coyotes, the Texas horned lizard squirts a stream of foul-tasting blood from the corners of its eyes directly into the predator's mouth.\n\nCoyotes that receive blood in their mouth immediately drop the lizard, shake their heads, and back away from the bitter taste, allowing the lizard to scamper away.",
+    "stem": "How should this defensive reaction be classified?",
     "options": [
       "A behavioural defense adaptation that deters predators by making the lizard distasteful and repulsive",
       "A structural adaptation that allows the lizard to see better in bright desert sunlight",
@@ -99,7 +159,15 @@
     "time": 50
   },
   {
-    "question": "Background: Carnivorous plants grow in nutrient-poor swamp soil. They obtain essential nitrogen by trapping and digesting insects.\n\n| Plant Type | Trapping Mechanism | Speed of Trap Movement |\n|---|---|---|\n| Venus Flytrap | Two leaf lobes snap shut when trigger hairs are touched | 0.1 seconds (Active) |\n| Pitcher Plant | Slippery leaf rim causes insects to fall into fluid cup | No movement (Passive) |\n\nHow does the rapid snapping movement of the Venus flytrap enhance its success in obtaining food?",
+    "question": "Carnivorous plants grow in nutrient-poor swamp soil. They obtain essential nitrogen by trapping and digesting insects.",
+    "table": {
+      "headers": ["Plant Type", "Trapping Mechanism", "Speed of Trap Movement"],
+      "rows": [
+        ["Venus Flytrap",   "Two leaf lobes snap shut when trigger hairs are touched", "0.1 seconds (Active)"],
+        ["Pitcher Plant",   "Slippery leaf rim causes insects to fall into fluid cup",  "No movement (Passive)"]
+      ]
+    },
+    "stem": "How does the rapid snapping movement of the Venus flytrap enhance its success in obtaining food?",
     "options": [
       "It traps fast-walking insects inside before they can react and fly or crawl away",
       "It crushes the insect's shell instantly to extract water",
@@ -110,7 +178,8 @@
     "time": 55
   },
   {
-    "question": "Background: Polar bears hunt seals on slippery sea ice and swim long distances in frigid Arctic waters.\n\nObservation: Polar bear paws are wide (up to 30 cm across), covered with small bumps (papillae) on the soles, and have short webbing between the toes.\n\nHow do these combined structural adaptations help the polar bear survive in its environment?",
+    "question": "Polar bears hunt seals on slippery sea ice and swim long distances in frigid Arctic waters.\n\nPolar bear paws are wide (up to 30 cm across), covered with small bumps (papillae) on the soles, and have short webbing between the toes.",
+    "stem": "How do these combined structural adaptations help the polar bear survive in its environment?",
     "options": [
       "Wide paws distribute weight on thin ice and act as paddles in water, while bumpy soles prevent slipping on ice",
       "Wide paws help the bear dig deep burrows in hard rock to hide from wolves",
@@ -121,18 +190,34 @@
     "time": 55
   },
   {
-    "question": "Background: Many venomous animals use bright red, yellow, or orange colors to warn predators that they are poisonous if eaten.\n\n| Model Frog Type | Color Pattern | Predatory Bird Attacks in Field Test (out of 100) |\n|---|---|---|\n| Model X | Dull brown (Camouflage pattern) | 68 |\n| Model Y | Bright orange with black spots (Warning pattern) | 5 |\n\nHow do bright warning colors enhance the survival of poisonous frogs in rainforests?",
+    "question": "Many venomous animals use bright red, yellow, or orange colors to warn predators that they are poisonous if eaten.",
+    "table": {
+      "headers": ["Model Frog Type", "Color Pattern", "Predatory Bird Attacks (out of 100)"],
+      "rows": [
+        ["Model X", "Dull brown (Camouflage pattern)",          "68"],
+        ["Model Y", "Bright orange with black spots (Warning)", "5"]
+      ]
+    },
+    "stem": "How do bright warning colors enhance the survival of poisonous frogs in rainforests?",
     "options": [
-      "Predators recognize the bright pattern as a sign of poison and avoid attacking the frog",
+      "Predators recognise the bright pattern as a sign of poison and avoid attacking the frog",
       "Bright colors absorb cold air to keep the frog cool under dense forest canopy",
       "Bright colors blind insects so they land directly on the frog's tongue",
       "Predators are attracted to bright colors and carry the frog to safer areas"
     ],
-    "answer": "Predators recognize the bright pattern as a sign of poison and avoid attacking the frog",
+    "answer": "Predators recognise the bright pattern as a sign of poison and avoid attacking the frog",
     "time": 50
   },
   {
-    "question": "Background: During dry seasons in African savannas, ground grass dies off, leaving tree leaves as the main food source.\n\n| Herbivore | Average Neck Length (m) | Max Feeding Height (m) | Survival Rate in Severe Drought |\n|---|---|---|---|\n| Impala | 0.4 | 1.2 | 35% |\n| Giraffe | 2.2 | 5.5 | 88% |\n\nHow does the long neck of the giraffe serve as an adaptation for obtaining food during dry seasons?",
+    "question": "During dry seasons in African savannas, ground grass dies off, leaving tree leaves as the main food source.",
+    "table": {
+      "headers": ["Herbivore", "Average Neck Length (m)", "Max Feeding Height (m)", "Survival Rate in Severe Drought"],
+      "rows": [
+        ["Impala",   "0.4", "1.2", "35%"],
+        ["Giraffe",  "2.2", "5.5", "88%"]
+      ]
+    },
+    "stem": "How does the long neck of the giraffe serve as an adaptation for obtaining food during dry seasons?",
     "options": [
       "It enables giraffes to reach high tree foliage that shorter herbivores cannot access, avoiding food competition",
       "It allows giraffes to spot lions hidden in tall grass from miles away",
@@ -143,7 +228,8 @@
     "time": 55
   },
   {
-    "question": "Background: When grabbed by a predator, the sea cucumber contracts its body wall violently and ejects its sticky, toxic internal organs out of its anus onto the predator.\n\nObservation: The predator becomes entangled in the sticky threads while trying to clean itself, allowing the sea cucumber to crawl away slowly. The sea cucumber regrows its internal organs within a few weeks.\n\nHow does this extreme behavioural adaptation enhance the sea cucumber's survival?",
+    "question": "When grabbed by a predator, the sea cucumber contracts its body wall violently and ejects its sticky, toxic internal organs out of its body onto the predator.\n\nThe predator becomes entangled in the sticky threads while trying to clean itself, allowing the sea cucumber to crawl away slowly. The sea cucumber regrows its internal organs within a few weeks.",
+    "stem": "How does this extreme behavioural adaptation enhance the sea cucumber's survival?",
     "options": [
       "It distracts and entangles the predator long enough for the sea cucumber to escape",
       "It poisons the ocean water so all fish in the reef die immediately",
@@ -154,7 +240,15 @@
     "time": 55
   },
   {
-    "question": "Background: Woodpeckers peck hard tree trunks at high speed to extract grubs living beneath the bark.\n\n| Mechanical Adaptation | Function |\n|---|---|\n| Spongy, elastic skull bone | Absorbs impact shock, protecting the brain from concussion |\n| Extra-long barb-tipped tongue | Wraps around the skull and extends deep into insect tunnels |\n\nHow do these two structural adaptations work together to help the woodpecker obtain food?",
+    "question": "Woodpeckers peck hard tree trunks at high speed to extract grubs living beneath the bark.",
+    "table": {
+      "headers": ["Mechanical Adaptation", "Function"],
+      "rows": [
+        ["Spongy, elastic skull bone",    "Absorbs impact shock, protecting the brain from concussion"],
+        ["Extra-long barb-tipped tongue", "Wraps around the skull and extends deep into insect tunnels"]
+      ]
+    },
+    "stem": "How do these two structural adaptations work together to help the woodpecker obtain food?",
     "options": [
       "The spongy skull prevents brain damage during heavy pecking, while the long tongue extracts hidden grubs",
       "The spongy skull helps the woodpecker fly faster, while the tongue frightens hawks away",
@@ -165,7 +259,8 @@
     "time": 55
   },
   {
-    "question": "Background: Desert sandstorms blow sharp sand particles through the air at high speeds, making breathing and seeing difficult.\n\nObservation: Camels have slit-like nostrils that can close completely, and two rows of long, interlocking eyelashes on each eye.\n\nHow do these structural adaptations help the camel cope with sandstorms?",
+    "question": "Desert sandstorms blow sharp sand particles through the air at high speeds, making breathing and seeing difficult.\n\nCamels have slit-like nostrils that can close completely, and two rows of long, interlocking eyelashes on each eye.",
+    "stem": "How do these structural adaptations help the camel cope with sandstorms?",
     "options": [
       "They prevent blowing sand from entering the airways and damaging the eyes",
       "They help the camel detect water sources buried deep under sand dunes",
@@ -176,7 +271,15 @@
     "time": 50
   },
   {
-    "question": "Background: Water creates much greater drag force on swimming animals than air creates on land animals.\n\n| Animal | Shell/Body Shape | Water Drag Force Test (N) | Land Crushing Resistance Test (N) |\n|---|---|---|---|\n| Sea Turtle | Flat, streamlined shell | 5 | 200 |\n| Land Tortoise | High, domed heavy shell | 45 | 1200 |\n\nHow does the sea turtle's flat, streamlined shell adapt it to its marine environment?",
+    "question": "Water creates much greater drag force on swimming animals than air creates on land animals.",
+    "table": {
+      "headers": ["Animal", "Shell Shape", "Water Drag Force (N)", "Crushing Resistance (N)"],
+      "rows": [
+        ["Sea Turtle",    "Flat, streamlined shell",  "5",  "200"],
+        ["Land Tortoise", "High, domed heavy shell",  "45", "1200"]
+      ]
+    },
+    "stem": "How does the sea turtle's flat, streamlined shell adapt it to its marine environment?",
     "options": [
       "It reduces water drag, allowing the sea turtle to swim efficiently with less energy expenditure",
       "It allows the sea turtle to hide inside its shell to escape large sharks",
@@ -187,7 +290,15 @@
     "time": 55
   },
   {
-    "question": "Background: Antlion larvae dig funnel-shaped pits in loose, dry sand to catch passing ants for food.\n\n| Pit Slope Angle | Sand Behavior | Ant Escape Success Rate |\n|---|---|---|\n| 20 degrees | Stable sand bed | 90% |\n| 35 degrees (Critical slope) | Sand avalanches downward when stepped on | 5% |\n\nHow does digging a pit at the critical slope angle serve as a behavioural adaptation for hunting?",
+    "question": "Antlion larvae dig funnel-shaped pits in loose, dry sand to catch passing ants for food.",
+    "table": {
+      "headers": ["Pit Slope Angle", "Sand Behaviour", "Ant Escape Success Rate"],
+      "rows": [
+        ["20 degrees",              "Stable sand bed",                          "90%"],
+        ["35 degrees (Critical)",   "Sand avalanches downward when stepped on", "5%"]
+      ]
+    },
+    "stem": "How does digging a pit at the critical slope angle serve as a behavioural adaptation for hunting?",
     "options": [
       "Any ant stepping into the pit triggers a sand slide that carries it directly down to the antlion's jaws",
       "The steep pit hides the antlion completely from flying predatory birds",
@@ -198,7 +309,8 @@
     "time": 55
   },
   {
-    "question": "Background: Octopuses hunt crabs on rocky coral reefs while avoiding large predatory eels.\n\nObservation: An octopus can change its skin color in 0.2 seconds using pigment cells (chromatophores) and raise muscular bumps (papillae) on its skin to match the exact rough texture of surrounding sea rocks.\n\nHow do these structural adaptations help the octopus survive?",
+    "question": "Octopuses hunt crabs on rocky coral reefs while avoiding large predatory eels.\n\nAn octopus can change its skin color in 0.2 seconds using pigment cells (chromatophores) and raise muscular bumps (papillae) on its skin to match the exact rough texture of surrounding sea rocks.",
+    "stem": "How do these structural adaptations help the octopus survive?",
     "options": [
       "They provide instant dynamic camouflage to hide from predators and ambush unsuspecting prey",
       "They make the octopus taste bitter so predators spit it out",
@@ -209,7 +321,15 @@
     "time": 55
   },
   {
-    "question": "Background: Desert jerboas are small nocturnal rodents hunted by fast-striking vipers and owls.\n\n| Movement Style | Trajectory Path | Snake Strike Success Rate in Experiment |\n|---|---|---|\n| Normal mouse running | Predictable straight line | 82% |\n| Jerboa erratic jumping | Unpredictable 2-meter zig-zag bounds | 8% |\n\nHow does the jerboa's long hind legs and erratic jumping behaviour enhance its survival?",
+    "question": "Desert jerboas are small nocturnal rodents hunted by fast-striking vipers and owls.",
+    "table": {
+      "headers": ["Movement Style", "Trajectory Path", "Snake Strike Success Rate"],
+      "rows": [
+        ["Normal mouse running",     "Predictable straight line",       "82%"],
+        ["Jerboa erratic jumping",   "Unpredictable 2-metre zig-zag",   "8%"]
+      ]
+    },
+    "stem": "How does the jerboa's long hind legs and erratic jumping behaviour enhance its survival?",
     "options": [
       "The erratic jumps make its movement path unpredictable, causing striking predators to miss their target",
       "Jumping high cools down the jerboa's body by exposing it to night breezes",
@@ -220,7 +340,15 @@
     "time": 55
   },
   {
-    "question": "Background: Animals walking on soft snow sink if their weight is concentrated on a small foot area.\n\n| Mammal | Foot Surface Area (cm²) | Depth Sunk in Soft Snow (cm) | Energy Spent Moving (units) |\n|---|---|---|---|\n| Red Fox | 40 | 25 | 80 |\n| Snowshoe Hare | 150 | 4 | 15 |\n\nHow do the large, furry hind feet of the snowshoe hare help it survive arctic winters?",
+    "question": "Animals walking on soft snow sink if their weight is concentrated on a small foot area.",
+    "table": {
+      "headers": ["Mammal", "Foot Surface Area (cm²)", "Depth Sunk in Snow (cm)", "Energy Spent Moving (units)"],
+      "rows": [
+        ["Red Fox",       "40",  "25", "80"],
+        ["Snowshoe Hare", "150", "4",  "15"]
+      ]
+    },
+    "stem": "How do the large, furry hind feet of the snowshoe hare help it survive arctic winters?",
     "options": [
       "They spread body weight over a large surface area so the hare walks on top of soft snow without sinking, conserving energy to escape predators",
       "They allow the hare to dig through deep ice to find underground plant roots",
@@ -231,7 +359,15 @@
     "time": 55
   },
   {
-    "question": "Background: Mice and voles have keen hearing and rustle under fallen leaves at night. Owls hunt these small rodents in pitch darkness.\n\n| Flight Sound Level (Decibels) | Hunting Success Rate on Voles |\n|---|---|\n| Pigeon (Smooth feather edge): 45 dB | 12% |\n| Barn Owl (Serrated, fringed feather edge): 15 dB | 88% |\n\nHow does the serrated, fringed edge on a barn owl's flight feathers serve as a structural adaptation for hunting?",
+    "question": "Mice and voles have keen hearing and rustle under fallen leaves at night. Owls hunt these small rodents in pitch darkness.",
+    "table": {
+      "headers": ["Bird", "Flight Sound Level (dB)", "Hunting Success Rate"],
+      "rows": [
+        ["Pigeon (Smooth feather edge)",               "45 dB", "12%"],
+        ["Barn Owl (Serrated, fringed feather edge)",  "15 dB", "88%"]
+      ]
+    },
+    "stem": "How does the serrated, fringed edge on a barn owl's flight feathers serve as a structural adaptation for hunting?",
     "options": [
       "It reduces air turbulence sound during flapping, allowing silent flight so prey cannot hear the approaching owl",
       "It allows the owl to fly much faster than any other bird of prey",
@@ -242,7 +378,15 @@
     "time": 55
   },
   {
-    "question": "Background: Leaves evaporate large amounts of water into dry air. Cacti live in arid deserts where rain is extremely rare.\n\n| Plant Structure | Surface Area Exposed to Dry Air | Water Lost per Day (ml) |\n|---|---|---|\n| Broad green leaf | High | 150 |\n| Sharp cactus spine | Extremely Low | 0.5 |\n\nHow does modifying leaves into sharp spines help the cactus survive in desert environments?",
+    "question": "Leaves evaporate large amounts of water into dry air. Cacti live in arid deserts where rain is extremely rare.",
+    "table": {
+      "headers": ["Plant Structure", "Surface Area Exposed to Dry Air", "Water Lost per Day (ml)"],
+      "rows": [
+        ["Broad green leaf",   "High",           "150"],
+        ["Sharp cactus spine", "Extremely Low",  "0.5"]
+      ]
+    },
+    "stem": "How does modifying leaves into sharp spines help the cactus survive in desert environments?",
     "options": [
       "Spines drastically reduce surface area for water loss through transpiration while protecting the plant from hungry desert herbivores",
       "Spines absorb morning dew droplets and pump them directly into the soil",
@@ -253,7 +397,8 @@
     "time": 55
   },
   {
-    "question": "Background: Pythons and boas hunt prey animals (such as deer or pigs) that are much wider than the snake's own head.\n\nObservation: A snake's lower jaw is not rigidly attached to its skull; it is connected by flexible, elastic ligaments that allow the left and right sides of the jaw to separate independently.\n\nHow does this structural adaptation aid the snake in obtaining food?",
+    "question": "Pythons and boas hunt prey animals such as deer or pigs that are much wider than the snake's own head.\n\nA snake's lower jaw is not rigidly attached to its skull. It is connected by flexible, elastic ligaments that allow the left and right sides of the jaw to separate independently.",
+    "stem": "How does this structural adaptation aid the snake in obtaining food?",
     "options": [
       "It allows the snake's mouth to stretch open wide enough to swallow large prey animals whole",
       "It allows the snake to chew tough bones into soft powder before swallowing",
