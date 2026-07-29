@@ -1,0 +1,266 @@
+[
+  {
+    "question": "The gallbladder is an organ that stores bile, a fluid that helps emulsify fats into smaller droplets. If a patient has his gallbladder surgically removed due to gallstones, which dietary advice should a dietitian give him?",
+    "options": [
+      "Reduce intake of high-fat meals because bile storage is reduced, making fat emulsification less efficient",
+      "Avoid all carbohydrates because he can no longer produce carbohydrase enzymes",
+      "Increase protein intake significantly to replace the lost bile acids",
+      "Drink acidic fruit juices with every meal to compensate for lost stomach acid"
+    ],
+    "answer": "Reduce intake of high-fat meals because bile storage is reduced, making fat emulsification less efficient",
+    "time": 35
+  },
+  {
+    "question": "In a laboratory setup representing digestion, a Visking tubing (selectively permeable) containing starch and carbohydrase is placed in a beaker of warm water. After 1 hour, tests show glucose in the water, but no starch. Why?",
+    "options": [
+      "Carbohydrase digested starch into smaller glucose molecules that could diffuse out through the tubing pores",
+      "Starch molecules decomposed spontaneously into water and escaped through the tubing",
+      "Carbohydrase enzymes passed out of the tubing and converted water into glucose",
+      "Visking tubing active transport pumps forced starch out into the surrounding water"
+    ],
+    "answer": "Carbohydrase digested starch into smaller glucose molecules that could diffuse out through the tubing pores",
+    "time": 40
+  },
+  {
+    "question": "A patient undergoes surgery to remove a large section of her small intestine due to a medical condition. What long-term health impact is she most likely to experience?",
+    "options": [
+      "Malnutrition and weight loss due to reduced surface area for nutrient absorption",
+      "Inability to swallow solid food due to disrupted peristalsis",
+      "Severe acid reflux caused by excess stomach acid accumulation",
+      "Complete inability to digest dietary proteins into amino acids"
+    ],
+    "answer": "Malnutrition and weight loss due to reduced surface area for nutrient absorption",
+    "time": 35
+  },
+  {
+    "question": "A person frequently consumes antacid tablets that neutralize stomach acid completely. How might this affect his digestive system health?",
+    "options": [
+      "Stomach proteases become less effective, and harmful bacteria in food are more likely to survive",
+      "Carbohydrase digestion in the mouth is completely stopped",
+      "The small intestine produces excess water to replace the acid",
+      "Absorption of water in the large intestine increases drastically"
+    ],
+    "answer": "Stomach proteases become less effective, and harmful bacteria in food are more likely to survive",
+    "time": 35
+  },
+  {
+    "question": "A student takes a strong course of oral antibiotics for a throat infection. A few days later, he experiences abdominal cramps and diarrhoea. What is the most probable cause?",
+    "options": [
+      "Antibiotics destroyed beneficial gut bacteria, allowing harmful resistant bacteria to multiply",
+      "Antibiotics destroyed the villi lining in his small intestine completely",
+      "Antibiotics neutralized all lipase enzymes secreted in his digestive tract",
+      "Antibiotics caused the liver to stop producing bile entirely"
+    ],
+    "answer": "Antibiotics destroyed beneficial gut bacteria, allowing harmful resistant bacteria to multiply",
+    "time": 35
+  },
+  {
+    "question": "When a person swallows a mouthful of rice, chemical digestion of starch begins in the mouth but pauses once the food reaches the stomach. Why?",
+    "options": [
+      "The strongly acidic pH of the stomach denatures salivary carbohydrases",
+      "Stomach proteases destroy all carbohydrate molecules upon contact",
+      "Peristalsis in the gullet squeezes all digestive enzymes out of the food mass",
+      "There is no water in the stomach to support chemical enzyme reactions"
+    ],
+    "answer": "The strongly acidic pH of the stomach denatures salivary carbohydrases",
+    "time": 35
+  },
+  {
+    "question": "Two equal masses of boiled egg white (protein) are placed in test tubes with identical protease solutions. Tube A contains one solid block; Tube B contains finely chopped pieces. Why does Tube B digest faster?",
+    "options": [
+      "Chopping increases the surface area exposed to proteases, increasing reaction rate",
+      "Finely chopped pieces contain higher concentrations of amino acids",
+      "Chopping egg white changes its chemical structure into simple sugars",
+      "Protease enzymes operate only on small particles and ignore large blocks"
+    ],
+    "answer": "Chopping increases the surface area exposed to proteases, increasing reaction rate",
+    "time": 30
+  },
+  {
+    "question": "Coeliac disease causes inflammation that flattens the villi in the small intestine. Why do young children with untreated coeliac disease suffer from stunted growth?",
+    "options": [
+      "Reduced surface area impairs amino acid absorption needed for tissue growth and repair",
+      "Flattened villi prevent the stomach from producing hydrochloric acid",
+      "Undigested proteins pass directly into the blood and damage muscle tissue",
+      "Nutrients cannot be pushed down the gullet by peristalsis"
+    ],
+    "answer": "Reduced surface area impairs amino acid absorption needed for tissue growth and repair",
+    "time": 35
+  },
+  {
+    "question": "Dietary fibre (cellulose) cannot be digested by human carbohydrases. Why is it still an essential part of a healthy diet?",
+    "options": [
+      "It adds bulk to food waste, stimulating peristalsis to prevent constipation",
+      "It is absorbed into blood capillaries to supply instant energy to muscle cells",
+      "It neutralizes excess stomach acid to prevent gastric ulcers",
+      "It breaks down fat droplets into fatty acids and glycerol"
+    ],
+    "answer": "It adds bulk to food waste, stimulating peristalsis to prevent constipation",
+    "time": 30
+  },
+  {
+    "question": "The pancreas is an organ that produces digestive juices containing carbohydrases, proteases, and lipases. If a gallstone blocks the duct where pancreatic juice enters the small intestine, which classes of enzymes will be deficient in the small intestine?",
+    "options": [
+      "Carbohydrases, proteases, and lipases",
+      "Proteases only",
+      "Carbohydrases and lipases only",
+      "Lipases only"
+    ],
+    "answer": "Carbohydrases, proteases, and lipases",
+    "time": 35
+  },
+  {
+    "question": "Two individuals eat meals with equal calories. Person A eats refined sugary pastries; Person B eats whole-grain oats high in soluble fiber. How does Person B's diet help reduce the risk of Type 2 diabetes?",
+    "options": [
+      "Dietary fiber slows down carbohydrate digestion and glucose absorption, preventing sharp blood sugar spikes",
+      "Whole-grain oats contain proteases that destroy surplus blood glucose",
+      "Refined sugars destroy insulin-producing cells in the stomach wall immediately",
+      "Dietary fiber converts excess glucose into fatty acids inside the gullet"
+    ],
+    "answer": "Dietary fiber slows down carbohydrate digestion and glucose absorption, preventing sharp blood sugar spikes",
+    "time": 40
+  },
+  {
+    "question": "Individuals with lactose intolerance lack the carbohydrase needed to digest milk sugar (lactose). When they drink milk, unabsorbed lactose enters the large intestine. What occurs there?",
+    "options": [
+      "Gut bacteria ferment unabsorbed lactose, producing gases that cause bloating and diarrhoea",
+      "Lactose is converted into hydrochloric acid, causing stomach lining damage",
+      "The large intestine absorbs lactose rapidly, causing a sudden spike in blood pressure",
+      "Lactose solidifies into intestinal stones that block peristalsis"
+    ],
+    "answer": "Gut bacteria ferment unabsorbed lactose, producing gases that cause bloating and diarrhoea",
+    "time": 35
+  },
+  {
+    "question": "Severe bacterial infections such as cholera produce toxins that stop the large intestine lining from absorbing water. What is the most immediate life-threatening danger to the patient?",
+    "options": [
+      "Severe dehydration and loss of essential mineral salts due to watery diarrhoea",
+      "Inability to digest proteins into amino acids in the stomach",
+      "Rapid accumulation of undigested starch inside the bloodstream",
+      "Failure of body cells to undergo cellular respiration"
+    ],
+    "answer": "Severe dehydration and loss of essential mineral salts due to watery diarrhoea",
+    "time": 35
+  },
+  {
+    "question": "What protects the delicate stomach wall lining from being digested by its own protease enzymes and hydrochloric acid?",
+    "options": [
+      "A thick, protective layer of mucus secreted by stomach wall cells",
+      "A continuous stream of digestive juices flowing down from the gullet",
+      "A high concentration of sodium bicarbonate stored inside the stomach muscle",
+      "The rapid peristaltic movement that prevents acid from touching the wall"
+    ],
+    "answer": "A thick, protective layer of mucus secreted by stomach wall cells",
+    "time": 30
+  },
+  {
+    "question": "A person consumes a meal consisting solely of boiled egg whites (pure protein). What are the main digestive organs involved in chemically breaking down this meal?",
+    "options": [
+      "Stomach and small intestine",
+      "Mouth and stomach only",
+      "Gullet and large intestine",
+      "Mouth, gullet, and stomach"
+    ],
+    "answer": "Stomach and small intestine",
+    "time": 30
+  },
+  {
+    "question": "Bile is a fluid produced by the liver that physically breaks large fat droplets into smaller droplets. Which statement accurately describes how bile and lipases work together to digest fats efficiently?",
+    "options": [
+      "Bile physically breaks fat into smaller droplets; lipases chemically digest fat into fatty acids and glycerol",
+      "Bile chemically breaks fat into fatty acids; lipases physically absorb them into villi",
+      "Lipases emulsify fat into smaller droplets; bile chemically breaks them into simple sugars",
+      "Bile neutralizes lipases so that fats can be stored safely in cells"
+    ],
+    "answer": "Bile physically breaks fat into smaller droplets; lipases chemically digest fat into fatty acids and glycerol",
+    "time": 35
+  },
+  {
+    "question": "A scientist measures the pH along different sections of the human alimentary canal. Which sequence of pH values represents Mouth → Stomach → Small Intestine?",
+    "options": [
+      "pH 7 (Slightly alkaline/neutral) → pH 2 (Strongly acidic) → pH 8 (Slightly alkaline)",
+      "pH 2 (Strongly acidic) → pH 7 (Neutral) → pH 12 (Strongly alkaline)",
+      "pH 9 (Alkaline) → pH 9 (Alkaline) → pH 2 (Acidic)",
+      "pH 5 (Acidic) → pH 8 (Alkaline) → pH 2 (Acidic)"
+    ],
+    "answer": "pH 7 (Slightly alkaline/neutral) → pH 2 (Strongly acidic) → pH 8 (Slightly alkaline)",
+    "time": 35
+  },
+  {
+    "question": "If a sample of boiled saliva (carbohydrase) is mixed with a starch solution at 37°C, why does the starch remain undigested after 2 hours?",
+    "options": [
+      "High boiling temperature permanently altered the shape of the enzyme (denaturation)",
+      "Boiling destroyed the starch molecules so the enzyme had no target",
+      "Salivary carbohydrase requires hydrochloric acid to activate its function",
+      "The warm temperature of 37°C froze the enzyme activity completely"
+    ],
+    "answer": "High boiling temperature permanently altered the shape of the enzyme (denaturation)",
+    "time": 35
+  },
+  {
+    "question": "Insulin is a hormone that signals body cells to absorb glucose from the bloodstream. How does frequent consumption of high-sugar diets over many years increase the risk of Type 2 diabetes?",
+    "options": [
+      "Repeated blood sugar spikes cause body cells to become less responsive to insulin over time",
+      "Refined sugar damages the stomach wall, preventing protease secretion",
+      "Refined sugar destroys villi in the small intestine, blocking glucose absorption",
+      "Excess sugar stops the small intestine from absorbing water"
+    ],
+    "answer": "Repeated blood sugar spikes cause body cells to become less responsive to insulin over time",
+    "time": 35
+  },
+  {
+    "question": "An athlete eats a bowl of plain white rice 2 hours before a race. Trace the journey of the main nutrient from digestion in the alimentary canal to energy release in cells.",
+    "options": [
+      "Starch digested to glucose in small intestine → absorbed into blood → glucose used in cellular respiration",
+      "Protein digested to amino acids in stomach → absorbed into blood → amino acids burned for energy",
+      "Fats digested to fatty acids in mouth → stored in liver → converted directly to oxygen",
+      "Starch absorbed whole in large intestine → transported to muscles → broken down to water"
+    ],
+    "answer": "Starch digested to glucose in small intestine → absorbed into blood → glucose used in cellular respiration",
+    "time": 40
+  },
+  {
+    "question": "Why does the gullet secrete mucus even though it produces no digestive enzymes?",
+    "options": [
+      "To lubricate the food bolus so it slides smoothly down to the stomach during peristalsis",
+      "To begin the chemical breakdown of dietary fats before reaching the stomach",
+      "To kill airborne bacteria trapped inside swallowed food particles",
+      "To absorb simple sugars directly into surrounding blood capillaries"
+    ],
+    "answer": "To lubricate the food bolus so it slides smoothly down to the stomach during peristalsis",
+    "time": 30
+  },
+  {
+    "question": "In a surgical procedure for weight loss, a patient has a large portion of her stomach removed. Which dietary adjustment must the patient make after recovery?",
+    "options": [
+      "Eat smaller, more frequent meals because the stomach holding capacity is greatly reduced",
+      "Drink 5 liters of water with every meal to dilute remaining stomach enzymes",
+      "Avoid eating all cooked proteins because protein digestion can no longer occur",
+      "Consume only raw fats to bypass the need for intestinal enzymes"
+    ],
+    "answer": "Eat smaller, more frequent meals because the stomach holding capacity is greatly reduced",
+    "time": 35
+  },
+  {
+    "question": "How do beneficial gut bacteria residing in the human digestive tract help protect against infections caused by harmful pathogenic bacteria?",
+    "options": [
+      "They compete with pathogenic bacteria for nutrients and space along the intestinal wall",
+      "They secrete strong hydrochloric acid directly into the large intestine",
+      "They produce human antibodies that kill viruses in the stomach",
+      "They absorb all water from the small intestine to dry out pathogens"
+    ],
+    "answer": "They compete with pathogenic bacteria for nutrients and space along the intestinal wall",
+    "time": 35
+  },
+  {
+    "question": "Food entering the small intestine from the stomach is strongly acidic. Alkaline secretions enter the small intestine to neutralize this acid. If these alkaline secretions fail to enter the small intestine, what would happen to the rate of protein digestion there?",
+    "options": [
+      "Acidic chyme from the stomach would keep pH low, slowing or stopping small intestine protease activity",
+      "Protein digestion would speed up dramatically because proteases prefer strong acids",
+      "Protease enzymes would turn into carbohydrase enzymes to digest starch instead",
+      "Proteins would be converted directly into fatty acids and glycerol"
+    ],
+    "answer": "Acidic chyme from the stomach would keep pH low, slowing or stopping small intestine protease activity",
+    "time": 40
+  }
+]

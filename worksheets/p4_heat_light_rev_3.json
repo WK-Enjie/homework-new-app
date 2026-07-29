@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Why do road safety vests worn by traffic officers at night have silver reflective strips on them?",
+    "options": [
+      "They reflect light from car headlights into the driver's eyes, making the officer visible",
+      "They produce their own bright light continuously in total darkness",
+      "They absorb heat from car engines and glow in the dark",
+      "They bend car headlight rays away from the road"
+    ],
+    "answer": "They reflect light from car headlights into the driver's eyes, making the officer visible",
+    "time": 25
+  },
+  {
+    "question": "How can a dentist inspect the back of a patient's upper tooth using a small angled mirror?",
+    "options": [
+      "The mirror reflects light from the dental lamp off the back of the tooth into the dentist's eyes",
+      "The mirror produces its own light to shine on the dark tooth",
+      "The mirror bends light rays around the tooth so no shadow is formed",
+      "The mirror absorbs cold air from the patient's mouth"
+    ],
+    "answer": "The mirror reflects light from the dental lamp off the back of the tooth into the dentist's eyes",
+    "time": 25
+  },
+  {
+    "question": "Why is frosted glass often used for bathroom windows instead of clear glass?",
+    "options": [
+      "It is translucent, so it lets some light pass through while casting a faint shadow to block clear view",
+      "It is opaque, so it blocks all light and casts a very dark shadow",
+      "It is transparent, so it allows all light to pass through without casting any shadow",
+      "It acts as a light source to illuminate the bathroom automatically"
+    ],
+    "answer": "It is translucent, so it lets some light pass through while casting a faint shadow to block clear view",
+    "time": 30
+  },
+  {
+    "question": "Ali tried to look at a lit candle through a flexible plastic hose bent into an S-shape. Why could he NOT see the flame?",
+    "options": [
+      "Light travels in straight lines and cannot pass through a bent hose",
+      "Plastic hose absorbs all light rays completely",
+      "Light turns into heat energy inside bent hoses",
+      "The candle flame stops glowing when viewed through plastic"
+    ],
+    "answer": "Light travels in straight lines and cannot pass through a bent hose",
+    "time": 25
+  },
+  {
+    "question": "During a shadow puppet show, an actor wants a dragon puppet's shadow on the screen to become LARGER. What adjustment should he make?",
+    "options": [
+      "Move the torch closer to the puppet",
+      "Move the puppet closer to the screen",
+      "Move the torch further away from the puppet",
+      "Move both the torch and screen further away"
+    ],
+    "answer": "Move the torch closer to the puppet",
+    "time": 25
+  },
+  {
+    "question": "An unopened soup can is held between a light source and a screen. Depending on how it is held, which pair of shadow shapes can it cast?",
+    "options": [
+      "A circle or a rectangle",
+      "A circle or a triangle",
+      "A square or a triangle",
+      "An oval or a square"
+    ],
+    "answer": "A circle or a rectangle",
+    "time": 25
+  },
+  {
+    "question": "At 9:00 am, a vertical pole outdoors casts a long shadow pointing west. At 12:00 noon, how does the shadow compare?",
+    "options": [
+      "The shadow is much shorter and positioned near the base of the pole",
+      "The shadow is much longer and points towards the east",
+      "The shadow stays the exact same length and position",
+      "The shadow turns into bright light because the Sun is overhead"
+    ],
+    "answer": "The shadow is much shorter and positioned near the base of the pole",
+    "time": 25
+  },
+  {
+    "question": "A light sensor measures light passing through four material sheets: Sheet A (0 units), Sheet B (450 units), Sheet C (150 units), Sheet D (900 units). The torch gives off 900 units. Which sheet is OPAQUE?",
+    "options": [
+      "Sheet A",
+      "Sheet B",
+      "Sheet C",
+      "Sheet D"
+    ],
+    "answer": "Sheet A",
+    "time": 25
+  },
+  {
+    "question": "During a night football match, four large stadium lights shine on a player from four different directions. How many separate shadows will be cast on the field?",
+    "options": [
+      "Four separate shadows because the player blocks light coming from four sources",
+      "Only one single black shadow directly beneath the player",
+      "No shadows because multiple lights cancel each other out",
+      "Two shadows because light rays merge in pairs"
+    ],
+    "answer": "Four separate shadows because the player blocks light coming from four sources",
+    "time": 30
+  },
+  {
+    "question": "An opaque wooden card with a small square hole cut in its center is placed between a torch and a screen. What appears on the screen?",
+    "options": [
+      "A dark rectangular shadow with a bright square patch in the middle",
+      "A bright background with a dark square shadow in the middle",
+      "A completely dark shadow with no light passing through",
+      "A dark square shadow with a bright circle in the middle"
+    ],
+    "answer": "A dark rectangular shadow with a bright square patch in the middle",
+    "time": 30
+  },
+  {
+    "question": "Mei Ling wants to test if the DISTANCE between a light source and an object affects the height of its shadow. What is the ONLY variable she should change in her experiment?",
+    "options": [
+      "The distance between the light source and the object",
+      "The height and shape of the object",
+      "The distance between the object and the screen",
+      "The brightness of the light source"
+    ],
+    "answer": "The distance between the light source and the object",
+    "time": 30
+  },
+  {
+    "question": "A periscope uses two flat mirrors set at 45-degree angles inside a tube. How does a sailor inside a submarine view ships on the sea surface?",
+    "options": [
+      "Light from the ship reflects off the top mirror, then off the bottom mirror into his eyes",
+      "Light from his eyes shines out through both mirrors to illuminate the ship",
+      "Light bends continuously inside the tube without touching any mirrors",
+      "Light is absorbed by the top mirror and recreated by the bottom mirror"
+    ],
+    "answer": "Light from the ship reflects off the top mirror, then off the bottom mirror into his eyes",
+    "time": 30
+  },
+  {
+    "question": "A chef uses a stainless steel frying pan with a wooden handle to cook. Why are stainless steel and wood chosen for these parts?",
+    "options": [
+      "Stainless steel is a good conductor of heat so food cooks fast; wood is a poor conductor of heat so the chef's hand does not get burned",
+      "Stainless steel is a poor conductor of heat so food cooks slowly; wood is a good conductor of heat to warm the chef's hand",
+      "Both stainless steel and wood are good conductors of heat to speed up cooking",
+      "Both stainless steel and wood are poor conductors of heat to keep the kitchen cool"
+    ],
+    "answer": "Stainless steel is a good conductor of heat so food cooks fast; wood is a poor conductor of heat so the chef's hand does not get burned",
+    "time": 35
+  },
+  {
+    "question": "An identical cold egg is added to Mug A (100 ml of hot water at 95°C) and Pot B (1000 ml of hot water at 95°C). Why does the egg cook faster and more thoroughly in Pot B?",
+    "options": [
+      "Pot B contains a larger volume of water with more heat energy, so its temperature drops less when the cold egg is added",
+      "Pot B has a higher starting temperature than Mug A",
+      "Mug A absorbs coldness from the egg much faster",
+      "The larger volume of water in Pot B creates higher pressure on the egg"
+    ],
+    "answer": "Pot B contains a larger volume of water with more heat energy, so its temperature drops less when the cold egg is added",
+    "time": 35
+  },
+  {
+    "question": "Cup 1 contains 100 ml of hot water at 90°C. Pot 2 contains 2000 ml of hot water at 90°C. Both are left on a table in a room at 25°C. Why does Cup 1 cool down to 25°C much faster than Pot 2?",
+    "options": [
+      "Cup 1 contains a smaller volume of water with less heat energy, so it takes less time to lose its heat energy to the room",
+      "Cup 1 has a lower starting temperature than Pot 2",
+      "Pot 2 generates its own heat energy continuously while sitting in the room",
+      "Air in the room transfers coldness into Cup 1 faster than into Pot 2"
+    ],
+    "answer": "Cup 1 contains a smaller volume of water with less heat energy, so it takes less time to lose its heat energy to the room",
+    "time": 35
+  },
+  {
+    "question": "A baker places a glass bowl of solid chocolate chips over a pot of hot water at 80°C. Why do the chocolate chips melt into a liquid?",
+    "options": [
+      "The chocolate chips gain heat from the hotter water, causing their temperature to rise and melt",
+      "Coldness leaves the chocolate chips and enters the hot water",
+      "The glass bowl transfers coldness from the room into the chocolate",
+      "The hot water loses heat to the air, forcing the chocolate to melt"
+    ],
+    "answer": "The chocolate chips gain heat from the hotter water, causing their temperature to rise and melt",
+    "time": 30
+  },
+  {
+    "question": "A cook inserts a digital temperature probe into the middle of a roasting turkey. What does the reading on the probe measure?",
+    "options": [
+      "The degree of hotness of the turkey",
+      "The total amount of heat energy stored inside the entire turkey",
+      "The weight of heat transferred from the oven",
+      "The time needed for the turkey skin to turn brown"
+    ],
+    "answer": "The degree of hotness of the turkey",
+    "time": 25
+  },
+  {
+    "question": "A boy drops two ice cubes at 0°C into a glass of hot lemon tea at 60°C. What happens to the heat energy and temperature of the tea?",
+    "options": [
+      "Heat energy flows from the hot tea into the colder ice cubes; the temperature of the tea decreases",
+      "Coldness flows from the ice cubes into the hot tea; the temperature of the ice cubes increases",
+      "Heat energy flows from the ice cubes into the hot tea; the temperature of the tea increases",
+      "No heat flows because ice cubes do not contain heat energy"
+    ],
+    "answer": "Heat energy flows from the hot tea into the colder ice cubes; the temperature of the tea decreases",
+    "time": 30
+  },
+  {
+    "question": "Mother finds it difficult to unscrew a tight metal lid on a glass jam jar. She runs hot water over the metal lid for 30 seconds, and the lid opens easily. Why?",
+    "options": [
+      "The metal lid gains heat from the hot water and expands more than the glass jar",
+      "The glass jar gains heat from the hot water and contracts, releasing the lid",
+      "The metal lid loses heat to the hot water and shrinks, becoming looser",
+      "The hot water melts the glass jar rim so the metal lid slides off"
+    ],
+    "answer": "The metal lid gains heat from the hot water and expands more than the glass jar",
+    "time": 30
+  },
+  {
+    "question": "Small gaps are intentionally left between concrete slabs on outdoor footpaths in Singapore. What is the main purpose of these gaps?",
+    "options": [
+      "To allow space for the concrete slabs to expand when they gain heat on hot days without buckling",
+      "To allow space for the concrete slabs to contract when they gain heat on sunny days",
+      "To allow coldness to flow into the ground so the path stays cool",
+      "To prevent light from casting dark shadows under the footpath"
+    ],
+    "answer": "To allow space for the concrete slabs to expand when they gain heat on hot days without buckling",
+    "time": 30
+  },
+  {
+    "question": "A baker wears thick cloth oven mitts when removing a hot metal tray at 180°C from the oven. Why do oven mitts protect his hands?",
+    "options": [
+      "Cloth is a poor conductor of heat, so heat flows very slowly from the hot tray to his hands",
+      "Cloth is a good conductor of heat, so it absorbs all the heat energy from the tray instantly",
+      "Cloth transfers coldness from the air into his hands while holding the tray",
+      "Cloth stops the metal tray from expanding further inside his hands"
+    ],
+    "answer": "Cloth is a poor conductor of heat, so heat flows very slowly from the hot tray to his hands",
+    "time": 30
+  },
+  {
+    "question": "While boiling water on a stove to cook soup, the water temperature reaches 100°C and stays at 100°C for 10 minutes while boiling continuously. Why does the temperature NOT rise above 100°C?",
+    "options": [
+      "Water stays at its boiling point of 100°C while changing state into steam, even as heat is continuously supplied",
+      "The stove flame stops transferring heat energy once the water reaches 100°C",
+      "The water loses all its heat energy to the room at 100°C so no heat is gained",
+      "The thermometer stops recording temperature above 100°C"
+    ],
+    "answer": "Water stays at its boiling point of 100°C while changing state into steam, even as heat is continuously supplied",
+    "time": 35
+  },
+  {
+    "question": "A chef uses a digital temperature sensor connected to a datalogger to monitor hot oil continuously while frying chicken. Why is this method preferred over using a glass thermometer?",
+    "options": [
+      "It provides real-time, accurate digital readings safely without the risk of glass breaking in hot oil",
+      "It generates extra heat to make the oil reach 200°C faster",
+      "It prevents the cooking oil from gaining heat from the stove burner",
+      "It turns the hot oil into a poor conductor of heat"
+    ],
+    "answer": "It provides real-time, accurate digital readings safely without the risk of glass breaking in hot oil",
+    "time": 30
+  },
+  {
+    "question": "A student poured 200 ml of hot coffee at 90°C into four cups made of different materials (W, X, Y, and Z). After 20 minutes in a room at 25°C, the temperatures were recorded: Cup W = 75°C, Cup X = 50°C, Cup Y = 62°C, and Cup Z = 40°C. Which material is MOST suitable for making a mug to keep cold coffee cool for the longest time?",
+    "options": [
+      "Material W, because its coffee had the highest remaining temperature, showing it is a poor conductor of heat that lost heat slowest",
+      "Material Z, because its coffee dropped to 40°C, showing it gained coldness fastest",
+      "Material X, because a middle temperature of 50°C shows it is a good conductor of heat",
+      "Material Y, because its coffee cooled down faster than Cup W"
+    ],
+    "answer": "Material W, because its coffee had the highest remaining temperature, showing it is a poor conductor of heat that lost heat slowest so it will also gain heat the slowest",
+    "time": 35
+  }
+]

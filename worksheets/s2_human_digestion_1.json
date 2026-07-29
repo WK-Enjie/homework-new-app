@@ -1,0 +1,266 @@
+[
+  {
+    "question": "What is the primary function of the human digestive system?",
+    "options": [
+      "To break down large, insoluble food molecules into small, soluble ones for absorption",
+      "To transport oxygen and absorbed nutrients to all body cells",
+      "To convert undigested food waste into glucose for energy",
+      "To filter liquid metabolic wastes out of the blood stream"
+    ],
+    "answer": "To break down large, insoluble food molecules into small, soluble ones for absorption",
+    "time": 25
+  },
+  {
+    "question": "Which statement correctly describes physical digestion?",
+    "options": [
+      "Mechanical breakdown of food into smaller pieces without changing its chemical structure",
+      "Chemical breakdown of complex food molecules into simple molecules using enzymes",
+      "Absorption of digested nutrient molecules into blood capillaries",
+      "Removal of undigested waste materials through the anus"
+    ],
+    "answer": "Mechanical breakdown of food into smaller pieces without changing its chemical structure",
+    "time": 20
+  },
+  {
+    "question": "Which digestive processes occur inside the mouth?",
+    "options": [
+      "Physical digestion by teeth and chemical digestion of starch by carbohydrases",
+      "Physical digestion by teeth and chemical digestion of proteins by proteases",
+      "Chemical digestion of fats by lipases and absorption of simple sugars",
+      "Physical churning by muscles and killing of bacteria by acid"
+    ],
+    "answer": "Physical digestion by teeth and chemical digestion of starch by carbohydrases",
+    "time": 25
+  },
+  {
+    "question": "What is the main role of the gullet (oesophagus) in the digestive system?",
+    "options": [
+      "Pushes food down to the stomach via wave-like muscular contractions called peristalsis",
+      "Secretes strong proteases to begin the chemical breakdown of meat",
+      "Absorbs water and mineral salts directly into the bloodstream",
+      "Produces bile to emulsify large fat droplets into smaller droplets"
+    ],
+    "answer": "Pushes food down to the stomach via wave-like muscular contractions called peristalsis",
+    "time": 25
+  },
+  {
+    "question": "Which two key substances are secreted by the stomach lining to aid digestion?",
+    "options": [
+      "Hydrochloric acid and proteases",
+      "Bile and lipases",
+      "Salivary carbohydrases and mucus",
+      "Sodium bicarbonate and insulin"
+    ],
+    "answer": "Hydrochloric acid and proteases",
+    "time": 20
+  },
+  {
+    "question": "What are the two major functions carried out by the small intestine?",
+    "options": [
+      "Completing the digestion of food and absorbing soluble nutrient molecules",
+      "Storing undigested faeces and reabsorbing excess water",
+      "Producing bile and filtering toxic substances from the blood",
+      "Churning solid food into chyme and producing hydrochloric acid"
+    ],
+    "answer": "Completing the digestion of food and absorbing soluble nutrient molecules",
+    "time": 25
+  },
+  {
+    "question": "What is the primary function of the large intestine?",
+    "options": [
+      "Absorbing water and mineral salts from undigested food materials",
+      "Completing the digestion of proteins into amino acids",
+      "Secreting lipases to break down dietary fats",
+      "Storing faeces temporarily before egestion"
+    ],
+    "answer": "Absorbing water and mineral salts from undigested food materials",
+    "time": 20
+  },
+  {
+    "question": "Which row correctly pairs the class of enzyme with its target food substance (substrate)?",
+    "options": [
+      "Carbohydrase → Carbohydrates; Protease → Proteins; Lipase → Fats",
+      "Carbohydrase → Proteins; Protease → Fats; Lipase → Carbohydrates",
+      "Carbohydrase → Fats; Protease → Carbohydrates; Lipase → Proteins",
+      "Carbohydrase → Carbohydrates; Protease → Fats; Lipase → Proteins"
+    ],
+    "answer": "Carbohydrase → Carbohydrates; Protease → Proteins; Lipase → Fats",
+    "time": 20
+  },
+  {
+    "question": "What are the final end-products when carbohydrates are completely digested?",
+    "options": [
+      "Simple sugars (such as glucose)",
+      "Amino acids",
+      "Fatty acids and glycerol",
+      "Water and mineral salts"
+    ],
+    "answer": "Simple sugars (such as glucose)",
+    "time": 20
+  },
+  {
+    "question": "What are the final end-products when proteins are completely digested by proteases?",
+    "options": [
+      "Amino acids",
+      "Glucose molecules",
+      "Fatty acids and glycerol",
+      "Starch and glycogen"
+    ],
+    "answer": "Amino acids",
+    "time": 20
+  },
+  {
+    "question": "What are the final end-products of fat digestion by lipases?",
+    "options": [
+      "Fatty acids and glycerol",
+      "Amino acids and glucose",
+      "Simple sugars and water",
+      "Glycerol and nucleic acids"
+    ],
+    "answer": "Fatty acids and glycerol",
+    "time": 20
+  },
+  {
+    "question": "How is the absorbed glucose used by human body cells?",
+    "options": [
+      "Used in cellular respiration to release energy for life processes",
+      "Used directly to build cell membranes and repair damaged muscle tissue",
+      "Converted into bile salts to assist in fat emulsification",
+      "Stored permanently in red blood cells to carry oxygen"
+    ],
+    "answer": "Used in cellular respiration to release energy for life processes",
+    "time": 25
+  },
+  {
+    "question": "How are absorbed amino acids utilized by the human body?",
+    "options": [
+      "To synthesize new proteins for cell growth and repair of worn-out tissues",
+      "To be broken down immediately as the primary source of energy during rest",
+      "To absorb fat-soluble vitamins inside the large intestine",
+      "To neutralize acidic chyme entering the small intestine"
+    ],
+    "answer": "To synthesize new proteins for cell growth and repair of worn-out tissues",
+    "time": 25
+  },
+  {
+    "question": "Why is hydrochloric acid in the stomach essential for digestion?",
+    "options": [
+      "It kills harmful bacteria in food and provides an acidic medium for proteases",
+      "It emulsifies large fat droplets into smaller droplets to increase surface area",
+      "It breaks down complex carbohydrates into simple glucose molecules directly",
+      "It neutralizes alkaline secretions coming from the mouth"
+    ],
+    "answer": "It kills harmful bacteria in food and provides an acidic medium for proteases",
+    "time": 25
+  },
+  {
+    "question": "What role does bile play in the digestion of fats?",
+    "options": [
+      "It emulsifies large fat droplets into smaller droplets, increasing surface area for lipase action",
+      "It chemically breaks down fats into fatty acids and glycerol molecules",
+      "It provides an acidic environment necessary for lipase to function",
+      "It coats the small intestine wall to absorb fatty acids into blood vessels"
+    ],
+    "answer": "It emulsifies large fat droplets into smaller droplets, increasing surface area for lipase action",
+    "time": 30
+  },
+  {
+    "question": "How do finger-like projections called villi adapt the small intestine for efficient absorption?",
+    "options": [
+      "They greatly increase the surface area for rapid absorption of digested nutrients",
+      "They produce wave-like contractions to push undigested waste into the rectum",
+      "They secrete hydrochloric acid to kill pathogens in digested food",
+      "They trap large insoluble food particles to prevent them from entering blood"
+    ],
+    "answer": "They greatly increase the surface area for rapid absorption of digested nutrients",
+    "time": 25
+  },
+  {
+    "question": "Which of the following is a BENEFICIAL role of micro-organisms (bacteria) in the human digestive tract?",
+    "options": [
+      "Synthesizing certain essential vitamins (such as Vitamin K) and aiding digestion",
+      "Producing hydrochloric acid to lower the pH of the small intestine",
+      "Secreting lipases to break down dietary fats in the stomach",
+      "Preventing nutrient absorption across the wall of the large intestine"
+    ],
+    "answer": "Synthesizing certain essential vitamins (such as Vitamin K) and aiding digestion",
+    "time": 25
+  },
+  {
+    "question": "What is a potential HARMFUL effect of pathogenic bacteria in the digestive tract?",
+    "options": [
+      "Causing gut infections leading to severe diarrhoea and vomiting",
+      "Accelerating the rate of protein breakdown in the small intestine",
+      "Preventing the development of Type 2 diabetes",
+      "Increasing the thickness of the stomach protective mucus layer"
+    ],
+    "answer": "Causing gut infections leading to severe diarrhoea and vomiting",
+    "time": 20
+  },
+  {
+    "question": "What characterizes Type 2 Diabetes mellitus?",
+    "options": [
+      "High blood glucose levels due to body cells becoming resistant to insulin",
+      "Inability of the stomach to produce hydrochloric acid and proteases",
+      "Loss of villi in the small intestine preventing glucose absorption",
+      "Complete failure of the large intestine to reabsorb water"
+    ],
+    "answer": "High blood glucose levels due to body cells becoming resistant to insulin",
+    "time": 25
+  },
+  {
+    "question": "Which lifestyle modification is most effective in lowering the risk of developing Type 2 Diabetes?",
+    "options": [
+      "Reducing intake of sugary drinks and maintaining a active, balanced diet",
+      "Completely avoiding dietary fats and eating only raw protein foods",
+      "Increasing consumption of refined carbohydrates and skipping meals",
+      "Taking antibiotic supplements daily to eliminate all gut bacteria"
+    ],
+    "answer": "Reducing intake of sugary drinks and maintaining a active, balanced diet",
+    "time": 25
+  },
+  {
+    "question": "What is the distinction between egestion and excretion?",
+    "options": [
+      "Egestion is removing undigested waste via anus; Excretion is removing metabolic wastes",
+      "Egestion occurs in the kidney; Excretion occurs at the rectum",
+      "Egestion breaks down proteins; Excretion breaks down carbohydrates",
+      "Egestion absorbs water; Excretion secretes digestive enzymes"
+    ],
+    "answer": "Egestion is removing undigested waste via anus; Excretion is removing metabolic wastes",
+    "time": 25
+  },
+  {
+    "question": "How does missing several teeth affect the overall process of digestion?",
+    "options": [
+      "Reduces physical digestion, leaving larger food pieces that slow down chemical enzyme action",
+      "Stops the secretion of salivary carbohydrase in the mouth completely",
+      "Prevents peristalsis from pushing food down through the gullet",
+      "Forces the stomach to stop secreting hydrochloric acid"
+    ],
+    "answer": "Reduces physical digestion, leaving larger food pieces that slow down chemical enzyme action",
+    "time": 25
+  },
+  {
+    "question": "Why must large starch molecules be digested into simple sugars before entering body cells?",
+    "options": [
+      "Starch molecules are too large and insoluble to pass through cell membranes into the blood",
+      "Starch molecules are toxic to blood vessels and cause blockages",
+      "Starch molecules are destroyed by stomach acid before reaching the intestine",
+      "Simple sugars contain more energy per gram than starch molecules"
+    ],
+    "answer": "Starch molecules are too large and insoluble to pass through cell membranes into the blood",
+    "time": 25
+  },
+  {
+    "question": "What happens to the rectum when undigested food waste accumulates?",
+    "options": [
+      "It expands to temporarily store faeces before they are egested through the anus",
+      "It absorbs remaining glucose and amino acids into surrounding capillaries",
+      "It secretes proteases to break down fibrous plant materials",
+      "It neutralizes acidic toxins produced by pathogenic gut bacteria"
+    ],
+    "answer": "It expands to temporarily store faeces before they are egested through the anus",
+    "time": 20
+  }
+]
