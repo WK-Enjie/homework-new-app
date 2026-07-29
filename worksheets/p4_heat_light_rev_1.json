@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Which of the following items is a source of light?",
+    "options": [
+      "A lit campfire",
+      "A shiny glass mirror",
+      "The Moon at night",
+      "A polished metal tray"
+    ],
+    "answer": "A lit campfire",
+    "time": 20
+  },
+  {
+    "question": "How can a student see a wooden pencil lying on his desk during the daytime?",
+    "options": [
+      "Light from the window reflects off the pencil into his eyes",
+      "The pencil produces its own light which enters his eyes",
+      "His eyes send out light rays to shine on the pencil",
+      "Light bends around his eyes to reach the pencil"
+    ],
+    "answer": "Light from the window reflects off the pencil into his eyes",
+    "time": 25
+  },
+  {
+    "question": "Siti tried to look at a light bulb through a flexible rubber hose that was bent into an S-shape. Why could she NOT see the light?",
+    "options": [
+      "Light travels in straight lines and cannot pass through a bent hose",
+      "Rubber absorbs all light rays completely",
+      "Light turns into heat inside bent hoses",
+      "The light bulb stops glowing when viewed through rubber"
+    ],
+    "answer": "Light travels in straight lines and cannot pass through a bent hose",
+    "time": 25
+  },
+  {
+    "question": "Why is a dark shadow formed on a wall when an opaque wooden toy is held in front of a torch?",
+    "options": [
+      "The wooden toy blocks light because light travels in straight lines",
+      "The torch pulls dark air toward the wooden toy",
+      "Light bends around the toy to leave a dark spot in the center",
+      "The wooden toy absorbs all the room temperature"
+    ],
+    "answer": "The wooden toy blocks light because light travels in straight lines",
+    "time": 25
+  },
+  {
+    "question": "Which material allows ALL or MOST light to pass through it, casting almost no shadow?",
+    "options": [
+      "Clear glass pane",
+      "Tracing paper sheet",
+      "Thick cardboard box",
+      "Aluminium foil sheet"
+    ],
+    "answer": "Clear glass pane",
+    "time": 20
+  },
+  {
+    "question": "John wants to make the shadow of a tennis ball on a screen LARGER. What should he do?",
+    "options": [
+      "Move the torch closer to the tennis ball",
+      "Move the tennis ball closer to the screen",
+      "Move the torch further away from the tennis ball",
+      "Move both the torch and screen further away"
+    ],
+    "answer": "Move the torch closer to the tennis ball",
+    "time": 25
+  },
+  {
+    "question": "At what time of day will a tree outdoors cast its SHORTEST shadow on the grass?",
+    "options": [
+      "12:00 noon",
+      "8:00 am",
+      "4:00 pm",
+      "6:30 pm"
+    ],
+    "answer": "12:00 noon",
+    "time": 20
+  },
+  {
+    "question": "An opaque cardboard sheet with a small square hole in the middle is placed between a torch and a screen. What will appear on the screen?",
+    "options": [
+      "A dark rectangular shadow with a bright square in the middle",
+      "A bright square background with a dark card shadow",
+      "A completely dark shadow with no light passing through",
+      "A bright circle with a dark square in the middle"
+    ],
+    "answer": "A dark rectangular shadow with a bright square in the middle",
+    "time": 30
+  },
+  {
+    "question": "Which statement correctly describes how light behaves when it hits a flat mirror?",
+    "options": [
+      "Light reflects off the smooth mirror surface in a straight line",
+      "Light passes straight through the mirror without stopping",
+      "Light is absorbed completely by the mirror and turned into heat",
+      "Light bends around the mirror edges to create a dark shadow"
+    ],
+    "answer": "Light reflects off the smooth mirror surface in a straight line",
+    "time": 25
+  },
+  {
+    "question": "A student enters a room with no light sources and all windows covered. Why can she NOT see her white shoes?",
+    "options": [
+      "There is no light source to reflect off her shoes into her eyes",
+      "White shoes stop reflecting light when it is quiet",
+      "Human eyes can only see objects that generate heat",
+      "Her shoes absorb all darkness and become transparent"
+    ],
+    "answer": "There is no light source to reflect off her shoes into her eyes",
+    "time": 25
+  },
+  {
+    "question": "In a shadow experiment, keeping the torch and object fixed while moving the screen CLOSER to the object will make the shadow:",
+    "options": [
+      "Smaller",
+      "Larger",
+      "Stay the exact same size",
+      "Disappear completely"
+    ],
+    "answer": "Smaller",
+    "time": 25
+  },
+  {
+    "question": "A periscope allows a child to see over a high wall using two flat mirrors. How does light reach the child's eyes?",
+    "options": [
+      "Light reflects off the top mirror, then off the bottom mirror into the eyes",
+      "Light travels straight through both mirrors without bouncing",
+      "Light from the eyes shines through the mirrors to illuminate the wall",
+      "Light bends continuously inside the tube without touching any mirrors"
+    ],
+    "answer": "Light reflects off the top mirror, then off the bottom mirror into the eyes",
+    "time": 30
+  },
+  {
+    "question": "Which of the following is a main natural source of heat for Earth?",
+    "options": [
+      "The Sun",
+      "An electric toaster",
+      "A glass mirror",
+      "The ocean"
+    ],
+    "answer": "The Sun",
+    "time": 20
+  },
+  {
+    "question": "What is the definition of the temperature of an object?",
+    "options": [
+      "A measurement of its degree of hotness",
+      "The total amount of heat energy stored inside it",
+      "The time it takes for an object to freeze",
+      "The weight and size of the object"
+    ],
+    "answer": "A measurement of its degree of hotness",
+    "time": 20
+  },
+  {
+    "question": "Which statement correctly distinguishes heat from temperature?",
+    "options": [
+      "Heat is a form of energy, while temperature measures degree of hotness",
+      "Heat is measured in degree Celsius, while temperature is measured in units of energy",
+      "Temperature flows from hot to cold, while heat remains stationary",
+      "Temperature rises when heat is lost, while heat rises when temperature drops"
+    ],
+    "answer": "Heat is a form of energy, while temperature measures degree of hotness",
+    "time": 25
+  },
+  {
+    "question": "A hot iron spoon at 80°C is dipped into a bowl of cold soup at 15°C. What is the direction of heat flow?",
+    "options": [
+      "From the hot spoon to the cold soup",
+      "From the cold soup to the hot spoon",
+      "Heat flows back and forth equally between both",
+      "No heat flows because one is solid and one is liquid"
+    ],
+    "answer": "From the hot spoon to the cold soup",
+    "time": 25
+  },
+  {
+    "question": "Heat will continue to flow between two touching metal keys until:",
+    "options": [
+      "Both keys reach the exact same temperature",
+      "One key reaches 0°C and the other reaches 100°C",
+      "All heat energy in both keys is completely lost",
+      "The smaller key absorbs all the heat from the larger key"
+    ],
+    "answer": "Both keys reach the exact same temperature",
+    "time": 25
+  },
+  {
+    "question": "What happens to the temperature of a glass of room-temperature water when it GAINS heat?",
+    "options": [
+      "Its temperature increases",
+      "Its temperature decreases",
+      "Its temperature drops to 0°C",
+      "Its temperature stays unchanged"
+    ],
+    "answer": "Its temperature increases",
+    "time": 20
+  },
+  {
+    "question": "What happens to the temperature of a warm metal plate when it LOSES heat to the air?",
+    "options": [
+      "Its temperature decreases",
+      "Its temperature increases",
+      "Its temperature remains constant",
+      "Its temperature drops immediately to 0°C"
+    ],
+    "answer": "Its temperature decreases",
+    "time": 20
+  },
+  {
+    "question": "When reading the temperature on a glass liquid thermometer, how should a student align his eyes?",
+    "options": [
+      "Level with the top of the liquid column",
+      "Looking down from above the top of the stem",
+      "Looking up from below the glass bulb",
+      "At any convenient side angle"
+    ],
+    "answer": "Level with the top of the liquid column",
+    "time": 20
+  },
+  {
+    "question": "Why does the liquid inside a glass thermometer rise when placed in hot water?",
+    "options": [
+      "The liquid gains heat from the hot water and expands",
+      "The liquid loses heat to the hot water and contracts",
+      "The glass tube squeezes tight to push the liquid up",
+      "Air enters the bulb and pushes the liquid upward"
+    ],
+    "answer": "The liquid gains heat from the hot water and expands",
+    "time": 25
+  },
+  {
+    "question": "Beaker A has 400 ml of water at 70°C. Beaker B has 100 ml of water at 70°C. Which statement is correct?",
+    "options": [
+      "Both beakers have the same temperature, but Beaker A has more heat energy",
+      "Beaker A has a higher temperature than Beaker B",
+      "Beaker B contains more heat energy because it has less water",
+      "Both beakers contain the exact same amount of heat energy"
+    ],
+    "answer": "Both beakers have the same temperature, but Beaker A has more heat energy",
+    "time": 30
+  },
+  {
+    "question": "When a student holds an ice cube in her hand, her hand feels cold. Why?",
+    "options": [
+      "Her hand loses heat to the colder ice cube",
+      "Coldness leaves the ice cube and enters her hand",
+      "Her hand gains temperature from the ice cube",
+      "The ice cube loses heat to the surrounding air only"
+    ],
+    "answer": "Her hand loses heat to the colder ice cube",
+    "time": 25
+  },
+  {
+    "question": "A cup of hot tea at 85°C is left on a desk in a room at 25°C. What will be the final temperature of the tea after resting for 5 hours?",
+    "options": [
+      "25°C",
+      "85°C",
+      "0°C",
+      "50°C"
+    ],
+    "answer": "25°C",
+    "time": 25
+  }
+]
