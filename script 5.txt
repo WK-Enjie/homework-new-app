@@ -356,8 +356,15 @@ function preprocessMath(raw) {
     m => { blocks.push(m); return `\x00B${blocks.length - 1}\x00`; }
   );
 
-  // 2. Escape bare $ (prices like $5.00) — must come before other transforms
-  s = s.replace(/\$(?!\x00)(?!\d*[a-zA-Z^_{\\(])/g, '\\$');
+  // 2. Protect money amounts FIRST — $360, $4,000, $5,304.50, $1,200
+  const moneyBlocks = [];
+  s = s.replace(
+    /\$[\d,]+(?:\.\d{1,2})?/g,
+    m => {
+      moneyBlocks.push(m);
+      return `\x00M${moneyBlocks.length - 1}\x00`;
+    }
+  );
 
   // 3. Greek letters (standalone words)
   const greekMap = {
@@ -368,46 +375,40 @@ function preprocessMath(raw) {
     Theta:'\\Theta', Lambda:'\\Lambda', Pi:'\\Pi',
     Sigma:'\\Sigma', Omega:'\\Omega',
   };
-  s = s.replace(/\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|pi|sigma|omega|Alpha|Beta|Gamma|Delta|Theta|Lambda|Pi|Sigma|Omega)\b/g,
+  s = s.replace(
+    /\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|pi|sigma|omega|Alpha|Beta|Gamma|Delta|Theta|Lambda|Pi|Sigma|Omega)\b/g,
     m => greekMap[m] ? `$${greekMap[m]}$` : m
   );
 
-  // 4. Relational operators (not inside existing $)
-  s = s.replace(/(?<!\$[^$]*)>=/g, '$\\geq$');
-  s = s.replace(/(?<!\$[^$]*)<=(?!>)/g, '$\\leq$');
-  s = s.replace(/(?<!\$[^$]*)!=(?!=)/g, '$\\neq$');
-  s = s.replace(/(?<!\$[^$]*)->/g, '$\\rightarrow$');
-  s = s.replace(/(?<!\$[^$]*)<->/g, '$\\leftrightarrow$');
+  // 4. Relational operators
+  s = s.replace(/>=/g,  '$\\geq$');
+  s = s.replace(/<=(?!>)/g, '$\\leq$');
+  s = s.replace(/!=(?!=)/g, '$\\neq$');
+  s = s.replace(/->/g,  '$\\rightarrow$');
+  s = s.replace(/<->/g, '$\\leftrightarrow$');
 
-  // 5. Chemical formulas — CapLetter + alphanumeric mix with digits
+  // 5. Chemical formulas — Capital letter + digits
   s = s.replace(/\b([A-Z][a-zA-Z0-9]{1,24})\b/g, match => {
-    // Must contain both letters and digits to be a formula
     if (!/[A-Za-z]/.test(match) || !/\d/.test(match)) return match;
-    // Skip if looks like a plain word (all alpha except for trailing digit)
-    if (/^[A-Z][a-z]+\d*$/.test(match) && match.length <= 4) {
-      // Could be "Na2" or "Fe3" — check if it's a known element pattern
-      if (!/^[A-Z][a-z]?\d+/.test(match)) return match;
-    }
     const latex = match
       .replace(/([A-Za-z]+)(\d+)/g, (_, L, D) => `\\text{${L}}_{${D}}`)
       .replace(/^(\d+)([A-Za-z]+)/,  (_, D, L) => `${D}\\text{${L}}`);
     return `$${latex}$`;
   });
 
-  // 6. Mixed numbers: "2 3/4" → $2\frac{3}{4}$
+  // 6. Mixed numbers: "2 3/4" → $2\dfrac{3}{4}$
   s = s.replace(
     /(?<!\w)(\d+)\s+(\d+)\/(\d+)(?!\w)/g,
     (_, w, n, d) => `$${w}\\dfrac{${n}}{${d}}$`
   );
 
-  // 7. Simple fractions: "3/4" → $\frac{3}{4}$
-  //    Exclude: URLs (://), dates already parsed, time (3/4/2024)
+  // 7. Simple fractions: "3/4" → $\dfrac{3}{4}$
   s = s.replace(
     /(?<![:/\d])(\d+)\/(\d+)(?![/\d\w])/g,
     (_, n, d) => `$\\dfrac{${n}}{${d}}$`
   );
 
-  // 8. Powers: x^2  10^-3  a^{n+1}  — not already in $
+  // 8. Powers: x^2  10^-3  a^{n+1}
   s = s.replace(
     /(?<!\$)([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     (_, base, exp) => {
@@ -417,9 +418,12 @@ function preprocessMath(raw) {
   );
 
   // 9. Square roots: sqrt(x)
-  s = s.replace(/sqrt\(([^)]+)\)/gi, (_, inner) => `$\\sqrt{${inner}}$`);
+  s = s.replace(
+    /sqrt\(([^)]+)\)/gi,
+    (_, inner) => `$\\sqrt{${inner}}$`
+  );
 
-  // 10. Subscripts: x_1  a_n  — not already in $
+  // 10. Subscripts: x_1  a_n
   s = s.replace(
     /(?<!\$)([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     (_, base, sub) => {
@@ -431,8 +435,11 @@ function preprocessMath(raw) {
   // 11. Merge adjacent $x$$y$ → $x\;y$
   s = s.replace(/\$([^$]+)\$\s*\$([^$]+)\$/g, '$$$1\\;$2$$$');
 
-  // 12. Restore protected blocks
+  // 12. Restore protected KaTeX blocks
   s = s.replace(/\x00B(\d+)\x00/g, (_, i) => blocks[+i]);
+
+  // 13. Restore money amounts — kept as plain text
+  s = s.replace(/\x00M(\d+)\x00/g, (_, i) => moneyBlocks[+i]);
 
   return s;
 }
