@@ -1,6 +1,6 @@
 /* =====================================================
    CARD QUEST — Defeat the Boss!
-   v4.1 — Fixed money display, cleaner preprocessMath
+   v4.2 — Bulletproof money + math rendering
    ===================================================== */
 'use strict';
 
@@ -20,21 +20,21 @@ const XP_STREAK_BONUS = 10;
 const XP_SPEED_BONUS  = 15;
 
 const COMBO_TABLE = [
-  { min: 1,  mult: 1,   label: '×1'   },
-  { min: 3,  mult: 1.5, label: '×1.5' },
-  { min: 5,  mult: 2,   label: '×2'   },
-  { min: 8,  mult: 3,   label: '×3'   },
-  { min: 12, mult: 5,   label: '×5'   },
+  { min:1,  mult:1,   label:'×1'   },
+  { min:3,  mult:1.5, label:'×1.5' },
+  { min:5,  mult:2,   label:'×2'   },
+  { min:8,  mult:3,   label:'×3'   },
+  { min:12, mult:5,   label:'×5'   },
 ];
 
 const STREAK_FIRES = ['','🔥','🔥🔥','🔥🔥🔥','⚡🔥⚡','💥🔥💥'];
 
 const BONUS_OUTCOMES = [
-  { icon:'⚔️',  label:'BOSS HP\nHALVED!',   color:'#ffd700', type:'boss_half',  result:'Boss takes massive damage — HP halved!'    },
-  { icon:'💀',  label:'BOSS HEALS\n+50 HP!', color:'#ff3344', type:'boss_heal',  result:'The boss recovers 50 HP!'                  },
-  { icon:'💊',  label:'HERO HEALS\n+25 HP!', color:'#00ff88', type:'hero_heal',  result:'Your hero recovers 25 HP!'                 },
-  { icon:'⚡',  label:'DOUBLE\nDAMAGE!',     color:'#a855f7', type:'double_dmg', result:'Next correct answer deals DOUBLE damage!'  },
-  { icon:'😐',  label:'NO\nCHANGE',          color:'#7a8599', type:'nothing',    result:'Nothing happens this round…'               },
+  { icon:'⚔️', label:'BOSS HP\nHALVED!',   color:'#ffd700', type:'boss_half',  result:'Boss takes massive damage — HP halved!'   },
+  { icon:'💀', label:'BOSS HEALS\n+50 HP!', color:'#ff3344', type:'boss_heal',  result:'The boss recovers 50 HP!'                 },
+  { icon:'💊', label:'HERO HEALS\n+25 HP!', color:'#00ff88', type:'hero_heal',  result:'Your hero recovers 25 HP!'                },
+  { icon:'⚡', label:'DOUBLE\nDAMAGE!',     color:'#a855f7', type:'double_dmg', result:'Next correct answer deals DOUBLE damage!' },
+  { icon:'😐', label:'NO\nCHANGE',          color:'#7a8599', type:'nothing',    result:'Nothing happens this round…'              },
 ];
 
 // ════════════════════════════════════════════════════
@@ -56,19 +56,19 @@ let roundCards        = [];
 let gameActive        = false;
 let bonusOutcomes     = [];
 
-let currentStreak     = 0;
-let bestStreak        = 0;
-let totalXP           = 0;
-let currentLevel      = 1;
-let xpInLevel         = 0;
-let comboMultiplier   = 1;
-let doubleDmgActive   = false;
+let currentStreak   = 0;
+let bestStreak      = 0;
+let totalXP         = 0;
+let currentLevel    = 1;
+let xpInLevel       = 0;
+let comboMultiplier = 1;
+let doubleDmgActive = false;
 
-let questionStartTime    = 0;
-let currentTimeLimitMs   = DEFAULT_TIME * 1000;
+let questionStartTime  = 0;
+let currentTimeLimitMs = DEFAULT_TIME * 1000;
 
-let uploadedData      = null;
-let activeTab         = 'code';
+let uploadedData = null;
+let activeTab    = 'code';
 
 // ════════════════════════════════════════════════════
 //  DOM REFS
@@ -144,23 +144,26 @@ function init() {
     endReason:      g('end-reason'),
   };
 
-  const critical = ['login-screen','start-btn','pin-input','battle-screen','end-screen'];
+  const critical = [
+    'login-screen','start-btn','pin-input','battle-screen','end-screen'
+  ];
   for (const id of critical) {
     if (!g(id)) {
       document.body.innerHTML =
         `<div style="color:#ff4444;font-family:monospace;padding:20px;
-          font-size:1rem;background:#000;height:100vh;display:flex;
-          align-items:center;justify-content:center;text-align:center">
-          ⚠️ Missing element: #${id}<br><br>Check your index.html file.
+         font-size:1rem;background:#000;height:100vh;display:flex;
+         align-items:center;justify-content:center;text-align:center">
+         ⚠️ Missing element: #${id}<br><br>Check your index.html file.
         </div>`;
       return;
     }
   }
 
   ui.startBtn.addEventListener('click', attemptLogin);
-  ui.pinInput.addEventListener('keypress', e => { if (e.key === 'Enter') attemptLogin(); });
+  ui.pinInput.addEventListener('keypress', e => {
+    if (e.key === 'Enter') attemptLogin();
+  });
   ui.tryAgainBtn.addEventListener('click', restartGame);
-
   ui.tabCode.addEventListener('click',   () => switchTab('code'));
   ui.tabUpload.addEventListener('click', () => switchTab('upload'));
 
@@ -180,14 +183,13 @@ function init() {
   fixVH();
   window.addEventListener('resize', fixVH);
   window.addEventListener('orientationchange', () => setTimeout(fixVH, 250));
-
   document.addEventListener('touchend', e => {
     const now = Date.now();
     if (now - (document._lt || 0) < 300) e.preventDefault();
     document._lt = now;
   }, { passive: false });
 
-  console.log('✅ Card Quest v4.1 ready');
+  console.log('✅ Card Quest v4.2 ready');
 }
 
 if (document.readyState === 'loading') {
@@ -220,7 +222,6 @@ function switchTab(tab) {
 // ════════════════════════════════════════════════════
 function setupFileUpload() {
   if (!ui.dropZone || !ui.fileInput) return;
-
   ui.dropZone.addEventListener('click', () => ui.fileInput.click());
   ui.fileInput.addEventListener('change', e => {
     const file = e.target.files[0];
@@ -230,9 +231,9 @@ function setupFileUpload() {
     e.preventDefault();
     ui.dropZone.classList.add('drag-over');
   });
-  ui.dropZone.addEventListener('dragleave', () => {
-    ui.dropZone.classList.remove('drag-over');
-  });
+  ui.dropZone.addEventListener('dragleave', () =>
+    ui.dropZone.classList.remove('drag-over')
+  );
   ui.dropZone.addEventListener('drop', e => {
     e.preventDefault();
     ui.dropZone.classList.remove('drag-over');
@@ -258,7 +259,7 @@ function handleFileLoad(file) {
       uploadedData = data;
       setFileStatus(`✅ ${file.name} — ${data.length} questions loaded`, 'ok');
     } catch(err) {
-      setFileStatus('⚠️ Invalid JSON file — check syntax', 'err');
+      setFileStatus('⚠️ Invalid JSON — check file syntax', 'err');
       uploadedData = null;
     }
   };
@@ -277,19 +278,17 @@ function setFileStatus(msg, type) {
 // ════════════════════════════════════════════════════
 function waitForKaTeX() {
   return new Promise(resolve => {
-    if (typeof katex !== 'undefined' &&
-        typeof renderMathInElement === 'function') {
+    if (typeof katex !== 'undefined') {
       katexReady = true; resolve(); return;
     }
     let tries = 0;
     const t = setInterval(() => {
       tries++;
-      if (typeof katex !== 'undefined' &&
-          typeof renderMathInElement === 'function') {
+      if (typeof katex !== 'undefined') {
         clearInterval(t); katexReady = true; resolve();
       } else if (tries > 120) {
         clearInterval(t);
-        console.warn('KaTeX unavailable — raw text mode');
+        console.warn('KaTeX not available — plain text mode');
         resolve();
       }
     }, 80);
@@ -297,140 +296,197 @@ function waitForKaTeX() {
 }
 
 // ════════════════════════════════════════════════════
-//  SAFE TEXT BUILDER
-//  Splits text into plain and math segments.
-//  Plain text → Text nodes (never touched by KaTeX)
-//  Math $...$ → rendered by KaTeX
-//  This prevents KaTeX from ever seeing raw $ signs.
+//  MATH / TEXT RENDERING SYSTEM
+//
+//  HOW IT WORKS:
+//  1. convertToSegments() scans raw text and splits it
+//     into an array of {type, content} objects:
+//       type:'text'  — plain text, rendered as text node
+//       type:'math'  — LaTeX, rendered by katex.render()
+//
+//  2. Teacher shorthand is converted to LaTeX ONLY for
+//     segments that are clearly mathematical.
+//
+//  3. Money ($360), percentages (2.5%), plain English
+//     are ALWAYS type:'text' — KaTeX never sees them.
+//
+//  4. renderSegments() builds DOM nodes from the array.
 // ════════════════════════════════════════════════════
 
-// ── Step 1: convert teacher shorthand → proper LaTeX ──
-// Only converts things that are genuinely math.
-// Money, percentages, plain text are left alone.
-function convertShorthand(raw) {
-  if (!raw) return '';
-  let s = raw;
+// ── Patterns that mean "this is math" ──
+const MATH_PATTERNS = [
+  // Already wrapped in $ by teacher: $x^2$
+  { re: /\$\$[\s\S]+?\$\$/, display: true  },
+  { re: /\$[^$\n]+?\$/,     display: false },
+];
 
-  // Greek letters
-  const greekMap = {
-    alpha:'\\alpha', beta:'\\beta', gamma:'\\gamma', delta:'\\delta',
-    epsilon:'\\epsilon', theta:'\\theta', lambda:'\\lambda',
-    mu:'\\mu', sigma:'\\sigma', omega:'\\omega',
+// ── Convert teacher shorthand in a plain-text segment ──
+// Returns array of {type,content,display} segments
+function processPlainSegment(text) {
+  if (!text) return [];
+
+  const out = [];
+
+  // We will build a new string with $...$ markers,
+  // then split on those markers into segments.
+  let s = text;
+
+  // ── Greek letters ──
+  const greek = {
+    alpha:'\\alpha', beta:'\\beta', gamma:'\\gamma',
+    delta:'\\delta', epsilon:'\\epsilon', theta:'\\theta',
+    lambda:'\\lambda', mu:'\\mu', sigma:'\\sigma',
+    omega:'\\omega', pi:'\\pi',
     Gamma:'\\Gamma', Delta:'\\Delta', Theta:'\\Theta',
     Lambda:'\\Lambda', Sigma:'\\Sigma', Omega:'\\Omega',
+    Pi:'\\Pi',
   };
   s = s.replace(
-    /\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|sigma|omega|Gamma|Delta|Theta|Lambda|Sigma|Omega)\b/g,
-    m => greekMap[m] ? `$${greekMap[m]}$` : m
+    /\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|sigma|omega|pi|Gamma|Delta|Theta|Lambda|Sigma|Omega|Pi)\b/g,
+    m => greek[m] ? `§${greek[m]}§` : m
   );
 
-  // Relational operators
-  s = s.replace(/([^<>]|^)>=([^=]|$)/g, '$1$\\geq$$2');
-  s = s.replace(/([^<>]|^)<=([^>=]|$)/g, '$1$\\leq$$2');
-  s = s.replace(/!=(?!=)/g, '$\\neq$');
-  s = s.replace(/([^-]|^)->([^>]|$)/g, '$1$\\rightarrow$$2');
-
-  // Chemical formulas — letter+digit combos like H2O, CO2, C6H12O6
-  s = s.replace(/\b([A-Z][a-zA-Z0-9]{1,24})\b/g, match => {
-    if (!/[A-Za-z]/.test(match) || !/\d/.test(match)) return match;
-    // Skip currency codes like SGD, JPY, USD
-    if (/^[A-Z]{3}$/.test(match)) return match;
+  // ── Chemical formulas: H2O CO2 C6H12O6 ──
+  // Must have both letters AND digits, not a 3-letter currency code
+  s = s.replace(/\b([A-Z][a-zA-Z0-9]{1,20})\b/g, match => {
+    if (!/[A-Za-z]/.test(match)) return match;
+    if (!/\d/.test(match))       return match;
+    if (/^[A-Z]{2,3}$/.test(match)) return match; // SGD JPY USD etc
     const latex = match
       .replace(/([A-Za-z]+)(\d+)/g, (_, L, D) => `\\text{${L}}_{${D}}`)
       .replace(/^(\d+)([A-Za-z]+)/,  (_, D, L) => `${D}\\text{${L}}`);
-    return `$${latex}$`;
+    return `§${latex}§`;
   });
 
-  // Mixed numbers: 2 3/4 → $2\dfrac{3}{4}$
+  // ── Mixed numbers: 2 3/4 → 2\dfrac{3}{4} ──
   s = s.replace(
     /(?<!\w)(\d+)\s+(\d+)\/(\d+)(?!\w)/g,
-    (_, w, n, d) => `$${w}\\dfrac{${n}}{${d}}$`
+    (_, w, n, d) => `§${w}\\dfrac{${n}}{${d}}§`
   );
 
-  // Simple fractions: 3/4 → $\dfrac{3}{4}$
-  // Exclude: time (1:00), ratios with colon, URLs
+  // ── Simple fractions: 3/4 → \dfrac{3}{4} ──
+  // Skip: money (already protected), time 1:00, URLs ://
   s = s.replace(
-    /(?<![:/\d])(\d+)\/(\d+)(?![/\d:])/g,
-    (_, n, d) => `$\\dfrac{${n}}{${d}}$`
+    /(?<![:/\d$£€])(\d+)\/(\d+)(?![/\d:])/g,
+    (_, n, d) => `§\\dfrac{${n}}{${d}}§`
   );
 
-  // Powers: x^2, 10^-3, a^{n+1}
+  // ── Powers: x^2  10^-3  a^{n+1} ──
   s = s.replace(
     /([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     (_, base, exp) => {
       const e = exp.startsWith('{') ? exp : `{${exp}}`;
-      return `$${base}^${e}$`;
+      return `§${base}^${e}§`;
     }
   );
 
-  // Square roots: sqrt(x)
-  s = s.replace(/sqrt\(([^)]+)\)/gi,
-    (_, inner) => `$\\sqrt{${inner}}$`);
+  // ── Square roots: sqrt(x) ──
+  s = s.replace(
+    /sqrt\(([^)]+)\)/gi,
+    (_, inner) => `§\\sqrt{${inner}}§`
+  );
 
-  // Subscripts: x_1, a_n
+  // ── Subscripts: x_1  a_n ──
   s = s.replace(
     /(?<![a-zA-Z\d])([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     (_, base, sub) => {
       const sv = sub.startsWith('{') ? sub : `{${sub}}`;
-      return `$${base}_{${sv}}$`;
+      return `§${base}_{${sv}}§`;
     }
   );
 
-  // Merge adjacent math: $x$$y$ → $x\;y$
-  s = s.replace(/\$([^$]+)\$\s*\$([^$]+)\$/g, '$$$1\\;$2$$$');
+  // ── Relational operators ──
+  s = s.replace(/([^<>!])>=([^=])/g, '$1§\\geq§$2');
+  s = s.replace(/([^<>!])<=([^>=])/g,'$1§\\leq§$2');
+  s = s.replace(/!=(?!=)/g,           '§\\neq§');
+  s = s.replace(/([^-])->([^>])/g,   '$1§\\rightarrow§$2');
 
-  return s;
+  // ── Merge adjacent §math1§§math2§ → §math1\;math2§ ──
+  s = s.replace(/§([^§]+)§\s*§([^§]+)§/g, '§$1\\;$2§');
+
+  // ── Split on § markers into plain/math segments ──
+  const parts = s.split('§');
+  parts.forEach((part, i) => {
+    if (!part) return;
+    if (i % 2 === 0) {
+      // Even indices = plain text
+      out.push({ type:'text', content: part });
+    } else {
+      // Odd indices = math content
+      out.push({ type:'math', content: part, display: false });
+    }
+  });
+
+  return out;
 }
 
-// ── Step 2: render text safely into a DOM element ──
-// Splits on $...$ boundaries so plain text is NEVER
-// passed through KaTeX — only genuine math segments are.
-function renderSafe(el, rawText) {
-  if (!el) return;
-  el.innerHTML = '';
+// ── Main: convert raw string → array of segments ──
+function convertToSegments(raw) {
+  if (!raw && raw !== 0) return [];
+  const text = String(raw);
+  const out  = [];
 
-  if (!rawText && rawText !== 0) return;
+  // First extract any explicit $...$ and $$...$$ blocks
+  // Everything else is plain text to be processed
+  const re = /(\$\$[\s\S]+?\$\$|\$[^$\n]+?\$)/g;
+  let last = 0;
+  let match;
 
-  // Convert shorthand first
-  const processed = convertShorthand(String(rawText));
-
-  // Split into segments: plain text and $math$ blocks
-  // Regex captures both $...$ and $$...$$ regions
-  const segments = processed.split(/(\$\$[\s\S]*?\$\$|\$[^$\n]*?\$)/g);
-
-  segments.forEach(seg => {
-    if (!seg) return;
-
-    const isDisplayMath = seg.startsWith('$$') && seg.endsWith('$$');
-    const isInlineMath  = seg.startsWith('$')  && seg.endsWith('$') && !isDisplayMath;
-
-    if ((isInlineMath || isDisplayMath) && katexReady) {
-      // Extract inner math content
-      const inner = isDisplayMath
-        ? seg.slice(2, -2).trim()
-        : seg.slice(1, -1).trim();
-
-      if (inner) {
-        try {
-          const span = document.createElement('span');
-          katex.render(inner, span, {
-            throwOnError:  false,
-            errorColor:    '#ef4444',
-            displayMode:   isDisplayMath,
-          });
-          el.appendChild(span);
-          return;
-        } catch(e) {
-          // Fall through to plain text on error
-        }
-      }
+  while ((match = re.exec(text)) !== null) {
+    // Plain text before this math block
+    if (match.index > last) {
+      const plain = text.slice(last, match.index);
+      out.push(...processPlainSegment(plain));
     }
+    // The math block itself
+    const isDisplay = match[0].startsWith('$$');
+    const inner = isDisplay
+      ? match[0].slice(2, -2).trim()
+      : match[0].slice(1, -1).trim();
+    if (inner) out.push({ type:'math', content: inner, display: isDisplay });
+    last = match.index + match[0].length;
+  }
 
-    // Plain text — append as text node (no HTML parsing, no KaTeX)
-    el.appendChild(document.createTextNode(seg));
+  // Remaining plain text after last math block
+  if (last < text.length) {
+    out.push(...processPlainSegment(text.slice(last)));
+  }
+
+  return out;
+}
+
+// ── Render segments into a DOM element ──
+function renderSegments(el, segments) {
+  el.innerHTML = '';
+  segments.forEach(seg => {
+    if (seg.type === 'math' && katexReady) {
+      try {
+        const span = document.createElement('span');
+        katex.render(seg.content, span, {
+          throwOnError: false,
+          errorColor:   '#ef4444',
+          displayMode:  seg.display || false,
+        });
+        el.appendChild(span);
+      } catch(e) {
+        // On error, show as plain text
+        el.appendChild(document.createTextNode(seg.content));
+      }
+    } else {
+      // Plain text — direct text node, KaTeX never sees this
+      el.appendChild(document.createTextNode(seg.content));
+    }
   });
 }
 
+// ── Public helper: render text into element ──
+function renderSafe(el, rawText) {
+  if (!el) return;
+  const segments = convertToSegments(rawText);
+  renderSegments(el, segments);
+}
+
+// ── Normalise for answer comparison ──
 function normalise(s) {
   return s ? s.trim().replace(/\s+/g, ' ').toLowerCase() : '';
 }
@@ -441,7 +497,7 @@ function normalise(s) {
 function renderQuestion(container, qObj) {
   container.innerHTML = '';
 
-  // ── Background / context paragraphs ──
+  // ── Background paragraphs ──
   if (qObj.question) {
     const paragraphs = qObj.question.split(/\n\n+/);
     paragraphs.forEach(para => {
@@ -450,7 +506,8 @@ function renderQuestion(container, qObj) {
 
       const lines      = trimmed.split('\n');
       const bullets    = lines.filter(l => l.trim().startsWith('-'));
-      const nonBullets = lines.filter(l => l.trim() && !l.trim().startsWith('-'));
+      const nonBullets = lines.filter(l =>
+        l.trim() && !l.trim().startsWith('-'));
 
       if (bullets.length > 0) {
         nonBullets.forEach(line => {
@@ -488,6 +545,7 @@ function renderQuestion(container, qObj) {
     const table = document.createElement('table');
     table.className = 'q-table';
 
+    // Header
     const thead = document.createElement('thead');
     const hrow  = document.createElement('tr');
     qObj.table.headers.forEach(h => {
@@ -498,6 +556,7 @@ function renderQuestion(container, qObj) {
     thead.appendChild(hrow);
     table.appendChild(thead);
 
+    // Rows
     const tbody = document.createElement('tbody');
     qObj.table.rows.forEach((row, ri) => {
       const tr = document.createElement('tr');
@@ -597,9 +656,8 @@ async function attemptLogin() {
     await waitForKaTeX();
 
     if (activeTab === 'upload') {
-      if (!uploadedData) {
+      if (!uploadedData)
         throw new Error('Please upload a .json question file first!');
-      }
       allQuestions = uploadedData;
       startGame();
       return;
@@ -609,17 +667,14 @@ async function attemptLogin() {
     if (!pin) throw new Error('Enter a Quest Code to begin.');
 
     const res = await fetch(`worksheets/${pin}.json`);
-    if (!res.ok) {
-      throw new Error(
-        `Quest "${pin}" not found!\n` +
-        `Place worksheets/${pin}.json in your project folder.`
-      );
-    }
+    if (!res.ok) throw new Error(
+      `Quest "${pin}" not found!\n` +
+      `Place worksheets/${pin}.json in your project folder.`
+    );
 
     const data = await res.json();
-    if (!Array.isArray(data) || data.length === 0) {
+    if (!Array.isArray(data) || data.length === 0)
       throw new Error('Quest file is empty or not a valid JSON array.');
-    }
 
     allQuestions = data;
     startGame();
@@ -799,7 +854,8 @@ function startNewRound() {
   const bPct  = (bossHP / BOSS_MAX_HP) * 100;
   const arena = document.getElementById('arena');
   if (arena) arena.classList.toggle('boss-rage', bPct <= 25);
-  if (ui.bossSprite) ui.bossSprite.classList.toggle('boss-rage-anim', bPct <= 25);
+  if (ui.bossSprite)
+    ui.bossSprite.classList.toggle('boss-rage-anim', bPct <= 25);
 
   const dmgs = shuffle([...DAMAGE_VALUES]);
   roundCards = [];
@@ -873,12 +929,11 @@ function pickCard(index) {
 
   const dmgEl       = document.getElementById(`slot-dmg-${index}`);
   const effectiveDmg = doubleDmgActive ? damage * 2 : damage;
-  if (dmgEl) dmgEl.textContent = doubleDmgActive
-    ? `⚡${effectiveDmg}` : `⚔️${damage}`;
+  if (dmgEl) dmgEl.textContent =
+    doubleDmgActive ? `⚡${effectiveDmg}` : `⚔️${damage}`;
 
   playSound('flip');
 
-  // Damage badge
   ui.qpDmgBadge.textContent = doubleDmgActive
     ? `⚡ ${effectiveDmg} DAMAGE (×2!)`
     : `⚔️ ${damage} DAMAGE`;
@@ -890,7 +945,6 @@ function pickCard(index) {
     ui.qpStreakBadge.classList.remove('hidden');
   }
 
-  // Render question
   renderQuestion(ui.qpQuestion, question);
 
   // Build answer options
@@ -1001,8 +1055,7 @@ function handleAnswer(btn, selected, correct, damage, slotIdx) {
     correctCount++;
 
     const effectiveDmg = doubleDmgActive ? damage * 2 : damage;
-    const basePoints   = effectiveDmg * 10;
-    const comboPoints  = Math.round(basePoints * comboMultiplier);
+    const comboPoints  = Math.round(effectiveDmg * 10 * comboMultiplier);
     const speedBonus   = isSpeedAnswer ? XP_SPEED_BONUS * 10 : 0;
     score += comboPoints + speedBonus;
     animateScore();
@@ -1015,23 +1068,19 @@ function handleAnswer(btn, selected, correct, damage, slotIdx) {
     playSound('correct');
     markSlot(slotIdx, 'correct');
     spawnBurstRing(slotIdx);
-
     if (isSpeedAnswer) showEffect('⚡ FAST! +BONUS', '#00d4ff');
 
     onCorrectStreak();
     doubleDmgActive = false;
-
     setTimeout(() => doBossHit(effectiveDmg, afterAnswer), 350);
 
   } else {
     btn.classList.add('wrong');
     playSound('wrong');
-
     ui.qpOptions.querySelectorAll('.qp-opt').forEach(b => {
       if (normalise(b.dataset.raw) === normalise(correct))
         b.classList.add('correct');
     });
-
     markSlot(slotIdx, 'wrong');
     onWrongStreak();
     setTimeout(() => doPlayerHit(damage, afterAnswer), 350);
@@ -1143,8 +1192,8 @@ function startBonusRound() {
     if (icon)  { icon.textContent  = '✨'; icon.style.fontSize = ''; }
     if (label) { label.textContent = '?';  label.style.color   = ''; }
 
-    bs.style.opacity   = '0';
-    bs.style.transform = 'translateY(18px) scale(0.92)';
+    bs.style.opacity    = '0';
+    bs.style.transform  = 'translateY(18px) scale(0.92)';
     bs.style.transition = 'none';
     setTimeout(() => {
       bs.style.transition =
@@ -1159,7 +1208,6 @@ function startBonusRound() {
 
 function pickBonusCard(index) {
   if (!gameActive) return;
-
   const bs = document.getElementById(`bslot-${index}`);
   if (!bs) return;
   if (bs.classList.contains('revealed') ||
@@ -1216,52 +1264,49 @@ function applyBonusOutcome(outcome) {
   switch(outcome.type) {
     case 'boss_half':
       bossHP = Math.max(1, Math.floor(bossHP / 2));
-      updateBars();
-      playSound('halved');
+      updateBars(); playSound('halved');
       showEffect('⚔️ BOSS HP HALVED!', '#ffd700');
-      spawnParticles('left', '#ffd700', 20);
+      spawnParticles('left','#ffd700',20);
       flashArena('rgba(255,215,0,0.18)');
       bossHitVisual();
       break;
     case 'boss_heal':
       bossHP = Math.min(BOSS_MAX_HP, bossHP + BONUS_HEAL_AMT);
-      updateBars();
-      playSound('boss_heal');
-      showEffect(`💀 BOSS +${BONUS_HEAL_AMT} HP!`, '#ff3344');
-      spawnParticles('left', '#ff3344', 14);
+      updateBars(); playSound('boss_heal');
+      showEffect(`💀 BOSS +${BONUS_HEAL_AMT} HP!`,'#ff3344');
+      spawnParticles('left','#ff3344',14);
       break;
     case 'hero_heal':
       playerHP = Math.min(PLAYER_MAX_HP, playerHP + 25);
-      updateBars();
-      playSound('hero_heal');
-      showEffect('💊 HERO +25 HP!', '#00ff88');
-      spawnParticles('right', '#00ff88', 14);
+      updateBars(); playSound('hero_heal');
+      showEffect('💊 HERO +25 HP!','#00ff88');
+      spawnParticles('right','#00ff88',14);
       showHealFloat('+25');
       break;
     case 'double_dmg':
       doubleDmgActive = true;
       playSound('double_dmg');
-      showEffect('⚡ DOUBLE DAMAGE READY!', '#a855f7');
-      spawnParticles('center', '#a855f7', 18);
+      showEffect('⚡ DOUBLE DAMAGE READY!','#a855f7');
+      spawnParticles('center','#a855f7',18);
       flashArena('rgba(168,85,247,0.2)');
       break;
     case 'nothing':
-      showEffect('😐 Nothing happens…', '#7a8599');
+      showEffect('😐 Nothing happens…','#7a8599');
       break;
   }
 }
 
 // ════════════════════════════════════════════════════
-//  COMBAT ANIMATIONS
+//  COMBAT
 // ════════════════════════════════════════════════════
 function doBossHit(damage, cb) {
   playSound('boss_hurt');
-  showDamageNum(`−${damage}`, '#ff5544');
+  showDamageNum(`−${damage}`,'#ff5544');
   bossHitVisual();
   bossHP = Math.max(0, bossHP - damage);
   updateBars();
   showExplosion('left');
-  spawnParticles('left', '#ff8800', 12);
+  spawnParticles('left','#ff8800',12);
   flashArena('rgba(255,34,0,0.15)');
   setTimeout(() => {
     ui.bossSprite.classList.remove('anim-boss-hit');
@@ -1277,12 +1322,12 @@ function bossHitVisual() {
 
 function doPlayerHit(damage, cb) {
   playSound('hit');
-  showDamageNum(`−${damage}`, '#ff3344');
+  showDamageNum(`−${damage}`,'#ff3344');
   ui.playerSprite.classList.remove('anim-player-hit');
   void ui.playerSprite.offsetWidth;
   ui.playerSprite.classList.add('anim-player-hit');
   showExplosion('right');
-  spawnParticles('right', '#ff3344', 12);
+  spawnParticles('right','#ff3344',12);
 
   const gc = document.getElementById('game-container');
   if (gc) {
@@ -1309,7 +1354,7 @@ function doPlayerHit(damage, cb) {
 function showDamageNum(text, color) {
   ui.damageNumber.textContent = text;
   ui.damageNumber.style.color = color;
-  ui.damageNumber.classList.remove('hidden', 'anim-float-up');
+  ui.damageNumber.classList.remove('hidden','anim-float-up');
   void ui.damageNumber.offsetWidth;
   ui.damageNumber.classList.add('anim-float-up');
   ui.damageNumber.classList.remove('hidden');
@@ -1322,7 +1367,7 @@ function showDamageNum(text, color) {
 function showEffect(text, color = '#ffd700') {
   ui.effectDisplay.textContent = text;
   ui.effectDisplay.style.color = color;
-  ui.effectDisplay.classList.remove('hidden', 'anim-float-up');
+  ui.effectDisplay.classList.remove('hidden','anim-float-up');
   void ui.effectDisplay.offsetWidth;
   ui.effectDisplay.classList.add('anim-float-up');
   ui.effectDisplay.classList.remove('hidden');
@@ -1335,7 +1380,7 @@ function showEffect(text, color = '#ffd700') {
 function showStreakDisplay(text, color) {
   ui.streakDisplay.textContent = text;
   ui.streakDisplay.style.color = color;
-  ui.streakDisplay.classList.remove('hidden', 'anim-float-up');
+  ui.streakDisplay.classList.remove('hidden','anim-float-up');
   void ui.streakDisplay.offsetWidth;
   ui.streakDisplay.classList.add('anim-float-up');
   ui.streakDisplay.classList.remove('hidden');
@@ -1348,7 +1393,7 @@ function showStreakDisplay(text, color) {
 function showHealFloat(text) {
   if (!ui.healDisplay) return;
   ui.healDisplay.textContent = `${text} HP`;
-  ui.healDisplay.classList.remove('hidden', 'anim-float-up');
+  ui.healDisplay.classList.remove('hidden','anim-float-up');
   void ui.healDisplay.offsetWidth;
   ui.healDisplay.classList.add('anim-float-up');
   ui.healDisplay.classList.remove('hidden');
@@ -1376,8 +1421,8 @@ function spawnParticles(side, color, count = 8) {
       `width:${sz}px;height:${sz}px;` +
       `left:${cx}%;top:${22 + Math.random() * 35}%;` +
       `background:${color};box-shadow:0 0 ${sz}px ${color};`;
-    p.style.setProperty('--px', `${(Math.random() - 0.5) * 160}px`);
-    p.style.setProperty('--py', `${(Math.random() - 0.5) * 160}px`);
+    p.style.setProperty('--px',`${(Math.random()-0.5)*160}px`);
+    p.style.setProperty('--py',`${(Math.random()-0.5)*160}px`);
     ui.particles.appendChild(p);
     setTimeout(() => p.remove(), 750);
   }
@@ -1497,7 +1542,6 @@ function endGame(result) {
 
     ui.starRating.textContent = buildStars(acc, result);
     buildBadges(acc, result);
-
   }, 700);
 }
 
@@ -1520,17 +1564,17 @@ function buildStars(acc, result) {
 function buildBadges(acc, result) {
   ui.badgesRow.innerHTML = '';
   const badges = [];
-  if (result === 'victory')   badges.push('💀 Boss Slayer');
-  if (acc === 100)            badges.push('🎯 Perfect Score');
-  if (acc >= 80)              badges.push('🌟 High Achiever');
+  if (result === 'victory')  badges.push('💀 Boss Slayer');
+  if (acc === 100)           badges.push('🎯 Perfect Score');
+  if (acc >= 80)             badges.push('🌟 High Achiever');
   if (result === 'victory' && currentRound <= 10)
-                              badges.push('⚡ Speed Runner');
-  if (playerHP >= 80)         badges.push('🛡️ Untouchable');
-  if (correctCount >= 10)     badges.push('🧠 Knowledge Master');
-  if (bestStreak >= 5)        badges.push('🔥 Streak Master');
-  if (bestStreak >= 10)       badges.push('💥 Unstoppable');
-  if (totalXP >= 200)         badges.push('⭐ XP Hunter');
-  if (badges.length === 0)    badges.push('📚 Keep Studying!');
+                             badges.push('⚡ Speed Runner');
+  if (playerHP >= 80)        badges.push('🛡️ Untouchable');
+  if (correctCount >= 10)    badges.push('🧠 Knowledge Master');
+  if (bestStreak >= 5)       badges.push('🔥 Streak Master');
+  if (bestStreak >= 10)      badges.push('💥 Unstoppable');
+  if (totalXP >= 200)        badges.push('⭐ XP Hunter');
+  if (badges.length === 0)   badges.push('📚 Keep Studying!');
 
   badges.forEach(text => {
     const d = document.createElement('div');
