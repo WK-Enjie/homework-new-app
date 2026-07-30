@@ -1,0 +1,312 @@
+[
+  {
+    "question": "A student wants to simplify a percentage into a fraction.",
+    "stem": "Express 35% as a fraction in its simplest form.",
+    "options": [
+      "7/20",
+      "7/10",
+      "3/5",
+      "7/25"
+    ],
+    "answer": "7/20",
+    "time": 35
+  },
+  {
+    "question": "Convert the given fraction into a percentage.",
+    "stem": "Express 3/8 as a percentage.",
+    "options": [
+      "37.5%",
+      "35%",
+      "37.0%",
+      "38.5%"
+    ],
+    "answer": "37.5%",
+    "time": 40
+  },
+  {
+    "question": "Convert the decimal value into a percentage.",
+    "stem": "Express 0.48 as a percentage.",
+    "options": [
+      "48%",
+      "4.8%",
+      "0.48%",
+      "480%"
+    ],
+    "answer": "48%",
+    "time": 30
+  },
+  {
+    "question": "Convert the percentage value into a decimal.",
+    "stem": "Express 84% as a decimal.",
+    "options": [
+      "0.84",
+      "8.4",
+      "0.084",
+      "84.0"
+    ],
+    "answer": "0.84",
+    "time": 30
+  },
+  {
+    "question": "A percentage greater than 100% needs to be written as a mixed number.",
+    "stem": "Express 125% as a mixed number in its simplest form.",
+    "options": [
+      "1 1/4",
+      "1 1/5",
+      "1 1/2",
+      "1 2/5"
+    ],
+    "answer": "1 1/4",
+    "time": 40
+  },
+  {
+    "question": "Convert a small decimal value into a percentage.",
+    "stem": "Express 0.06 as a percentage.",
+    "options": [
+      "6%",
+      "0.6%",
+      "60%",
+      "0.06%"
+    ],
+    "answer": "6%",
+    "time": 30
+  },
+  {
+    "question": "In a room of 40 people, 18 are children and the rest are adults.",
+    "stem": "What percentage of the people in the room are adults?",
+    "options": [
+      "55%",
+      "45%",
+      "22%",
+      "60%"
+    ],
+    "answer": "55%",
+    "time": 45
+  },
+  {
+    "question": "There are 80 students in a hall. Exactly 35% of them wear glasses.",
+    "stem": "How many students in the hall do NOT wear glasses?",
+    "options": [
+      "52",
+      "28",
+      "45",
+      "65"
+    ],
+    "answer": "52",
+    "time": 45
+  },
+  {
+    "question": "In a school library, 45% of the books are English books, 35% are Chinese books, and the remaining 300 books are Malay books.",
+    "stem": "How many books are there in the library in total?",
+    "options": [
+      "1500",
+      "1200",
+      "1800",
+      "2000"
+    ],
+    "answer": "1500",
+    "time": 50
+  },
+  {
+    "question": "In a school hall, 60% of the pupils present are girls. There are 120 boys in the hall.",
+    "stem": "How many pupils are in the school hall altogether?",
+    "options": [
+      "300",
+      "200",
+      "180",
+      "240"
+    ],
+    "answer": "300",
+    "time": 50
+  },
+  {
+    "question": "A table shows the distribution of visitors in an art gallery.",
+    "table": {
+      "headers": ["Visitor Category", "Percentage of Total"],
+      "rows": [
+        ["Men", "30%"],
+        ["Women", "45%"],
+        ["Children", "25%"]
+      ]
+    },
+    "stem": "If there are 60 children in the gallery, how many adult visitors (men and women combined) are there?",
+    "options": [
+      "180",
+      "240",
+      "120",
+      "150"
+    ],
+    "answer": "180",
+    "time": 50
+  },
+  {
+    "question": "A fruit basket contains only apples and oranges. Exactly 40% of the fruits are apples, and there are 24 apples in the basket.",
+    "stem": "How many oranges are in the fruit basket?",
+    "options": [
+      "36",
+      "60",
+      "24",
+      "16"
+    ],
+    "answer": "36",
+    "time": 45
+  },
+  {
+    "question": "A pair of sports shoes has a usual price of $80. During a festive sale, the store offers a 20% discount on the shoes.",
+    "stem": "What is the amount of discount given?",
+    "options": [
+      "$16",
+      "$64",
+      "$20",
+      "$12"
+    ],
+    "answer": "$16",
+    "time": 40
+  },
+  {
+    "question": "A school bag costs $150. Mrs. Lee bought the bag at a storewide discount of 15%.",
+    "stem": "How much did Mrs. Lee pay for the school bag?",
+    "options": [
+      "$127.50",
+      "$22.50",
+      "$135.00",
+      "$125.00"
+    ],
+    "answer": "$127.50",
+    "time": 45
+  },
+  {
+    "question": "The usual price of a wrist watch is $250. During a clearance sale, John bought the watch for $200.",
+    "stem": "What was the percentage discount given on the watch?",
+    "options": [
+      "20%",
+      "25%",
+      "15%",
+      "50%"
+    ],
+    "answer": "20%",
+    "time": 45
+  },
+  {
+    "question": "A toy store offers a 25% discount on all board games. After the discount, a board game costs $45.",
+    "stem": "What was the original usual price of the board game?",
+    "options": [
+      "$60",
+      "$56.25",
+      "$75",
+      "$50"
+    ],
+    "answer": "$60",
+    "time": 50
+  },
+  {
+    "question": "Two stores sell the exact same model of bicycle at different usual prices and discount rates.",
+    "table": {
+      "headers": ["Store", "Usual Price", "Discount Rate"],
+      "rows": [
+        ["Store A", "$400", "20%"],
+        ["Store B", "$450", "30%"]
+      ]
+    },
+    "stem": "How much cheaper is the bicycle at Store B compared to Store A after discount?",
+    "options": [
+      "$5",
+      "$10",
+      "$15",
+      "$50"
+    ],
+    "answer": "$5",
+    "time": 55
+  },
+  {
+    "question": "The usual price of a wooden dining table is $600. During a Great Singapore Sale event, the store offers a 30% discount.",
+    "stem": "How much does a customer pay for the dining table after the discount?",
+    "options": [
+      "$420",
+      "$180",
+      "$380",
+      "$450"
+    ],
+    "answer": "$420",
+    "time": 45
+  },
+  {
+    "question": "Mr. Tan ordered a set meal at a restaurant for $50 before Goods and Services Tax (GST). GST is charged at 9%.",
+    "stem": "How much GST did Mr. Tan pay for the meal?",
+    "options": [
+      "$4.50",
+      "$54.50",
+      "$9.00",
+      "$4.00"
+    ],
+    "answer": "$4.50",
+    "time": 40
+  },
+  {
+    "question": "The price of a computer printer before GST is $200. GST is charged at 9%.",
+    "stem": "What is the total cost of the printer including GST?",
+    "options": [
+      "$218",
+      "$209",
+      "$182",
+      "$225"
+    ],
+    "answer": "$218",
+    "time": 40
+  },
+  {
+    "question": "Mrs. Chen bought a sofa set priced at $800 before GST. Given that GST is charged at 9%.",
+    "stem": "What is the total amount Mrs. Chen paid for the sofa set inclusive of GST?",
+    "options": [
+      "$872",
+      "$728",
+      "$809",
+      "$720"
+    ],
+    "answer": "$872",
+    "time": 40
+  },
+  {
+    "question": "A family had dinner at a cafe, and the food bill came to $120 before GST. The cafe charges 9% GST.",
+    "stem": "How much was the GST amount on the bill?",
+    "options": [
+      "$10.80",
+      "$130.80",
+      "$9.00",
+      "$12.00"
+    ],
+    "answer": "$10.80",
+    "time": 40
+  },
+  {
+    "question": "A smart television is priced at $1000 before discount and GST. The store gives a 10% discount first, and a 9% GST is then charged on the discounted price.",
+    "stem": "What is the total final price payable for the television?",
+    "options": [
+      "$981",
+      "$990",
+      "$900",
+      "$989"
+    ],
+    "answer": "$981",
+    "time": 50
+  },
+  {
+    "question": "A customer bought two stationery items from a bookshop.",
+    "table": {
+      "headers": ["Item", "Price Before GST", "GST Rate"],
+      "rows": [
+        ["Headphones", "$100", "9%"],
+        ["Keyboard", "$60", "9%"]
+      ]
+    },
+    "stem": "What is the TOTAL cost of both items inclusive of GST?",
+    "options": [
+      "$174.40",
+      "$160.00",
+      "$14.40",
+      "$172.00"
+    ],
+    "answer": "$174.40",
+    "time": 50
+  }
+]
