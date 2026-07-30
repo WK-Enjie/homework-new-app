@@ -1,0 +1,305 @@
+[
+  {
+    "question": "In a titration experiment, a student needs to transfer exactly 25.0 cm³ of sodium hydroxide solution into a conical flask.",
+    "stem": "Which piece of laboratory apparatus should be used to measure and transfer this fixed volume accurately?",
+    "options": [
+      "25.0 cm³ pipette",
+      "25.0 cm³ measuring cylinder",
+      "50.0 cm³ beaker",
+      "25.0 cm³ burette"
+    ],
+    "answer": "25.0 cm³ pipette",
+    "time": 40
+  },
+  {
+    "question": "Before starting a titration, a student cleans and prepares the apparatus to ensure accurate results.",
+    "stem": "Which apparatus should be washed with distilled water and THEN rinsed with the acid solution that will be filled inside it?",
+    "options": [
+      "Burette",
+      "Conical flask",
+      "Volumetric flask",
+      "Beaker used to catch waste water"
+    ],
+    "answer": "Burette",
+    "time": 45
+  },
+  {
+    "question": "A student washes a conical flask before transferring 25.0 cm³ of sodium hydroxide solution into it using a pipette.",
+    "stem": "Why should the conical flask be rinsed with ONLY distilled water and NOT with the sodium hydroxide solution?",
+    "options": [
+      "Rinsing with alkali would leave extra moles of alkali in the flask, requiring a larger volume of acid",
+      "Distilled water dilutes the acid and speeds up the neutralization reaction",
+      "Sodium hydroxide reacts with glass if left on the walls of the conical flask",
+      "Distilled water changes the color of the indicator at the start of titration"
+    ],
+    "answer": "Rinsing with alkali would leave extra moles of alkali in the flask, requiring a larger volume of acid",
+    "time": 50
+  },
+  {
+    "question": "Methyl orange indicator is added to a conical flask containing dilute sodium hydroxide solution. Dilute hydrochloric acid is added slowly from a burette until complete neutralization occurs.",
+    "stem": "What is the color change of methyl orange observed at the end-point of this titration?",
+    "options": [
+      "Yellow to orange",
+      "Red to yellow",
+      "Colorless to pink",
+      "Orange to red"
+    ],
+    "answer": "Yellow to orange",
+    "time": 40
+  },
+  {
+    "question": "Dilute sulfuric acid is placed in a conical flask, and phenolphthalein indicator is added. Sodium hydroxide solution is added gradually from a burette.",
+    "stem": "What is the color change observed in the conical flask when the end-point is reached?",
+    "options": [
+      "Colorless to pink",
+      "Pink to colorless",
+      "Yellow to orange",
+      "Orange to red"
+    ],
+    "answer": "Colorless to pink",
+    "time": 40
+  },
+  {
+    "question": "A student records the initial and final liquid levels in a burette during a titration.",
+    "table": {
+      "headers": ["Burette Reading Type", "Volume (cm³)"],
+      "rows": [
+        ["Initial reading", "2.40"],
+        ["Final reading", "26.80"]
+      ]
+    },
+    "stem": "What volume of acid was added from the burette into the conical flask?",
+    "options": [
+      "24.40 cm³",
+      "29.20 cm³",
+      "26.80 cm³",
+      "24.20 cm³"
+    ],
+    "answer": "24.40 cm³",
+    "time": 45
+  },
+  {
+    "question": "Exactly 25.0 cm³ of 0.100 mol/dm³ sodium hydroxide (NaOH) is completely neutralized by 20.0 cm³ of dilute hydrochloric acid (HCl).",
+    "stem": "What is the concentration of the hydrochloric acid in mol/dm³?",
+    "options": [
+      "0.125 mol/dm³",
+      "0.080 mol/dm³",
+      "0.250 mol/dm³",
+      "0.100 mol/dm³"
+    ],
+    "answer": "0.125 mol/dm³",
+    "time": 55
+  },
+  {
+    "question": "A student titrates 25.0 cm³ of sodium hydroxide (NaOH) solution against 0.050 mol/dm³ dilute sulfuric acid (H₂SO₄). The reaction equation is:\n\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nThe volume of H₂SO₄ required for complete neutralization is 15.0 cm³.",
+    "stem": "Calculate the concentration of the sodium hydroxide solution in mol/dm³.",
+    "options": [
+      "0.060 mol/dm³",
+      "0.030 mol/dm³",
+      "0.120 mol/dm³",
+      "0.015 mol/dm³"
+    ],
+    "answer": "0.060 mol/dm³",
+    "time": 60
+  },
+  {
+    "question": "The concentration of a sodium hydroxide (NaOH) solution is determined by titration to be 0.150 mol/dm³. (Relative atomic masses: Na = 23, O = 16, H = 1)",
+    "stem": "What is the concentration of the sodium hydroxide solution in g/dm³?",
+    "options": [
+      "6.00 g/dm³",
+      "4.00 g/dm³",
+      "0.00375 g/dm³",
+      "60.0 g/dm³"
+    ],
+    "answer": "6.00 g/dm³",
+    "time": 50
+  },
+  {
+    "question": "A solution of dilute nitric acid (HNO₃) has a concentration of 12.6 g/dm³. (Relative atomic masses: H = 1, N = 14, O = 16)",
+    "stem": "What is the concentration of the nitric acid solution in mol/dm³?",
+    "options": [
+      "0.200 mol/dm³",
+      "0.500 mol/dm³",
+      "0.100 mol/dm³",
+      "7.938 mol/dm³"
+    ],
+    "answer": "0.200 mol/dm³",
+    "time": 50
+  },
+  {
+    "question": "A student carried out three titration runs to find the volume of dilute hydrochloric acid needed to neutralize 25.0 cm³ of potassium hydroxide solution.",
+    "table": {
+      "headers": ["Run Number", "Initial Burette Reading (cm³)", "Final Burette Reading (cm³)", "Volume of Acid Added (cm³)"],
+      "rows": [
+        ["Run 1", "0.00", "23.80", "23.80"],
+        ["Run 2", "1.10", "24.60", "23.50"],
+        ["Run 3", "0.50", "24.00", "23.50"]
+      ]
+    },
+    "stem": "What is the average volume of acid used based on the consistent results from Run 2 and Run 3?",
+    "options": [
+      "23.50 cm³",
+      "23.60 cm³",
+      "23.80 cm³",
+      "24.00 cm³"
+    ],
+    "answer": "23.50 cm³",
+    "time": 55
+  },
+  {
+    "question": "A solution contains 3.65 g/dm³ of an unknown monoprotic acid, HX. In a titration, 25.0 cm³ of 0.100 mol/dm³ NaOH solution requires 25.0 cm³ of HX for complete neutralization. The reaction is:\n\nHX + NaOH → NaX + H₂O",
+    "stem": "Calculate the relative molecular mass (Mᵣ) of the acid HX.",
+    "options": [
+      "36.5",
+      "73.0",
+      "18.25",
+      "365"
+    ],
+    "answer": "36.5",
+    "time": 60
+  },
+  {
+    "question": "A student titrates 25.0 cm³ of a 11.2 g/dm³ metal hydroxide solution, MOH, with 20.0 cm³ of 0.250 mol/dm³ hydrochloric acid (HCl). The reaction is:\n\nMOH + HCl → MCl + H₂O\n\n(Relative atomic masses: O = 16, H = 1)",
+    "stem": "What is the relative atomic mass (Aᵣ) of the metal M?",
+    "options": [
+      "39",
+      "23",
+      "7",
+      "85"
+    ],
+    "answer": "39",
+    "time": 65
+  },
+  {
+    "question": "Sodium carbonate (Na₂CO₃) reacts with dilute hydrochloric acid (HCl) according to the equation:\n\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\n\nExactly 25.0 cm³ of 0.200 mol/dm³ Na₂CO₃ solution is placed in a flask and reacted with excess HCl.",
+    "stem": "What is the volume of carbon dioxide gas produced at room temperature and pressure? (1 mole of gas occupies 24.0 dm³ at r.t.p.)",
+    "options": [
+      "120 cm³",
+      "240 cm³",
+      "60 cm³",
+      "12 cm³"
+    ],
+    "answer": "120 cm³",
+    "time": 60
+  },
+  {
+    "question": "A student dissolved 14.3 g of hydrated sodium carbonate, Na₂CO₃·xH₂O, in distilled water to make 1.00 dm³ of solution. In a titration, 25.0 cm³ of this solution required 25.0 cm³ of 0.100 mol/dm³ HCl for complete neutralization.\n\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\n\n(Relative formula masses: Na₂CO₃ = 106, H₂O = 18)",
+    "stem": "Calculate the value of x in Na₂CO₃·xH₂O.",
+    "options": [
+      "10",
+      "7",
+      "5",
+      "12"
+    ],
+    "answer": "10",
+    "time": 65
+  },
+  {
+    "question": "An impure sample of sodium hydroxide weighing 5.00 g was dissolved in water to make 1.00 dm³ of solution. A 25.0 cm³ sample of this solution required 20.0 cm³ of 0.100 mol/dm³ hydrochloric acid (HCl) for complete neutralization. (Relative formula mass: NaOH = 40)",
+    "stem": "What is the percentage purity of the sodium hydroxide sample?",
+    "options": [
+      "64%",
+      "80%",
+      "32%",
+      "40%"
+    ],
+    "answer": "64%",
+    "time": 65
+  },
+  {
+    "question": "When taking a liquid volume reading from a burette filled with a colorless aqueous solution, parallax error must be avoided.",
+    "stem": "How should a student position their eyes to read the liquid level accurately?",
+    "options": [
+      "Position eyes level with the bottom of the curved meniscus",
+      "Position eyes level with the top edges of the meniscus",
+      "Look downward at an angle toward the liquid surface",
+      "Read from the middle point between the top and bottom of the meniscus"
+    ],
+    "answer": "Position eyes level with the bottom of the curved meniscus",
+    "time": 40
+  },
+  {
+    "question": "Titration is a practical technique used to carry out acid-base neutralization reactions.",
+    "stem": "What essential ionic equation represents the neutralization reaction between any strong acid and strong base in aqueous solution?",
+    "options": [
+      "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+      "Na⁺(aq) + Cl⁻(aq) → NaCl(s)",
+      "2H⁺(aq) + O²⁻(aq) → H₂O(l)",
+      "H⁺(aq) + Cl⁻(aq) → HCl(aq)"
+    ],
+    "answer": "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+    "time": 40
+  },
+  {
+    "question": "An excess of dilute hydrochloric acid (HCl) is added to a sample of powdered calcium carbonate (CaCO₃). The unreacted acid remaining in the mixture is then determined by titrating against standard sodium hydroxide solution (NaOH).",
+    "stem": "What name is given to this type of indirect titration procedure?",
+    "options": [
+      "Back titration",
+      "Direct titration",
+      "Redox titration",
+      "Precipitation titration"
+    ],
+    "answer": "Back titration",
+    "time": 40
+  },
+  {
+    "question": "A student pipettes 25.0 cm³ of a concentrated 1.00 mol/dm³ HCl solution into a volumetric flask and adds distilled water up to the mark to prepare a total volume of 250 cm³.",
+    "stem": "What is the concentration of the diluted HCl solution prepared?",
+    "options": [
+      "0.100 mol/dm³",
+      "0.010 mol/dm³",
+      "0.250 mol/dm³",
+      "0.500 mol/dm³"
+    ],
+    "answer": "0.100 mol/dm³",
+    "time": 45
+  },
+  {
+    "question": "A student mixes 20.0 cm³ of 0.500 mol/dm³ HCl with 30.0 cm³ of 0.200 mol/dm³ NaOH solution in a beaker.",
+    "stem": "Which substance is in excess, and by how many moles?",
+    "options": [
+      "HCl is in excess by 0.0040 mol",
+      "NaOH is in excess by 0.0040 mol",
+      "HCl is in excess by 0.0020 mol",
+      "Both are completely neutralized with 0 mol excess"
+    ],
+    "answer": "HCl is in excess by 0.0040 mol",
+    "time": 55
+  },
+  {
+    "question": "Ethanoic acid (CH₃COOH) is a weak acid, while sodium hydroxide (NaOH) is a strong base.",
+    "stem": "Which indicator is most suitable to detect the end-point when titrating ethanoic acid with sodium hydroxide?",
+    "options": [
+      "Phenolphthalein",
+      "Methyl orange",
+      "Universal indicator",
+      "Litmus paper"
+    ],
+    "answer": "Phenolphthalein",
+    "time": 45
+  },
+  {
+    "question": "Two separate 25.0 cm³ samples of 0.100 mol/dm³ NaOH are titrated. Sample 1 is titrated with 0.100 mol/dm³ HCl. Sample 2 is titrated with 0.100 mol/dm³ H₂SO₄.",
+    "stem": "How does the volume of H₂SO₄ required for neutralization compare to the volume of HCl required?",
+    "options": [
+      "Volume of H₂SO₄ needed is HALF the volume of HCl",
+      "Volume of H₂SO₄ needed is TWICE the volume of HCl",
+      "Volume of H₂SO₄ needed is EQUAL to the volume of HCl",
+      "Volume of H₂SO₄ needed is FOUR TIMES the volume of HCl"
+    ],
+    "answer": "Volume of H₂SO₄ needed is HALF the volume of HCl",
+    "time": 50
+  },
+  {
+    "question": "Exactly 25.0 cm³ of 0.200 mol/dm³ NaOH is completely neutralized by dilute HCl in a titration according to the equation:\n\nNaOH + HCl → NaCl + H₂O\n\n(Relative atomic masses: Na = 23, Cl = 35.5)",
+    "stem": "What mass of dry sodium chloride (NaCl) salt can be recovered after evaporating the solution to dryness?",
+    "options": [
+      "0.2925 g",
+      "0.5850 g",
+      "2.925 g",
+      "0.1170 g"
+    ],
+    "answer": "0.2925 g",
+    "time": 55
+  }
+]
