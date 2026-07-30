@@ -1,0 +1,335 @@
+[
+  {
+    "question": "A group of students took a math test. The results are shown in the box-and-whisker plot below.",
+    "boxplot": {
+      "min": 10,
+      "q1": 25,
+      "median": 40,
+      "q3": 55,
+      "max": 70,
+      "label": "Test Scores"
+    },
+    "stem": "What is the probability that a randomly selected student scored LESS than 25?",
+    "options": ["0.25", "0.50", "0.75", "0.40"],
+    "answer": "0.25",
+    "time": 50
+  },
+  {
+    "question": "The box-and-whisker plot shows the distribution of scores in a competition.",
+    "boxplot": {
+      "min": 12,
+      "q1": 28,
+      "median": 45,
+      "q3": 60,
+      "max": 80,
+      "label": "Competition Scores"
+    },
+    "stem": "What is the probability that a randomly chosen participant scored MORE than 60?",
+    "options": ["0.25", "0.50", "0.75", "0.60"],
+    "answer": "0.25",
+    "time": 50
+  },
+  {
+    "question": "The box-and-whisker plot below represents exam scores for a class.",
+    "boxplot": {
+      "min": 10,
+      "q1": 25,
+      "median": 40,
+      "q3": 55,
+      "max": 70,
+      "label": "Exam Scores"
+    },
+    "stem": "A student is selected at random. What is the probability that their score lies within the interquartile range (between 25 and 55)?",
+    "options": ["0.50", "0.25", "0.75", "0.30"],
+    "answer": "0.50",
+    "time": 50
+  },
+  {
+    "question": "The time spent on homework by a class of students is shown in the plot below.",
+    "boxplot": {
+      "min": 15,
+      "q1": 30,
+      "median": 50,
+      "q3": 65,
+      "max": 85,
+      "label": "Homework Time (minutes)"
+    },
+    "stem": "What is the probability that a randomly chosen student spent MORE than the median time of 50 minutes on homework?",
+    "options": ["0.50", "0.25", "0.75", "0.20"],
+    "answer": "0.50",
+    "time": 50
+  },
+  {
+    "question": "Class A has 40 students and Class B has 80 students. Both classes took the same test, and both classes have a lower quartile (Q1) of 30 marks.",
+    "stem": "How many students in Class B scored less than 30 marks?",
+    "options": ["20 students", "10 students", "40 students", "30 students"],
+    "answer": "20 students",
+    "time": 55
+  },
+  {
+    "question": "Group A consists of 60 members and Group B consists of 120 members. In both groups, the upper quartile (Q3) of test scores is 70 marks.",
+    "stem": "How does the probability of selecting a person who scored above 70 from Group A compare to selecting one from Group B?",
+    "options": [
+      "The probability is 0.25 for both groups",
+      "Group B has twice the probability of Group A",
+      "Group A has twice the probability of Group B",
+      "The probability is 0.75 for both groups"
+    ],
+    "answer": "The probability is 0.25 for both groups",
+    "time": 60
+  },
+  {
+    "question": "Group A has 40 people and Group B has 100 people. Both groups took a fitness assessment, and both have an upper quartile (Q3) of 75 points.",
+    "stem": "What is the difference between the number of people in Group B who scored above 75 and the number of people in Group A who scored above 75?",
+    "options": ["15 people", "60 people", "25 people", "10 people"],
+    "answer": "15 people",
+    "time": 60
+  },
+  {
+    "question": "The box-and-whisker plot below displays the scores of a science quiz.",
+    "boxplot": {
+      "min": 5,
+      "q1": 20,
+      "median": 35,
+      "q3": 50,
+      "max": 65,
+      "label": "Science Quiz Scores"
+    },
+    "stem": "What is the probability of selecting a student with a score LESS than 50?",
+    "options": ["0.75", "0.25", "0.50", "0.35"],
+    "answer": "0.75",
+    "time": 50
+  },
+  {
+    "question": "A total of 120 participants took part in a survey. Their age distribution is shown in the box plot below.",
+    "boxplot": {
+      "min": 10,
+      "q1": 20,
+      "median": 35,
+      "q3": 45,
+      "max": 60,
+      "label": "Age Distribution (years)"
+    },
+    "stem": "How many participants are between 20 and 45 years old?",
+    "options": ["60 participants", "30 participants", "25 participants", "90 participants"],
+    "answer": "60 participants",
+    "time": 55
+  },
+  {
+    "question": "The distribution of daily earnings for a group of workers is shown below.",
+    "boxplot": {
+      "min": 100,
+      "q1": 150,
+      "median": 220,
+      "q3": 300,
+      "max": 400,
+      "label": "Daily Earnings ($)"
+    },
+    "stem": "What is the probability that a randomly chosen worker earns between the median ($220) and the upper quartile ($300)?",
+    "options": ["0.25", "0.50", "0.75", "0.80"],
+    "answer": "0.25",
+    "time": 50
+  },
+  {
+    "question": "Two groups of students took the same test. Their score summaries are shown in the table below.",
+    "table": {
+      "headers": ["Group", "Min", "Q1", "Median", "Q3", "Max"],
+      "rows": [
+        ["Group X", "10", "20", "35", "50", "70"],
+        ["Group Y", "15", "30", "40", "45", "65"]
+      ]
+    },
+    "stem": "Which group has a larger interquartile range (IQR), and what is its value?",
+    "options": [
+      "Group X with an IQR of 30",
+      "Group Y with an IQR of 15",
+      "Group X with an IQR of 60",
+      "Group Y with an IQR of 50"
+    ],
+    "answer": "Group X with an IQR of 30",
+    "time": 60
+  },
+  {
+    "question": "The box plot below shows the time (in minutes) taken by runners to complete a race.",
+    "boxplot": {
+      "min": 0,
+      "q1": 15,
+      "median": 30,
+      "q3": 45,
+      "max": 60,
+      "label": "Race Completion Time (minutes)"
+    },
+    "stem": "What is the probability that a randomly selected runner took a time outside the interquartile range (either below 15 or above 45)?",
+    "options": ["0.50", "0.25", "0.75", "0.30"],
+    "answer": "0.50",
+    "time": 55
+  },
+  {
+    "question": "A total of 200 candidates participated in an aptitude test. Their scores are summarized in the box plot below.",
+    "boxplot": {
+      "min": 12,
+      "q1": 24,
+      "median": 36,
+      "q3": 48,
+      "max": 60,
+      "label": "Aptitude Test Scores"
+    },
+    "stem": "How many candidates scored 36 or below?",
+    "options": ["100 candidates", "50 candidates", "150 candidates", "36 candidates"],
+    "answer": "100 candidates",
+    "time": 50
+  },
+  {
+    "question": "Class X has 30 students and Class Y has 60 students. Both classes have a median score of 65 on a history quiz.",
+    "stem": "If one student is selected at random from Class X and one from Class Y, what is the probability that BOTH students scored above 65?",
+    "options": ["0.25", "0.50", "0.125", "0.0625"],
+    "answer": "0.25",
+    "time": 60
+  },
+  {
+    "question": "The distribution of weekly study hours for a population of students is shown below.",
+    "boxplot": {
+      "min": 2,
+      "q1": 8,
+      "median": 14,
+      "q3": 20,
+      "max": 26,
+      "label": "Weekly Study Hours"
+    },
+    "stem": "Two students are selected at random with replacement. What is the probability that BOTH students study less than 8 hours per week?",
+    "options": ["1/16", "1/4", "1/8", "1/2"],
+    "answer": "1/16",
+    "time": 60
+  },
+  {
+    "question": "A group of students took a physics test. The box plot of their scores is shown below. It is given that exactly 15 students scored above 55.",
+    "boxplot": {
+      "min": 10,
+      "q1": 25,
+      "median": 40,
+      "q3": 55,
+      "max": 70,
+      "label": "Physics Test Scores"
+    },
+    "stem": "What is the total number of students who took the physics test?",
+    "options": ["60 students", "45 students", "30 students", "75 students"],
+    "answer": "60 students",
+    "time": 60
+  },
+  {
+    "question": "The distribution of monthly phone bills for a group of customers is shown in the box plot below. Exactly 50 customers have bills within the interquartile range (between $18 and $48).",
+    "boxplot": {
+      "min": 5,
+      "q1": 18,
+      "median": 32,
+      "q3": 48,
+      "max": 60,
+      "label": "Monthly Phone Bills ($)"
+    },
+    "stem": "How many customers took part in this survey in total?",
+    "options": ["100 customers", "50 customers", "200 customers", "150 customers"],
+    "answer": "100 customers",
+    "time": 60
+  },
+  {
+    "question": "A company analyzed the sales figures (in thousands of dollars) of 80 employees. The box plot is shown below.",
+    "boxplot": {
+      "min": 10,
+      "q1": 30,
+      "median": 40,
+      "q3": 70,
+      "max": 90,
+      "label": "Sales Figures (thousands $)"
+    },
+    "stem": "Based on this box plot, which of the following statements MUST be true?",
+    "options": [
+      "Exactly 20 people scored 30 or below",
+      "The mean score is equal to 40",
+      "The range of the scores is 40",
+      "75% of the people scored above 70"
+    ],
+    "answer": "Exactly 20 people scored 30 or below",
+    "time": 60
+  },
+  {
+    "question": "The test scores of a cohort are represented by the box plot below.",
+    "boxplot": {
+      "min": 10,
+      "q1": 20,
+      "median": 30,
+      "q3": 40,
+      "max": 50,
+      "label": "Test Scores"
+    },
+    "stem": "Two students are chosen at random with replacement. What is the probability that AT LEAST ONE student scored above the median (above 30)?",
+    "options": ["0.75", "0.25", "0.50", "0.80"],
+    "answer": "0.75",
+    "time": 65
+  },
+  {
+    "question": "The box plot below shows the score distribution of a reading comprehension test.",
+    "boxplot": {
+      "min": 10,
+      "q1": 25,
+      "median": 40,
+      "q3": 55,
+      "max": 70,
+      "label": "Reading Comprehension Scores"
+    },
+    "stem": "What is the probability that a randomly chosen student scored between 25 and 70?",
+    "options": ["0.75", "0.25", "0.50", "0.85"],
+    "answer": "0.75",
+    "time": 50
+  },
+  {
+    "question": "Two schools conducted the same English test. The results are summarized below.",
+    "table": {
+      "headers": ["School", "Total Students", "Lower Quartile (Q1)"],
+      "rows": [
+        ["School A", "200", "45"],
+        ["School B", "500", "45"]
+      ]
+    },
+    "stem": "How many MORE students scored below 45 in School B than in School A?",
+    "options": ["75 students", "300 students", "125 students", "50 students"],
+    "answer": "75 students",
+    "time": 65
+  },
+  {
+    "question": "The box plot below shows the height (in cm) of plants in a greenhouse.",
+    "boxplot": {
+      "min": 5,
+      "q1": 15,
+      "median": 30,
+      "q3": 45,
+      "max": 80,
+      "label": "Plant Heights (cm)"
+    },
+    "stem": "What is the probability that a randomly chosen plant has a height that lies either below the lower quartile or above the upper quartile?",
+    "options": ["0.50", "0.25", "0.75", "0.40"],
+    "answer": "0.50",
+    "time": 50
+  },
+  {
+    "question": "The scores of candidates in an interview assessment are shown below.",
+    "boxplot": {
+      "min": 20,
+      "q1": 35,
+      "median": 50,
+      "q3": 65,
+      "max": 85,
+      "label": "Interview Assessment Scores"
+    },
+    "stem": "A candidate is selected at random. What is the probability that their score is LESS THAN 65?",
+    "options": ["0.75", "0.25", "0.50", "0.65"],
+    "answer": "0.75",
+    "time": 50
+  },
+  {
+    "question": "Company A employs 80 workers and Company B employs 120 workers. Both companies have an upper quartile (Q3) monthly salary of $4,000.",
+    "stem": "One worker is selected at random from Company A and one from Company B. What is the probability that BOTH workers earn MORE than $4,000?",
+    "options": ["1/16", "1/4", "1/8", "1/32"],
+    "answer": "1/16",
+    "time": 65
+  }
+]
