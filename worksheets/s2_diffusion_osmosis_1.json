@@ -1,0 +1,355 @@
+[
+  {
+    "question": "Diffusion is an essential physical process by which dissolved solutes and gases move across cellular environments.",
+    "stem": "Which statement correctly describes the process of diffusion?",
+    "options": [
+      "It is the net movement of substances down a concentration gradient from a region of higher concentration to a region of lower concentration until equilibrium is reached.",
+      "It is the net movement of substances against a concentration gradient using energy from cellular respiration.",
+      "It is the net movement of water molecules from a region of lower water potential to higher water potential.",
+      "It is the movement of large insoluble substances across a fully permeable membrane."
+    ],
+    "answer": "It is the net movement of substances down a concentration gradient from a region of higher concentration to a region of lower concentration until equilibrium is reached.",
+    "time": 45
+  },
+  {
+    "question": "A crystal of potassium manganate(VII) was dropped into Beaker A (water at 10°C) and Beaker B (water at 60°C).",
+    "stem": "Why did the purple color spread faster throughout the water in Beaker B?",
+    "options": [
+      "Higher temperature gives molecules of the substance more kinetic energy, increasing the rate of net movement until equilibrium is reached",
+      "Higher temperature causes water molecules to undergo net movement by osmosis into the crystal",
+      "Higher temperature breaks down the dissolved substance into oxygen and hydrogen",
+      "Higher temperature eliminates the concentration gradient completely"
+    ],
+    "answer": "Higher temperature gives molecules of the substance more kinetic energy, increasing the rate of net movement until equilibrium is reached",
+    "time": 45
+  },
+  {
+    "question": "Osmosis and diffusion are both passive transport processes.",
+    "stem": "Which condition is strictly REQUIRED for the net movement of water by osmosis, but NOT required for the diffusion of substances?",
+    "options": [
+      "A partially permeable membrane",
+      "A concentration gradient of dissolved solutes",
+      "An input of energy from cellular respiration",
+      "A temperature above 37°C"
+    ],
+    "answer": "A partially permeable membrane",
+    "time": 40
+  },
+  {
+    "question": "A Visking tubing bag filled with starch solution was placed in a beaker of water containing iodine solution. Visking tubing acts as a partially permeable membrane. After 30 minutes, the liquid inside the Visking tubing turned dark blue-black, while the liquid in the beaker remained yellow-brown.",
+    "stem": "What does this experiment demonstrate about the net movement and relative molecular sizes of these substances?",
+    "options": [
+      "Small iodine molecules undergo net movement through the tubing pores into the bag, but large starch molecules cannot pass through",
+      "Large starch molecules undergo net movement through the tubing pores into the beaker, but iodine molecules cannot pass through",
+      "Both starch and iodine molecules undergo rapid net movement through the tubing pores until equal concentrations are reached",
+      "Neither starch nor iodine molecules can pass through the tubing pores"
+    ],
+    "answer": "Small iodine molecules undergo net movement through the tubing pores into the bag, but large starch molecules cannot pass through",
+    "time": 50
+  },
+  {
+    "question": "A Visking tubing bag containing a mixture of starch solution and salivary amylase (an enzyme that breaks starch down into maltose and glucose) is placed in a beaker of distilled water at 37°C for 45 minutes.",
+    "stem": "If samples from the beaker water are tested, which result will be observed?",
+    "options": [
+      "Benedict's test gives an orange-red precipitate because glucose molecules undergo net movement out of the tubing, while Iodine test remains yellow-brown",
+      "Iodine test turns dark blue-black because starch molecules undergo net movement out of the tubing, while Benedict's test remains blue",
+      "Both Benedict's test and Iodine test give positive results in the beaker water",
+      "Neither Benedict's test nor Iodine test gives a positive result in the beaker water"
+    ],
+    "answer": "Benedict's test gives an orange-red precipitate because glucose molecules undergo net movement out of the tubing, while Iodine test remains yellow-brown",
+    "time": 55
+  },
+  {
+    "question": "Two sugars, glucose (a small monosaccharide) and sucrose (a larger disaccharide), were placed inside a Visking tubing bag immersed in a beaker of distilled water.",
+    "table": {
+      "headers": ["Substance Inside Tubing", "Relative Molecular Size", "Detected in Beaker Water After 1 Hour"],
+      "rows": [
+        ["Glucose", "Small", "Yes"],
+        ["Sucrose", "Large", "No"]
+      ]
+    },
+    "stem": "Why was glucose detected in the beaker water, but sucrose was not?",
+    "options": [
+      "Glucose molecules are small enough to undergo net movement through the pores of the Visking tubing, whereas sucrose molecules are too large",
+      "Sucrose molecules undergo net movement back into the Visking tubing by active transport",
+      "Glucose molecules require energy to cross the partially permeable membrane",
+      "Sucrose molecules react with water to form insoluble starch inside the tubing"
+    ],
+    "answer": "Glucose molecules are small enough to undergo net movement through the pores of the Visking tubing, whereas sucrose molecules are too large",
+    "time": 50
+  },
+  {
+    "question": "A human red blood cell and an onion plant cell were placed into separate beakers of pure distilled water.",
+    "stem": "Why does the red blood cell swell and burst, while the plant cell becomes turgid without bursting?",
+    "options": [
+      "Net movement of water into the plant cell makes it turgid, and its strong cellulose cell wall prevents bursting, whereas the red blood cell lacks a cell wall",
+      "Net movement of water occurs into the red blood cell by active transport, whereas water enters the plant cell by diffusion",
+      "The plant cell surface membrane is completely impermeable to water, blocking any net movement of water",
+      "Net movement of water occurs out of the red blood cell, but into the plant cell"
+    ],
+    "answer": "Net movement of water into the plant cell makes it turgid, and its strong cellulose cell wall prevents bursting, whereas the red blood cell lacks a cell wall",
+    "time": 50
+  },
+  {
+    "question": "A sample of human blood was mixed with a 10% concentrated salt solution.",
+    "stem": "What change occurs to the red blood cells, and why?",
+    "options": [
+      "They shrink and crenate because there is a net movement of water out of the cells by osmosis into the lower water potential solution",
+      "They swell and burst because there is a net movement of salt substances into the cells by diffusion",
+      "They become turgid because there is a net movement of water into the cells by osmosis",
+      "They remain unchanged because cell surface membranes prevent any net movement of water"
+    ],
+    "answer": "They shrink and crenate because there is a net movement of water out of the cells by osmosis into the lower water potential solution",
+    "time": 50
+  },
+  {
+    "question": "Onion epidermal cells were placed in a 20% concentrated sucrose solution for 15 minutes and observed under a microscope.",
+    "stem": "Which observation describes the cells, and what is the explanation?",
+    "options": [
+      "The cells are plasmolysed because there is a net movement of water out of the vacuole and cytoplasm by osmosis, causing the cell surface membrane to pull away from the cell wall",
+      "The cells are turgid because sucrose substances undergo net movement into the vacuole",
+      "The cells burst because there is a net movement of water into the cytoplasm by osmosis",
+      "The cell wall dissolves because concentrated sucrose substances destroy cellulose"
+    ],
+    "answer": "The cells are plasmolysed because there is a net movement of water out of the vacuole and cytoplasm by osmosis, causing the cell surface membrane to pull away from the cell wall",
+    "time": 50
+  },
+  {
+    "question": "Fresh potato strips were placed in three beaker solutions with different water potentials.",
+    "table": {
+      "headers": ["Potato Strip", "Solution Environment", "Texture After 1 Hour"],
+      "rows": [
+        ["Strip 1", "Solution A (Distilled water)", "Firm and stiff (Turgid)"],
+        ["Strip 2", "Solution B (Isotonic)", "Unchanged"],
+        ["Strip 3", "Solution C (Concentrated salt)", "Limp and soft (Flaccid)"]
+      ]
+    },
+    "stem": "Why did Strip 1 become firm and stiff?",
+    "options": [
+      "There was a net movement of water into the potato cells by osmosis down a water potential gradient, making the cells turgid",
+      "There was a net movement of salt substances out of the potato cells by diffusion",
+      "Starch substances inside the potato cells underwent net movement out into the water",
+      "There was a net movement of water out of the potato cells by osmosis until flaccid"
+    ],
+    "answer": "There was a net movement of water into the potato cells by osmosis down a water potential gradient, making the cells turgid",
+    "time": 50
+  },
+  {
+    "question": "An experiment was carried out using identical red blood cells placed into three unknown liquid solutions X, Y, and Z.",
+    "table": {
+      "headers": ["Solution", "Microscopic Appearance of Red Blood Cells"],
+      "rows": [
+        ["Solution X", "Cells swelled up and burst (lysed)"],
+        ["Solution Y", "Cells maintained normal biconcave shape"],
+        ["Solution Z", "Cells shrank and developed spiked edges (crenated)"]
+      ]
+    },
+    "stem": "Which option correctly ranks the solutions from HIGHEST water potential to LOWEST water potential?",
+    "options": [
+      "Solution X → Solution Y → Solution Z",
+      "Solution Z → Solution Y → Solution X",
+      "Solution Y → Solution X → Solution Z",
+      "Solution X → Solution Z → Solution Y"
+    ],
+    "answer": "Solution X → Solution Y → Solution Z",
+    "time": 50
+  },
+  {
+    "question": "Five identical potato cylinders, each weighing exactly 10.0 g, were placed into sucrose solutions of different concentrations for 2 hours.",
+    "table": {
+      "headers": ["Sucrose Concentration (%)", "Initial Mass (g)", "Final Mass (g)", "Percentage Mass Change (%)"],
+      "rows": [
+        ["0 (Distilled water)", "10.0", "11.8", "+18%"],
+        ["5", "10.0", "10.8", "+8%"],
+        ["10", "10.0", "10.0", "0%"],
+        ["15", "10.0", "9.2", "-8%"],
+        ["20", "10.0", "8.4", "-16%"]
+      ]
+    },
+    "stem": "At which sucrose concentration is there NO NET MOVEMENT of water between the solution and the potato cell sap?",
+    "options": [
+      "10%",
+      "0%",
+      "5%",
+      "20%"
+    ],
+    "answer": "10%",
+    "time": 50
+  },
+  {
+    "question": "A fresh dandelion stem strip was cut lengthwise into two halves and placed in a beaker of concentrated salt solution for 30 minutes.",
+    "stem": "How do the split stem halves curve, and why?",
+    "options": [
+      "They curve inward toward the cut surface because inner cortical cells lose water by osmosis faster than waterproof outer epidermal cells",
+      "They curve outward away from the cut surface because inner cortical cells absorb water by osmosis faster than outer epidermal cells",
+      "They remain completely straight because salt substances undergo net movement into both sides equally",
+      "They swell on both sides because there is a net movement of water into all cells"
+    ],
+    "answer": "They curve inward toward the cut surface because inner cortical cells lose water by osmosis faster than waterproof outer epidermal cells",
+    "time": 55
+  },
+  {
+    "question": "Plant cells possess both a cell wall and a cell surface membrane.",
+    "stem": "Which statement correctly compares the permeability of the plant cell wall and the cell surface membrane to dissolved substances?",
+    "options": [
+      "The cell wall is fully permeable to dissolved substances, whereas the cell surface membrane is partially permeable",
+      "The cell wall is partially permeable to water only, whereas the cell surface membrane is fully permeable to all substances",
+      "Both the cell wall and cell surface membrane are completely impermeable to dissolved substances",
+      "The cell wall blocks the net movement of water, whereas the cell surface membrane allows all substances through"
+    ],
+    "answer": "The cell wall is fully permeable to dissolved substances, whereas the cell surface membrane is partially permeable",
+    "time": 45
+  },
+  {
+    "question": "When a potted plant is left unwatered in hot weather, its leaves wilt. After watering the soil, the plant recovers its upright structure.",
+    "stem": "How does watering the soil cause the plant to recover?",
+    "options": [
+      "Net movement of water into root hair cells by osmosis increases cell turgidity, providing mechanical support to the plant",
+      "Net movement of water occurs into leaf cells by active transport, creating rigid starch crystals",
+      "Dissolved mineral substances undergo net movement into root cells to solidify xylem vessels",
+      "Water evaporates through stomata to pull the plant stems upright"
+    ],
+    "answer": "Net movement of water into root hair cells by osmosis increases cell turgidity, providing mechanical support to the plant",
+    "time": 50
+  },
+  {
+    "question": "A dialysis tubing membrane functions as a partially permeable barrier. A student investigated the movement of three substances across this membrane.",
+    "table": {
+      "headers": ["Substance", "Relative Molecular Size", "Present Inside Tubing at Start", "Detected Outside in Water After 2 Hours"],
+      "rows": [
+        ["Water", "Very Small", "Yes", "Yes"],
+        ["Glucose", "Small", "Yes", "Yes"],
+        ["Starch", "Very Large", "Yes", "No"]
+      ]
+    },
+    "stem": "Which statement regarding the net movement of these substances across the membrane is supported by the data?",
+    "options": [
+      "There is a net movement of water and small dissolved substances like glucose across the membrane, but large substances like starch are blocked",
+      "There is a net movement of large substances like starch, but small substances like water are blocked",
+      "Glucose substances require energy from respiration for net movement across the membrane",
+      "Starch substances undergo net movement out of the tubing by diffusion"
+    ],
+    "answer": "There is a net movement of water and small dissolved substances like glucose across the membrane, but large substances like starch are blocked",
+    "time": 50
+  },
+  {
+    "question": "A U-tube is separated into Side X (10% sucrose solution) and Side Y (2% sucrose solution) by a partially permeable membrane that allows water molecules to pass but blocks sucrose molecules.",
+    "stem": "What change occurs to the liquid levels, and why?",
+    "options": [
+      "The liquid level in Side X rises while Side Y falls, because there is a net movement of water from Side Y to Side X by osmosis until dynamic equilibrium is approached",
+      "The liquid level in Side Y rises while Side X falls, because there is a net movement of sucrose substances from Side X to Side Y by diffusion",
+      "Both liquid levels remain equal because sucrose substances cannot undergo net movement",
+      "Both liquid levels drop to zero because water evaporates through the membrane"
+    ],
+    "answer": "The liquid level in Side X rises while Side Y falls, because there is a net movement of water from Side Y to Side X by osmosis until dynamic equilibrium is approached",
+    "time": 50
+  },
+  {
+    "question": "An experiment investigated how surface area to volume ratio affects transport using agar blocks stained with an indicator.",
+    "table": {
+      "headers": ["Agar Block Size (cm)", "Surface Area (cm²)", "Volume (cm³)", "Surface Area to Volume Ratio", "Time for Acid to Penetrate Center (mins)"],
+      "rows": [
+        ["1 x 1 x 1", "6", "1", "6 : 1", "5"],
+        ["2 x 2 x 2", "24", "8", "3 : 1", "12"],
+        ["3 x 3 x 3", "54", "27", "2 : 1", "20"]
+      ]
+    },
+    "stem": "What is the relationship between surface area to volume ratio and the rate of net movement of substances into the block?",
+    "options": [
+      "A larger surface area to volume ratio allows a faster rate of net movement of substances throughout the volume",
+      "A larger surface area to volume ratio causes a slower rate of net movement of substances throughout the volume",
+      "Surface area to volume ratio has no effect on the rate of net movement of substances",
+      "Larger blocks have a larger surface area to volume ratio than smaller blocks"
+    ],
+    "answer": "A larger surface area to volume ratio allows a faster rate of net movement of substances throughout the volume",
+    "time": 50
+  },
+  {
+    "question": "Fresh cucumber slices were sprinkled with salt crystals and left on a plate for 30 minutes.",
+    "stem": "What is observed, and which process explains it?",
+    "options": [
+      "Liquid collects on the plate and cucumber slices become flaccid because there is a net movement of water out of the cells by osmosis",
+      "Cucumber slices become firm and turgid because there is a net movement of salt substances into the cells",
+      "Cucumber slices swell up because atmospheric water undergoes net movement into the cells",
+      "No change occurs because plant cell walls prevent any net movement of liquid"
+    ],
+    "answer": "Liquid collects on the plate and cucumber slices become flaccid because there is a net movement of water out of the cells by osmosis",
+    "time": 45
+  },
+  {
+    "question": "Red blood cells placed in an unknown solution were observed under a microscope to be swollen and ruptured.",
+    "stem": "Which solution was used, and why did the cells rupture?",
+    "options": [
+      "Distilled water; there was a net movement of water into the cells by osmosis, creating internal pressure that burst the cell surface membrane",
+      "Concentrated salt solution; salt substances underwent net movement into the cells by diffusion, dissolving the membrane",
+      "Concentrated sugar solution; there was a net movement of water out of the cells by osmosis until the membrane shrank and tore",
+      "Pure oil; oil substances dissolved the cellulose cell wall of the red blood cells"
+    ],
+    "answer": "Distilled water; there was a net movement of water into the cells by osmosis, creating internal pressure that burst the cell surface membrane",
+    "time": 50
+  },
+  {
+    "question": "An osmometer consisting of a glass funnel covered with a partially permeable membrane is filled with concentrated sugar solution and inverted in a beaker of pure water.",
+    "stem": "Why does the liquid level in the narrow tube of the funnel rise over time?",
+    "options": [
+      "There is a net movement of water from the beaker into the funnel by osmosis down a water potential gradient",
+      "There is a net movement of sugar substances from the funnel into the beaker by diffusion",
+      "Sugar substances inside the funnel expand due to ambient room heat",
+      "Atmospheric pressure forces pure water out of the beaker into the top of the tube"
+    ],
+    "answer": "There is a net movement of water from the beaker into the funnel by osmosis down a water potential gradient",
+    "time": 50
+  },
+  {
+    "question": "A student measured the diffusion rate across a partially permeable membrane under two different concentration differences.",
+    "table": {
+      "headers": ["Setup", "Concentration Inside (mol/dm³)", "Concentration Outside (mol/dm³)", "Concentration Difference", "Diffusion Rate (units/min)"],
+      "rows": [
+        ["Setup 1", "0.80", "0.20", "0.60", "12"],
+        ["Setup 2", "0.40", "0.20", "0.20", "4"]
+      ]
+    },
+    "stem": "What can be concluded about the effect of concentration difference on the rate of net movement of substances?",
+    "options": [
+      "A steeper concentration gradient results in a faster rate of net movement of substances",
+      "A smaller concentration gradient results in a faster rate of net movement of substances",
+      "The rate of net movement of substances is independent of the concentration gradient",
+      "Substances undergo net movement faster when internal and external concentrations are equal"
+    ],
+    "answer": "A steeper concentration gradient results in a faster rate of net movement of substances",
+    "time": 45
+  },
+  {
+    "question": "Plant root hair cells absorb water from soil solution under normal healthy growing conditions.",
+    "stem": "How does the water potential of soil water compare to that of the root hair cell sap, and what process occurs?",
+    "options": [
+      "Soil water has a HIGHER water potential than cell sap, resulting in a net movement of water into root cells by osmosis",
+      "Soil water has a LOWER water potential than cell sap, resulting in a net movement of water into root cells by osmosis",
+      "Soil water and cell sap have EQUAL water potential, so water enters cells by active transport",
+      "Soil water has ZERO water potential, resulting in a net movement of dissolved substances into cells"
+    ],
+    "answer": "Soil water has a HIGHER water potential than cell sap, resulting in a net movement of water into root cells by osmosis",
+    "time": 45
+  },
+  {
+    "question": "A summary table compares the key features of diffusion and osmosis.",
+    "table": {
+      "headers": ["Feature", "Diffusion", "Osmosis"],
+      "rows": [
+        ["Substance Moving", "Dissolved substances or gases", "Water molecules only"],
+        ["Direction of Net Movement", "Down concentration gradient until equilibrium", "Higher water potential to lower water potential until equilibrium"],
+        ["Requires Partially Permeable Membrane?", "No", "Yes"],
+        ["Requires Cellular Energy?", "No (Passive process)", "No (Passive process)"]
+      ]
+    },
+    "stem": "Based on the table, which feature is SHARED by both diffusion and osmosis?",
+    "options": [
+      "Both are passive processes that do not require cellular energy for the net movement of substances or water",
+      "Both require a partially permeable membrane for net movement to occur",
+      "Both describe the net movement of water molecules only",
+      "Both involve the net movement of substances against a concentration gradient"
+    ],
+    "answer": "Both are passive processes that do not require cellular energy for the net movement of substances or water",
+    "time": 50
+  }
+]
