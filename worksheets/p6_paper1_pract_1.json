@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A student needs to express a small percentage value as a decimal.",
+    "stem": "Express 0.8% as a decimal.",
+    "options": [
+      "0.008",
+      "0.08",
+      "0.8",
+      "0.0008"
+    ],
+    "answer": "0.008",
+    "time": 40
+  },
+  {
+    "question": "Convert the given percentage into a fraction in its simplest form.",
+    "stem": "Express 0.05% as a fraction in its simplest form.",
+    "options": [
+      "1/2000",
+      "1/200",
+      "1/20",
+      "1/20000"
+    ],
+    "answer": "1/2000",
+    "time": 45
+  },
+  {
+    "question": "A interest rate of 3 1/4% is given in a financial problem.",
+    "stem": "Express 3 1/4% as a decimal.",
+    "options": [
+      "0.0325",
+      "0.325",
+      "0.00325",
+      "3.25"
+    ],
+    "answer": "0.0325",
+    "time": 45
+  },
+  {
+    "question": "A probability value is written as the decimal 0.015.",
+    "stem": "Express 0.015 as a percentage.",
+    "options": [
+      "1.5%",
+      "15%",
+      "0.15%",
+      "0.015%"
+    ],
+    "answer": "1.5%",
+    "time": 40
+  },
+  {
+    "question": "On a town map, a scale of 1 cm to 20 m is used.",
+    "stem": "A straight road measures 8.5 cm on the map. What is the actual length of the road in meters?",
+    "options": [
+      "170 m",
+      "17 m",
+      "1700 m",
+      "85 m"
+    ],
+    "answer": "170 m",
+    "time": 50
+  },
+  {
+    "question": "A map scale is given as 1 cm to 250 m.",
+    "stem": "The actual distance between two MRT stations is 3 km. What is the distance between them on the map in centimeters?",
+    "options": [
+      "12 cm",
+      "8 cm",
+      "15 cm",
+      "1.2 cm"
+    ],
+    "answer": "12 cm",
+    "time": 55
+  },
+  {
+    "question": "A map uses a scale where 1 cm on the map represents 40 m actual distance.",
+    "stem": "Express the scale of the map as a ratio in the form 1 : n in its simplest form.",
+    "options": [
+      "1 : 4000",
+      "1 : 400",
+      "1 : 40",
+      "1 : 40000"
+    ],
+    "answer": "1 : 4000",
+    "time": 50
+  },
+  {
+    "question": "A rectangular park measures 5 cm by 3 cm on a map. The map scale is 1 cm to 20 m.",
+    "stem": "What is the actual area of the park in square meters?",
+    "options": [
+      "6000 m²",
+      "3000 m²",
+      "300 m²",
+      "600 m²"
+    ],
+    "answer": "6000 m²",
+    "time": 60
+  },
+  {
+    "question": "A student is finding common factors of two whole numbers.",
+    "stem": "What is the highest common factor (HCF) of 36 and 54?",
+    "options": [
+      "18",
+      "9",
+      "6",
+      "27"
+    ],
+    "answer": "18",
+    "time": 50
+  },
+  {
+    "question": "Two alarm clocks ring at different intervals. Clock A rings every 6 minutes and Clock B rings every 8 minutes. Both clocks ring together at 8:00 am.",
+    "stem": "At what time will both clocks next ring together?",
+    "options": [
+      "8:24 am",
+      "8:14 am",
+      "8:48 am",
+      "8:12 am"
+    ],
+    "answer": "8:24 am",
+    "time": 55
+  },
+  {
+    "question": "Consider the whole numbers 4, 6, and 9.",
+    "stem": "Which of the following is a common multiple of 4, 6, and 9?",
+    "options": [
+      "72",
+      "54",
+      "48",
+      "60"
+    ],
+    "answer": "72",
+    "time": 55
+  },
+  {
+    "question": "A teacher has 48 blue pens and 72 red pens. She wants to divide them into goodie bags so that each bag has the same number of blue pens and red pens with no pens left over.",
+    "stem": "What is the maximum number of goodie bags she can prepare?",
+    "options": [
+      "24",
+      "12",
+      "16",
+      "8"
+    ],
+    "answer": "24",
+    "time": 55
+  },
+  {
+    "question": "An algebraic expression needs to be simplified into its simplest form.",
+    "stem": "Simplify 5x + 7 - 2x + 3.",
+    "options": [
+      "3x + 10",
+      "3x + 4",
+      "7x + 10",
+      "7x + 4"
+    ],
+    "answer": "3x + 10",
+    "time": 45
+  },
+  {
+    "question": "Evaluate an algebraic expression given a specific value for the variable.",
+    "stem": "If y = 5, find the value of (4y + 10) / 3.",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "6"
+    ],
+    "answer": "10",
+    "time": 45
+  },
+  {
+    "question": "Siti has p stickers. Devi has 3 times as many stickers as Siti. Devi then gives 5 stickers to Siti.",
+    "stem": "How many stickers does Devi have now in terms of p?",
+    "options": [
+      "3p - 5",
+      "3p + 5",
+      "p - 5",
+      "3(p - 5)"
+    ],
+    "answer": "3p - 5",
+    "time": 50
+  },
+  {
+    "question": "A fruit seller had n apples. He threw away 12 rotten apples and packed the remaining apples equally into 4 boxes.",
+    "stem": "How many apples were in each box in terms of n?",
+    "options": [
+      "(n - 12) / 4",
+      "(n + 12) / 4",
+      "n / 4 - 12",
+      "4n - 12"
+    ],
+    "answer": "(n - 12) / 4",
+    "time": 50
+  },
+  {
+    "question": "Alan has $240 more than Ben. Alan spends $60 and Ben receives $40.",
+    "stem": "How much more money does Alan have than Ben now?",
+    "options": [
+      "$140",
+      "$220",
+      "$160",
+      "$180"
+    ],
+    "answer": "$140",
+    "time": 60
+  },
+  {
+    "question": "Box A has 35 more marbles than Box B. Box C has 15 fewer marbles than Box B. The total number of marbles in all three boxes is 200.",
+    "stem": "How many marbles are in Box B?",
+    "options": [
+      "60",
+      "95",
+      "45",
+      "50"
+    ],
+    "answer": "60",
+    "time": 65
+  },
+  {
+    "question": "A bakery sold 40% more muffins on Saturday than on Sunday.",
+    "stem": "If 280 muffins were sold on Saturday, how many muffins were sold on Sunday?",
+    "options": [
+      "200",
+      "168",
+      "240",
+      "196"
+    ],
+    "answer": "200",
+    "time": 55
+  },
+  {
+    "question": "Mrs Tan baked 80 cookies. She baked 25% fewer tarts than cookies.",
+    "stem": "How many cookies and tarts did she bake altogether?",
+    "options": [
+      "144",
+      "120",
+      "140",
+      "160"
+    ],
+    "answer": "140",
+    "time": 55
+  },
+  {
+    "question": "An algebraic expression requires simplification.",
+    "stem": "Simplify (8m + 12) / 4 - m.",
+    "options": [
+      "m + 3",
+      "m + 12",
+      "2m + 3",
+      "m + 6"
+    ],
+    "answer": "m + 3",
+    "time": 50
+  },
+  {
+    "question": "On a map with a scale of 1 cm to 20 m, the distance between a library and a school is 15 cm.",
+    "stem": "John walks from the library to the school and then walks back to the library. What is the total distance he walks in meters?",
+    "options": [
+      "600 m",
+      "300 m",
+      "150 m",
+      "1200 m"
+    ],
+    "answer": "600 m",
+    "time": 55
+  },
+  {
+    "question": "A low defect rate in manufacturing is recorded as 0.4%.",
+    "stem": "Express 0.4% as a fraction in its simplest form.",
+    "options": [
+      "1/250",
+      "1/25",
+      "2/5",
+      "1/2500"
+    ],
+    "answer": "1/250",
+    "time": 45
+  },
+  {
+    "question": "The ratio of John's age to his sister's age is 5 : 3. John is 6 years older than his sister.",
+    "stem": "Find the sum of their ages.",
+    "options": [
+      "24 years",
+      "18 years",
+      "15 years",
+      "30 years"
+    ],
+    "answer": "24 years",
+    "time": 55
+  }
+]

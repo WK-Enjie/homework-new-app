@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A rectangular container measures 20 cm long, 15 cm wide, and 12 cm high.",
+    "stem": "What is the maximum number of 4 cm cubes that can fit inside the container without overflowing?",
+    "options": [
+      "45",
+      "56",
+      "50",
+      "36"
+    ],
+    "answer": "45",
+    "time": 60
+  },
+  {
+    "question": "A wooden box has interior dimensions of 25.5 cm by 18 cm by 10 cm.",
+    "stem": "What is the maximum number of 3 cm wooden cubes that can be packed into the box?",
+    "options": [
+      "144",
+      "153",
+      "162",
+      "120"
+    ],
+    "answer": "144",
+    "time": 60
+  },
+  {
+    "question": "A storage crate measures 32 cm by 22 cm by 15 cm.",
+    "stem": "Find the maximum number of solid cubes of side length 5 cm that can fit inside.",
+    "options": [
+      "72",
+      "84",
+      "105",
+      "60"
+    ],
+    "answer": "72",
+    "time": 60
+  },
+  {
+    "question": "A gift box measures 14 cm by 10 cm by 8 cm.",
+    "stem": "Small cubic blocks with a side length of 2.5 cm are packed inside. What is the maximum number of blocks that can fit without overflowing?",
+    "options": [
+      "60",
+      "71",
+      "64",
+      "48"
+    ],
+    "answer": "60",
+    "time": 60
+  },
+  {
+    "question": "A hollow block with interior dimensions of 18 cm by 14 cm by 10 cm is packed with as many 4 cm cubes as possible.",
+    "stem": "What is the volume of unused space remaining inside the hollow block?",
+    "options": [
+      "984 cm³",
+      "1536 cm³",
+      "920 cm³",
+      "1024 cm³"
+    ],
+    "answer": "984 cm³",
+    "time": 75
+  },
+  {
+    "question": "A rectangular piece of card measures 18.5 cm by 12.4 cm.",
+    "stem": "It is cut into small squares with a side length of 3 cm. What is the maximum number of such squares that can be cut out?",
+    "options": [
+      "24",
+      "25",
+      "20",
+      "28"
+    ],
+    "answer": "24",
+    "time": 55
+  },
+  {
+    "question": "A metal sheet measuring 22.5 cm by 14.8 cm is cut into small square pieces of side length 4 cm.",
+    "stem": "What is the maximum number of complete square pieces that can be obtained?",
+    "options": [
+      "15",
+      "20",
+      "18",
+      "12"
+    ],
+    "answer": "15",
+    "time": 55
+  },
+  {
+    "question": "A plastic sheet measuring 15.6 cm by 10.4 cm is cut into identical squares with no leftover material.",
+    "stem": "What is the largest possible side length of each square?",
+    "options": [
+      "5.2 cm",
+      "2.6 cm",
+      "1.3 cm",
+      "10.4 cm"
+    ],
+    "answer": "5.2 cm",
+    "time": 65
+  },
+  {
+    "question": "A rectangular paper measuring 16.5 cm by 10.5 cm is cut into as many 3 cm by 3 cm squares as possible.",
+    "stem": "What is the area of the leftover paper?",
+    "options": [
+      "38.25 cm²",
+      "38.5 cm²",
+      "45.25 cm²",
+      "28.25 cm²"
+    ],
+    "answer": "38.25 cm²",
+    "time": 70
+  },
+  {
+    "question": "A rectangular cardboard measures 20.4 cm by 15.2 cm. Squares of side length 5 cm are cut from it to get the maximum possible number of squares.",
+    "stem": "Find the area of the leftover cardboard.",
+    "options": [
+      "10.08 cm²",
+      "15.08 cm²",
+      "20.08 cm²",
+      "8.08 cm²"
+    ],
+    "answer": "10.08 cm²",
+    "time": 70
+  },
+  {
+    "question": "A rectangular metal plate measuring 12.8 cm by 8.5 cm has a mass of 0.5 g per cm². A worker cuts out 4 identical circular discs of radius 2 cm from the plate. (Take π = 3.14)",
+    "stem": "What is the mass of the remaining metal plate?",
+    "options": [
+      "29.28 g",
+      "54.40 g",
+      "25.12 g",
+      "31.20 g"
+    ],
+    "answer": "29.28 g",
+    "time": 75
+  },
+  {
+    "question": "A rectangular sheet of card measuring 25 cm by 16 cm has a mass of 0.04 g per cm². A square of side length 5 cm is cut out from each of its 4 corners.",
+    "stem": "What is the mass of the remaining card?",
+    "options": [
+      "12 g",
+      "16 g",
+      "10 g",
+      "14 g"
+    ],
+    "answer": "12 g",
+    "time": 70
+  },
+  {
+    "question": "The length of a rectangle is tripled and its breadth is halved to form a new rectangle.",
+    "stem": "What is the ratio of the area of the original rectangle to the area of the new rectangle in its simplest form?",
+    "options": [
+      "2 : 3",
+      "3 : 2",
+      "1 : 3",
+      "3 : 1"
+    ],
+    "answer": "2 : 3",
+    "time": 60
+  },
+  {
+    "question": "A sheet of heavy poster paper measuring 30 cm by 20 cm weighs 0.06 g per cm². A student cuts out 6 identical squares of side length 4 cm from the paper.",
+    "stem": "What is the mass of the remaining paper?",
+    "options": [
+      "30.24 g",
+      "36.00 g",
+      "5.76 g",
+      "32.40 g"
+    ],
+    "answer": "30.24 g",
+    "time": 75
+  },
+  {
+    "question": "The length of a rectangle is increased by 50% and its breadth is decreased by 20% to form a new rectangle.",
+    "stem": "What is the ratio of the area of the original rectangle to the area of the new rectangle in its simplest form?",
+    "options": [
+      "5 : 6",
+      "6 : 5",
+      "4 : 5",
+      "5 : 4"
+    ],
+    "answer": "5 : 6",
+    "time": 65
+  },
+  {
+    "question": "A rectangular cardboard measuring 40 cm by 15 cm has a mass of 0.08 g per cm². A strip of width 3 cm is cut off along its entire length.",
+    "stem": "What is the mass of the remaining piece of cardboard?",
+    "options": [
+      "38.4 g",
+      "48.0 g",
+      "9.6 g",
+      "36.2 g"
+    ],
+    "answer": "38.4 g",
+    "time": 70
+  },
+  {
+    "question": "A square has a side length of 20 cm. Its length is increased by 40% and its breadth is decreased by 40% to form a rectangle.",
+    "stem": "What is the ratio of the area of the original square to the area of the new rectangle in its simplest form?",
+    "options": [
+      "25 : 21",
+      "21 : 25",
+      "5 : 3",
+      "25 : 16"
+    ],
+    "answer": "25 : 21",
+    "time": 70
+  },
+  {
+    "question": "A sheet of specialty paper measuring 50 cm by 30 cm has a mass of 0.05 g per cm². Four identical square corners, each of side 10 cm, are cut away to make a box net.",
+    "stem": "What is the mass of the box net (the remaining paper)?",
+    "options": [
+      "55 g",
+      "75 g",
+      "20 g",
+      "50 g"
+    ],
+    "answer": "55 g",
+    "time": 70
+  },
+  {
+    "question": "A rectangular paper measuring 36 cm in length and 10 cm in breadth is cut into equal smaller strips by making 8 cuts parallel to its breadth. The strips are then aligned end-to-end along their 4 cm sides to form the longest possible rectangle.",
+    "stem": "What is the total perimeter of this new long rectangle?",
+    "options": [
+      "188 cm",
+      "108 cm",
+      "144 cm",
+      "200 cm"
+    ],
+    "answer": "188 cm",
+    "time": 80
+  },
+  {
+    "question": "A rectangular strip of paper measuring 24 cm long and 15 cm wide is cut into equal smaller rectangles by making 5 cuts parallel to its breadth. These smaller rectangles are arranged end-to-end along their 4 cm sides to form the longest possible single rectangle.",
+    "stem": "Find the total perimeter of this new long rectangle.",
+    "options": [
+      "188 cm",
+      "150 cm",
+      "210 cm",
+      "176 cm"
+    ],
+    "answer": "188 cm",
+    "time": 80
+  },
+  {
+    "question": "A paper tape measuring 30 cm long and 8 cm wide is cut by making 5 cuts parallel to its breadth to form equal smaller pieces. The pieces are placed end-to-end along their 5 cm sides to form the longest possible rectangle.",
+    "stem": "What is the total perimeter of this new long rectangle?",
+    "options": [
+      "106 cm",
+      "92 cm",
+      "114 cm",
+      "76 cm"
+    ],
+    "answer": "106 cm",
+    "time": 80
+  },
+  {
+    "question": "A rectangular cardboard measuring 48 cm by 10 cm is cut into equal smaller strips by making 7 cuts parallel to its breadth. The strips are joined end-to-end along their 6 cm sides to form the longest rectangle possible.",
+    "stem": "Find the total perimeter of this new long rectangle.",
+    "options": [
+      "172 cm",
+      "160 cm",
+      "180 cm",
+      "116 cm"
+    ],
+    "answer": "172 cm",
+    "time": 80
+  },
+  {
+    "question": "A poster paper measuring 45 cm in length and 12 cm in breadth is cut by making 8 cuts parallel to its breadth to form equal smaller rectangles. These smaller rectangles are aligned end-to-end along their 5 cm sides to form the longest possible rectangle.",
+    "stem": "Calculate the total perimeter of this new long rectangle.",
+    "options": [
+      "226 cm",
+      "214 cm",
+      "240 cm",
+      "114 cm"
+    ],
+    "answer": "226 cm",
+    "time": 80
+  },
+  {
+    "question": "A rectangular banner measuring 60 cm long and 14 cm wide is cut into equal strips by making 9 cuts parallel to its breadth. The strips are arranged end-to-end along their 6 cm sides to form the longest continuous rectangle.",
+    "stem": "What is the total perimeter of this new long rectangle?",
+    "options": [
+      "292 cm",
+      "280 cm",
+      "308 cm",
+      "148 cm"
+    ],
+    "answer": "292 cm",
+    "time": 85
+  }
+]
