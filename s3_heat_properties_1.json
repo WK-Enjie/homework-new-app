@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Which statement correctly defines the heat capacity of a body?",
+    "stem": "Heat capacity is defined as the thermal energy required to cause a specific temperature change in an object. What is its exact definition?",
+    "options": [
+      "The thermal energy required to raise the temperature of the entire body by 1 °C or 1 K",
+      "The thermal energy required to raise the temperature of 1 kg of a substance by 1 °C or 1 K",
+      "The thermal energy required to change the state of a body from solid to liquid without temperature change",
+      "The thermal energy required to increase the potential energy of 1 kg of a substance by 1 Joule"
+    ],
+    "answer": "The thermal energy required to raise the temperature of the entire body by 1 °C or 1 K",
+    "time": 75
+  },
+  {
+    "question": "Which statement correctly defines the specific heat capacity of a substance?",
+    "stem": "Specific heat capacity differs from heat capacity because it depends on the unit mass of the material. Which option gives the precise definition?",
+    "options": [
+      "The thermal energy required to raise the temperature of 1 kg of a substance by 1 °C or 1 K",
+      "The thermal energy required to raise the temperature of an entire object by 1 °C or 1 K",
+      "The thermal energy required to melt 1 kg of a solid substance at its melting point",
+      "The rate at which 1 kg of a substance conducts thermal energy per second"
+    ],
+    "answer": "The thermal energy required to raise the temperature of 1 kg of a substance by 1 °C or 1 K",
+    "time": 75
+  },
+  {
+    "question": "When a solid block is heated and its temperature rises from 25 °C to 65 °C, what change occurs in its internal energy store?",
+    "stem": "Which component of the internal energy store increases as a direct result of the temperature increase?",
+    "options": [
+      "The average internal kinetic energy of the molecules increases",
+      "The average internal potential energy of the molecules increases while kinetic energy remains constant",
+      "Both internal potential energy and internal kinetic energy decrease",
+      "The total internal energy remains constant while work is done against atmospheric pressure"
+    ],
+    "answer": "The average internal kinetic energy of the molecules increases",
+    "time": 80
+  },
+  {
+    "question": "Which of the following correctly defines the specific latent heat of fusion?",
+    "stem": "Latent heat is involved during a phase transition. What is the specific definition for fusion?",
+    "options": [
+      "The thermal energy required to change 1 kg of a substance from solid to liquid state without a change in temperature",
+      "The thermal energy required to change 1 kg of a substance from liquid to gaseous state without a change in temperature",
+      "The thermal energy required to raise the temperature of 1 kg of a liquid to its boiling point",
+      "The thermal energy released when 1 kg of gas condenses into a liquid with a 1 °C temperature drop"
+    ],
+    "answer": "The thermal energy required to change 1 kg of a substance from solid to liquid state without a change in temperature",
+    "time": 80
+  },
+  {
+    "question": "Which of the following correctly defines the specific latent heat of vaporization?",
+    "stem": "Vaporization occurs when a substance converts from liquid to gas. Which statement gives its specific definition?",
+    "options": [
+      "The thermal energy required to change 1 kg of a substance from liquid to gaseous state without a change in temperature",
+      "The thermal energy required to change 1 kg of a substance from solid to liquid state without a change in temperature",
+      "The thermal energy required to raise 1 kg of water from 0 °C to 100 °C",
+      "The total kinetic energy absorbed by 1 kg of gas particles expanding against atmospheric pressure"
+    ],
+    "answer": "The thermal energy required to change 1 kg of a substance from liquid to gaseous state without a change in temperature",
+    "time": 80
+  },
+  {
+    "question": "During the boiling of pure water at 100 °C, thermal energy continues to be supplied, but the temperature does not change.",
+    "stem": "How is the absorbed thermal energy stored inside the substance during this phase change?",
+    "options": [
+      "It increases the average internal potential energy of the molecules to overcome intermolecular forces and expand against atmosphere",
+      "It increases the average internal kinetic energy of the molecules while potential energy decreases",
+      "It is converted into electrical energy stored between the hydrogen and oxygen atoms",
+      "It decreases the internal potential energy of the molecules while keeping kinetic energy constant"
+    ],
+    "answer": "It increases the average internal potential energy of the molecules to overcome intermolecular forces and expand against atmosphere",
+    "time": 85
+  },
+  {
+    "question": "For a given mass of water, the specific latent heat of vaporization (2 260 000 J/kg) is significantly higher than its specific latent heat of fusion (336 000 J/kg).",
+    "stem": "Why is the specific latent heat of vaporization much greater than the specific latent heat of fusion for the same substance?",
+    "options": [
+      "Complete separation of molecules and work done against atmospheric pressure requires much more energy than merely weakening intermolecular bonds during melting",
+      "Molecules gain significantly more internal kinetic energy during boiling than during melting",
+      "The temperature change during boiling is much larger than the temperature change during melting",
+      "Liquid molecules have lower specific heat capacity than solid ice molecules"
+    ],
+    "answer": "Complete separation of molecules and work done against atmospheric pressure requires much more energy than merely weakening intermolecular bonds during melting",
+    "time": 85
+  },
+  {
+    "question": "A copper block of mass 2.5 kg has a specific heat capacity of 400 J/(kg °C).",
+    "stem": "Calculate the heat capacity of the copper block.",
+    "options": [
+      "1000 J/°C",
+      "160 J/°C",
+      "1000 J/(kg °C)",
+      "625 J/°C"
+    ],
+    "answer": "1000 J/°C",
+    "time": 75
+  },
+  {
+    "question": "A beaker containing 0.5 kg of pure water is heated from 20 °C to 80 °C. The specific heat capacity of water is 4200 J/(kg °C).",
+    "stem": "How much thermal energy is absorbed by the water?",
+    "options": [
+      "126 000 J",
+      "168 000 J",
+      "42 000 J",
+      "252 000 J"
+    ],
+    "answer": "126 000 J",
+    "time": 80
+  },
+  {
+    "question": "An ice cube of mass 0.2 kg at 0 °C melts completely into water at 0 °C. The specific latent heat of fusion of ice is 336 000 J/kg.",
+    "stem": "Calculate the amount of thermal energy required to melt the ice cube.",
+    "options": [
+      "67 200 J",
+      "1 680 000 J",
+      "33 600 J",
+      "134 400 J"
+    ],
+    "answer": "67 200 J",
+    "time": 80
+  },
+  {
+    "question": "A kettle boils water at 100 °C, producing 0.05 kg of steam at 100 °C. The specific latent heat of vaporization of water is 2 260 000 J/kg.",
+    "stem": "How much thermal energy was supplied to turn the boiling water into steam?",
+    "options": [
+      "113 000 J",
+      "226 000 J",
+      "45 200 J",
+      "11 300 J"
+    ],
+    "answer": "113 000 J",
+    "time": 80
+  },
+  {
+    "question": "An electric heater rated at 1000 W is immersed in a block of ice at 0 °C. The heater is switched on for 168 seconds, and all the energy goes into melting the ice into water at 0 °C.",
+    "stem": "Given that the specific latent heat of fusion of ice is 336 000 J/kg, what mass of ice is melted?",
+    "options": [
+      "0.50 kg",
+      "0.25 kg",
+      "0.75 kg",
+      "2.00 kg"
+    ],
+    "answer": "0.50 kg",
+    "time": 85
+  },
+  {
+    "question": "Two solid substances, X and Y, of equal mass (1.0 kg each) are heated by identical heaters supplying energy at the same constant rate.",
+    "stem": "On a temperature-time graph, the line for Substance X has a steeper slope than the line for Substance Y while both are in the solid state. What does this indicate?",
+    "options": [
+      "Substance X has a lower specific heat capacity than Substance Y",
+      "Substance X has a higher specific heat capacity than Substance Y",
+      "Substance X has a higher specific latent heat of fusion than Substance Y",
+      "Substance X absorbs thermal energy at a faster rate than Substance Y"
+    ],
+    "answer": "Substance X has a lower specific heat capacity than Substance Y",
+    "time": 85
+  },
+  {
+    "question": "A substance is heated at a constant rate from solid to gas. The heating curve shows horizontal flat regions at 80 °C and 218 °C.",
+    "stem": "What is happening to the internal energy store of the substance during these horizontal flat regions?",
+    "options": [
+      "Internal potential energy increases while internal kinetic energy remains constant",
+      "Internal kinetic energy increases while internal potential energy remains constant",
+      "Both internal kinetic energy and internal potential energy are increasing rapidly",
+      "Internal energy is being lost to the surroundings at the same rate it is supplied"
+    ],
+    "answer": "Internal potential energy increases while internal kinetic energy remains constant",
+    "time": 85
+  },
+  {
+    "question": "Which choice accurately describes the concept of total internal energy of a system?",
+    "stem": "In thermodynamics, internal energy consists of two microscopic microscopic forms of energy. What are they?",
+    "options": [
+      "The sum of total internal kinetic energy due to random molecular motion and total internal potential energy due to intermolecular forces",
+      "The sum of macroscopically measured kinetic energy of the object and gravitational potential energy",
+      "The product of specific heat capacity and total temperature of the body in Kelvin",
+      "The total thermal energy transferred into work done during atmospheric expansion"
+    ],
+    "answer": "The sum of total internal kinetic energy due to random molecular motion and total internal potential energy due to intermolecular forces",
+    "time": 80
+  },
+  {
+    "question": "A liquid is placed in an uninsulated container at room temperature. As the liquid evaporates, its temperature drops below room temperature.",
+    "stem": "In terms of molecular energy, why does evaporation cause a cooling effect on the remaining liquid?",
+    "options": [
+      "Molecules with the highest kinetic energy escape the liquid surface, leaving behind molecules with lower average kinetic energy",
+      "Molecules absorb internal potential energy from the air and convert it into kinetic energy of the surrounding container",
+      "Evaporation causes the remaining molecules to increase their intermolecular potential energy while losing mass",
+      "The latent heat of fusion is released into the surrounding air during evaporation"
+    ],
+    "answer": "Molecules with the highest kinetic energy escape the liquid surface, leaving behind molecules with lower average kinetic energy",
+    "time": 85
+  },
+  {
+    "question": "A student heats 0.1 kg of ice at 0 °C until it becomes water at 30 °C.",
+    "stem": "Given: Specific latent heat of fusion of ice = 336 000 J/kg; Specific heat capacity of water = 4200 J/(kg °C).\nCalculate the total thermal energy required for this entire process.",
+    "options": [
+      "46 200 J",
+      "33 600 J",
+      "12 600 J",
+      "21 000 J"
+    ],
+    "answer": "46 200 J",
+    "time": 90
+  },
+  {
+    "question": "An electric kettle rated at 2000 W contains 1.5 kg of water at 20 °C.",
+    "stem": "Given that the specific heat capacity of water is 4200 J/(kg °C), how long will it take for the kettle to heat the water to its boiling point at 100 °C?",
+    "options": [
+      "252 seconds",
+      "126 seconds",
+      "315 seconds",
+      "504 seconds"
+    ],
+    "answer": "252 seconds",
+    "time": 90
+  },
+  {
+    "question": "What are the SI standard units for Heat Capacity and Specific Heat Capacity respectively?",
+    "stem": "Select the option that correctly states the units for both thermal quantities.",
+    "options": [
+      "Heat Capacity: J/°C (or J/K) ; Specific Heat Capacity: J/(kg °C) [or J/(kg K)]",
+      "Heat Capacity: J/(kg °C) ; Specific Heat Capacity: J/°C",
+      "Heat Capacity: J/kg ; Specific Heat Capacity: J/(kg °C)",
+      "Heat Capacity: W/°C ; Specific Heat Capacity: W/(kg °C)"
+    ],
+    "answer": "Heat Capacity: J/°C (or J/K) ; Specific Heat Capacity: J/(kg °C) [or J/(kg K)]",
+    "time": 75
+  },
+  {
+    "question": "Why is water commonly used as a coolant in car engines and industrial power plants?",
+    "stem": "Which thermal property of water makes it exceptionally effective at absorbing large amounts of thermal energy with only a small rise in temperature?",
+    "options": [
+      "Water has a very high specific heat capacity",
+      "Water has a very low heat capacity per unit volume",
+      "Water has a very low specific latent heat of vaporization",
+      "Water expands upon freezing at 0 °C"
+    ],
+    "answer": "Water has a very high specific heat capacity",
+    "time": 80
+  },
+  {
+    "question": "Two metal spheres, P (mass 1 kg) and Q (mass 3 kg), are made of the exact same metallic alloy.",
+    "stem": "Which statement correctly compares their Heat Capacity ($C$) and Specific Heat Capacity ($c$)?",
+    "options": [
+      "Sphere Q has 3 times the heat capacity of Sphere P, but both have the same specific heat capacity",
+      "Sphere Q has 3 times the specific heat capacity of Sphere P, but both have the same heat capacity",
+      "Sphere Q has 9 times the heat capacity and 3 times the specific heat capacity of Sphere P",
+      "Both spheres have identical heat capacities and identical specific heat capacities"
+    ],
+    "answer": "Sphere Q has 3 times the heat capacity of Sphere P, but both have the same specific heat capacity",
+    "time": 85
+  },
+  {
+    "question": "During a laboratory experiment, a student attempts to calculate the energy needed to convert 0.2 kg of ice at 0 °C to steam at 100 °C.\n\nStudent's Working:\nStep 1: Energy to warm water = mcΔT = 0.2 × 4200 × 100 = 84 000 J\nStep 2: Total Energy = 84 000 J",
+    "stem": "What critical conceptual error did the student make in their working?",
+    "options": [
+      "Omitting the latent heat of fusion (melting the ice) and latent heat of vaporization (boiling the water)",
+      "Using 100 °C as the temperature change in Step 1",
+      "Using 4200 J/(kg °C) instead of the specific heat capacity of steam",
+      "Multiplying mass by specific heat capacity instead of dividing"
+    ],
+    "answer": "Omitting the latent heat of fusion (melting the ice) and latent heat of vaporization (boiling the water)",
+    "time": 85
+  },
+  {
+    "question": "When 1 kg of boiling water at 100 °C turns into 1 kg of steam at 100 °C, its volume expands dramatically from about $10^{-3} \\text{ m}^3$ to $1.67 \\text{ m}^3$.",
+    "stem": "Besides overcoming intermolecular forces of attraction, what else is thermal energy used for during vaporization?",
+    "options": [
+      "Doing work against the surrounding atmospheric pressure during volume expansion",
+      "Increasing the average kinetic energy of individual gas atoms",
+      "Increasing the mass of individual water molecules",
+      "Overcoming gravitational potential energy as steam rises"
+    ],
+    "answer": "Doing work against the surrounding atmospheric pressure during volume expansion",
+    "time": 85
+  },
+  {
+    "question": "Block A (mass 2 kg) and Block B (mass 2 kg) receive 20 000 J of thermal energy each. The temperature of Block A increases by 10 °C while the temperature of Block B increases by 25 °C.",
+    "stem": "What can be concluded about their specific heat capacities ($c_A$ and $c_B$)?",
+    "options": [
+      "$c_A = 1000 \\text{ J/(kg °C)}$ and $c_B = 400 \\text{ J/(kg °C)}$, so $c_A > c_B$",
+      "$c_A = 400 \\text{ J/(kg °C)}$ and $c_B = 1000 \\text{ J/(kg °C)}$, so $c_A < c_B$",
+      "$c_A = 2000 \\text{ J/(kg °C)}$ and $c_B = 800 \\text{ J/(kg °C)}$, so $c_A > c_B$",
+      "$c_A$ and $c_B$ are equal because both blocks have the same mass"
+    ],
+    "answer": "$c_A = 1000 \\text{ J/(kg °C)}$ and $c_B = 400 \\text{ J/(kg °C)}$, so $c_A > c_B$",
+    "time": 90
+  }
+]
