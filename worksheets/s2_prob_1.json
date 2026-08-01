@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A number is chosen at random from the integers from 1 to 30 inclusive.",
+    "stem": "What is the probability that the chosen number is a prime number?",
+    "options": [
+      "11/30",
+      "1/3",
+      "3/10",
+      "1/30"
+    ],
+    "answer": "1/3",
+    "time": 65
+  },
+  {
+    "question": "A card is selected at random from a set of cards numbered 10 to 40 inclusive.",
+    "stem": "Find the probability that the number on the selected card is a multiple of 6.",
+    "options": [
+      "6/31",
+      "1/6",
+      "5/31",
+      "5/30"
+    ],
+    "answer": "5/31",
+    "time": 70
+  },
+  {
+    "question": "A letter is picked at random from the word 'PROBABILITY'.",
+    "stem": "What is the probability that the picked letter is a vowel?",
+    "options": [
+      "3/11",
+      "5/11",
+      "2/11",
+      "4/11"
+    ],
+    "answer": "4/11",
+    "time": 60
+  },
+  {
+    "question": "An integer x is chosen at random such that 1 <= x <= 50.",
+    "stem": "Find the probability that x is a perfect square.",
+    "options": [
+      "7/50",
+      "3/25",
+      "4/25",
+      "1/5"
+    ],
+    "answer": "7/50",
+    "time": 65
+  },
+  {
+    "question": "A two-digit number from 10 to 99 inclusive is selected at random.",
+    "stem": "What is the probability that the sum of its digits is equal to 9?",
+    "options": [
+      "1/9",
+      "1/10",
+      "9/89",
+      "1/11"
+    ],
+    "answer": "1/10",
+    "time": 75
+  },
+  {
+    "question": "A card is drawn at random from a box containing cards numbered 1 to 25 inclusive.",
+    "stem": "What is the probability that the number drawn is a factor of 24?",
+    "options": [
+      "7/25",
+      "9/25",
+      "8/25",
+      "2/5"
+    ],
+    "answer": "8/25",
+    "time": 70
+  },
+  {
+    "question": "A non-standard six-sided die has its faces numbered 1, 2, 2, 3, 5, and 6.",
+    "stem": "When the die is rolled once, what is the probability of obtaining a prime number?",
+    "options": [
+      "1/2",
+      "5/6",
+      "1/3",
+      "2/3"
+    ],
+    "answer": "2/3",
+    "time": 65
+  },
+  {
+    "question": "An integer is chosen at random from 1 to 100 inclusive.",
+    "stem": "Find the probability that the chosen number is NEITHER a multiple of 3 NOR a multiple of 5.",
+    "options": [
+      "53/100",
+      "47/100",
+      "1/2",
+      "57/100"
+    ],
+    "answer": "53/100",
+    "time": 85
+  },
+  {
+    "question": "A circular spinner is divided into three sectors: A, B, and C. Sector A has a central angle of 150 degrees, Sector B has a central angle of 120 degrees, and Sector C takes up the rest.",
+    "stem": "What is the probability that the spinner lands on Sector A?",
+    "options": [
+      "1/3",
+      "5/12",
+      "5/18",
+      "7/12"
+    ],
+    "answer": "5/12",
+    "time": 70
+  },
+  {
+    "question": "A square dartboard has a side length of 10 cm. Inside it, a smaller square of side length 6 cm is painted red.",
+    "stem": "Assuming a dart lands randomly inside the dartboard, what is the probability that it lands inside the red square?",
+    "options": [
+      "3/5",
+      "16/25",
+      "9/25",
+      "3/10"
+    ],
+    "answer": "9/25",
+    "time": 75
+  },
+  {
+    "question": "A circular target consists of a central bullseye of radius r and an outer concentric boundary of radius 3r.",
+    "stem": "Assuming a shot lands randomly on the target, what is the probability that it lands in the outer ring (outside the bullseye)?",
+    "options": [
+      "1/9",
+      "2/3",
+      "4/5",
+      "8/9"
+    ],
+    "answer": "8/9",
+    "time": 80
+  },
+  {
+    "question": "A square grid consists of 25 identical small square tiles (5 by 5). Exactly 8 of these tiles are painted red.",
+    "stem": "If a marker is dropped randomly onto the grid, what is the probability that it lands on a red tile?",
+    "options": [
+      "8/25",
+      "2/5",
+      "7/25",
+      "1/3"
+    ],
+    "answer": "8/25",
+    "time": 60
+  },
+  {
+    "question": "A rectangular dartboard measures 20 cm by 15 cm. A circle of radius 7 cm is painted in the middle. (Use pi = 22/7)",
+    "stem": "What is the probability that a dart landing randomly on the board lands OUTSIDE the circle?",
+    "options": [
+      "77/150",
+      "73/150",
+      "37/75",
+      "43/100"
+    ],
+    "answer": "73/150",
+    "time": 85
+  },
+  {
+    "question": "A regular octagonal spinner is divided into 8 equal triangular sectors. 3 sectors are painted red, 2 blue, and 3 yellow.",
+    "stem": "What is the probability that the spinner lands on a sector that is NOT blue?",
+    "options": [
+      "5/8",
+      "1/4",
+      "3/4",
+      "3/8"
+    ],
+    "answer": "3/4",
+    "time": 65
+  },
+  {
+    "question": "A circular target has a shaded sector with a central angle of 108 degrees.",
+    "stem": "What is the probability that an arrow landing randomly on the target lands in the shaded sector?",
+    "options": [
+      "0.25",
+      "0.35",
+      "0.40",
+      "0.30"
+    ],
+    "answer": "0.30",
+    "time": 70
+  },
+  {
+    "question": "A rectangular board measures 12 cm by 10 cm. A right-angled triangle with a base of 6 cm and a height of 8 cm is drawn inside the rectangle.",
+    "stem": "What is the probability that a point chosen at random inside the rectangle lies within the triangle?",
+    "options": [
+      "1/5",
+      "1/4",
+      "2/5",
+      "1/6"
+    ],
+    "answer": "1/5",
+    "time": 75
+  },
+  {
+    "question": "A bag contains 12 red marbles and x green marbles. The probability of choosing a red marble at random from the bag is 3/8.",
+    "stem": "Find the number of green marbles, x, in the bag.",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "18"
+    ],
+    "answer": "20",
+    "time": 80
+  },
+  {
+    "question": "In a class of 35 students, the probability of selecting a female student at random is 4/7.",
+    "stem": "How many male students are in the class?",
+    "options": [
+      "20",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": "15",
+    "time": 75
+  },
+  {
+    "question": "A box contains 18 red apples and some green apples. The probability of selecting a green apple at random is 2/5.",
+    "stem": "What is the TOTAL number of apples in the box?",
+    "options": [
+      "27",
+      "45",
+      "36",
+      "30"
+    ],
+    "answer": "30",
+    "time": 80
+  },
+  {
+    "question": "A bag contains 10 blue counters and y yellow counters. When 6 more blue counters are added into the bag, the probability of drawing a blue counter becomes 4/5.",
+    "stem": "How many yellow counters were in the bag initially?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "5"
+    ],
+    "answer": "4",
+    "time": 85
+  },
+  {
+    "question": "In a manufacturing factory batch of N light bulbs, the probability of choosing a defective bulb at random is 0.05.",
+    "stem": "If there are exactly 14 defective bulbs in the batch, find the value of N.",
+    "options": [
+      "250",
+      "280",
+      "300",
+      "210"
+    ],
+    "answer": "280",
+    "time": 75
+  },
+  {
+    "question": "A box contains red, blue, and yellow beads. The probability of picking a red bead is 1/4 and the probability of picking a blue bead is 2/5.",
+    "stem": "If there are 21 yellow beads in the box, find the total number of beads in the box.",
+    "options": [
+      "50",
+      "70",
+      "60",
+      "80"
+    ],
+    "answer": "60",
+    "time": 90
+  },
+  {
+    "question": "In a lucky draw raffle, a total of 150 tickets were sold. Mei bought k tickets.",
+    "stem": "If the probability that Mei wins the grand prize with one of her tickets is 2/25, how many tickets did Mei buy?",
+    "options": [
+      "10",
+      "15",
+      "8",
+      "12"
+    ],
+    "answer": "12",
+    "time": 70
+  },
+  {
+    "question": "A bag initially contains 24 marbles, consisting of black and white marbles. When 6 more black marbles are added to the bag, the probability of selecting a black marble becomes 3/5.",
+    "stem": "How many black marbles were originally in the bag?",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "16"
+    ],
+    "answer": "12",
+    "time": 90
+  }
+]
