@@ -736,14 +736,16 @@ function convertToSegments(raw) {
 
   const out = [];
 
-  // Match $$...$$ and $...$ blocks
-  // $$...$$ must be checked first (longer delimiter)
-  const MATH_RE = /(\$\$[\s\S]+?\$\$|\$(?!\$)[^$\n]+?\$)/g;
+  // FIXED REGEX: 
+  // $$ ... $$ = display math
+  // $ ... $   = inline math ONLY if $ is NOT followed by a digit
+  //             This prevents $52.40 being treated as math
+  const MATH_RE = /(\$\$[\s\S]+?\$\$|\$(?!\d)(?![.,]\d)[^$\n]{1,200}?\$(?!\d))/g;
+
   let lastIndex = 0;
   let match;
 
   while ((match = MATH_RE.exec(text)) !== null) {
-    // Process plain text before this math block
     if (match.index > lastIndex) {
       const chunk = text.slice(lastIndex, match.index);
       out.push(...processPlainChunk(chunk));
@@ -759,14 +761,12 @@ function convertToSegments(raw) {
     lastIndex = match.index + rawBlock.length;
   }
 
-  // Process remaining text
   if (lastIndex < text.length) {
     out.push(...processPlainChunk(text.slice(lastIndex)));
   }
 
   return out;
 }
-
 // ════════════════════════════════════════════════════
 //  processPlainChunk(text)
 //  ───────────────────────
