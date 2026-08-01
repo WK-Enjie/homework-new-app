@@ -1,6 +1,6 @@
 /* =====================================================
    CARD QUEST — Defeat the Boss!
-   v4.2 — Bulletproof money + math rendering
+   v4.3 — Fixed fractions, B0 bug, missing questions
    ===================================================== */
 'use strict';
 
@@ -66,6 +66,9 @@ let doubleDmgActive = false;
 
 let questionStartTime  = 0;
 let currentTimeLimitMs = DEFAULT_TIME * 1000;
+
+// Track cards answered THIS round (not total)
+let roundAnsweredCount = 0;
 
 let uploadedData = null;
 let activeTab    = 'code';
@@ -189,7 +192,7 @@ function init() {
     document._lt = now;
   }, { passive: false });
 
-  console.log('✅ Card Quest v4.2 ready');
+  console.log('✅ Card Quest v4.3 ready');
 }
 
 if (document.readyState === 'loading') {
@@ -257,7 +260,8 @@ function handleFileLoad(file) {
         return;
       }
       uploadedData = data;
-      setFileStatus(`✅ ${file.name} — ${data.length} questions loaded`, 'ok');
+      setFileStatus(
+        `✅ ${file.name} — ${data.length} questions loaded`, 'ok');
     } catch(err) {
       setFileStatus('⚠️ Invalid JSON — check file syntax', 'err');
       uploadedData = null;
@@ -296,199 +300,388 @@ function waitForKaTeX() {
 }
 
 // ════════════════════════════════════════════════════
-//  MATH / TEXT RENDERING SYSTEM
+//  SAFE MATH RENDERING SYSTEM v2
 //
-//  HOW IT WORKS:
-//  1. convertToSegments() scans raw text and splits it
-//     into an array of {type, content} objects:
-//       type:'text'  — plain text, rendered as text node
-//       type:'math'  — LaTeX, rendered by katex.render()
-//
-//  2. Teacher shorthand is converted to LaTeX ONLY for
-//     segments that are clearly mathematical.
-//
-//  3. Money ($360), percentages (2.5%), plain English
-//     are ALWAYS type:'text' — KaTeX never sees them.
-//
-//  4. renderSegments() builds DOM nodes from the array.
+//  KEY FIXES vs v4.2:
+//  - Use a Unicode private-use character (U+E000) as
+//    separator instead of § to avoid any collisions
+//  - Money ($360, $4,000) protected FIRST before any
+//    regex touches the string
+//  - Fractions in options (7/20) render correctly
+//  - No more B0 / M0 placeholders anywhere
+//  - Plain text NEVER enters KaTeX
 // ════════════════════════════════════════════════════
 
-// ── Patterns that mean "this is math" ──
-const MATH_PATTERNS = [
-  // Already wrapped in $ by teacher: $x^2$
-  { re: /\$\$[\s\S]+?\$\$/, display: true  },
-  { re: /\$[^$\n]+?\$/,     display: false },
-];
+// Private-use Unicode chars as safe separators
+// These NEVER appear in normal text or JSON
+const SEP  = '\uE000'; // marks start/end of math segment
+const PROT = '\uE001'; // marks start/end of protected plain text
 
-// ── Convert teacher shorthand in a plain-text segment ──
-// Returns array of {type,content,display} segments
-function processPlainSegment(text) {
-  if (!text) return [];
+// ── Protect plain-text patterns before math processing ──
+// Returns string with protected zones wrapped in PROT markers
+function protectPlain(s) {
+  // Protect money: $360  $4,000  $1,600.50
+  s = s.replace(/\$[\d,]+(?:\.\d{1,2})?/g,
+    m => `${PROT}${m}${PROT}`);
 
-  const out = [];
+  // Protect percentages that are standalone: 35%, 2.5%
+  s = s.replace(/\d+(?:\.\d+)?%/g,
+    m => `${PROT}${m}${PROT}`);
 
-  // We will build a new string with $...$ markers,
-  // then split on those markers into segments.
-  let s = text;
+  // Protect time values: 1:00, 2:30
+  s = s.replace(/\b\d{1,2}:\d{2}\b/g,
+    m => `${PROT}${m}${PROT}`);
 
-  // ── Greek letters ──
+  // Protect currency codes: SGD, JPY, USD, GST
+  s = s.replace(/\b(SGD|JPY|USD|EUR|GBP|GST|IQR)\b/g,
+    m => `${PROT}${m}${PROT}`);
+
+  return s;
+}
+
+// ── Convert teacher shorthand → LaTeX in unprotected zones ──
+function applyMathShorthand(s) {
+  // Greek letters
   const greek = {
     alpha:'\\alpha', beta:'\\beta', gamma:'\\gamma',
     delta:'\\delta', epsilon:'\\epsilon', theta:'\\theta',
     lambda:'\\lambda', mu:'\\mu', sigma:'\\sigma',
     omega:'\\omega', pi:'\\pi',
     Gamma:'\\Gamma', Delta:'\\Delta', Theta:'\\Theta',
-    Lambda:'\\Lambda', Sigma:'\\Sigma', Omega:'\\Omega',
-    Pi:'\\Pi',
+    Lambda:'\\Lambda', Sigma:'\\Sigma', Omega:'\\Omega', Pi:'\\Pi',
   };
   s = s.replace(
     /\b(alpha|beta|gamma|delta|epsilon|theta|lambda|mu|sigma|omega|pi|Gamma|Delta|Theta|Lambda|Sigma|Omega|Pi)\b/g,
-    m => greek[m] ? `§${greek[m]}§` : m
+    m => greek[m] ? `${SEP}${greek[m]}${SEP}` : m
   );
 
-  // ── Chemical formulas: H2O CO2 C6H12O6 ──
-  // Must have both letters AND digits, not a 3-letter currency code
+  // Chemical formulas: H2O, CO2, C6H12O6
+  // Must have letters AND digits, not a protected zone
   s = s.replace(/\b([A-Z][a-zA-Z0-9]{1,20})\b/g, match => {
-    if (!/[A-Za-z]/.test(match)) return match;
-    if (!/\d/.test(match))       return match;
-    if (/^[A-Z]{2,3}$/.test(match)) return match; // SGD JPY USD etc
+    if (!/[A-Za-z]/.test(match) || !/\d/.test(match)) return match;
     const latex = match
       .replace(/([A-Za-z]+)(\d+)/g, (_, L, D) => `\\text{${L}}_{${D}}`)
       .replace(/^(\d+)([A-Za-z]+)/,  (_, D, L) => `${D}\\text{${L}}`);
-    return `§${latex}§`;
+    return `${SEP}${latex}${SEP}`;
   });
 
-  // ── Mixed numbers: 2 3/4 → 2\dfrac{3}{4} ──
+  // Mixed numbers: 2 3/4 → 2\dfrac{3}{4}
+  // Must NOT be inside protected zones
   s = s.replace(
-    /(?<!\w)(\d+)\s+(\d+)\/(\d+)(?!\w)/g,
-    (_, w, n, d) => `§${w}\\dfrac{${n}}{${d}}§`
+    /(?<!\uE001[^\uE001]*)(?<!\w)(\d+)\s+(\d+)\/(\d+)(?!\w)/g,
+    (_, w, n, d) => `${SEP}${w}\\dfrac{${n}}{${d}}${SEP}`
   );
 
-  // ── Simple fractions: 3/4 → \dfrac{3}{4} ──
-  // Skip: money (already protected), time 1:00, URLs ://
+  // Simple fractions: 3/4 → \dfrac{3}{4}
+  // Exclude: already protected zones, URLs ://
   s = s.replace(
-    /(?<![:/\d$£€])(\d+)\/(\d+)(?![/\d:])/g,
-    (_, n, d) => `§\\dfrac{${n}}{${d}}§`
+    /(?<![:/])(\d+)\/(\d+)(?![/\d])/g,
+    (_, n, d) => `${SEP}\\dfrac{${n}}{${d}}${SEP}`
   );
 
-  // ── Powers: x^2  10^-3  a^{n+1} ──
+  // Powers: x^2  10^-3  a^{n+1}
   s = s.replace(
     /([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     (_, base, exp) => {
       const e = exp.startsWith('{') ? exp : `{${exp}}`;
-      return `§${base}^${e}§`;
+      return `${SEP}${base}^${e}${SEP}`;
     }
   );
 
-  // ── Square roots: sqrt(x) ──
+  // Square roots: sqrt(x)
   s = s.replace(
     /sqrt\(([^)]+)\)/gi,
-    (_, inner) => `§\\sqrt{${inner}}§`
+    (_, inner) => `${SEP}\\sqrt{${inner}}${SEP}`
   );
 
-  // ── Subscripts: x_1  a_n ──
+  // Subscripts: x_1  a_n
   s = s.replace(
     /(?<![a-zA-Z\d])([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     (_, base, sub) => {
       const sv = sub.startsWith('{') ? sub : `{${sub}}`;
-      return `§${base}_{${sv}}§`;
+      return `${SEP}${base}_{${sv}}${SEP}`;
     }
   );
 
-  // ── Relational operators ──
-  s = s.replace(/([^<>!])>=([^=])/g, '$1§\\geq§$2');
-  s = s.replace(/([^<>!])<=([^>=])/g,'$1§\\leq§$2');
-  s = s.replace(/!=(?!=)/g,           '§\\neq§');
-  s = s.replace(/([^-])->([^>])/g,   '$1§\\rightarrow§$2');
+  // Relational operators
+  s = s.replace(/([^<>!])>=([^=])/g,  `$1${SEP}\\geq${SEP}$2`);
+  s = s.replace(/([^<>!])<=([^>=])/g, `$1${SEP}\\leq${SEP}$2`);
+  s = s.replace(/!=(?!=)/g,            `${SEP}\\neq${SEP}`);
+  s = s.replace(/([^-])->([^>])/g,    `$1${SEP}\\rightarrow${SEP}$2`);
 
-  // ── Merge adjacent §math1§§math2§ → §math1\;math2§ ──
-  s = s.replace(/§([^§]+)§\s*§([^§]+)§/g, '§$1\\;$2§');
-
-  // ── Split on § markers into plain/math segments ──
-  const parts = s.split('§');
-  parts.forEach((part, i) => {
-    if (!part) return;
-    if (i % 2 === 0) {
-      // Even indices = plain text
-      out.push({ type:'text', content: part });
-    } else {
-      // Odd indices = math content
-      out.push({ type:'math', content: part, display: false });
-    }
-  });
-
-  return out;
+  return s;
 }
 
-// ── Main: convert raw string → array of segments ──
+// ── Main: convert raw text → array of render segments ──
+// Each segment: { type: 'text'|'math'|'display', content: string }
 function convertToSegments(raw) {
   if (!raw && raw !== 0) return [];
-  const text = String(raw);
-  const out  = [];
+  let s = String(raw);
 
-  // First extract any explicit $...$ and $$...$$ blocks
-  // Everything else is plain text to be processed
-  const re = /(\$\$[\s\S]+?\$\$|\$[^$\n]+?\$)/g;
+  // Step 1: Extract explicit $...$ blocks first
+  const explicitMath = [];
+  s = s.replace(/\$\$[\s\S]+?\$\$|\$[^$\n]+?\$/g, m => {
+    const isDisplay = m.startsWith('$$');
+    const inner = isDisplay ? m.slice(2,-2).trim() : m.slice(1,-1).trim();
+    explicitMath.push({ inner, isDisplay });
+    return `\uE002${explicitMath.length - 1}\uE002`;
+  });
+
+  // Step 2: Protect plain-text patterns
+  s = protectPlain(s);
+
+  // Step 3: Apply math shorthand ONLY to unprotected zones
+  // Split on PROT markers, process only even indices (unprotected)
+  const protParts = s.split(PROT);
+  s = protParts.map((part, i) => {
+    if (i % 2 === 0) return applyMathShorthand(part);
+    return `${PROT}${part}${PROT}`; // re-wrap protected
+  }).join('');
+
+  // Step 4: Merge adjacent SEP math segments
+  // SEP...SEP SEP...SEP → SEP...\\;...SEP
+  s = s.replace(
+    new RegExp(`${SEP}([^${SEP}]+)${SEP}\\s*${SEP}([^${SEP}]+)${SEP}`, 'g'),
+    `${SEP}$1\\;$2${SEP}`
+  );
+
+  // Step 5: Build segment array
+  const segments = [];
+
+  // Split on SEP markers (math) and PROT markers (protected plain)
+  // and explicit math placeholders
+  const allMarkers = new RegExp(
+    `(${SEP}[^${SEP}]+${SEP}|${PROT}[^${PROT}]+${PROT}|\uE002\\d+\uE002)`, 'g'
+  );
+
   let last = 0;
   let match;
 
-  while ((match = re.exec(text)) !== null) {
-    // Plain text before this math block
+  while ((match = allMarkers.exec(s)) !== null) {
+    // Plain text before this match
     if (match.index > last) {
-      const plain = text.slice(last, match.index);
-      out.push(...processPlainSegment(plain));
+      const plain = s.slice(last, match.index);
+      if (plain) segments.push({ type:'text', content: plain });
     }
-    // The math block itself
-    const isDisplay = match[0].startsWith('$$');
-    const inner = isDisplay
-      ? match[0].slice(2, -2).trim()
-      : match[0].slice(1, -1).trim();
-    if (inner) out.push({ type:'math', content: inner, display: isDisplay });
-    last = match.index + match[0].length;
+
+    const token = match[0];
+
+    if (token.startsWith(SEP)) {
+      // Math segment
+      const inner = token.slice(1, -1);
+      if (inner.trim()) segments.push({ type:'math', content: inner });
+
+    } else if (token.startsWith(PROT)) {
+      // Protected plain text
+      const inner = token.slice(1, -1);
+      if (inner) segments.push({ type:'text', content: inner });
+
+    } else if (token.startsWith('\uE002')) {
+      // Explicit $...$ block
+      const idx = parseInt(token.slice(1, -1));
+      const em  = explicitMath[idx];
+      if (em) segments.push({
+        type: em.isDisplay ? 'display' : 'math',
+        content: em.inner,
+      });
+    }
+
+    last = match.index + token.length;
   }
 
-  // Remaining plain text after last math block
-  if (last < text.length) {
-    out.push(...processPlainSegment(text.slice(last)));
+  // Remaining text
+  if (last < s.length) {
+    const plain = s.slice(last);
+    if (plain) segments.push({ type:'text', content: plain });
   }
 
-  return out;
+  return segments;
 }
 
-// ── Render segments into a DOM element ──
+// ── Render segment array into DOM element ──
 function renderSegments(el, segments) {
   el.innerHTML = '';
   segments.forEach(seg => {
-    if (seg.type === 'math' && katexReady) {
+    if ((seg.type === 'math' || seg.type === 'display') && katexReady) {
       try {
         const span = document.createElement('span');
         katex.render(seg.content, span, {
           throwOnError: false,
           errorColor:   '#ef4444',
-          displayMode:  seg.display || false,
+          displayMode:  seg.type === 'display',
         });
         el.appendChild(span);
+        return;
       } catch(e) {
-        // On error, show as plain text
-        el.appendChild(document.createTextNode(seg.content));
+        // Fall through to plain text
       }
-    } else {
-      // Plain text — direct text node, KaTeX never sees this
-      el.appendChild(document.createTextNode(seg.content));
     }
+    // Plain text — direct text node, KaTeX never sees this
+    el.appendChild(document.createTextNode(seg.content));
   });
 }
 
-// ── Public helper: render text into element ──
+// ── Public helper ──
 function renderSafe(el, rawText) {
   if (!el) return;
-  const segments = convertToSegments(rawText);
-  renderSegments(el, segments);
+  renderSegments(el, convertToSegments(rawText));
 }
 
 // ── Normalise for answer comparison ──
 function normalise(s) {
   return s ? s.trim().replace(/\s+/g, ' ').toLowerCase() : '';
+}
+
+// ════════════════════════════════════════════════════
+//  BOX-AND-WHISKER PLOT RENDERER
+// ════════════════════════════════════════════════════
+function renderBoxPlot(bp) {
+  const { min, q1, median, q3, max, label } = bp;
+  if ([min, q1, median, q3, max].some(
+    v => v === undefined || v === null)) return null;
+
+  const W      = 300;
+  const H      = 88;
+  const padL   = 28;
+  const padR   = 28;
+  const drawW  = W - padL - padR;
+  const boxTop = 20;
+  const boxH   = 26;
+  const boxMid = boxTop + boxH / 2;
+  const tickH  = 7;
+
+  const range  = max - min || 1;
+  const sx     = v => padL + ((v - min) / range) * drawW;
+
+  const xMin = sx(min);
+  const xQ1  = sx(q1);
+  const xMed = sx(median);
+  const xQ3  = sx(q3);
+  const xMax = sx(max);
+
+  const ns  = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.setAttribute('width',  '100%');
+  svg.setAttribute('height', H);
+  svg.style.cssText = 'overflow:visible;display:block;';
+
+  function mk(tag, attrs, txt) {
+    const e = document.createElementNS(ns, tag);
+    for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+    if (txt !== undefined) e.textContent = txt;
+    return e;
+  }
+
+  // Axis line
+  svg.appendChild(mk('line', {
+    x1:xMin, y1:boxMid, x2:xMax, y2:boxMid,
+    stroke:'#2a2a5a', 'stroke-width':2,
+  }));
+
+  // Left whisker (dashed)
+  svg.appendChild(mk('line', {
+    x1:xMin, y1:boxMid, x2:xQ1, y2:boxMid,
+    stroke:'#00d4ff', 'stroke-width':2,
+    'stroke-dasharray':'5,3',
+  }));
+
+  // Left end tick
+  svg.appendChild(mk('line', {
+    x1:xMin, y1:boxMid - tickH, x2:xMin, y2:boxMid + tickH,
+    stroke:'#00d4ff', 'stroke-width':2.5, 'stroke-linecap':'round',
+  }));
+
+  // Right whisker (dashed)
+  svg.appendChild(mk('line', {
+    x1:xQ3, y1:boxMid, x2:xMax, y2:boxMid,
+    stroke:'#00d4ff', 'stroke-width':2,
+    'stroke-dasharray':'5,3',
+  }));
+
+  // Right end tick
+  svg.appendChild(mk('line', {
+    x1:xMax, y1:boxMid - tickH, x2:xMax, y2:boxMid + tickH,
+    stroke:'#00d4ff', 'stroke-width':2.5, 'stroke-linecap':'round',
+  }));
+
+  // Box Q1–Q3
+  svg.appendChild(mk('rect', {
+    x:xQ1, y:boxTop, width:xQ3-xQ1, height:boxH,
+    fill:'rgba(168,85,247,0.2)',
+    stroke:'#a855f7', 'stroke-width':2, rx:3,
+  }));
+
+  // Median line
+  svg.appendChild(mk('line', {
+    x1:xMed, y1:boxTop, x2:xMed, y2:boxTop + boxH,
+    stroke:'#ffd700', 'stroke-width':3, 'stroke-linecap':'round',
+  }));
+
+  // ── Value labels + sublabels ──
+  const labelY = boxTop + boxH + 13;
+  const subY   = labelY + 11;
+
+  const pts = [
+    { x:xMin, v:min,    sub:'Min'    },
+    { x:xQ1,  v:q1,     sub:'Q1'     },
+    { x:xMed, v:median, sub:'Median' },
+    { x:xQ3,  v:q3,     sub:'Q3'     },
+    { x:xMax, v:max,    sub:'Max'    },
+  ];
+
+  // Prevent label overlap: adjust x positions
+  function clampLabelX(x) {
+    return Math.max(padL, Math.min(W - padR, x));
+  }
+
+  pts.forEach(({ x, v, sub }) => {
+    const cx     = clampLabelX(x);
+    const isMed  = sub === 'Median';
+    const valCol = isMed ? '#ffd700' : '#e2e8f0';
+    const subCol = isMed ? '#ffd700' : '#7a8599';
+    const fw     = isMed ? '700' : '400';
+
+    // Small tick below box
+    svg.appendChild(mk('line', {
+      x1:x, y1:boxTop+boxH, x2:x, y2:boxTop+boxH+4,
+      stroke:'#3a3a7a', 'stroke-width':1,
+    }));
+
+    // Value
+    svg.appendChild(mk('text', {
+      x:cx, y:labelY,
+      'text-anchor':'middle',
+      fill:valCol,
+      'font-size':'10',
+      'font-weight':fw,
+      'font-family':'Chakra Petch, sans-serif',
+    }, String(v)));
+
+    // Sub label
+    svg.appendChild(mk('text', {
+      x:cx, y:subY,
+      'text-anchor':'middle',
+      fill:subCol,
+      'font-size':'8',
+      'font-weight':fw,
+      'font-family':'Chakra Petch, sans-serif',
+    }, sub));
+  });
+
+  // Wrap in container
+  const wrapper = document.createElement('div');
+  wrapper.className = 'q-boxplot-wrap';
+
+  if (label) {
+    const title = document.createElement('div');
+    title.className   = 'q-boxplot-label';
+    title.textContent = label;
+    wrapper.appendChild(title);
+  }
+
+  wrapper.appendChild(svg);
+  return wrapper;
 }
 
 // ════════════════════════════════════════════════════
@@ -506,8 +699,8 @@ function renderQuestion(container, qObj) {
 
       const lines      = trimmed.split('\n');
       const bullets    = lines.filter(l => l.trim().startsWith('-'));
-      const nonBullets = lines.filter(l =>
-        l.trim() && !l.trim().startsWith('-'));
+      const nonBullets = lines.filter(
+        l => l.trim() && !l.trim().startsWith('-'));
 
       if (bullets.length > 0) {
         nonBullets.forEach(line => {
@@ -533,6 +726,12 @@ function renderQuestion(container, qObj) {
     });
   }
 
+  // ── Box-and-whisker plot ──
+  if (qObj.boxplot) {
+    const bpEl = renderBoxPlot(qObj.boxplot);
+    if (bpEl) container.appendChild(bpEl);
+  }
+
   // ── Data table ──
   if (qObj.table &&
       Array.isArray(qObj.table.headers) &&
@@ -545,7 +744,6 @@ function renderQuestion(container, qObj) {
     const table = document.createElement('table');
     table.className = 'q-table';
 
-    // Header
     const thead = document.createElement('thead');
     const hrow  = document.createElement('tr');
     qObj.table.headers.forEach(h => {
@@ -556,7 +754,6 @@ function renderQuestion(container, qObj) {
     thead.appendChild(hrow);
     table.appendChild(thead);
 
-    // Rows
     const tbody = document.createElement('tbody');
     qObj.table.rows.forEach((row, ri) => {
       const tr = document.createElement('tr');
@@ -695,22 +892,23 @@ function showError(msg) {
 //  START GAME
 // ════════════════════════════════════════════════════
 function startGame() {
-  bossHP            = BOSS_MAX_HP;
-  playerHP          = PLAYER_MAX_HP;
-  score             = 0;
-  correctCount      = 0;
-  totalAnswered     = 0;
-  currentRound      = 0;
-  questionsAnswered = 0;
-  activeSlot        = -1;
-  gameActive        = true;
-  currentStreak     = 0;
-  bestStreak        = 0;
-  totalXP           = 0;
-  currentLevel      = 1;
-  xpInLevel         = 0;
-  comboMultiplier   = 1;
-  doubleDmgActive   = false;
+  bossHP             = BOSS_MAX_HP;
+  playerHP           = PLAYER_MAX_HP;
+  score              = 0;
+  correctCount       = 0;
+  totalAnswered      = 0;
+  currentRound       = 0;
+  questionsAnswered  = 0;
+  activeSlot         = -1;
+  gameActive         = true;
+  currentStreak      = 0;
+  bestStreak         = 0;
+  totalXP            = 0;
+  currentLevel       = 1;
+  xpInLevel          = 0;
+  comboMultiplier    = 1;
+  doubleDmgActive    = false;
+  roundAnsweredCount = 0;
 
   questionPool = shuffle([...allQuestions]);
 
@@ -765,8 +963,8 @@ function onCorrectStreak() {
   void ui.streakCount.offsetWidth;
   ui.streakCount.classList.add('pop');
 
-  const fireIdx = Math.min(currentStreak, STREAK_FIRES.length - 1);
-  ui.streakFire.textContent = STREAK_FIRES[fireIdx];
+  const fi = Math.min(currentStreak, STREAK_FIRES.length - 1);
+  ui.streakFire.textContent = STREAK_FIRES[fi];
 
   ui.comboMult.textContent = combo.label;
   if (combo.mult > 1) {
@@ -840,7 +1038,8 @@ function startNewRound() {
   if (questionPool.length === 0) { endGame('out_of_questions'); return; }
 
   currentRound++;
-  activeSlot = -1;
+  activeSlot         = -1;
+  roundAnsweredCount = 0;  // ← reset per-round counter
 
   ui.roundNum.textContent       = currentRound;
   ui.qAnsweredCount.textContent = '0';
@@ -927,7 +1126,7 @@ function pickCard(index) {
   const icon = slot.querySelector('.slot-icon');
   if (icon) icon.textContent = '❓';
 
-  const dmgEl       = document.getElementById(`slot-dmg-${index}`);
+  const dmgEl        = document.getElementById(`slot-dmg-${index}`);
   const effectiveDmg = doubleDmgActive ? damage * 2 : damage;
   if (dmgEl) dmgEl.textContent =
     doubleDmgActive ? `⚡${effectiveDmg}` : `⚔️${damage}`;
@@ -947,7 +1146,7 @@ function pickCard(index) {
 
   renderQuestion(ui.qpQuestion, question);
 
-  // Build answer options
+  // Build options
   ui.qpOptions.innerHTML = '';
   const opts      = shuffle([...(question.options || [])]);
   const answerRaw = (question.answer || '').trim();
@@ -1042,9 +1241,9 @@ function handleAnswer(btn, selected, correct, damage, slotIdx) {
 
   totalAnswered++;
   questionsAnswered++;
+  roundAnsweredCount++;          // ← increment per-round counter
   roundCards[slotIdx].answered = true;
-  ui.qAnsweredCount.textContent =
-    roundCards.filter(c => c.answered).length;
+  ui.qAnsweredCount.textContent = roundAnsweredCount;
 
   const isCorrect     = normalise(selected) === normalise(correct);
   const elapsed       = Date.now() - questionStartTime;
@@ -1099,9 +1298,9 @@ function handleTimeout(correct, damage, slotIdx) {
 
   totalAnswered++;
   questionsAnswered++;
+  roundAnsweredCount++;
   roundCards[slotIdx].answered = true;
-  ui.qAnsweredCount.textContent =
-    roundCards.filter(c => c.answered).length;
+  ui.qAnsweredCount.textContent = roundAnsweredCount;
 
   playSound('timeout');
   showEffect('⏰ TIME UP!', '#ff3344');
@@ -1132,7 +1331,7 @@ function markSlot(idx, result) {
 }
 
 // ════════════════════════════════════════════════════
-//  AFTER ANSWER
+//  AFTER ANSWER — Fixed bonus round trigger
 // ════════════════════════════════════════════════════
 function afterAnswer() {
   if (!gameActive) return;
@@ -1141,22 +1340,33 @@ function afterAnswer() {
 
   activeSlot = -1;
 
+  // Count how many cards in this round are still unanswered
+  const unanswered = roundCards.filter(rc => !rc.answered);
+  const answered   = roundCards.filter(rc => rc.answered).length;
+
   setTimeout(() => {
     ui.questionPanel.classList.add('hidden');
 
-    roundCards.forEach((rc, i) => {
-      if (!rc.answered) {
-        questionPool.push(rc.question);
-        const slot = document.getElementById(`slot-${i}`);
-        if (slot) slot.classList.add('used');
-      }
-    });
-    questionPool = shuffle(questionPool);
+    // Check if ALL cards in round are answered
+    const allDone = roundCards.every(rc => rc.answered);
 
-    if (questionsAnswered % CARDS_PER_ROUND === 0) {
+    if (allDone) {
+      // Full round complete → bonus round
       setTimeout(startBonusRound, 400);
     } else {
-      setTimeout(startNewRound, 400);
+      // Still cards left in this round → re-enable remaining slots
+      for (let i = 0; i < roundCards.length; i++) {
+        const slot = document.getElementById(`slot-${i}`);
+        if (!slot) continue;
+        if (!roundCards[i].answered) {
+          // Re-enable this slot
+          slot.classList.remove('disabled');
+          slot.onclick = null;
+          slot.addEventListener('click',
+            (function(idx){ return () => pickCard(idx); })(i));
+        }
+      }
+      activeSlot = -1;
     }
   }, 1500);
 }
@@ -1594,174 +1804,4 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
-}
-
-// ════════════════════════════════════════════════════
-//  BOX-AND-WHISKER PLOT RENDERER (SVG)
-// ════════════════════════════════════════════════════
-function renderBoxPlot(bp) {
-  const { min, q1, median, q3, max, label } = bp;
-  if ([min,q1,median,q3,max].some(v => v === undefined || v === null))
-    return null;
-
-  // Layout constants
-  const W       = 320;   // SVG width
-  const H       = 90;    // SVG height
-  const padL    = 30;    // left padding
-  const padR    = 30;    // right padding
-  const drawW   = W - padL - padR;
-  const boxTop  = 22;
-  const boxH    = 28;
-  const boxMid  = boxTop + boxH / 2;
-  const whiskerY = boxMid;
-  const tickH   = 8;
-
-  // Scale: value → x pixel
-  const range = max - min || 1;
-  const scaleX = v => padL + ((v - min) / range) * drawW;
-
-  const xMin    = scaleX(min);
-  const xQ1     = scaleX(q1);
-  const xMed    = scaleX(median);
-  const xQ3     = scaleX(q3);
-  const xMax    = scaleX(max);
-
-  // Colours matching game theme
-  const boxFill    = 'rgba(168,85,247,0.25)';
-  const boxStroke  = '#a855f7';
-  const medStroke  = '#ffd700';
-  const whiskerCol = '#00d4ff';
-  const textCol    = '#e2e8f0';
-  const subCol     = '#7a8599';
-
-  // Build SVG
-  const ns  = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(ns, 'svg');
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  svg.setAttribute('width',  '100%');
-  svg.setAttribute('height', H);
-  svg.style.overflow = 'visible';
-
-  function el(tag, attrs, text) {
-    const e = document.createElementNS(ns, tag);
-    for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
-    if (text !== undefined) e.textContent = text;
-    return e;
-  }
-
-  // Background axis line
-  svg.appendChild(el('line', {
-    x1: xMin, y1: whiskerY, x2: xMax, y2: whiskerY,
-    stroke: '#252550', 'stroke-width': 2,
-  }));
-
-  // Left whisker
-  svg.appendChild(el('line', {
-    x1: xMin, y1: whiskerY, x2: xQ1, y2: whiskerY,
-    stroke: whiskerCol, 'stroke-width': 2.5,
-    'stroke-dasharray': '4,2',
-  }));
-
-  // Left whisker tick
-  svg.appendChild(el('line', {
-    x1: xMin, y1: whiskerY - tickH,
-    x2: xMin, y2: whiskerY + tickH,
-    stroke: whiskerCol, 'stroke-width': 2.5,
-    'stroke-linecap': 'round',
-  }));
-
-  // Right whisker
-  svg.appendChild(el('line', {
-    x1: xQ3, y1: whiskerY, x2: xMax, y2: whiskerY,
-    stroke: whiskerCol, 'stroke-width': 2.5,
-    'stroke-dasharray': '4,2',
-  }));
-
-  // Right whisker tick
-  svg.appendChild(el('line', {
-    x1: xMax, y1: whiskerY - tickH,
-    x2: xMax, y2: whiskerY + tickH,
-    stroke: whiskerCol, 'stroke-width': 2.5,
-    'stroke-linecap': 'round',
-  }));
-
-  // Box (Q1 to Q3)
-  svg.appendChild(el('rect', {
-    x: xQ1, y: boxTop,
-    width: xQ3 - xQ1, height: boxH,
-    fill: boxFill,
-    stroke: boxStroke, 'stroke-width': 2,
-    rx: 3,
-  }));
-
-  // Median line
-  svg.appendChild(el('line', {
-    x1: xMed, y1: boxTop,
-    x2: xMed, y2: boxTop + boxH,
-    stroke: medStroke, 'stroke-width': 3,
-    'stroke-linecap': 'round',
-  }));
-
-  // ── Labels below ──
-  const labelY = boxTop + boxH + 14;
-  const subY   = labelY + 11;
-
-  // Helper: clamp label x to stay in SVG
-  function clampX(x, text) {
-    const halfW = text.length * 3.2;
-    return Math.max(padL + halfW, Math.min(W - padR - halfW, x));
-  }
-
-  const labelData = [
-    { x: xMin,  val: min,    sub: 'Min'    },
-    { x: xQ1,   val: q1,     sub: 'Q1'     },
-    { x: xMed,  val: median, sub: 'Median' },
-    { x: xQ3,   val: q3,     sub: 'Q3'     },
-    { x: xMax,  val: max,    sub: 'Max'    },
-  ];
-
-  labelData.forEach(({ x, val, sub }) => {
-    const cx = clampX(x, String(val));
-
-    // Tick mark on axis
-    svg.appendChild(el('line', {
-      x1: x, y1: boxTop + boxH,
-      x2: x, y2: boxTop + boxH + 5,
-      stroke: subCol, 'stroke-width': 1,
-    }));
-
-    // Value label
-    svg.appendChild(el('text', {
-      x: cx, y: labelY,
-      'text-anchor': 'middle',
-      fill: sub === 'Median' ? medStroke : textCol,
-      'font-size': '10',
-      'font-family': 'Chakra Petch, sans-serif',
-      'font-weight': sub === 'Median' ? '700' : '400',
-    }, String(val)));
-
-    // Sub label (Min / Q1 / Median / Q3 / Max)
-    svg.appendChild(el('text', {
-      x: cx, y: subY,
-      'text-anchor': 'middle',
-      fill: sub === 'Median' ? medStroke : subCol,
-      'font-size': '8',
-      'font-family': 'Chakra Petch, sans-serif',
-      'font-weight': sub === 'Median' ? '700' : '400',
-    }, sub));
-  });
-
-  // ── Wrap in styled container ──
-  const wrapper = document.createElement('div');
-  wrapper.className = 'q-boxplot-wrap';
-
-  if (label) {
-    const title = document.createElement('div');
-    title.className   = 'q-boxplot-label';
-    title.textContent = label;
-    wrapper.appendChild(title);
-  }
-
-  wrapper.appendChild(svg);
-  return wrapper;
 }
