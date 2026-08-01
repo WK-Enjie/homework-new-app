@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,
-        maximum-scale=1.0, user-scalable=no">
+        maximum-scale=5.0, user-scalable=yes">
   <title>⚔️ Card Quest — Defeat the Boss!</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +13,6 @@
 
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -82,33 +81,49 @@
               <p>Create a <code>.json</code> file — array of question objects:</p>
               <pre>[
   {
-    "question": "Background context here.",
+    "question": "Background context (optional).",
     "table": {
-      "headers": ["Col 1","Col 2"],
-      "rows": [["Row A","1"],["Row B","2"]]
+      "headers": ["Col 1","Col 2","Col 3"],
+      "rows": [
+        ["Row A","1","Data"],
+        ["Row B","2","Data"]
+      ]
     },
-    "stem": "What is the answer?",
+    "stem": "What is the answer? (the actual question)",
     "options": ["Option A","Option B","Option C","Option D"],
     "answer":  "Option A",
     "time": 30
   }
 ]</pre>
               <p><strong>Fractions:</strong>
-                 <code>3/4</code> → ¾ &nbsp;|&nbsp;
-                 <code>2 3/4</code> → 2¾ &nbsp;|&nbsp;
-                 <code>-1/4</code> → −¼</p>
-              <p><strong>Powers:</strong>
+                 <code>3/4</code>&nbsp;→&nbsp;¾ &nbsp;|&nbsp;
+                 <code>2 3/4</code>&nbsp;→&nbsp;2¾ &nbsp;|&nbsp;
+                 <code>-1/4</code>&nbsp;→&nbsp;−¼</p>
+              <p><strong>Powers / Indices:</strong>
                  <code>x^2</code>, <code>10^-3</code>, <code>a^{n+1}</code></p>
-              <p><strong>Subscripts:</strong> <code>x_1</code>, <code>a_n</code></p>
-              <p><strong>Chemicals:</strong>
+              <p><strong>Subscripts:</strong>
+                 <code>x_1</code>, <code>a_n</code></p>
+              <p><strong>Chemical formulae:</strong>
                  <code>H2O</code>, <code>CO2</code>, <code>C6H12O6</code></p>
-              <p><strong>Roots:</strong> <code>sqrt(x+1)</code>, <code>cbrt(x)</code></p>
-              <p><strong>Scientific:</strong> <code>3.2e4</code>, <code>1.6e-19</code></p>
-              <p><strong>Equations:</strong> <code>2x + 3 = 7</code></p>
-              <p><strong>Greek:</strong>
-                 <code>alpha</code>, <code>pi</code>, <code>theta</code></p>
-              <p><strong>LaTeX:</strong> wrap in <code>$…$</code> or
-                 <code>$$…$$</code></p>
+              <p><strong>Chemical equations:</strong>
+                 <code>2H2 + O2 → 2H2O</code> (use arrow →)</p>
+              <p><strong>Roots:</strong>
+                 <code>sqrt(x+1)</code>, <code>cbrt(x)</code></p>
+              <p><strong>Scientific notation:</strong>
+                 <code>3.2e4</code>, <code>1.6e-19</code>,
+                 <code>6.02 x 10^23</code></p>
+              <p><strong>Equations:</strong>
+                 <code>2x + 3 = 7</code>, <code>y = mx + c</code></p>
+              <p><strong>Greek letters:</strong>
+                 <code>alpha</code>, <code>pi</code>, <code>theta</code>,
+                 <code>omega</code></p>
+              <p><strong>Mixed numbers:</strong>
+                 <code>3 1/2</code>&nbsp;→&nbsp;3½</p>
+              <p><strong>LaTeX (advanced):</strong>
+                 wrap in <code>$…$</code> (inline) or
+                 <code>$$…$$</code> (display)</p>
+              <p><strong>Multi-part questions:</strong>
+                 use <code>\n</code> or separate lines within the stem field</p>
             </div>
           </details>
 
@@ -267,6 +282,8 @@
             </div>
             <div id="qp-streak-badge" class="hidden">🔥×1</div>
           </div>
+
+          <!-- Scrollable body: question + options together -->
           <div id="qp-body">
             <div id="qp-question"></div>
             <div id="qp-options"></div>
@@ -354,11 +371,14 @@
           <div id="badges-row"></div>
           <button id="try-again-btn">🔄 TRY AGAIN</button>
         </div>
-      </div><!-- /end-scroll -->
+      </div>
     </div><!-- /end-screen -->
 
   </div><!-- /game-container -->
 </div><!-- /root-wrap -->
+
+<!-- Toast notification layer -->
+<div id="toast-layer" aria-live="polite"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
 <script src="script.js"></script>
