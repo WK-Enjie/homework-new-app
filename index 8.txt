@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        maximum-scale=5.0, user-scalable=yes">
+  <title>⚔️ Card Quest — Defeat the Boss!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="root-wrap">
+  <div id="game-container">
+
+    <!-- ░░ SCREEN: LOGIN ░░ -->
+    <div id="login-screen" class="screen active-screen">
+      <div class="login-scroll">
+        <div class="login-box">
+
+          <div class="login-badge">⚔️</div>
+          <h1 class="login-title">CARD QUEST</h1>
+          <div class="login-subtitle">Defeat the Boss with Knowledge!</div>
+          <div class="login-dragon">👹</div>
+
+          <div class="feature-pills">
+            <span class="pill">🃏 Card Flip</span>
+            <span class="pill">📐 Maths</span>
+            <span class="pill">⚗️ Science</span>
+            <span class="pill">🎴 Bonus Rounds</span>
+            <span class="pill">🔥 Streaks</span>
+            <span class="pill">⚡ Combos</span>
+          </div>
+
+          <p class="login-hint">
+            Enter your Quest Code <strong>or</strong> upload a question file!
+          </p>
+
+          <!-- Tab switcher -->
+          <div class="login-tabs">
+            <button class="tab-btn active" id="tab-code">🔑 Quest Code</button>
+            <button class="tab-btn"        id="tab-upload">📁 Upload File</button>
+          </div>
+
+          <!-- Code panel -->
+          <div id="panel-code" class="tab-panel">
+            <input type="text" id="pin-input"
+                   placeholder="QUEST CODE (e.g. math01)"
+                   maxlength="60"
+                   autocomplete="off"
+                   spellcheck="false"
+                   inputmode="text">
+          </div>
+
+          <!-- Upload panel -->
+          <div id="panel-upload" class="tab-panel hidden">
+            <div id="drop-zone">
+              <div class="drop-icon">📂</div>
+              <div class="drop-text">Drop your <strong>.json</strong> file here</div>
+              <div class="drop-sub">or click to browse</div>
+              <input type="file" id="file-input" accept=".json"
+                     style="display:none">
+            </div>
+            <div id="file-status" class="hidden"></div>
+          </div>
+
+          <button id="start-btn">⚔️ BEGIN QUEST</button>
+          <div id="error-msg" class="hidden"></div>
+
+          <!-- Format hint -->
+          <details class="format-hint">
+            <summary>📋 Question File Format</summary>
+            <div class="format-body">
+              <p>Create a <code>.json</code> file — array of question objects:</p>
+              <pre>[
+  {
+    "question": "Background context (optional).",
+    "table": {
+      "headers": ["Col 1","Col 2","Col 3"],
+      "rows": [
+        ["Row A","1","Data"],
+        ["Row B","2","Data"]
+      ]
+    },
+    "stem": "What is the answer? (the actual question)",
+    "options": ["Option A","Option B","Option C","Option D"],
+    "answer":  "Option A",
+    "time": 30
+  }
+]</pre>
+              <p><strong>Fractions:</strong>
+                 <code>3/4</code>&nbsp;→&nbsp;¾ &nbsp;|&nbsp;
+                 <code>2 3/4</code>&nbsp;→&nbsp;2¾ &nbsp;|&nbsp;
+                 <code>-1/4</code>&nbsp;→&nbsp;−¼</p>
+              <p><strong>Powers / Indices:</strong>
+                 <code>x^2</code>, <code>10^-3</code>, <code>a^{n+1}</code></p>
+              <p><strong>Subscripts:</strong>
+                 <code>x_1</code>, <code>a_n</code></p>
+              <p><strong>Chemical formulae:</strong>
+                 <code>H2O</code>, <code>CO2</code>, <code>C6H12O6</code></p>
+              <p><strong>Chemical equations:</strong>
+                 <code>2H2 + O2 → 2H2O</code> (use arrow →)</p>
+              <p><strong>Roots:</strong>
+                 <code>sqrt(x+1)</code>, <code>cbrt(x)</code></p>
+              <p><strong>Scientific notation:</strong>
+                 <code>3.2e4</code>, <code>1.6e-19</code>,
+                 <code>6.02 x 10^23</code></p>
+              <p><strong>Equations:</strong>
+                 <code>2x + 3 = 7</code>, <code>y = mx + c</code></p>
+              <p><strong>Greek letters:</strong>
+                 <code>alpha</code>, <code>pi</code>, <code>theta</code>,
+                 <code>omega</code></p>
+              <p><strong>Mixed numbers:</strong>
+                 <code>3 1/2</code>&nbsp;→&nbsp;3½</p>
+              <p><strong>LaTeX (advanced):</strong>
+                 wrap in <code>$…$</code> (inline) or
+                 <code>$$…$$</code> (display)</p>
+              <p><strong>Multi-part questions:</strong>
+                 use <code>\n</code> or separate lines within the stem field</p>
+            </div>
+          </details>
+
+          <div class="login-footer">
+            <span>🃏 Pick a Card</span>
+            <span>⚡ Answer Fast</span>
+            <span>💀 Slay the Boss</span>
+          </div>
+
+        </div><!-- /login-box -->
+      </div><!-- /login-scroll -->
+    </div><!-- /login-screen -->
+
+    <!-- ░░ SCREEN: BATTLE ░░ -->
+    <div id="battle-screen" class="screen hidden">
+
+      <!-- HUD TOP -->
+      <div id="hud-top">
+        <div class="hp-section">
+          <div class="hp-label">
+            <span>👹 BOSS</span>
+            <span id="enemy-hp-text">200</span>
+          </div>
+          <div class="hp-bar">
+            <div id="enemy-hp-fill" class="hp-fill enemy-fill"></div>
+          </div>
+        </div>
+
+        <div id="score-badge">
+          <div id="score-label">SCORE</div>
+          <div id="score-display">0</div>
+          <div id="round-label">RND <span id="round-num">1</span></div>
+        </div>
+
+        <div class="hp-section">
+          <div class="hp-label">
+            <span>🧙 HERO</span>
+            <span id="player-hp-text">100</span>
+          </div>
+          <div class="hp-bar">
+            <div id="player-hp-fill" class="hp-fill player-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STREAK / COMBO / XP BAR -->
+      <div id="streak-bar">
+        <div id="streak-wrap">
+          <span id="streak-label">STREAK</span>
+          <span id="streak-count">0</span>
+          <span id="streak-fire"></span>
+        </div>
+        <div id="combo-wrap">
+          <span id="combo-label">COMBO</span>
+          <span id="combo-mult">×1</span>
+        </div>
+        <div id="xp-wrap">
+          <span id="xp-label">XP</span>
+          <div id="xp-bar-outer">
+            <div id="xp-bar-fill"></div>
+          </div>
+          <span id="xp-text">0</span>
+        </div>
+      </div>
+
+      <!-- ARENA -->
+      <div id="arena">
+        <div id="arena-bg"></div>
+
+        <div id="boss-wrap">
+          <div id="boss-health-ring">
+            <svg viewBox="0 0 80 80" id="boss-ring-svg">
+              <circle cx="40" cy="40" r="34"
+                fill="none" stroke="#1a1a40" stroke-width="7"/>
+              <circle cx="40" cy="40" r="34"
+                fill="none" stroke="#ff3344" stroke-width="7"
+                stroke-dasharray="214" stroke-dashoffset="0"
+                id="boss-ring-fill" stroke-linecap="round"
+                transform="rotate(-90 40 40)"/>
+            </svg>
+          </div>
+          <div id="boss-sprite">👹</div>
+        </div>
+
+        <div id="arena-center">
+          <div id="damage-number"  class="float-text hidden"></div>
+          <div id="effect-display" class="float-text hidden"></div>
+          <div id="streak-display" class="float-text hidden"></div>
+          <div id="explosion"      class="hidden">💥</div>
+        </div>
+
+        <div id="player-wrap">
+          <div id="player-sprite">🧙</div>
+          <div id="heal-display" class="float-text hidden"></div>
+        </div>
+
+        <div id="particles"></div>
+      </div>
+
+      <!-- STATUS BAR -->
+      <div id="status-bar">
+        <div id="phase-label">PICK A CARD</div>
+        <div id="q-answered-wrap">
+          <span id="q-answered-count">0</span>/4 this round
+        </div>
+      </div>
+
+      <!-- PLAY AREA -->
+      <div id="play-area">
+
+        <!-- CARD SLOTS -->
+        <div id="card-row">
+          <div class="card-slot" id="slot-0">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="slot-icon">🎴</div>
+                <div class="slot-dmg" id="slot-dmg-0"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-slot" id="slot-1">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="slot-icon">🎴</div>
+                <div class="slot-dmg" id="slot-dmg-1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-slot" id="slot-2">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="slot-icon">🎴</div>
+                <div class="slot-dmg" id="slot-dmg-2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-slot" id="slot-3">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="slot-icon">🎴</div>
+                <div class="slot-dmg" id="slot-dmg-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- QUESTION PANEL -->
+        <div id="question-panel" class="hidden">
+          <div id="qp-header">
+            <div id="qp-dmg-badge">⚔️ DMG</div>
+            <div id="qp-timer-wrap">
+              <div id="qp-timer-bar">
+                <div id="qp-timer-fill"></div>
+              </div>
+              <div id="qp-timer-text">30s</div>
+            </div>
+            <div id="qp-streak-badge" class="hidden">🔥×1</div>
+          </div>
+
+          <!-- Scrollable body: question + options together -->
+          <div id="qp-body">
+            <div id="qp-question"></div>
+            <div id="qp-options"></div>
+          </div>
+        </div>
+
+        <!-- BONUS PANEL -->
+        <div id="bonus-panel" class="hidden">
+          <div id="bonus-title">🎴 BONUS ROUND!</div>
+          <div id="bonus-subtitle">Pick a card — choose wisely!</div>
+          <div id="bonus-card-row">
+            <div class="bonus-slot" id="bslot-0">
+              <div class="bonus-slot-inner">
+                <div class="bslot-icon">✨</div>
+                <div class="bslot-label">?</div>
+              </div>
+            </div>
+            <div class="bonus-slot" id="bslot-1">
+              <div class="bonus-slot-inner">
+                <div class="bslot-icon">✨</div>
+                <div class="bslot-label">?</div>
+              </div>
+            </div>
+            <div class="bonus-slot" id="bslot-2">
+              <div class="bonus-slot-inner">
+                <div class="bslot-icon">✨</div>
+                <div class="bslot-label">?</div>
+              </div>
+            </div>
+          </div>
+          <div id="bonus-result" class="hidden"></div>
+        </div>
+
+      </div><!-- /play-area -->
+    </div><!-- /battle-screen -->
+
+    <!-- ░░ SCREEN: END ░░ -->
+    <div id="end-screen" class="screen hidden">
+      <div class="end-scroll">
+        <div class="end-box">
+          <div id="end-icon">🏆</div>
+          <h2 id="end-title">QUEST COMPLETE!</h2>
+          <p  id="end-reason"></p>
+          <div id="star-rating"></div>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">SCORE</div>
+              <div id="final-score"    class="stat-value">0</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">CORRECT</div>
+              <div id="final-correct"  class="stat-value">0</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">ACCURACY</div>
+              <div id="final-accuracy" class="stat-value">0%</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">ROUNDS</div>
+              <div id="final-rounds"   class="stat-value">0</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">BOSS HP</div>
+              <div id="final-boss-hp"  class="stat-value">0</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">RANK</div>
+              <div id="final-rank"     class="stat-value">--</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">BEST STREAK</div>
+              <div id="final-streak"   class="stat-value">0</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">MAX COMBO</div>
+              <div id="final-combo"    class="stat-value">×1</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">TOTAL XP</div>
+              <div id="final-xp"       class="stat-value">0</div>
+            </div>
+          </div>
+
+          <div id="badges-row"></div>
+          <button id="try-again-btn">🔄 TRY AGAIN</button>
+        </div>
+      </div>
+    </div><!-- /end-screen -->
+
+  </div><!-- /game-container -->
+</div><!-- /root-wrap -->
+
+<!-- Toast notification layer -->
+<div id="toast-layer" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
