@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A mobile phone subscription plan increased in price from $40 to $50 per month.",
+    "stem": "Calculate the percentage increase in the price of the subscription plan.",
+    "options": [
+      "25%",
+      "20%",
+      "15%",
+      "30%"
+    ],
+    "answer": "25%",
+    "time": 65
+  },
+  {
+    "question": "After receiving a 12% salary increase, Mr. Lim's new monthly salary is $3,360.",
+    "stem": "What was Mr. Lim's original monthly salary before the increase?",
+    "options": [
+      "$3,000",
+      "$2,956.80",
+      "$3,100",
+      "$2,900"
+    ],
+    "answer": "$3,000",
+    "time": 70
+  },
+  {
+    "question": "A dining bill at a restaurant comes to $150 before Goods and Services Tax (GST). Given that GST is charged at 9%.",
+    "stem": "Calculate the total amount payable for the meal inclusive of GST.",
+    "options": [
+      "$163.50",
+      "$13.50",
+      "$159.00",
+      "$165.00"
+    ],
+    "answer": "$163.50",
+    "time": 70
+  },
+  {
+    "question": "Mr. Tan's taxable annual income is $45,000. Income tax is charged at 2% on the first $30,000, and 3.5% on the remaining taxable amount.",
+    "stem": "Calculate the total income tax Mr. Tan has to pay.",
+    "options": [
+      "$1,125",
+      "$1,575",
+      "$900",
+      "$1,200"
+    ],
+    "answer": "$1,125",
+    "time": 85
+  },
+  {
+    "question": "Mr. Tan deposited $4,000 into a savings account for 3 years and earned a total simple interest of $360.",
+    "stem": "Calculate the simple interest rate per annum offered by the bank.",
+    "options": [
+      "3%",
+      "2.5%",
+      "4%",
+      "3.5%"
+    ],
+    "answer": "3%",
+    "time": 70
+  },
+  {
+    "question": "Siti borrowed $2,500 from a financial institution. After 2 years, she repaid a total amount of $2,700 including simple interest.",
+    "stem": "Find the simple interest rate per annum charged on the loan.",
+    "options": [
+      "4%",
+      "5%",
+      "3%",
+      "4.5%"
+    ],
+    "answer": "4%",
+    "time": 70
+  },
+  {
+    "question": "A television has a cash price of $1,500. Under a hire purchase scheme, a customer pays a 20% deposit followed by 12 monthly instalments of $110 each.",
+    "stem": "Calculate the total hire purchase price of the television.",
+    "options": [
+      "$1,620",
+      "$1,320",
+      "$1,500",
+      "$1,420"
+    ],
+    "answer": "$1,620",
+    "time": 75
+  },
+  {
+    "question": "A laptop has a cash price of $1,200. Under an instalment plan, a buyer pays a deposit of $200, and the remaining balance plus an additional interest fee of $80 is paid over 12 equal monthly instalments.",
+    "stem": "Find the amount of each monthly instalment.",
+    "options": [
+      "$90",
+      "$85",
+      "$100",
+      "$95"
+    ],
+    "answer": "$90",
+    "time": 75
+  },
+  {
+    "question": "Two algebraic relationships between positive variables x, y, and z are given as 6x = 5y and 3y = 2z.",
+    "stem": "Find the ratio x : y : z in its simplest form.",
+    "options": [
+      "5 : 6 : 9",
+      "6 : 5 : 2",
+      "5 : 6 : 3",
+      "10 : 12 : 9"
+    ],
+    "answer": "5 : 6 : 9",
+    "time": 70
+  },
+  {
+    "question": "Three positive quantities x, y, and z satisfy the equations 4x = 3y and 2y = 5z.",
+    "stem": "Find the ratio x : y : z in its simplest form.",
+    "options": [
+      "15 : 20 : 8",
+      "3 : 4 : 5",
+      "3 : 10 : 2",
+      "12 : 20 : 8"
+    ],
+    "answer": "15 : 20 : 8",
+    "time": 75
+  },
+  {
+    "question": "The quantities x, y, and z satisfy the algebraic relations 2x = 3y and 4y = 3z.",
+    "stem": "Express the ratio x : y : z in its simplest form.",
+    "options": [
+      "9 : 6 : 8",
+      "3 : 2 : 4",
+      "6 : 4 : 3",
+      "9 : 4 : 6"
+    ],
+    "answer": "9 : 6 : 8",
+    "time": 75
+  },
+  {
+    "question": "A mixture of fruit syrup and water has a total volume of 500 ml with syrup to water in the ratio 1 : 4. Additional syrup is poured into the mixture so that the new ratio of syrup to water becomes 1 : 2.",
+    "stem": "How much additional syrup was added to the mixture?",
+    "options": [
+      "100 ml",
+      "50 ml",
+      "150 ml",
+      "200 ml"
+    ],
+    "answer": "100 ml",
+    "time": 70
+  },
+  {
+    "question": "A paint mixture consists of blue paint and white paint in the ratio 3 : 2 with a total volume of 40 liters. Additional white paint is added to change the ratio of blue paint to white paint to 1 : 1.",
+    "stem": "How many liters of white paint must be added?",
+    "options": [
+      "8 liters",
+      "10 liters",
+      "12 liters",
+      "6 liters"
+    ],
+    "answer": "8 liters",
+    "time": 70
+  },
+  {
+    "question": "Alan and Ben share a set of stickers in the ratio 5 : 3. Alan gives 12 of his stickers to Ben, and now both boys have an equal number of stickers.",
+    "stem": "How many stickers do they have in total?",
+    "options": [
+      "96",
+      "48",
+      "72",
+      "120"
+    ],
+    "answer": "96",
+    "time": 70
+  },
+  {
+    "question": "Brand A sells a 400 g jar of jam for $6.00. Brand B sells a 600 g jar of the same jam for $8.40.",
+    "stem": "Which brand offers the lower price per 100 g, and by how much?",
+    "options": [
+      "Brand B by $0.10 per 100 g",
+      "Brand A by $0.10 per 100 g",
+      "Brand B by $0.20 per 100 g",
+      "Both cost the same per 100 g"
+    ],
+    "answer": "Brand B by $0.10 per 100 g",
+    "time": 70
+  },
+  {
+    "question": "A car travels along an expressway at a speed of 90 km/h.",
+    "stem": "Express this speed in meters per second (m/s).",
+    "options": [
+      "25 m/s",
+      "20 m/s",
+      "30 m/s",
+      "250 m/s"
+    ],
+    "answer": "25 m/s",
+    "time": 60
+  },
+  {
+    "question": "A sprinter runs at an average speed of 15 m/s.",
+    "stem": "Express this speed in kilometers per hour (km/h).",
+    "options": [
+      "54 km/h",
+      "45 km/h",
+      "60 km/h",
+      "50 km/h"
+    ],
+    "answer": "54 km/h",
+    "time": 65
+  },
+  {
+    "question": "A driver travels the first leg of 40 km at a speed of 80 km/h, and then completes the second leg of 80 km at a speed of 40 km/h.",
+    "stem": "Calculate the driver's average speed for the ENTIRE journey.",
+    "options": [
+      "48 km/h",
+      "60 km/h",
+      "50 km/h",
+      "52 km/h"
+    ],
+    "answer": "48 km/h",
+    "time": 75
+  },
+  {
+    "question": "A cyclist sets off from a starting point at a constant speed of 15 km/h. A motorcyclist sets off from the same starting point 1 hour later, traveling along the same route at a speed of 45 km/h.",
+    "stem": "How long after setting off will the motorcyclist catch up with the cyclist?",
+    "options": [
+      "30 minutes",
+      "45 minutes",
+      "1 hour",
+      "15 minutes"
+    ],
+    "answer": "30 minutes",
+    "time": 75
+  },
+  {
+    "question": "Runner A starts running along a track at a constant speed of 8 km/h. Exactly 15 minutes later, Runner B starts from the same point at a constant speed of 12 km/h to chase Runner A.",
+    "stem": "How far from the starting point does Runner B catch up with Runner A?",
+    "options": [
+      "6 km",
+      "4 km",
+      "8 km",
+      "5 km"
+    ],
+    "answer": "6 km",
+    "time": 80
+  },
+  {
+    "question": "A truck is traveling at 60 km/h along a long straight road and is 20 km ahead of a sports car. The sports car travels in the same direction at a constant speed of 80 km/h.",
+    "stem": "How long will it take for the sports car to catch up with the truck?",
+    "options": [
+      "1 hour",
+      "1.5 hours",
+      "45 minutes",
+      "2 hours"
+    ],
+    "answer": "1 hour",
+    "time": 70
+  },
+  {
+    "question": "The retail price of an electronic gadget was $150. The price was increased by 20% during peak season, and later reduced by 10% during a sale.",
+    "stem": "What is the final selling price of the gadget after both price adjustments?",
+    "options": [
+      "$162",
+      "$165",
+      "$150",
+      "$168"
+    ],
+    "answer": "$162",
+    "time": 70
+  },
+  {
+    "question": "David invested $3,000 in a savings account. After 4 years, he accumulated $480 in simple interest.",
+    "stem": "What was the simple interest rate per annum offered by the bank?",
+    "options": [
+      "4%",
+      "3.5%",
+      "5%",
+      "3%"
+    ],
+    "answer": "4%",
+    "time": 70
+  },
+  {
+    "question": "A delivery van left Town A at 08:15 and traveled towards Town B at an average speed of 68 km/h. It arrived at Town B at 10:45.",
+    "stem": "Find the distance between Town A and Town B.",
+    "options": [
+      "170 km",
+      "136 km",
+      "153 km",
+      "180 km"
+    ],
+    "answer": "170 km",
+    "time": 70
+  }
+]
