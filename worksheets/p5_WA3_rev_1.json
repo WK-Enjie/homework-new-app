@@ -1,290 +1,170 @@
 [
-  {
-    "question": "Alex has $42.80 and Ben has $28.40.",
-    "stem": "What if Alex gives $5.20 to Ben? How much more money will Alex have than Ben in the end?",
-    "options": [
-      "$9.20",
-      "$14.40",
-      "$4.00",
-      "$5.20"
-    ],
-    "answer": "$4.00",
-    "time": 80
-  },
-  {
-    "question": "Chloe has $35.60 and Diana has $21.20.",
-    "stem": "What if both girls spend the exact same amount of money on a book, and Chloe is left with 3 times as much money as Diana? How much did each book cost?",
-    "options": [
-      "$7.20",
-      "$12.50",
-      "$10.80",
-      "$14.00"
-    ],
-    "answer": "$14.00",
-    "time": 90
-  },
-  {
-    "question": "Box A contains 16.4 kg of flour and Box B contains 9.2 kg of flour.",
-    "stem": "What if 1.8 kg of flour is transferred from Box A to Box B? What will be the new difference in mass between Box A and Box B?",
-    "options": [
-      "5.4 kg",
-      "3.6 kg",
-      "7.2 kg",
-      "1.8 kg"
-    ],
-    "answer": "3.6 kg",
-    "time": 80
-  },
-  {
-    "question": "Bottle A holds 1.25 L of water and Bottle B holds 2.75 L of water.",
-    "stem": "What if Bottle A receives 0.8 L of water and Bottle B loses 0.4 L of water? What will be the new total volume of water in both bottles?",
-    "options": [
-      "4.4 L",
-      "4.0 L",
-      "4.8 L",
-      "3.6 L"
-    ],
-    "answer": "4.4 L",
-    "time": 80
-  },
-  {
-    "question": "Ethan has 4.5 m of ribbon and Felix has 2.1 m of ribbon.",
-    "stem": "What if Ethan buys some more ribbon so that he has 3 times as much ribbon as Felix? How many meters of ribbon did Ethan buy?",
-    "options": [
-      "2.1 m",
-      "3.8 m",
-      "1.8 m",
-      "1.5 m"
-    ],
-    "answer": "1.8 m",
-    "time": 80
-  },
-  {
-    "question": "Grace and Hannah have $84.60 altogether. Grace has $12.40 more than Hannah.",
-    "stem": "What if Grace spends $18.50 on a bag? How much money will Grace have left?",
-    "options": [
-      "$36.10",
-      "$28.50",
-      "$32.40",
-      "$30.00"
-    ],
-    "answer": "$30.00",
-    "time": 90
-  },
-  {
-    "question": "Container X has 8.4 kg of rice and Container Y has 5.2 kg of rice.",
-    "stem": "What if some rice is transferred from Container X to Container Y so that Container Y has 1.6 kg more rice than Container X? How much rice was transferred?",
-    "options": [
-      "1.6 kg",
-      "2.4 kg",
-      "3.2 kg",
-      "2.0 kg"
-    ],
-    "answer": "2.4 kg",
-    "time": 90
-  },
-  {
-    "question": "Ian bought 3 notebooks and 2 pens for $14.50. A notebook costs $1.50 more than a pen.",
-    "stem": "What if Ian had bought 2 notebooks and 3 pens instead? How much would he have paid in total?",
-    "options": [
-      "$13.00",
-      "$12.00",
-      "$14.00",
-      "$11.50"
-    ],
-    "answer": "$13.00",
-    "time": 95
-  },
-  {
-    "question": "Tank A contains 14.8 L of water and Tank B contains 6.2 L of water.",
-    "stem": "What if 2.0 L of water is poured from Tank B into Tank A? How many times as much water will Tank A have compared to Tank B now?",
-    "options": [
-      "3 times",
-      "5 times",
-      "4 times",
-      "2 times"
-    ],
-    "answer": "4 times",
-    "time": 85
-  },
-  {
-    "question": "Jacob has $52.40 and Kevin has $28.80.",
-    "stem": "What if Jacob gives some money to Kevin so that both of them have the exact same amount of money? How much money will each of them have in the end?",
-    "options": [
-      "$11.80",
-      "$23.60",
-      "$41.20",
-      "$40.60"
-    ],
-    "answer": "$40.60",
-    "time": 80
-  },
-  {
-    "question": "Leo and Max share 15.6 kg of coffee beans. Leo's share is 0.4 kg less than 3 times Max's share.",
-    "stem": "What if Max sells 1.2 kg of his coffee beans? How many kilograms of coffee beans will Max have left?",
-    "options": [
-      "4.0 kg",
-      "2.8 kg",
-      "3.2 kg",
-      "2.4 kg"
-    ],
-    "answer": "2.8 kg",
-    "time": 90
-  },
-  {
-    "question": "String A is 12.8 m long and String B is 7.2 m long.",
-    "stem": "What if 1.8 m is cut from String A and added to String B? What will be the new difference in length between String A and String B?",
-    "options": [
-      "2.0 m",
-      "3.8 m",
-      "5.6 m",
-      "1.8 m"
-    ],
-    "answer": "2.0 m",
-    "time": 85
-  },
-  {
-    "question": "A basket contains 4.8 kg of apples and 3.2 kg of oranges.",
-    "stem": "What if 3 more bags of apples, each weighing 1.5 kg, are added to the basket? What will be the new total mass of fruit in the basket?",
-    "options": [
-      "11.0 kg",
-      "13.5 kg",
-      "12.5 kg",
-      "10.5 kg"
-    ],
-    "answer": "12.5 kg",
-    "time": 80
-  },
-  {
-    "question": "Nina has $72.00 and Olivia has $28.00.",
-    "stem": "What if Nina gives $12.00 to Olivia? What will be the ratio of Nina's remaining money to Olivia's new total money in simplest form?",
-    "options": [
-      "2 : 1",
-      "5 : 3",
-      "1 : 1",
-      "3 : 2"
-    ],
-    "answer": "3 : 2",
-    "time": 90
-  },
-  {
-    "question": "Parcel P weighs 2.45 kg and Parcel Q weighs 1.85 kg.",
-    "stem": "What if another Parcel R is added such that the total mass of all three parcels becomes 8.5 kg? How much heavier is Parcel R than Parcel P?",
-    "options": [
-      "2.35 kg",
-      "1.75 kg",
-      "1.45 kg",
-      "2.15 kg"
-    ],
-    "answer": "1.75 kg",
-    "time": 90
-  },
-  {
-    "question": "Sam has $48.50 and Tim has $26.50.",
-    "stem": "What if both boys spend an equal amount of money on lunch, and Sam ends up with twice as much money as Tim? How much money did each boy spend on lunch?",
-    "options": [
-      "$4.50",
-      "$22.00",
-      "$6.50",
-      "$5.00"
-    ],
-    "answer": "$4.50",
-    "time": 95
-  },
-  {
-    "question": "A jar has 3.6 L of water and a jug has 1.4 L of water.",
-    "stem": "What if 0.8 L of water is poured away from the jar and 0.5 L of water is added to the jug? How much more water will be in the jar than the jug now?",
-    "options": [
-      "1.4 L",
-      "2.2 L",
-      "0.9 L",
-      "1.1 L"
-    ],
-    "answer": "0.9 L",
-    "time": 85
-  },
-  {
-    "question": "Box A, Box B, and Box C contain a total of 15.6 kg of sand. Box A has 2.4 kg more sand than Box B. Box C has 1.2 kg less sand than Box B.",
-    "stem": "What if 1.5 kg of sand is removed from Box A? What will be the new mass of sand in Box A?",
-    "options": [
-      "7.2 kg",
-      "4.8 kg",
-      "6.2 kg",
-      "5.7 kg"
-    ],
-    "answer": "5.7 kg",
-    "time": 95
-  },
-  {
-    "question": "A rope of length 10.5 m is cut into two pieces, Piece X and Piece Y. Piece X is 2.5 m longer than Piece Y.",
-    "stem": "What if Piece X is cut into 2 equal shorter pieces? What will be the length of one of these shorter pieces?",
-    "options": [
-      "6.5 m",
-      "3.25 m",
-      "4.0 m",
-      "2.5 m"
-    ],
-    "answer": "3.25 m",
-    "time": 90
-  },
-  {
-    "question": "Mrs. Li bought 4 kg of prawns at $18.50 per kg and 2 kg of fish at $12.00 per kg.",
-    "stem": "What if she had bought 2 kg of prawns and 4 kg of fish instead? How much money would she have saved?",
-    "options": [
-      "$13.00",
-      "$15.00",
-      "$10.00",
-      "$8.00"
-    ],
-    "answer": "$13.00",
-    "time": 90
-  },
-  {
-    "question": "Container 1 has 5.25 L of paint and Container 2 has 2.75 L of paint.",
-    "stem": "What if paint is poured from Container 1 into Container 2 until Container 2 has 1.5 L more paint than Container 1? How many liters of paint will be in Container 1 in the end?",
-    "options": [
-      "4.75 L",
-      "2.00 L",
-      "3.25 L",
-      "3.75 L"
-    ],
-    "answer": "3.25 L",
-    "time": 90
-  },
-  {
-    "question": "Alan has $15.40 and Ben has $35.80.",
-    "stem": "What if their mother gives an equal amount of $10.20 to each of them? How much less money will Alan have than Ben now?",
-    "options": [
-      "$30.60",
-      "$10.20",
-      "$25.40",
-      "$20.40"
-    ],
-    "answer": "$20.40",
-    "time": 85
-  },
-  {
-    "question": "A baker made 12.6 kg of dough. He used 0.6 kg to test a new recipe, then divided the remaining dough equally into 4 large bowls.",
-    "stem": "What if he had divided the remaining dough into 6 equal smaller bowls instead? How much less dough would be in each smaller bowl compared to each large bowl?",
-    "options": [
-      "0.5 kg",
-      "1.0 kg",
-      "1.5 kg",
-      "2.0 kg"
-    ],
-    "answer": "1.0 kg",
-    "time": 90
-  },
-  {
-    "question": "Tom has $26.50 and Jerry has $5.50.",
-    "stem": "What if Tom gives $2.50 to Jerry? How many times as much money will Tom have compared to Jerry now?",
-    "options": [
-      "3 times",
-      "4 times",
-      "2 times",
-      "5 times"
-    ],
-    "answer": "3 times",
-    "time": 85
-  }
+  {
+    "question": "Alex has $42.80 and Ben has $28.40.",
+    "stem": "What if Alex gives $5.20 to Ben? How much more money will Alex have than Ben in the end?",
+    "options": ["$9.20", "$14.40", "$4.00", "$5.20"],
+    "answer": "$4.00",
+    "time": 80
+  },
+  {
+    "question": "Chloe has $35.60 and Diana has $21.20.",
+    "stem": "What if both girls spend the exact same amount of money on a book, and Chloe is left with 3 times as much money as Diana? How much did each book cost?",
+    "options": ["$7.20", "$12.50", "$10.80", "$14.00"],
+    "answer": "$14.00",
+    "time": 90
+  },
+  {
+    "question": "Box A contains 16.4 kg of flour and Box B contains 9.2 kg of flour.",
+    "stem": "What if 1.8 kg of flour is transferred from Box A to Box B? What will be the new difference in mass between Box A and Box B?",
+    "options": ["5.4 kg", "3.6 kg", "7.2 kg", "1.8 kg"],
+    "answer": "3.6 kg",
+    "time": 80
+  },
+  {
+    "question": "Bottle A holds 1.25 L of water and Bottle B holds 2.75 L of water.",
+    "stem": "What if Bottle A receives 0.8 L of water and Bottle B loses 0.4 L of water? What will be the new total volume of water in both bottles?",
+    "options": ["4.4 L", "4.0 L", "4.8 L", "3.6 L"],
+    "answer": "4.4 L",
+    "time": 80
+  },
+  {
+    "question": "Ethan has 4.5 m of ribbon and Felix has 2.1 m of ribbon.",
+    "stem": "What if Ethan buys some more ribbon so that he has 3 times as much ribbon as Felix? How many meters of ribbon did Ethan buy?",
+    "options": ["2.1 m", "3.8 m", "1.8 m", "1.5 m"],
+    "answer": "1.8 m",
+    "time": 80
+  },
+  {
+    "question": "Grace and Hannah have $84.60 altogether. Grace has $12.40 more than Hannah.",
+    "stem": "What if Grace spends $18.50 on a bag? How much money will Grace have left?",
+    "options": ["$36.10", "$28.50", "$32.40", "$30.00"],
+    "answer": "$30.00",
+    "time": 90
+  },
+  {
+    "question": "Container X has 8.4 kg of rice and Container Y has 5.2 kg of rice.",
+    "stem": "What if some rice is transferred from Container X to Container Y so that Container Y has 1.6 kg more rice than Container X? How much rice was transferred?",
+    "options": ["1.6 kg", "2.4 kg", "3.2 kg", "2.0 kg"],
+    "answer": "2.4 kg",
+    "time": 90
+  },
+  {
+    "question": "Ian bought 3 notebooks and 2 pens for $14.50. A notebook costs $1.50 more than a pen.",
+    "stem": "What if Ian had bought 2 notebooks and 3 pens instead? How much would he have paid in total?",
+    "options": ["$13.00", "$12.00", "$14.00", "$11.50"],
+    "answer": "$13.00",
+    "time": 95
+  },
+  {
+    "question": "Tank A contains 14.8 L of water and Tank B contains 6.2 L of water.",
+    "stem": "What if 2.0 L of water is poured from Tank B into Tank A? How many times as much water will Tank A have compared to Tank B now?",
+    "options": ["3 times", "5 times", "4 times", "2 times"],
+    "answer": "4 times",
+    "time": 85
+  },
+  {
+    "question": "Jacob has $52.40 and Kevin has $28.80.",
+    "stem": "What if Jacob gives some money to Kevin so that both of them have the exact same amount of money? How much money will each of them have in the end?",
+    "options": ["$11.80", "$23.60", "$41.20", "$40.60"],
+    "answer": "$40.60",
+    "time": 80
+  },
+  {
+    "question": "Leo and Max share 15.6 kg of coffee beans. Leo's share is 0.4 kg less than 3 times Max's share.",
+    "stem": "What if Max sells 1.2 kg of his coffee beans? How many kilograms of coffee beans will Max have left?",
+    "options": ["4.0 kg", "2.8 kg", "3.2 kg", "2.4 kg"],
+    "answer": "2.8 kg",
+    "time": 90
+  },
+  {
+    "question": "String A is 12.8 m long and String B is 7.2 m long.",
+    "stem": "What if 1.8 m is cut from String A and added to String B? What will be the new difference in length between String A and String B?",
+    "options": ["2.0 m", "3.8 m", "5.6 m", "1.8 m"],
+    "answer": "2.0 m",
+    "time": 85
+  },
+  {
+    "question": "A basket contains 4.8 kg of apples and 3.2 kg of oranges.",
+    "stem": "What if 3 more bags of apples, each weighing 1.5 kg, are added to the basket? What will be the new total mass of fruit in the basket?",
+    "options": ["11.0 kg", "13.5 kg", "12.5 kg", "10.5 kg"],
+    "answer": "12.5 kg",
+    "time": 80
+  },
+  {
+    "question": "Nina has $72.00 and Olivia has $28.00.",
+    "stem": "What if Nina gives $12.00 to Olivia? What will be the ratio of Nina's remaining money to Olivia's new total money in simplest form?",
+    "options": ["2 : 1", "5 : 3", "1 : 1", "3 : 2"],
+    "answer": "3 : 2",
+    "time": 90
+  },
+  {
+    "question": "Parcel P weighs 2.45 kg and Parcel Q weighs 1.85 kg.",
+    "stem": "What if another Parcel R is added such that the total mass of all three parcels becomes 8.5 kg? How much heavier is Parcel R than Parcel P?",
+    "options": ["2.35 kg", "1.75 kg", "1.45 kg", "2.15 kg"],
+    "answer": "1.75 kg",
+    "time": 90
+  },
+  {
+    "question": "Sam has $48.50 and Tim has $26.50.",
+    "stem": "What if both boys spend an equal amount of money on lunch, and Sam ends up with twice as much money as Tim? How much money did each boy spend on lunch?",
+    "options": ["$4.50", "$22.00", "$6.50", "$5.00"],
+    "answer": "$4.50",
+    "time": 95
+  },
+  {
+    "question": "A jar has 3.6 L of water and a jug has 1.4 L of water.",
+    "stem": "What if 0.8 L of water is poured away from the jar and 0.5 L of water is added to the jug? How much more water will be in the jar than the jug now?",
+    "options": ["1.4 L", "2.2 L", "0.9 L", "1.1 L"],
+    "answer": "0.9 L",
+    "time": 85
+  },
+  {
+    "question": "Box A, Box B, and Box C contain a total of 15.6 kg of sand. Box A has 2.4 kg more sand than Box B. Box C has 1.2 kg less sand than Box B.",
+    "stem": "What if 1.5 kg of sand is removed from Box A? What will be the new mass of sand in Box A?",
+    "options": ["7.2 kg", "4.8 kg", "6.2 kg", "5.7 kg"],
+    "answer": "5.7 kg",
+    "time": 95
+  },
+  {
+    "question": "A rope of length 10.5 m is cut into two pieces, Piece X and Piece Y. Piece X is 2.5 m longer than Piece Y.",
+    "stem": "What if Piece X is cut into 2 equal shorter pieces? What will be the length of one of these shorter pieces?",
+    "options": ["6.5 m", "3.25 m", "4.0 m", "2.5 m"],
+    "answer": "3.25 m",
+    "time": 90
+  },
+  {
+    "question": "Mrs. Li bought 4 kg of prawns at $18.50 per kg and 2 kg of fish at $12.00 per kg.",
+    "stem": "What if she had bought 2 kg of prawns and 4 kg of fish instead? How much money would she have saved?",
+    "options": ["$13.00", "$15.00", "$10.00", "$8.00"],
+    "answer": "$13.00",
+    "time": 90
+  },
+  {
+    "question": "Container 1 has 5.25 L of paint and Container 2 has 2.75 L of paint.",
+    "stem": "What if paint is poured from Container 1 into Container 2 until Container 2 has 1.5 L more paint than Container 1? How many liters of paint will be in Container 1 in the end?",
+    "options": ["4.75 L", "2.00 L", "3.25 L", "3.75 L"],
+    "answer": "3.25 L",
+    "time": 90
+  },
+  {
+    "question": "Alan has $15.40 and Ben has $35.80.",
+    "stem": "What if their mother gives an equal amount of $10.20 to each of them? How much less money will Alan have than Ben now?",
+    "options": ["$30.60", "$10.20", "$25.40", "$20.40"],
+    "answer": "$20.40",
+    "time": 85
+  },
+  {
+    "question": "A baker made 12.6 kg of dough. He used 0.6 kg to test a new recipe, then divided the remaining dough equally into 4 large bowls.",
+    "stem": "What if he had divided the remaining dough into 6 equal smaller bowls instead? How much less dough would be in each smaller bowl compared to each large bowl?",
+    "options": ["0.5 kg", "1.0 kg", "1.5 kg", "2.0 kg"],
+    "answer": "1.0 kg",
+    "time": 90
+  },
+  {
+    "question": "Tom has $26.50 and Jerry has $5.50.",
+    "stem": "What if Tom gives $2.50 to Jerry? How many times as much money will Tom have compared to Jerry now?",
+    "options": ["3 times", "4 times", "2 times", "5 times"],
+    "answer": "3 times",
+    "time": 85
+  }
 ]
