@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A post office charges $0.30 for the first 20 g of a letter and $0.15 for every additional 10 g or part thereof.",
+    "stem": "Calculate the total postage cost for a letter weighing 45 g.",
+    "options": [
+      "$0.75",
+      "$0.60",
+      "$0.90",
+      "$0.45"
+    ],
+    "answer": "$0.75",
+    "time": 75
+  },
+  {
+    "question": "Postage rates for local mail are $0.80 for the first 50 g and $0.30 for every additional 20 g or part thereof. A sender spent $2.30 on posting a parcel.",
+    "stem": "What is the greatest possible mass of the parcel?",
+    "options": [
+      "150 g",
+      "130 g",
+      "140 g",
+      "160 g"
+    ],
+    "answer": "150 g",
+    "time": 80
+  },
+  {
+    "question": "Courier A charges a flat fee of $4.00 plus $0.50 per 100 g. Courier B charges $1.20 per 100 g with no flat fee.",
+    "stem": "For a package weighing 800 g, which courier is cheaper and by how much?",
+    "options": [
+      "Courier A by $1.60",
+      "Courier B by $1.60",
+      "Courier A by $0.80",
+      "Both cost the same"
+    ],
+    "answer": "Courier A by $1.60",
+    "time": 80
+  },
+  {
+    "question": "A carpark charges $2.00 for the first hour and $0.80 for every subsequent half hour or part thereof. Ben has $6.00 in total.",
+    "stem": "What is the maximum duration Ben can park his car?",
+    "options": [
+      "3 hours 30 minutes",
+      "3 hours",
+      "4 hours",
+      "2 hours 30 minutes"
+    ],
+    "answer": "3 hours 30 minutes",
+    "time": 80
+  },
+  {
+    "question": "A parking garage charges $3.00 for the 1st hour and $1.20 for every additional 30 minutes or part thereof. A driver paid $7.80 upon exit.",
+    "stem": "What is the maximum length of time the driver parked in the garage?",
+    "options": [
+      "3 hours",
+      "2 hours 30 minutes",
+      "3 hours 30 minutes",
+      "4 hours"
+    ],
+    "answer": "3 hours",
+    "time": 80
+  },
+  {
+    "question": "Grapes are sold at a fruit stall at a rate of $1.80 per 200 g. Siti has a budget of $9.00.",
+    "stem": "What is the maximum mass of grapes Siti can purchase with her budget?",
+    "options": [
+      "1.0 kg",
+      "0.8 kg",
+      "1.2 kg",
+      "1.5 kg"
+    ],
+    "answer": "1.0 kg",
+    "time": 75
+  },
+  {
+    "question": "Fresh cherries are priced at $5.00 per 250 g. A customer spent $35.00 buying cherries.",
+    "stem": "What total mass of cherries did the customer buy in kilograms?",
+    "options": [
+      "1.75 kg",
+      "1.50 kg",
+      "2.00 kg",
+      "1.25 kg"
+    ],
+    "answer": "1.75 kg",
+    "time": 75
+  },
+  {
+    "question": "Airmail postage costs $1.50 for the first 100 g and $0.60 for each additional 50 g or part thereof. A sender paid $3.90 to mail a package.",
+    "stem": "What is the greatest possible mass of the package?",
+    "options": [
+      "300 g",
+      "250 g",
+      "350 g",
+      "280 g"
+    ],
+    "answer": "300 g",
+    "time": 80
+  },
+  {
+    "question": "A water dispenser sells purified water at $0.05 per liter. David wants to fill a large container but only has $2.80 in coins.",
+    "stem": "What is the maximum volume of water David can buy?",
+    "options": [
+      "56 liters",
+      "52 liters",
+      "60 liters",
+      "48 liters"
+    ],
+    "answer": "56 liters",
+    "time": 75
+  },
+  {
+    "question": "An international phone call service charges a $0.40 connection fee plus $0.15 per minute or part thereof. A customer was billed $2.65 for a single call.",
+    "stem": "What was the maximum duration of the call in minutes?",
+    "options": [
+      "15 minutes",
+      "14 minutes",
+      "16 minutes",
+      "18 minutes"
+    ],
+    "answer": "15 minutes",
+    "time": 80
+  },
+  {
+    "question": "Express Delivery charges $5.00 flat for up to 500 g, plus $1.00 for every additional 100 g. Standard Mail charges $0.90 per 100 g with no flat fee.",
+    "stem": "How much cheaper is Standard Mail compared to Express Delivery for a 900 g parcel?",
+    "options": [
+      "Standard Mail is $0.90 cheaper",
+      "Express Delivery is $0.90 cheaper",
+      "Standard Mail is $1.20 cheaper",
+      "Both cost the same"
+    ],
+    "answer": "Standard Mail is $0.90 cheaper",
+    "time": 85
+  },
+  {
+    "question": "Peaches are pre-packed into 400 g boxes sold at $3.20 per box. Mrs. Wong has $15.00.",
+    "stem": "What is the greatest mass of peaches Mrs. Wong can buy in kilograms?",
+    "options": [
+      "1.6 kg",
+      "1.8 kg",
+      "2.0 kg",
+      "1.2 kg"
+    ],
+    "answer": "1.6 kg",
+    "time": 80
+  },
+  {
+    "question": "A storage tank initially contained 120 liters of water. Water is pumped in at a constant rate of 35 liters per hour until the volume reaches 330 liters.",
+    "stem": "How many hours did it take to pump the additional water into the tank?",
+    "options": [
+      "6 hours",
+      "5 hours",
+      "7 hours",
+      "4 hours"
+    ],
+    "answer": "6 hours",
+    "time": 75
+  },
+  {
+    "question": "A carpark charges $1.50 for the 1st hour and $0.90 for every subsequent 30 minutes or part thereof. A driver has $5.00.",
+    "stem": "Find the maximum duration the driver can park.",
+    "options": [
+      "2 hours 30 minutes",
+      "3 hours",
+      "2 hours",
+      "3 hours 30 minutes"
+    ],
+    "answer": "2 hours 30 minutes",
+    "time": 85
+  },
+  {
+    "question": "Postage tiers: Up to 40 g costs $0.60; Over 40 g up to 100 g costs $1.10; Every additional 50 g above 100 g costs $0.40.",
+    "stem": "Calculate the postage cost for a 220 g parcel.",
+    "options": [
+      "$2.30",
+      "$2.10",
+      "$2.50",
+      "$1.90"
+    ],
+    "answer": "$2.30",
+    "time": 85
+  },
+  {
+    "question": "Postage rates state that the first 100 g costs $2.00, and each additional 50 g or part thereof costs $0.50. John spent $4.50 on postage.",
+    "stem": "What is the greatest possible mass of John's parcel?",
+    "options": [
+      "350 g",
+      "300 g",
+      "400 g",
+      "250 g"
+    ],
+    "answer": "350 g",
+    "time": 80
+  },
+  {
+    "question": "A car park charges $2.50 for the first hour and $1.20 for each subsequent 30 minutes or part thereof. A driver pays $4.90 upon leaving.",
+    "stem": "What is the maximum possible duration the car was parked?",
+    "options": [
+      "2 hours",
+      "1 hour 30 minutes",
+      "2 hours 30 minutes",
+      "3 hours"
+    ],
+    "answer": "2 hours",
+    "time": 80
+  },
+  {
+    "question": "A commercial juice dispenser pumps fruit juice into a vat at a constant rate. In 45 minutes, it dispenses 135 liters.",
+    "stem": "What is the dispensing rate in liters per hour?",
+    "options": [
+      "180 liters per hour",
+      "160 liters per hour",
+      "200 liters per hour",
+      "150 liters per hour"
+    ],
+    "answer": "180 liters per hour",
+    "time": 75
+  },
+  {
+    "question": "Printer A prints 24 pages per minute. Printer B prints 100 pages in 5 minutes. Both printers operate continuously for 12 minutes.",
+    "stem": "How many more pages does Printer A print than Printer B in total?",
+    "options": [
+      "48 pages",
+      "40 pages",
+      "52 pages",
+      "36 pages"
+    ],
+    "answer": "48 pages",
+    "time": 80
+  },
+  {
+    "question": "Mangosteens are sold at $4.00 per kg. For purchases above 5 kg, every kg beyond 5 kg is discounted to $3.00 per kg. A buyer paid $29.00.",
+    "stem": "What total mass of mangosteens did the buyer purchase?",
+    "options": [
+      "8 kg",
+      "7 kg",
+      "9 kg",
+      "6.5 kg"
+    ],
+    "answer": "8 kg",
+    "time": 85
+  },
+  {
+    "question": "Postal tiers: Tier 1 (Up to 100 g) = $1.00; Tier 2 (101 g to 250 g) = $2.20; Tier 3 (251 g to 500 g) = $4.00. Parcel A weighs 80 g and Parcel B weighs 220 g.",
+    "stem": "What is the combined postage cost to mail both Parcel A and Parcel B?",
+    "options": [
+      "$3.20",
+      "$4.40",
+      "$3.00",
+      "$5.00"
+    ],
+    "answer": "$3.20",
+    "time": 80
+  },
+  {
+    "question": "An electric scooter rental service charges an unlock fee of $1.00 plus $0.15 for every minute of riding. A rider has $5.00.",
+    "stem": "What is the greatest whole number of minutes the rider can ride without exceeding $5.00?",
+    "options": [
+      "26 minutes",
+      "27 minutes",
+      "25 minutes",
+      "33 minutes"
+    ],
+    "answer": "26 minutes",
+    "time": 80
+  },
+  {
+    "question": "Parking rates: First 15 minutes are free. The next 45 minutes cost a flat fee of $1.50. Every subsequent 30 minutes or part thereof costs $1.00. A driver pays $4.50.",
+    "stem": "What is the maximum duration the driver parked?",
+    "options": [
+      "2 hours 30 minutes",
+      "2 hours",
+      "3 hours",
+      "1 hour 45 minutes"
+    ],
+    "answer": "2 hours 30 minutes",
+    "time": 85
+  },
+  {
+    "question": "Stall A sells strawberries at $2.50 per 100 g. Stall B sells strawberries at $22.00 per kg. A customer needs to buy 1.5 kg of strawberries.",
+    "stem": "How much does the customer save by buying from Stall B instead of Stall A?",
+    "options": [
+      "$4.50",
+      "$5.50",
+      "$3.50",
+      "$6.00"
+    ],
+    "answer": "$4.50",
+    "time": 80
+  }
+]

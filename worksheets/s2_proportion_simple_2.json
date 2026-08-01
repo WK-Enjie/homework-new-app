@@ -1,0 +1,290 @@
+[
+  {
+    "question": "The variable y is directly proportional to the square of x. When x = 3, y = 45.",
+    "stem": "Find the value of y when x = 6.",
+    "options": [
+      "180",
+      "90",
+      "270",
+      "135"
+    ],
+    "answer": "180",
+    "time": 75
+  },
+  {
+    "question": "The variable y is directly proportional to the square root of x. When x = 25, y = 35.",
+    "stem": "Find the value of x when y = 56.",
+    "options": [
+      "64",
+      "49",
+      "81",
+      "16"
+    ],
+    "answer": "64",
+    "time": 80
+  },
+  {
+    "question": "The variable y is directly proportional to the cube of x. When x = 2, y = 32.",
+    "stem": "Find the value of y when x = 5.",
+    "options": [
+      "500",
+      "250",
+      "600",
+      "400"
+    ],
+    "answer": "500",
+    "time": 80
+  },
+  {
+    "question": "The variable y is directly proportional to (x - 1)². When x = 4, y = 54.",
+    "stem": "Find the value of y when x = 6.",
+    "options": [
+      "150",
+      "120",
+      "180",
+      "200"
+    ],
+    "answer": "150",
+    "time": 80
+  },
+  {
+    "question": "The kinetic energy E of a moving object is directly proportional to the square of its speed v. When v = 10 m/s, E = 250 J.",
+    "stem": "Calculate the kinetic energy E when the speed v is increased to 16 m/s.",
+    "options": [
+      "640 J",
+      "400 J",
+      "512 J",
+      "800 J"
+    ],
+    "answer": "640 J",
+    "time": 85
+  },
+  {
+    "question": "The braking distance d of a car is directly proportional to the square of its speed v. At a speed of 40 km/h, the braking distance is 12 m.",
+    "stem": "What is the braking distance when the car travels at a speed of 70 km/h?",
+    "options": [
+      "36.75 m",
+      "21.0 m",
+      "42.0 m",
+      "32.25 m"
+    ],
+    "answer": "36.75 m",
+    "time": 85
+  },
+  {
+    "question": "The variable y is inversely proportional to the square of x. When x = 3, y = 20.",
+    "stem": "Find the value of y when x = 5.",
+    "options": [
+      "7.2",
+      "12",
+      "8.4",
+      "6.8"
+    ],
+    "answer": "7.2",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to the square root of x. When x = 16, y = 9.",
+    "stem": "Find the value of x when y = 12.",
+    "options": [
+      "9",
+      "81",
+      "12",
+      "6"
+    ],
+    "answer": "9",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to the cube of x. When x = 2, y = 27.",
+    "stem": "Find the value of y when x = 3.",
+    "options": [
+      "8",
+      "12",
+      "6",
+      "18"
+    ],
+    "answer": "8",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to (x + 3)². When x = 2, y = 4.",
+    "stem": "Find the value of y when x = 7.",
+    "options": [
+      "1",
+      "2",
+      "0.5",
+      "4"
+    ],
+    "answer": "1",
+    "time": 80
+  },
+  {
+    "question": "The gravitational force F between two objects is inversely proportional to the square of the distance d between them. When d = 4 m, F = 45 N.",
+    "stem": "Calculate the force F when the distance d is increased to 6 m.",
+    "options": [
+      "20 N",
+      "30 N",
+      "15 N",
+      "25 N"
+    ],
+    "answer": "20 N",
+    "time": 85
+  },
+  {
+    "question": "The musical pitch frequency f of a vibrating guitar string is inversely proportional to the square root of its linear mass density m. When m = 16 g/m, f = 200 Hz.",
+    "stem": "Find the frequency f when the density m is increased to 25 g/m.",
+    "options": [
+      "160 Hz",
+      "128 Hz",
+      "180 Hz",
+      "150 Hz"
+    ],
+    "answer": "160 Hz",
+    "time": 85
+  },
+  {
+    "question": "The period of oscillation T of a simple pendulum is directly proportional to the square root of its length L. A pendulum of length 0.81 m has a period of 1.8 seconds.",
+    "stem": "Calculate the length L required for the pendulum to have a period of 2.4 seconds.",
+    "options": [
+      "1.44 m",
+      "1.20 m",
+      "1.96 m",
+      "1.08 m"
+    ],
+    "answer": "1.44 m",
+    "time": 85
+  },
+  {
+    "question": "The electrical resistance R of a wire of fixed length is inversely proportional to the square of its diameter d. A wire of diameter 2 mm has a resistance of 18 ohms.",
+    "stem": "Find the resistance R of a wire of the same material and length if its diameter is 3 mm.",
+    "options": [
+      "8 ohms",
+      "12 ohms",
+      "6 ohms",
+      "9 ohms"
+    ],
+    "answer": "8 ohms",
+    "time": 80
+  },
+  {
+    "question": "The intensity I of sound from a loudspeaker is inversely proportional to the square of the distance r from the speaker. At a distance of 3 m, the sound intensity is 80 units.",
+    "stem": "Find the distance r at which the sound intensity drops to 20 units.",
+    "options": [
+      "6 m",
+      "9 m",
+      "12 m",
+      "4.5 m"
+    ],
+    "answer": "6 m",
+    "time": 85
+  },
+  {
+    "question": "The power P dissipated in an electrical resistor is directly proportional to the square of the current I passing through it. When a current of 3 A flows, the power dissipated is 45 W.",
+    "stem": "Find the current I required to dissipate 180 W of power.",
+    "options": [
+      "6 A",
+      "12 A",
+      "8 A",
+      "4 A"
+    ],
+    "answer": "6 A",
+    "time": 80
+  },
+  {
+    "question": "The rate of evaporation E of a spherical water droplet is directly proportional to the square of its radius r. When r = 2 mm, E = 12 mg/min.",
+    "stem": "Find the rate of evaporation E when the radius r increases to 5 mm.",
+    "options": [
+      "75 mg/min",
+      "30 mg/min",
+      "60 mg/min",
+      "100 mg/min"
+    ],
+    "answer": "75 mg/min",
+    "time": 80
+  },
+  {
+    "question": "The maximum load W supported by a horizontal beam is inversely proportional to its length L. A beam of length 4 m supports a maximum load of 900 kg.",
+    "stem": "What is the maximum load a beam of length 6 m can support?",
+    "options": [
+      "600 kg",
+      "1350 kg",
+      "450 kg",
+      "750 kg"
+    ],
+    "answer": "600 kg",
+    "time": 80
+  },
+  {
+    "question": "A student attempts to solve this problem: 'y is inversely proportional to the square of x. When x = 2, y = 12. Find y when x = 4.'\n\nStudent's Working:\nStep 1: Write y = kx²\nStep 2: 12 = k(2²) ⇒ k = 3\nStep 3: y = 3(4²) = 48",
+    "stem": "In which step did the student make the FIRST mistake?",
+    "options": [
+      "Step 1: Used direct proportion formula instead of inverse proportion formula",
+      "Step 2: Incorrectly calculated the value of k",
+      "Step 3: Failed to square 4 when substituting x = 4",
+      "There is no mistake in the student's working"
+    ],
+    "answer": "Step 1: Used direct proportion formula instead of inverse proportion formula",
+    "time": 85
+  },
+  {
+    "question": "A student solves the problem: 'y is inversely proportional to x. When x = 5, y = 8. Find y when x = 10.'\n\nStudent's Working:\nStep 1: Write y = k / x\nStep 2: k = y / x = 8 / 5 = 1.6\nStep 3: y = 1.6 / 10 = 0.16",
+    "stem": "Where is the error in the student's working?",
+    "options": [
+      "Step 2: Calculated k = y / x instead of k = x * y",
+      "Step 1: Used an inverse proportion equation instead of direct",
+      "Step 3: Divided by 10 instead of multiplying by 10",
+      "The working is completely correct"
+    ],
+    "answer": "Step 2: Calculated k = y / x instead of k = x * y",
+    "time": 85
+  },
+  {
+    "question": "A student solves: 'y is directly proportional to √x. When x = 16, y = 20. Find x when y = 35.'\n\nStudent's Working:\nStep 1: 20 = k√16 ⇒ 20 = 4k ⇒ k = 5\nStep 2: 35 = 5√x ⇒ √x = 7\nStep 3: x = √7 ≈ 2.65",
+    "stem": "What error did the student make in Step 3?",
+    "options": [
+      "Took the square root of 7 instead of squaring 7 to find x",
+      "Divided 35 by 5 incorrectly in Step 2",
+      "Incorrectly evaluated the square root of 16 in Step 1",
+      "Forgot to multiply 7 by the constant k = 5"
+    ],
+    "answer": "Took the square root of 7 instead of squaring 7 to find x",
+    "time": 85
+  },
+  {
+    "question": "A student solves: 'y is directly proportional to x². When x = 3, y = 18. Find y when x = 6.'\n\nStudent's Working:\nStep 1: y = kx² ⇒ 18 = k(3²) ⇒ k = 2\nStep 2: Since x doubled from 3 to 6, y must also double from 18 to 36.",
+    "stem": "Why is the reasoning in Step 2 incorrect?",
+    "options": [
+      "Since y is proportional to x², doubling x causes y to increase by a factor of 2² = 4, so y = 72",
+      "The value of k = 2 calculated in Step 1 is incorrect",
+      "Doubling x causes y to be halved instead of doubled",
+      "Step 2 is correct; y should be 36"
+    ],
+    "answer": "Since y is proportional to x², doubling x causes y to increase by a factor of 2² = 4, so y = 72",
+    "time": 85
+  },
+  {
+    "question": "A student attempts to solve: 'y is inversely proportional to √x. When x = 9, y = 10. Find y when x = 36.'\n\nStudent's Working:\nStep 1: y = k / √x\nStep 2: 10 = k / 9 ⇒ k = 90\nStep 3: y = 90 / √36 = 90 / 6 = 15",
+    "stem": "Which statement correctly identifies the mistake in Step 2?",
+    "options": [
+      "The student forgot to take the square root of x = 9, so k should be 10 * 3 = 30",
+      "The student should have subtracted 9 from 10 to find k",
+      "The student divided 90 by 6 incorrectly in Step 3",
+      "The formula in Step 1 should be y = k * √x"
+    ],
+    "answer": "The student forgot to take the square root of x = 9, so k should be 10 * 3 = 30",
+    "time": 85
+  },
+  {
+    "question": "A team of 4 workers takes 12 hours to complete a task. A student wants to find how long 6 workers will take.\n\nStudent's Working:\nStep 1: Number of workers and time taken are directly proportional, so T = kW.\nStep 2: 12 = k(4) ⇒ k = 3.\nStep 3: For 6 workers, T = 3(6) = 18 hours.",
+    "stem": "Identify the conceptual flaw in the student's solution.",
+    "options": [
+      "More workers take less time, so workers and time are inversely proportional (W * T = k), giving T = 8 hours",
+      "The student miscalculated k = 12 / 4 in Step 2",
+      "The student should have added 6 to 12 instead of multiplying in Step 3",
+      "The working is correct; 6 workers take 18 hours"
+    ],
+    "answer": "More workers take less time, so workers and time are inversely proportional (W * T = k), giving T = 8 hours",
+    "time": 85
+  }
+]

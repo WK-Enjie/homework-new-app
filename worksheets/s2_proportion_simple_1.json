@@ -1,0 +1,290 @@
+[
+  {
+    "question": "The variable y is directly proportional to x. When x = 4, y = 20.",
+    "stem": "Find the value of y when x = 7.",
+    "options": [
+      "35",
+      "28",
+      "30",
+      "42"
+    ],
+    "answer": "35",
+    "time": 75
+  },
+  {
+    "question": "The variable y is directly proportional to x. When x = 6, y = 42.",
+    "stem": "Find the value of x when y = 63.",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "7"
+    ],
+    "answer": "9",
+    "time": 75
+  },
+  {
+    "question": "The variable y is directly proportional to x². When x = 3, y = 36.",
+    "stem": "Find the value of y when x = 5.",
+    "options": [
+      "100",
+      "60",
+      "75",
+      "125"
+    ],
+    "answer": "100",
+    "time": 80
+  },
+  {
+    "question": "The variable y is directly proportional to √x. When x = 16, y = 12.",
+    "stem": "Find the value of y when x = 49.",
+    "options": [
+      "21",
+      "28",
+      "14",
+      "35"
+    ],
+    "answer": "21",
+    "time": 80
+  },
+  {
+    "question": "The variable P is directly proportional to Q³. When Q = 2, P = 24.",
+    "stem": "Find the value of P when Q = 3.",
+    "options": [
+      "81",
+      "54",
+      "72",
+      "108"
+    ],
+    "answer": "81",
+    "time": 80
+  },
+  {
+    "question": "The cost of silk ribbon is directly proportional to its length. A 5-meter ribbon costs $12.50.",
+    "stem": "What is the cost of a 12-meter ribbon of the same type?",
+    "options": [
+      "$30.00",
+      "$25.00",
+      "$28.50",
+      "$32.00"
+    ],
+    "answer": "$30.00",
+    "time": 80
+  },
+  {
+    "question": "The mass of a uniform steel rod is directly proportional to its length. A 4-meter rod has a mass of 18 kg.",
+    "stem": "Calculate the mass of a 7-meter rod of the same material.",
+    "options": [
+      "31.5 kg",
+      "28.0 kg",
+      "35.0 kg",
+      "29.5 kg"
+    ],
+    "answer": "31.5 kg",
+    "time": 80
+  },
+  {
+    "question": "The volume of fuel consumed by a vehicle is directly proportional to the distance traveled. A car consumes 9 liters of fuel for a distance of 120 km.",
+    "stem": "How far can the car travel on 15 liters of fuel?",
+    "options": [
+      "200 km",
+      "180 km",
+      "210 km",
+      "160 km"
+    ],
+    "answer": "200 km",
+    "time": 80
+  },
+  {
+    "question": "The variable y is directly proportional to (x + 2). When x = 3, y = 25.",
+    "stem": "Find the value of y when x = 7.",
+    "options": [
+      "45",
+      "35",
+      "50",
+      "40"
+    ],
+    "answer": "45",
+    "time": 80
+  },
+  {
+    "question": "The volume V of a sphere is directly proportional to r³, where r is its radius. When r = 3 cm, V = 108 cm³.",
+    "stem": "Find the volume V when r = 4 cm.",
+    "options": [
+      "256 cm³",
+      "192 cm³",
+      "216 cm³",
+      "144 cm³"
+    ],
+    "answer": "256 cm³",
+    "time": 80
+  },
+  {
+    "question": "The weight W that a crane can lift is directly proportional to √m, where m is the motor power in kilowatts. When m = 25 kW, W = 40 tonnes.",
+    "stem": "Find the required motor power m when the crane needs to lift W = 64 tonnes.",
+    "options": [
+      "64 kW",
+      "48 kW",
+      "80 kW",
+      "36 kW"
+    ],
+    "answer": "64 kW",
+    "time": 85
+  },
+  {
+    "question": "The extension E of a metal spring is directly proportional to the attached load L. When a load of 60 g is attached, the spring extends by 4.5 cm.",
+    "stem": "Calculate the extension of the spring when a load of 100 g is attached.",
+    "options": [
+      "7.5 cm",
+      "6.5 cm",
+      "8.0 cm",
+      "7.0 cm"
+    ],
+    "answer": "7.5 cm",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to x. When x = 3, y = 12.",
+    "stem": "Find the value of y when x = 9.",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "8"
+    ],
+    "answer": "4",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to x. When x = 5, y = 16.",
+    "stem": "Find the value of x when y = 20.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3.5"
+    ],
+    "answer": "4",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to x². When x = 2, y = 18.",
+    "stem": "Find the value of y when x = 3.",
+    "options": [
+      "8",
+      "12",
+      "6",
+      "9"
+    ],
+    "answer": "8",
+    "time": 80
+  },
+  {
+    "question": "The variable y is inversely proportional to √x. When x = 9, y = 8.",
+    "stem": "Find the value of y when x = 16.",
+    "options": [
+      "6",
+      "4.5",
+      "8",
+      "5.5"
+    ],
+    "answer": "6",
+    "time": 85
+  },
+  {
+    "question": "The variable z is inversely proportional to (x - 1). When x = 5, z = 6.",
+    "stem": "Find the value of z when x = 9.",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "4.5"
+    ],
+    "answer": "3",
+    "time": 85
+  },
+  {
+    "question": "It takes 6 workers exactly 10 days to paint a school building working at a constant rate.",
+    "stem": "How many days will it take 15 workers working at the same rate to complete the same job?",
+    "options": [
+      "4 days",
+      "5 days",
+      "3 days",
+      "6 days"
+    ],
+    "answer": "4 days",
+    "time": 80
+  },
+  {
+    "question": "A car traveling at a constant speed of 60 km/h takes 3 hours to complete a journey.",
+    "stem": "How long will the same journey take if the car travels at a constant speed of 90 km/h?",
+    "options": [
+      "2 hours",
+      "2.5 hours",
+      "1.5 hours",
+      "1 hour"
+    ],
+    "answer": "2 hours",
+    "time": 80
+  },
+  {
+    "question": "A supply of food lasts 30 students for 20 days.",
+    "stem": "Assuming all students consume food at the same constant rate, how many days will the same food supply last for 40 students?",
+    "options": [
+      "15 days",
+      "12 days",
+      "18 days",
+      "16 days"
+    ],
+    "answer": "15 days",
+    "time": 80
+  },
+  {
+    "question": "Four identical water taps can fill a reservoir tank completely in 45 minutes.",
+    "stem": "How many minutes will it take 3 identical taps to fill the same reservoir tank?",
+    "options": [
+      "60 minutes",
+      "50 minutes",
+      "55 minutes",
+      "65 minutes"
+    ],
+    "answer": "60 minutes",
+    "time": 80
+  },
+  {
+    "question": "The pressure P of a fixed mass of gas at a constant temperature is inversely proportional to its volume V. When V = 4 m³, P = 150 kPa.",
+    "stem": "Find the pressure P when the volume V is increased to 6 m³.",
+    "options": [
+      "100 kPa",
+      "120 kPa",
+      "90 kPa",
+      "110 kPa"
+    ],
+    "answer": "100 kPa",
+    "time": 80
+  },
+  {
+    "question": "Light intensity I is inversely proportional to the square of the distance d from a lamp. When d = 2 m, I = 90 units.",
+    "stem": "Find the light intensity I when the distance d is increased to 3 m.",
+    "options": [
+      "40 units",
+      "60 units",
+      "45 units",
+      "30 units"
+    ],
+    "answer": "40 units",
+    "time": 85
+  },
+  {
+    "question": "Eight identical drain pipes can empty a swimming pool completely in 3 hours.",
+    "stem": "How many such drain pipes are needed to empty the swimming pool in 2 hours?",
+    "options": [
+      "12 pipes",
+      "10 pipes",
+      "14 pipes",
+      "16 pipes"
+    ],
+    "answer": "12 pipes",
+    "time": 80
+  }
+]
