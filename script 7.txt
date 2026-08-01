@@ -945,12 +945,33 @@ function playSound(type) {
 }
 
 // ════════════════════════════════════════════════════
-//  SCREEN SWITCHER
+//  SCREEN SWITCHER  v5.4
+//  Uses active-screen class — login stays in flow,
+//  battle/end use absolute positioning
 // ════════════════════════════════════════════════════
 function showScreen(name) {
-  ui.loginScreen.classList.toggle( 'hidden', name !== 'login');
-  ui.battleScreen.classList.toggle('hidden', name !== 'battle');
-  ui.endScreen.classList.toggle(   'hidden', name !== 'end');
+  const screens = [
+    { el: ui.loginScreen,  id: 'login'  },
+    { el: ui.battleScreen, id: 'battle' },
+    { el: ui.endScreen,    id: 'end'    },
+  ];
+
+  screens.forEach(({ el, id }) => {
+    if (!el) return;
+    if (id === name) {
+      el.classList.remove('hidden');
+      el.classList.add('active-screen');
+    } else {
+      el.classList.add('hidden');
+      el.classList.remove('active-screen');
+    }
+  });
+
+  // Scroll battle/end container to top when switching
+  if (name === 'battle' || name === 'end') {
+    const gc = document.getElementById('game-container');
+    if (gc) gc.scrollTop = 0;
+  }
 }
 
 // ════════════════════════════════════════════════════
