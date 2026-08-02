@@ -9,7 +9,7 @@
       "6 cm, 9 cm, 11 cm"
     ],
     "answer": "7 cm, 24 cm, 25 cm",
-    "time": 70
+    "time": 90
   },
   {
     "question": "A triangle has side lengths of 9 cm, 40 cm, and 41 cm.",
@@ -21,7 +21,7 @@
       "It is an obtuse triangle, not right-angled"
     ],
     "answer": "It is a right-angled triangle, with right angle opposite the 41 cm side",
-    "time": 75
+    "time": 95
   },
   {
     "question": "Triangle ABC has side lengths AB = 11 cm, BC = 60 cm, and AC = 61 cm.",
@@ -33,7 +33,7 @@
       "None, it is not right-angled"
     ],
     "answer": "Angle B",
-    "time": 70
+    "time": 90
   },
   {
     "question": "Four sets of side lengths are tested using the converse of Pythagoras' Theorem.",
@@ -45,7 +45,7 @@
       "20 cm, 21 cm, 29 cm"
     ],
     "answer": "9 cm, 12 cm, 16 cm",
-    "time": 75
+    "time": 95
   },
   {
     "question": "The side lengths of a triangle are given as 10 cm, 24 cm, and 26 cm.",
@@ -57,19 +57,19 @@
       "Not a valid triangle"
     ],
     "answer": "Right-angled triangle because 10² + 24² = 26²",
-    "time": 70
+    "time": 90
   },
   {
-    "question": "A right-angled triangle has sides of length x cm, (x + 7) cm, and hypotenuse (x + 8) cm.",
-    "stem": "Find the value of x.",
+    "question": "A right-angled triangle has an area of 30 cm² and a base of 5 cm.",
+    "stem": "Calculate the length of its hypotenuse.",
     "options": [
-      "3",
-      "6",
-      "4",
-      "5"
+      "13 cm",
+      "12 cm",
+      "15 cm",
+      "17 cm"
     ],
-    "answer": "5",
-    "time": 85
+    "answer": "13 cm",
+    "time": 180
   },
   {
     "question": "In a right-angled triangle, the two shorter sides (legs) have lengths of 5 cm and 12 cm.",
@@ -81,7 +81,7 @@
       "11 cm"
     ],
     "answer": "13 cm",
-    "time": 65
+    "time": 85
   },
   {
     "question": "The hypotenuse of a right-angled triangle is 25 cm and one of its legs is 7 cm.",
@@ -93,7 +93,7 @@
       "22 cm"
     ],
     "answer": "24 cm",
-    "time": 70
+    "time": 90
   },
   {
     "question": "A right-angled triangle has perpendicular sides of length 4.5 cm and 6.0 cm.",
@@ -105,7 +105,7 @@
       "7.0 cm"
     ],
     "answer": "7.5 cm",
-    "time": 70
+    "time": 90
   },
   {
     "question": "In right-angled triangle XYZ, Angle Y = 90 degrees, XZ = 34 cm, and YZ = 30 cm.",
@@ -117,7 +117,7 @@
       "12 cm"
     ],
     "answer": "16 cm",
-    "time": 75
+    "time": 95
   },
   {
     "question": "Triangle ABD is right-angled at D with AD = 9 cm and BD = 12 cm. Triangle ABC is right-angled at B with BC = 20 cm.",
@@ -129,19 +129,19 @@
       "25 cm"
     ],
     "answer": "25 cm",
-    "time": 85
+    "time": 180
   },
   {
-    "question": "A right-angled triangle has sides of length x cm, 24 cm, and hypotenuse (x + 8) cm.",
-    "stem": "Find the value of x.",
+    "question": "A rectangle has a perimeter of 98 cm and a length of 40 cm.",
+    "stem": "Calculate the length of its diagonal.",
     "options": [
-      "32",
-      "28",
-      "36",
-      "24"
+      "41 cm",
+      "45 cm",
+      "39 cm",
+      "42 cm"
     ],
-    "answer": "32",
-    "time": 85
+    "answer": "41 cm",
+    "time": 180
   },
   {
     "question": "A rectangle has a length of 16 cm and a width of 12 cm.",
@@ -153,7 +153,7 @@
       "28 cm"
     ],
     "answer": "20 cm",
-    "time": 70
+    "time": 90
   },
   {
     "question": "An isosceles triangle ABC has equal sides AB = AC = 13 cm and a base BC = 10 cm.",
@@ -165,7 +165,7 @@
       "12 cm"
     ],
     "answer": "12 cm",
-    "time": 80
+    "time": 100
   },
   {
     "question": "A rhombus has diagonals of length 16 cm and 30 cm.",
@@ -177,10 +177,10 @@
       "52 cm"
     ],
     "answer": "68 cm",
-    "time": 85
+    "time": 180
   },
   {
-    "question": "A trapezium has parallel sides of length 10 cm and 16 cm, and a vertical height of 8 cm perpendicular to the parallel bases.",
+    "question": "A right-angled trapezium has parallel sides of length 10 cm and 16 cm, and a vertical height of 8 cm perpendicular to the parallel bases.",
     "stem": "Calculate the length of the sloping side.",
     "options": [
       "12 cm",
@@ -189,7 +189,7 @@
       "8 cm"
     ],
     "answer": "10 cm",
-    "time": 80
+    "time": 180
   },
   {
     "question": "The diagonal of a square is 14 cm.",
@@ -201,19 +201,19 @@
       "100 cm²"
     ],
     "answer": "98 cm²",
-    "time": 80
+    "time": 100
   },
   {
-    "question": "Two points on a Cartesian coordinate plane are P(2, 3) and Q(14, 8).",
-    "stem": "Calculate the shortest straight-line distance between points P and Q.",
+    "question": "A rectangular field measures 24 m long and 10 m wide.",
+    "stem": "Calculate the length of the diagonal of the field.",
     "options": [
-      "17 units",
-      "15 units",
-      "13 units",
-      "11 units"
+      "28 m",
+      "26 m",
+      "24 m",
+      "30 m"
     ],
-    "answer": "13 units",
-    "time": 80
+    "answer": "26 m",
+    "time": 90
   },
   {
     "question": "A 15-meter ladder leans against a vertical wall. The foot of the ladder is placed 9 meters away from the base of the wall.",
@@ -225,7 +225,7 @@
       "12 m"
     ],
     "answer": "12 m",
-    "time": 75
+    "time": 95
   },
   {
     "question": "A hiker walks 12 km due North and then 35 km due East.",
@@ -237,19 +237,19 @@
       "37 km"
     ],
     "answer": "37 km",
-    "time": 75
+    "time": 95
   },
   {
-    "question": "A television screen has a width of 32 inches and a height of 24 inches.",
-    "stem": "Television screens are measured along their diagonal length. What is the size of this television screen?",
+    "question": "A rectangular table measures 120 cm by 50 cm.",
+    "stem": "Calculate the length of the diagonal of the table.",
     "options": [
-      "38 inches",
-      "40 inches",
-      "42 inches",
-      "36 inches"
+      "120 cm",
+      "140 cm",
+      "150 cm",
+      "130 cm"
     ],
-    "answer": "40 inches",
-    "time": 75
+    "answer": "130 cm",
+    "time": 95
   },
   {
     "question": "A rectangular cuboid box has a length of 12 cm, a width of 4 cm, and a height of 3 cm.",
@@ -261,7 +261,7 @@
       "14 cm"
     ],
     "answer": "13 cm",
-    "time": 85
+    "time": 180
   },
   {
     "question": "Two vertical poles of heights 11 meters and 19 meters stand on flat horizontal ground. The distance between the bases of the two poles is 15 meters.",
@@ -273,7 +273,7 @@
       "17 m"
     ],
     "answer": "17 m",
-    "time": 85
+    "time": 105
   },
   {
     "question": "An isosceles triangle has an area of 60 cm² and a base of 10 cm.",
@@ -285,6 +285,6 @@
       "38 cm"
     ],
     "answer": "36 cm",
-    "time": 90
+    "time": 200
   }
 ]
