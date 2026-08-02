@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Multiply the decimal number by the single digit.",
+    "stem": "Calculate 3.24 × 6.",
+    "options": [
+      "19.44",
+      "18.44",
+      "20.44",
+      "19.54"
+    ],
+    "answer": "19.44",
+    "time": 70
+  },
+  {
+    "question": "A whole number is divided by a single digit to give a 2‑decimal‑place answer.",
+    "stem": "Calculate 46 ÷ 8.",
+    "options": [
+      "5.85",
+      "5.75",
+      "5.65",
+      "6.75"
+    ],
+    "answer": "5.75",
+    "time": 70
+  },
+  {
+    "question": "May had some money. She bought a dress for $45.50 and received $12.00 from her mother. She now has $28.50.",
+    "stem": "How much money did May have at first?",
+    "options": [
+      "$52.00",
+      "$60.00",
+      "$62.00",
+      "$72.00"
+    ],
+    "answer": "$62.00",
+    "time": 150
+  },
+  {
+    "question": "A shop sells pens and notebooks. 5 pens and 3 notebooks cost $10.00. A notebook costs $0.80 more than a pen.",
+    "stem": "Find the cost of one pen.",
+    "options": [
+      "$0.85",
+      "$0.75",
+      "$0.95",
+      "$0.65"
+    ],
+    "answer": "$0.95",
+    "time": 180
+  },
+  {
+    "question": "A piece of string is 15.6 m long. It is cut into 6 equal pieces.",
+    "stem": "What is the length of each piece?",
+    "options": [
+      "2.6 m",
+      "2.8 m",
+      "3.0 m",
+      "2.4 m"
+    ],
+    "answer": "2.6 m",
+    "time": 70
+  },
+  {
+    "question": "Multiply the decimal number by the single digit.",
+    "stem": "Calculate 12.5 × 7.",
+    "options": [
+      "77.5",
+      "87.5",
+      "82.5",
+      "92.5"
+    ],
+    "answer": "87.5",
+    "time": 75
+  },
+  {
+    "question": "A whole number is divided by a single digit. Give your answer correct to 2 decimal places.",
+    "stem": "Calculate 39 ÷ 6.",
+    "options": [
+      "6.2",
+      "6.8",
+      "6.3",
+      "6.5"
+    ],
+    "answer": "6.5",
+    "time": 80
+  },
+  {
+    "question": "Tom had some money. He spent $13.20 on a drink and $27.80 on a meal. He then received $20.00 from his friend. He has $45.00 left.",
+    "stem": "How much money did Tom have at first?",
+    "options": [
+      "$56.00",
+      "$76.00",
+      "$86.00",
+      "$66.00"
+    ],
+    "answer": "$66.00",
+    "time": 160
+  },
+  {
+    "question": "A fruit seller sells apples and pears. 4 kg of apples and 6 kg of pears cost $21.60. 1 kg of apples costs $0.80 more than 1 kg of pears.",
+    "stem": "Find the cost of 1 kg of apples.",
+    "options": [
+      "$2.64",
+      "$2.44",
+      "$2.84",
+      "$2.54"
+    ],
+    "answer": "$2.64",
+    "time": 180
+  },
+  {
+    "question": "A rectangular field measures 12.4 m by 5.6 m. The field is divided into 4 equal plots.",
+    "stem": "What is the area of each plot?",
+    "options": [
+      "15.36 m²",
+      "17.36 m²",
+      "18.36 m²",
+      "16.36 m²"
+    ],
+    "answer": "17.36 m²",
+    "time": 160
+  },
+  {
+    "question": "Multiply the decimal number by the single digit.",
+    "stem": "Calculate 4.56 × 7.",
+    "options": [
+      "31.92",
+      "30.92",
+      "32.92",
+      "29.92"
+    ],
+    "answer": "31.92",
+    "time": 75
+  },
+  {
+    "question": "A whole number is divided by a single digit. Give your answer correct to 2 decimal places.",
+    "stem": "Calculate 62 ÷ 8.",
+    "options": [
+      "7.65",
+      "7.85",
+      "7.75",
+      "7.55"
+    ],
+    "answer": "7.75",
+    "time": 80
+  },
+  {
+    "question": "Lily had some money. She bought a bag for $32.80 and a scarf for $15.20. Her father gave her $25.00. She now has $42.00.",
+    "stem": "How much money did Lily have at first?",
+    "options": [
+      "$65.00",
+      "$55.00",
+      "$75.00",
+      "$45.00"
+    ],
+    "answer": "$65.00",
+    "time": 160
+  },
+  {
+    "question": "A shop sells chairs and tables. 6 chairs and 4 tables cost $210. A table costs $15.00 more than a chair.",
+    "stem": "Find the cost of one chair.",
+    "options": [
+      "$12.00",
+      "$15.00",
+      "$18.00",
+      "$20.00"
+    ],
+    "answer": "$15.00",
+    "time": 180
+  },
+  {
+    "question": "A whole number is divided by a single digit. Give your answer correct to 2 decimal places.",
+    "stem": "Calculate 51 ÷ 6.",
+    "options": [
+      "8.2",
+      "8.8",
+      "8.3",
+      "8.5"
+    ],
+    "answer": "8.5",
+    "time": 80
+  },
+  {
+    "question": "Multiply the decimal number by the single digit.",
+    "stem": "Calculate 8.25 × 4.",
+    "options": [
+      "33.00",
+      "32.00",
+      "34.00",
+      "31.00"
+    ],
+    "answer": "33.00",
+    "time": 70
+  },
+  {
+    "question": "A ribbon is 28.8 m long. It is cut into 9 equal pieces.",
+    "stem": "What is the length of each piece of ribbon?",
+    "options": [
+      "3.0 m",
+      "3.2 m",
+      "3.4 m",
+      "3.6 m"
+    ],
+    "answer": "3.2 m",
+    "time": 75
+  },
+  {
+    "question": "John had some money. He bought a shirt for $18.50 and a belt for $12.30. He then received $15.00 from his brother. He has $24.20 left.",
+    "stem": "How much money did John have at first?",
+    "options": [
+      "$40.00",
+      "$45.00",
+      "$35.00",
+      "$50.00"
+    ],
+    "answer": "$40.00",
+    "time": 160
+  },
+  {
+    "question": "A fruit seller sells apples and oranges. 3 kg of apples and 5 kg of oranges cost $19.50. 1 kg of apples costs $0.50 more than 1 kg of oranges.",
+    "stem": "Find the cost of 1 kg of oranges.",
+    "options": [
+      "$2.00",
+      "$2.25",
+      "$2.50",
+      "$2.75"
+    ],
+    "answer": "$2.25",
+    "time": 180
+  },
+  {
+    "question": "Multiply the decimal number by the single digit.",
+    "stem": "Calculate 9.75 × 6.",
+    "options": [
+      "58.50",
+      "57.50",
+      "59.50",
+      "56.50"
+    ],
+    "answer": "58.50",
+    "time": 75
+  },
+  {
+    "question": "A whole number is divided by a single digit. Give your answer correct to 2 decimal places.",
+    "stem": "Calculate 33 ÷ 6.",
+    "options": [
+      "5.2",
+      "5.8",
+      "5.3",
+      "5.5"
+    ],
+    "answer": "5.5",
+    "time": 80
+  },
+  {
+    "question": "A rectangle has a length of 15.6 cm and a width of 8.4 cm. It is divided into 4 equal smaller rectangles.",
+    "stem": "What is the area of each smaller rectangle?",
+    "options": [
+      "30.76 cm²",
+      "32.76 cm²",
+      "34.76 cm²",
+      "28.76 cm²"
+    ],
+    "answer": "32.76 cm²",
+    "time": 170
+  },
+  {
+    "question": "Sarah spent $25.60 on groceries and $14.40 on books. She borrowed $18.00 from a friend. She now has $30.00 left.",
+    "stem": "How much money did Sarah have at first?",
+    "options": [
+      "$52.00",
+      "$48.00",
+      "$56.00",
+      "$60.00"
+    ],
+    "answer": "$52.00",
+    "time": 160
+  },
+  {
+    "question": "A shop sells chairs and stools. 2 chairs and 5 stools cost $93.50. A chair costs $6.50 more than a stool.",
+    "stem": "Find the cost of one stool.",
+    "options": [
+      "$11.50",
+      "$12.00",
+      "$11.00",
+      "$12.50"
+    ],
+    "answer": "$11.50",
+    "time": 180
+  }
+]
