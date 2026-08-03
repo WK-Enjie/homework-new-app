@@ -9,7 +9,7 @@
       "$5.20"
     ],
     "answer": "$4.00",
-    "time": 80
+    "time": 110
   },
   {
     "question": "Chloe has $35.60 and Diana has $21.20.",
@@ -21,7 +21,7 @@
       "$14.00"
     ],
     "answer": "$14.00",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Box A contains 16.4 kg of flour and Box B contains 9.2 kg of flour.",
@@ -33,7 +33,7 @@
       "1.8 kg"
     ],
     "answer": "3.6 kg",
-    "time": 80
+    "time": 110
   },
   {
     "question": "Bottle A holds 1.25 L of water and Bottle B holds 2.75 L of water.",
@@ -45,7 +45,7 @@
       "3.6 L"
     ],
     "answer": "4.4 L",
-    "time": 80
+    "time": 110
   },
   {
     "question": "A person saves $2.75 every day for a period of 5 weeks.",
@@ -57,7 +57,7 @@
       "$100.00"
     ],
     "answer": "$103.75",
-    "time": 80
+    "time": 110
   },
   {
     "question": "Grace and Hannah have $84.60 altogether. Grace has $12.40 more than Hannah.",
@@ -69,7 +69,7 @@
       "$30.00"
     ],
     "answer": "$30.00",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Container X has 8.4 kg of rice and Container Y has 5.2 kg of rice.",
@@ -81,19 +81,19 @@
       "2.0 kg"
     ],
     "answer": "2.4 kg",
-    "time": 90
+    "time": 120
   },
   {
-    "question": "Ian bought 3 notebooks and 2 pens for $14.50. A notebook costs $1.50 more than a pen.",
-    "stem": "What if Ian had bought 2 notebooks and 3 pens instead? How much would he have paid in total?",
+    "question": "Ian bought 3 notebooks and 5 pens for $18.00 altogether. A pen costs $1.20 more than a notebook.",
+    "stem": "Find the total cost of 1 pen and 1 notebook in all.",
     "options": [
-      "$13.00",
-      "$12.00",
-      "$14.00",
-      "$11.50"
+      "$4.20",
+      "$3.70",
+      "$4.50",
+      "$3.90"
     ],
-    "answer": "$13.00",
-    "time": 95
+    "answer": "$4.20",
+    "time": 125
   },
   {
     "question": "Sarah saves $1.50 every day for 4 weeks.",
@@ -105,7 +105,7 @@
       "$45.50"
     ],
     "answer": "$43.00",
-    "time": 85
+    "time": 115
   },
   {
     "question": "Jacob has $52.40 and Kevin has $28.80.",
@@ -117,7 +117,7 @@
       "$40.60"
     ],
     "answer": "$40.60",
-    "time": 80
+    "time": 110
   },
   {
     "question": "Marcus saves $3.25 daily for 6 weeks.",
@@ -129,7 +129,7 @@
       "$120.00"
     ],
     "answer": "$113.50",
-    "time": 90
+    "time": 120
   },
   {
     "question": "String A is 12.8 m long and String B is 7.2 m long.",
@@ -141,7 +141,7 @@
       "1.8 m"
     ],
     "answer": "2.0 m",
-    "time": 85
+    "time": 115
   },
   {
     "question": "A basket contains 4.8 kg of apples and 3.2 kg of oranges.",
@@ -153,7 +153,7 @@
       "10.5 kg"
     ],
     "answer": "12.5 kg",
-    "time": 80
+    "time": 110
   },
   {
     "question": "Jenny saves $2.00 every day for 3 weeks.",
@@ -165,7 +165,7 @@
       "$50.00"
     ],
     "answer": "$53.00",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Parcel P weighs 2.45 kg and Parcel Q weighs 1.85 kg.",
@@ -177,7 +177,7 @@
       "2.15 kg"
     ],
     "answer": "1.75 kg",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Sam has $48.50 and Tim has $26.50.",
@@ -189,7 +189,7 @@
       "$5.00"
     ],
     "answer": "$4.50",
-    "time": 95
+    "time": 125
   },
   {
     "question": "A jar has 3.6 L of water and a jug has 1.4 L of water.",
@@ -201,7 +201,7 @@
       "1.1 L"
     ],
     "answer": "0.9 L",
-    "time": 85
+    "time": 115
   },
   {
     "question": "Box A, Box B, and Box C contain a total of 15.6 kg of sand. Box A has 2.4 kg more sand than Box B. Box C has 1.2 kg less sand than Box B.",
@@ -213,7 +213,7 @@
       "5.7 kg"
     ],
     "answer": "5.7 kg",
-    "time": 95
+    "time": 125
   },
   {
     "question": "A rope of length 10.5 m is cut into two pieces, Piece X and Piece Y. Piece X is 2.5 m longer than Piece Y.",
@@ -225,7 +225,7 @@
       "2.5 m"
     ],
     "answer": "3.25 m",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Mrs. Li bought 4 kg of prawns at $18.50 per kg and 2 kg of fish at $12.00 per kg.",
@@ -237,7 +237,7 @@
       "$8.00"
     ],
     "answer": "$13.00",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Container 1 has 5.25 L of paint and Container 2 has 2.75 L of paint.",
@@ -249,7 +249,7 @@
       "3.75 L"
     ],
     "answer": "3.25 L",
-    "time": 90
+    "time": 120
   },
   {
     "question": "Alan has $15.40 and Ben has $35.80.",
@@ -261,7 +261,7 @@
       "$20.40"
     ],
     "answer": "$20.40",
-    "time": 85
+    "time": 115
   },
   {
     "question": "A baker made 12.6 kg of dough. He used 0.6 kg to test a new recipe, then divided the remaining dough equally into 4 large bowls.",
@@ -273,7 +273,7 @@
       "2.0 kg"
     ],
     "answer": "1.0 kg",
-    "time": 90
+    "time": 120
   },
   {
     "question": "David saves $4.50 daily for 2 weeks.",
@@ -285,6 +285,6 @@
       "$115.00"
     ],
     "answer": "$117.00",
-    "time": 85
+    "time": 115
   }
 ]
