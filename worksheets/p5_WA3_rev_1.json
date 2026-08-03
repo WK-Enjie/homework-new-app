@@ -48,15 +48,15 @@
     "time": 80
   },
   {
-    "question": "Ethan has 4.5 m of ribbon and Felix has 2.1 m of ribbon.",
-    "stem": "What if Ethan buys some more ribbon so that he has 3 times as much ribbon as Felix? How many meters of ribbon did Ethan buy?",
+    "question": "A person saves $2.75 every day for a period of 5 weeks.",
+    "stem": "At the end of 5 weeks, he saved a total of $200. How much did he have at first?",
     "options": [
-      "2.1 m",
-      "3.8 m",
-      "1.8 m",
-      "1.5 m"
+      "$96.25",
+      "$103.75",
+      "$296.25",
+      "$100.00"
     ],
-    "answer": "1.8 m",
+    "answer": "$103.75",
     "time": 80
   },
   {
@@ -96,15 +96,15 @@
     "time": 95
   },
   {
-    "question": "Tank A contains 14.8 L of water and Tank B contains 6.2 L of water.",
-    "stem": "What if 2.0 L of water is poured from Tank B into Tank A? How many times as much water will Tank A have compared to Tank B now?",
+    "question": "Sarah saves $1.50 every day for 4 weeks.",
+    "stem": "At the end, she has a total of $85. How much money did Sarah have at first?",
     "options": [
-      "3 times",
-      "5 times",
-      "4 times",
-      "2 times"
+      "$42.00",
+      "$43.00",
+      "$127.00",
+      "$45.50"
     ],
-    "answer": "4 times",
+    "answer": "$43.00",
     "time": 85
   },
   {
@@ -120,15 +120,15 @@
     "time": 80
   },
   {
-    "question": "Leo and Max share 15.6 kg of coffee beans. Leo's share is 0.4 kg less than 3 times Max's share.",
-    "stem": "What if Max sells 1.2 kg of his coffee beans? How many kilograms of coffee beans will Max have left?",
+    "question": "Marcus saves $3.25 daily for 6 weeks.",
+    "stem": "After this period, his total savings amount to $250. How much money did Marcus have before he started saving?",
     "options": [
-      "4.0 kg",
-      "2.8 kg",
-      "3.2 kg",
-      "2.4 kg"
+      "$136.50",
+      "$113.50",
+      "$386.50",
+      "$120.00"
     ],
-    "answer": "2.8 kg",
+    "answer": "$113.50",
     "time": 90
   },
   {
@@ -156,15 +156,15 @@
     "time": 80
   },
   {
-    "question": "Nina has $72.00 and Olivia has $28.00.",
-    "stem": "What if Nina gives $12.00 to Olivia? What will be the ratio of Nina's remaining money to Olivia's new total money in simplest form?",
+    "question": "Jenny saves $2.00 every day for 3 weeks.",
+    "stem": "At the end of 3 weeks, she has saved a total of $95. How much money did Jenny have at first?",
     "options": [
-      "2 : 1",
-      "5 : 3",
-      "1 : 1",
-      "3 : 2"
+      "$42.00",
+      "$53.00",
+      "$137.00",
+      "$50.00"
     ],
-    "answer": "3 : 2",
+    "answer": "$53.00",
     "time": 90
   },
   {
@@ -276,15 +276,15 @@
     "time": 90
   },
   {
-    "question": "Tom has $26.50 and Jerry has $5.50.",
-    "stem": "What if Tom gives $2.50 to Jerry? How many times as much money will Tom have compared to Jerry now?",
+    "question": "David saves $4.50 daily for 2 weeks.",
+    "stem": "After this period, his total money is $180. How much did David have at first?",
     "options": [
-      "3 times",
-      "4 times",
-      "2 times",
-      "5 times"
+      "$63.00",
+      "$117.00",
+      "$243.00",
+      "$115.00"
     ],
-    "answer": "3 times",
+    "answer": "$117.00",
     "time": 85
   }
 ]
