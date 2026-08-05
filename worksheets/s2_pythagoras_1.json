@@ -51,10 +51,10 @@
     "question": "The side lengths of a triangle are given as 10 cm, 24 cm, and 26 cm.",
     "stem": "Using the converse of Pythagoras' Theorem, classify this triangle.",
     "options": [
-      "Right-angled triangle because 10² + 24² = 26²",
-      "Acute triangle because 10 + 24 > 26",
-      "Obtuse triangle because 26² > 10² + 24²",
-      "Not a valid triangle"
+  "Right-angled triangle because $10^2 + 24^2 = 26^2$",
+  "Acute triangle because $10 + 24 > 26$", 
+  "Obtuse triangle because $26^2 > 10^2 + 24^2$",
+  "Not a valid triangle"
     ],
     "answer": "Right-angled triangle because 10² + 24² = 26²",
     "time": 90
