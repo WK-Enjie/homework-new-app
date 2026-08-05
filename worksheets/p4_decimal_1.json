@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Convert the decimal number to a fraction in its simplest form.",
+    "stem": "Express 0.45 as a fraction in its simplest form.",
+    "options": [
+      "9/20",
+      "9/10",
+      "4/5",
+      "9/25"
+    ],
+    "answer": "9/20",
+    "time": 80
+  },
+  {
+    "question": "Convert the fraction to a decimal number.",
+    "stem": "Express 3/8 as a decimal.",
+    "options": [
+      "0.375",
+      "0.38",
+      "0.35",
+      "0.625"
+    ],
+    "answer": "0.375",
+    "time": 80
+  },
+  {
+    "question": "Convert the decimal to a mixed number in its simplest form.",
+    "stem": "Express 2.84 as a mixed number in its simplest form.",
+    "options": [
+      "2 21/25",
+      "2 4/5",
+      "2 21/50",
+      "2 42/50"
+    ],
+    "answer": "2 21/25",
+    "time": 85
+  },
+  {
+    "question": "Convert the fraction to a decimal number.",
+    "stem": "Express 7/20 as a decimal.",
+    "options": [
+      "0.35",
+      "0.7",
+      "0.37",
+      "0.035"
+    ],
+    "answer": "0.35",
+    "time": 75
+  },
+  {
+    "question": "Compare the four given decimals.",
+    "stem": "Which of the following decimals is the smallest?",
+    "options": [
+      "4.056",
+      "4.506",
+      "4.065",
+      "4.560"
+    ],
+    "answer": "4.056",
+    "time": 80
+  },
+  {
+    "question": "Arrange the given decimals in order of size.",
+    "stem": "Arrange the following numbers in increasing order: 1.203, 1.023, 1.302, 1.032.",
+    "options": [
+      "1.023, 1.032, 1.203, 1.302",
+      "1.032, 1.023, 1.203, 1.302",
+      "1.023, 1.203, 1.032, 1.302",
+      "1.302, 1.203, 1.032, 1.023"
+    ],
+    "answer": "1.023, 1.032, 1.203, 1.302",
+    "time": 90
+  },
+  {
+    "question": "Compare the four given decimals.",
+    "stem": "Which of the following decimals is the greatest?",
+    "options": [
+      "0.897",
+      "0.879",
+      "0.798",
+      "0.789"
+    ],
+    "answer": "0.897",
+    "time": 75
+  },
+  {
+    "question": "Arrange the given decimals in order of size.",
+    "stem": "Arrange the following numbers in decreasing order: 5.612, 5.621, 5.261, 5.162.",
+    "options": [
+      "5.621, 5.612, 5.261, 5.162",
+      "5.162, 5.261, 5.612, 5.621",
+      "5.612, 5.621, 5.261, 5.162",
+      "5.621, 5.261, 5.612, 5.162"
+    ],
+    "answer": "5.621, 5.612, 5.261, 5.162",
+    "time": 90
+  },
+  {
+    "question": "Compare proximity to a given target decimal.",
+    "stem": "Which of the following decimals is closest to 5.5?",
+    "options": [
+      "5.505",
+      "5.485",
+      "5.512",
+      "5.492"
+    ],
+    "answer": "5.505",
+    "time": 85
+  },
+  {
+    "question": "Compare proximity to a given target decimal.",
+    "stem": "Which of the following decimals is closest to 2.0?",
+    "options": [
+      "1.996",
+      "1.985",
+      "2.012",
+      "2.008"
+    ],
+    "answer": "1.996",
+    "time": 85
+  },
+  {
+    "question": "Compare proximity to a given target decimal.",
+    "stem": "Which of the following decimals is nearest to 8.45?",
+    "options": [
+      "8.452",
+      "8.442",
+      "8.459",
+      "8.440"
+    ],
+    "answer": "8.452",
+    "time": 85
+  },
+  {
+    "question": "Compare proximity to a given target decimal.",
+    "stem": "Which of the following decimals is closest to 0.75?",
+    "options": [
+      "0.748",
+      "0.742",
+      "0.755",
+      "0.753"
+    ],
+    "answer": "0.748",
+    "time": 85
+  },
+  {
+    "question": "Identify place value and digit values in a decimal.",
+    "stem": "In the number 47.85, what is the value of the digit in the hundredths place?",
+    "options": [
+      "0.05",
+      "0.5",
+      "5",
+      "0.005"
+    ],
+    "answer": "0.05",
+    "time": 70
+  },
+  {
+    "question": "Identify place value and digit positions in a decimal.",
+    "stem": "In the number 63.29, which digit is in the tenths place?",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "6"
+    ],
+    "answer": "2",
+    "time": 65
+  },
+  {
+    "question": "Determine the place value of a specific digit.",
+    "stem": "What is the place value of the digit 8 in the number 15.84?",
+    "options": [
+      "tenths",
+      "hundredths",
+      "tens",
+      "ones"
+    ],
+    "answer": "tenths",
+    "time": 65
+  },
+  {
+    "question": "Identify place value and digit values in a decimal.",
+    "stem": "In the number 82.94, what is the value of the digit 9?",
+    "options": [
+      "0.9",
+      "0.09",
+      "9",
+      "90"
+    ],
+    "answer": "0.9",
+    "time": 70
+  },
+  {
+    "question": "Round off a decimal number to the nearest whole number.",
+    "stem": "Round 24.68 to the nearest whole number.",
+    "options": [
+      "25",
+      "24",
+      "24.7",
+      "24.6"
+    ],
+    "answer": "25",
+    "time": 75
+  },
+  {
+    "question": "Round off a decimal number to 1 decimal place.",
+    "stem": "Round 19.34 to 1 decimal place.",
+    "options": [
+      "19.3",
+      "19.4",
+      "19",
+      "20"
+    ],
+    "answer": "19.3",
+    "time": 75
+  },
+  {
+    "question": "Round off a decimal number to the nearest whole number.",
+    "stem": "Round 42.85 to the nearest whole number.",
+    "options": [
+      "43",
+      "42",
+      "42.8",
+      "42.9"
+    ],
+    "answer": "43",
+    "time": 75
+  },
+  {
+    "question": "Round off a decimal number to 1 decimal place.",
+    "stem": "Round 7.46 to 1 decimal place.",
+    "options": [
+      "7.5",
+      "7.4",
+      "7",
+      "8"
+    ],
+    "answer": "7.5",
+    "time": 75
+  },
+  {
+    "question": "Sarah bought a book for $14.50 and a pen for $3.80. Her brother gave her $5.00. She now has $12.70 left.",
+    "stem": "How much money did Sarah have at first?",
+    "options": [
+      "$26.00",
+      "$36.00",
+      "$21.00",
+      "$16.00"
+    ],
+    "answer": "$26.00",
+    "time": 120
+  },
+  {
+    "question": "David spent $18.60 on groceries. He received $10.00 from his mother and now has $35.40.",
+    "stem": "How much money did David have at first?",
+    "options": [
+      "$44.00",
+      "$26.80",
+      "$64.00",
+      "$34.00"
+    ],
+    "answer": "$44.00",
+    "time": 115
+  },
+  {
+    "question": "Amy bought a toy for $22.40. She received $15.00 from her father and now has $28.60.",
+    "stem": "How much money did Amy have at first?",
+    "options": [
+      "$36.00",
+      "$51.00",
+      "$21.20",
+      "$41.00"
+    ],
+    "answer": "$36.00",
+    "time": 115
+  },
+  {
+    "question": "Lucas spent $9.50 on lunch and $4.20 on a drink. He found $2.00 on the street. He now has $18.30.",
+    "stem": "How much money did Lucas have at first?",
+    "options": [
+      "$30.00",
+      "$34.00",
+      "$26.00",
+      "$32.00"
+    ],
+    "answer": "$30.00",
+    "time": 120
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "question": "A pupil placed a pot of plant near a window inside a dark room. After a few days, the stem of the plant bent towards the window.",
+    "stem": "Which characteristic of living things does this observation best demonstrate?",
+    "options": [
+      "Living things can move freely from place to place.",
+      "Living things respond to changes in their surroundings.",
+      "Living things need food and water to reproduce.",
+      "Living things grow at different rates depending on temperature."
+    ],
+    "answer": "Living things respond to changes in their surroundings.",
+    "time": 75
+  },
+  {
+    "question": "An experiment was conducted using two sealed jars. Jar X contained a fern plant and Jar Y contained a mushroom. Both were supplied with light, water, and air.",
+    "stem": "After two weeks, the fern plant survived while the mushroom died. Why did the mushroom die?",
+    "options": [
+      "Fungi require carbon dioxide from plants to carry out photosynthesis.",
+      "Fungi need seeds to absorb water from the surrounding soil.",
+      "Fungi cannot make their own food and need decaying matter to survive.",
+      "Fungi cannot survive in the presence of light and oxygen."
+    ],
+    "answer": "Fungi cannot make their own food and need decaying matter to survive.",
+    "time": 80
+  },
+  {
+    "question": "A pupil observed four small animals (W, X, Y, and Z) and recorded their physical features:\n- Animal W: 3 body parts, 6 legs, feelers present\n- Animal X: 2 body parts, 8 legs, no feelers\n- Animal Y: Moist skin, 4 legs, no feelers\n- Animal Z: Feathers, 2 legs, wings present",
+    "stem": "Which animal can be correctly classified as an insect?",
+    "options": [
+      "Animal X",
+      "Animal W",
+      "Animal Y",
+      "Animal Z"
+    ],
+    "answer": "Animal W",
+    "time": 80
+  },
+  {
+    "question": "Two plants, P and Q, were observed. Plant P produces spores on the undersides of its leaves, while Plant Q produces flowers that develop into fruits containing seeds.",
+    "stem": "Which statement about Plant P and Plant Q is correct?",
+    "options": [
+      "Plant P makes its own food but Plant Q relies on insects for food.",
+      "Both Plant P and Plant Q reproduce from seeds.",
+      "Plant P is a non-flowering plant and Plant Q is a flowering plant.",
+      "Plant P cannot carry out photosynthesis because it has no flowers."
+    ],
+    "answer": "Plant P is a non-flowering plant and Plant Q is a flowering plant.",
+    "time": 80
+  },
+  {
+    "question": "A slice of moist bread was left inside a clear plastic bag on a table. After five days, dark patches of bread mould appeared on the surface.",
+    "stem": "How did the mould get onto the bread and reproduce?",
+    "options": [
+      "Bacteria in the bread converted into fungal spores when exposed to air.",
+      "Spores carried in the air landed on the bread and grew in moist conditions.",
+      "The bread made its own seeds which germinated into mould.",
+      "Mould cells absorbed light to create new fungal cells spontaneously."
+    ],
+    "answer": "Spores carried in the air landed on the bread and grew in moist conditions.",
+    "time": 80
+  },
+  {
+    "question": "An animal lives both on land and in water. It lays eggs in water and breathes through its moist skin and lungs.",
+    "stem": "To which group of animals does this animal belong?",
+    "options": [
+      "Reptiles",
+      "Fish",
+      "Amphibians",
+      "Mammals"
+    ],
+    "answer": "Amphibians",
+    "time": 75
+  },
+  {
+    "question": "A scientist observes an aquatic animal that swims in the ocean, has hair on its body, and suckles its young with milk.",
+    "stem": "Which characteristic confirms that this animal is a mammal?",
+    "options": [
+      "It has a streamlined body shape for swimming.",
+      "It can live in aquatic environments.",
+      "It breathes using gills under water.",
+      "It has hair and produces milk for its young."
+    ],
+    "answer": "It has hair and produces milk for its young.",
+    "time": 75
+  },
+  {
+    "question": "A pupil classified four organisms into two groups:\nGroup 1: Fern, Rose Plant\nGroup 2: Yeast, Mould, Bacteria",
+    "stem": "What is the main difference between the organisms in Group 1 and Group 2?",
+    "options": [
+      "Group 1 consists of microorganisms, while Group 2 consists of visible organisms.",
+      "Group 1 can make their own food, while Group 2 cannot make their own food.",
+      "Group 1 reproduces by spores, while Group 2 reproduces by seeds.",
+      "Group 1 does not require water, while Group 2 requires water."
+    ],
+    "answer": "Group 1 can make their own food, while Group 2 cannot make their own food.",
+    "time": 80
+  },
+  {
+    "question": "A pupil constructed a classification chart for four living things: Fern, Mushroom, Algae, and Hibiscus.\n- Does it make its own food? \n  - No -> Mushroom\n  - Yes -> Does it produce seeds?\n    - Yes -> Hibiscus\n    - No -> Fern / Algae",
+    "stem": "Based on the classification criteria, what similarity is shared between a Fern and a Mushroom?",
+    "options": [
+      "Both can carry out photosynthesis.",
+      "Both produce flowers and fruits.",
+      "Both reproduce by spores.",
+      "Both are non-flowering seed plants."
+    ],
+    "answer": "Both reproduce by spores.",
+    "time": 85
+  },
+  {
+    "question": "A toy robot dog can walk, bark, and move towards a light source using electronic sensors. However, it does not grow or reproduce.",
+    "stem": "Why is the toy robot dog classified as a non-living thing?",
+    "options": [
+      "It can move by itself when placed in bright sunlight.",
+      "It cannot grow, reproduce, or require food and water to survive.",
+      "It does not have legs made of natural biological tissue.",
+      "It responds to changes faster than real living dogs."
+    ],
+    "answer": "It cannot grow, reproduce, or require food and water to survive.",
+    "time": 75
+  },
+  {
+    "question": "A class went on a field trip to a nature reserve to observe local flora and fauna.",
+    "stem": "Which action shows responsible behavior and care towards the living things in the reserve?",
+    "options": [
+      "Catching wild insects to keep in sealed jars as permanent classroom pets.",
+      "Plucking flowers from rare plants to make a preserved pressed-flower display.",
+      "Observing animals quietly without disturbing their natural habitat or plucking plants.",
+      "Feeding wild animals with leftover processed human food to help them grow."
+    ],
+    "answer": "Observing animals quietly without disturbing their natural habitat or plucking plants.",
+    "time": 75
+  },
+  {
+    "question": "Four animals were placed into two groups based on their outer body coverings:\nGroup A: Pigeon, Eagle\nGroup B: Crocodile, Turtle",
+    "stem": "Which of the following correctly describes the body coverings of Group A and Group B?",
+    "options": [
+      "Group A has hair; Group B has moist skin.",
+      "Group A has feathers; Group B has dry scales.",
+      "Group A has shells; Group B has feathers.",
+      "Group A has scales; Group B has fur."
+    ],
+    "answer": "Group A has feathers; Group B has dry scales.",
+    "time": 75
+  },
+  {
+    "question": "A pupil observed an unknown animal on land. It has dry skin covered with scales and lays eggs with tough, leathery shells.",
+    "stem": "Which group of animals does this unknown animal belong to?",
+    "options": [
+      "Amphibians",
+      "Reptiles",
+      "Fish",
+      "Mammals"
+    ],
+    "answer": "Reptiles",
+    "time": 75
+  },
+  {
+    "question": "A salmon lives in water, swims using fins, has body scales, and takes in oxygen dissolved in water.",
+    "stem": "Which organ does the salmon use to take in dissolved oxygen?",
+    "options": [
+      "Lungs",
+      "Moist skin",
+      "Gills",
+      "Blowhole"
+    ],
+    "answer": "Gills",
+    "time": 70
+  },
+  {
+    "question": "Which of the following physical characteristics is unique ONLY to the bird group?",
+    "stem": "Select the feature that distinguishes birds from all other animal groups.",
+    "options": [
+      "Laying eggs to reproduce",
+      "Having wings for flight",
+      "Having a beak and feathers",
+      "Breathing through lungs"
+    ],
+    "answer": "Having a beak and feathers",
+    "time": 75
+  },
+  {
+    "question": "Bacteria are microscopic single-celled organisms found almost everywhere in nature.",
+    "stem": "Which statement about bacteria is TRUE?",
+    "options": [
+      "All bacteria are harmful and cause diseases in humans.",
+      "Bacteria contain chlorophyll and make their own food.",
+      "Some bacteria are useful and help in making food products like yogurt.",
+      "Bacteria reproduce by producing flowerless seeds."
+    ],
+    "answer": "Some bacteria are useful and help in making food products like yogurt.",
+    "time": 80
+  },
+  {
+    "question": "Yeast is a microorganism used by bakers to make bread dough rise.",
+    "stem": "To which broad group of living things does yeast belong?",
+    "options": [
+      "Bacteria",
+      "Fungi",
+      "Non-flowering plants",
+      "Insects"
+    ],
+    "answer": "Fungi",
+    "time": 70
+  },
+  {
+    "question": "A plant was placed inside a sealed glass box. All air was removed from the box using a vacuum pump, but water and sunlight were provided.",
+    "stem": "What will happen to the plant after a few days?",
+    "options": [
+      "It will grow faster because there are no pests in the vacuum.",
+      "It will die because living things need air to survive.",
+      "It will reproduce by seeds to escape the glass box.",
+      "It will produce green leaves to replace the missing air."
+    ],
+    "answer": "It will die because living things need air to survive.",
+    "time": 80
+  },
+  {
+    "question": "Both mosses and ferns are non-flowering plants.",
+    "stem": "How do both mosses and ferns reproduce?",
+    "options": [
+      "By seeds produced in cones",
+      "By spores carried by wind or water",
+      "By flowers attracting pollinators",
+      "By budding off small green leaves"
+    ],
+    "answer": "By spores carried by wind or water",
+    "time": 75
+  },
+  {
+    "question": "A pupil classified four animals into a chart:\n- Does it lay eggs?\n  - Yes -> Does it have 6 legs?\n    - Yes -> Animal E\n    - No -> Animal F\n  - No -> Animal G",
+    "stem": "Which option correctly matches Animals E, F, and G?",
+    "options": [
+      "E: Ant, F: Snake, G: Cat",
+      "E: Cat, F: Ant, G: Snake",
+      "E: Snake, F: Cat, G: Ant",
+      "E: Ant, F: Cat, G: Snake"
+    ],
+    "answer": "E: Ant, F: Snake, G: Cat",
+    "time": 85
+  },
+  {
+    "question": "A seed placed on dry cotton wool inside a warm room fails to germinate.",
+    "stem": "Which basic need for germination is missing from the setup?",
+    "options": [
+      "Light",
+      "Water",
+      "Carbon dioxide",
+      "Fertilizer"
+    ],
+    "answer": "Water",
+    "time": 70
+  },
+  {
+    "question": "The spiny anteater and the platypus are unusual animals that have fur and suckle their young with milk, but lay eggs instead of giving birth to live young.",
+    "stem": "Why are they still classified as mammals?",
+    "options": [
+      "Because they live both on land and in water.",
+      "Because they have hair/fur and feed their young with milk.",
+      "Because they breathe underwater through specialized skin.",
+      "Because their eggs have hard calcium shells like birds."
+    ],
+    "answer": "Because they have hair/fur and feed their young with milk.",
+    "time": 85
+  },
+  {
+    "question": "Fungi and bacteria play a crucial role as decomposers in forest ecosystems.",
+    "stem": "Why are decomposers important to the environment?",
+    "options": [
+      "They produce oxygen for animals during the night.",
+      "They break down dead matter into simple nutrients for plants.",
+      "They trap sunlight to produce energy for herbivores.",
+      "They prevent rainfall from washing away topsoil."
+    ],
+    "answer": "They break down dead matter into simple nutrients for plants.",
+    "time": 80
+  },
+  {
+    "question": "While investigating pond life, a student uses a magnifying hand lens to observe small organisms without removing them from the water.",
+    "stem": "Which scientific attitude does the student demonstrate?",
+    "options": [
+      "Curiosity and responsible care towards living things",
+      "Skepticism and disbelief in scientific tools",
+      "Carelessness and speed in collecting sample data",
+      "Preference for non-living objects over living plants"
+    ],
+    "answer": "Curiosity and responsible care towards living things",
+    "time": 75
+  }
+]
