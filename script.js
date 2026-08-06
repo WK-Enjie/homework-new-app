@@ -1,23 +1,13 @@
 /* =====================================================
-   CARD QUEST — script.js  v7.0
-   FIXES & IMPROVEMENTS:
-     • Blue text bug fully eliminated — segments never
-       merge; each text node is a separate DOM node
-     • Chemical formulas: clean single-pass tokenizer
-       Cl2, ZnCl2, Fe2O3, Ca(NO3)2 all render correctly
-     • NO nested \text{} — element-by-element approach
-     • Fractions: simple syntax → proper KaTeX display
-     • Mixed numbers: "2 3/4" → 2\dfrac{3}{4}
-     • Negative fractions: "-1/4" → -\dfrac{1}{4}
-     • Indices: x^2, 10^-3, a^{n+1}
-     • Subscripts: x_1, a_n
-     • State symbols (s)(aq)(g)(l) always plain text
-     • Money amounts protected: $52.40 never parsed
-     • Tables rendered precisely
-     • MCQ options scroll correctly
-     • Multi-part question font weight enforced
-     • Scientific notation: 3.2e4, 6.02 x 10^23
-     • Greek letters, roots, degrees all working
+   CARD QUEST — script.js  v7.1
+   FIXES:
+     • Chemical formulas in question/stem text now render
+       with proper subscripts in ALL contexts (prose + math)
+     • Diatomic molecules (Cl2, H2, O2 etc.) whitelisted
+     • Leading coefficients (2Na, 4Fe) handled correctly
+     • Two-pass formula extraction: parenthesised groups
+       first, then standard formulas
+     • All previous v7.0 fixes retained
    ===================================================== */
 'use strict';
 
@@ -208,7 +198,6 @@ function init() {
   window.addEventListener('resize', fixVH);
   window.addEventListener('orientationchange', () => setTimeout(fixVH, 250));
 
-  // Prevent accidental double-tap zoom on mobile
   let lastTap = 0;
   document.addEventListener('touchend', e => {
     const now = Date.now();
@@ -221,7 +210,7 @@ function init() {
   }, { passive: false });
 
   katexReady = (typeof katex !== 'undefined');
-  console.log(`✅ Card Quest v7.0 ready | KaTeX: ${katexReady}`);
+  console.log(`✅ Card Quest v7.1 ready | KaTeX: ${katexReady}`);
 }
 
 document.readyState === 'loading'
@@ -352,8 +341,8 @@ function waitForKaTeX() {
 }
 
 // ════════════════════════════════════════════════════
-//  PROTECTED ACRONYMS / ABBREVIATIONS
-//  These must never be treated as chemical formulas
+//  PROTECTED ACRONYMS
+//  Never treated as chemical formulas
 // ════════════════════════════════════════════════════
 const PROTECTED_CAPS = new Set([
   'SGD','USD','EUR','GBP','JPY','AUD','CAD','HKD','CNY',
@@ -363,6 +352,15 @@ const PROTECTED_CAPS = new Set([
   'PDF','HTML','CSS','API','URL','SQL','LAN','WAN','MRT',
   'LCM','HCF','GCF','GCD','BODMAS','BIDMAS',
   'AM','PM','BC','AD','CE','MCQ','QED',
+]);
+
+// ════════════════════════════════════════════════════
+//  KNOWN DIATOMIC / SIMPLE MOLECULES
+//  Always recognised as chemical formulas
+// ════════════════════════════════════════════════════
+const DIATOMICS = new Set([
+  'H2','O2','N2','F2','Cl2','Br2','I2',
+  'P4','S8','CO','NO','HF','HCl','HBr','HI',
 ]);
 
 // ════════════════════════════════════════════════════
@@ -383,85 +381,99 @@ const GREEK_MAP = {
 };
 
 // ════════════════════════════════════════════════════
-//  STATE SYMBOLS — always plain text, never math
-//  (s), (l), (g), (aq)
+//  STATE SYMBOLS  (s)(l)(g)(aq) — always plain text
 // ════════════════════════════════════════════════════
 const STATE_RE = /\((s|l|g|aq)\)/g;
 
 // ════════════════════════════════════════════════════
-//  isChemicalFormula(str)
-//  Returns true only for genuine chemical formulas.
-//  Does NOT match plain English words.
+//  isChemicalFormula(str)  v7.1
+//  Returns true for genuine chemical formulas.
+//  Diatomics whitelisted. Rejects plain English words.
 // ════════════════════════════════════════════════════
 function isChemicalFormula(str) {
-  if (!str || str.length < 2)    return false;
-  if (PROTECTED_CAPS.has(str))   return false;
+  if (!str || str.length < 2)  return false;
+  if (PROTECTED_CAPS.has(str)) return false;
 
   // Must start with uppercase letter
-  if (!/^[A-Z]/.test(str))       return false;
+  if (!/^[A-Z]/.test(str)) return false;
 
-  // Must contain at least one digit OR multiple element symbols
+  // Diatomics and simple molecules are always valid
+  if (DIATOMICS.has(str)) return true;
+
+  // Must have digit OR multiple element symbols OR parenthesised group
   const hasDigit      = /\d/.test(str);
   const hasMultiElem  = /[A-Z][a-z]?[A-Z]/.test(str);
   const hasParenDigit = /\([A-Za-z]+\)\d/.test(str);
 
   if (!hasDigit && !hasMultiElem && !hasParenDigit) return false;
 
-  // Reject plain words: 4+ lowercase letters after first capital
+  // Reject plain English words — 4+ lowercase letters after initial cap
   if (/^[A-Z][a-z]{3,}$/.test(str)) return false;
-  // Reject things like "A2" alone (ambiguous)
-  if (/^[A-Z]\d+$/.test(str) && str.length <= 2) return false;
+
+  // Reject ambiguous 2-char: single capital + single digit e.g. "A2"
+  // unless it's already caught by DIATOMICS above
+  if (/^[A-Z]\d$/.test(str)) return false;
 
   return true;
 }
 
 // ════════════════════════════════════════════════════
-//  chemicalToLatex(str)  v7.0
+//  chemicalToLatex(str)  v7.1
 //
-//  ELEMENT-BY-ELEMENT approach — builds LaTeX by
-//  walking the string token by token.
-//  This prevents any nested \text{} issues and the
-//  "texttext" / "Cltexttextl2" bugs entirely.
+//  Element-by-element tokenizer.
+//  Builds LaTeX walking the string character by character.
+//  Prevents any nested \text{} bugs.
 //
-//  Strategy:
-//    Element symbol (e.g. Cl, Na, O) → \text{Cl}
-//    Number (e.g. 2, 12)             → _{2}
-//    Parentheses                     → ( )
-//    Coefficient at start (e.g. 2H2O)→ plain number before first element
+//  Examples:
+//    H2O        → \text{H}_{2}\text{O}
+//    Ca(NO3)2   → \text{Ca}(\text{N}\text{O}_{3})_{2}
+//    Fe2O3      → \text{Fe}_{2}\text{O}_{3}
+//    ZnCl2      → \text{Zn}\text{Cl}_{2}
+//    2H2O       → 2\text{H}_{2}\text{O}  (leading coeff plain)
 // ════════════════════════════════════════════════════
 function chemicalToLatex(str) {
   if (!str) return '';
 
   let result = '';
-  let i = 0;
-  const len = str.length;
+  let i      = 0;
+  const len  = str.length;
 
-  // Optional leading coefficient (e.g. "2" in "2H2O")
-  if (i < len && /\d/.test(str[i])) {
-    let coeff = '';
-    while (i < len && /\d/.test(str[i])) {
-      coeff += str[i++];
-    }
-    result += coeff; // leading coefficients are plain numbers
+  // ── Leading coefficient (e.g. "2" in "2H2O", "4" in "4Fe") ──
+  // Only strip if followed immediately by an uppercase letter
+  let leadingCoeff = '';
+  while (i < len && /\d/.test(str[i])) {
+    leadingCoeff += str[i++];
+  }
+  if (leadingCoeff && i < len && /[A-Z]/.test(str[i])) {
+    // Valid coefficient — output as plain number
+    result += leadingCoeff;
+  } else {
+    // Not a coefficient — reset and treat digits as subscripts
+    i = 0;
+    leadingCoeff = '';
   }
 
+  // ── Walk remaining characters ──
   while (i < len) {
     const ch = str[i];
 
     if (ch === '(') {
       result += '(';
       i++;
+
     } else if (ch === ')') {
       result += ')';
       i++;
-      // Subscript after closing paren: Ca(NO3)2
+      // Subscript digits after closing paren: Ca(NO3)2 → )_{2}
       if (i < len && /\d/.test(str[i])) {
         let num = '';
         while (i < len && /\d/.test(str[i])) num += str[i++];
         result += `_{${num}}`;
       }
+
     } else if (/[A-Z]/.test(ch)) {
-      // Collect element symbol: one uppercase + optional one lowercase
+      // Element symbol: one uppercase + optional one lowercase
+      // e.g. Ca, Cl, Na, Fe, Zn, Al, Mg, Cu, Pb
       let sym = ch;
       i++;
       if (i < len && /[a-z]/.test(str[i])) {
@@ -469,19 +481,21 @@ function chemicalToLatex(str) {
       }
       result += `\\text{${sym}}`;
 
-      // Subscript digits immediately after element
+      // Subscript digits immediately after element symbol
       if (i < len && /\d/.test(str[i])) {
         let num = '';
         while (i < len && /\d/.test(str[i])) num += str[i++];
         result += `_{${num}}`;
       }
+
     } else if (/\d/.test(ch)) {
-      // Stray digit — treat as subscript
+      // Stray digit — render as subscript
       let num = '';
       while (i < len && /\d/.test(str[i])) num += str[i++];
       result += `_{${num}}`;
+
     } else {
-      // Any other character (e.g. +, ·, space) — pass through
+      // Any other character (·, +, space, etc.) — pass through
       result += ch;
       i++;
     }
@@ -492,11 +506,8 @@ function chemicalToLatex(str) {
 
 // ════════════════════════════════════════════════════
 //  scientificToLatex(s)
-//  Converts: 3.2e4 → 3.2 × 10^{4}
-//            6.02 x 10^23 → 6.02 × 10^{23}
 // ════════════════════════════════════════════════════
 function scientificToLatex(s) {
-  // "6.02 x 10^23" or "6.02 × 10^{23}"
   s = s.replace(
     /(-?\d+(?:\.\d+)?)\s*[×x]\s*10\^(\{[^}]+\}|-?\d+)(?![a-zA-Z\d])/g,
     (_, coeff, exp) => {
@@ -504,7 +515,6 @@ function scientificToLatex(s) {
       return `⟦MATH⟧${coeff} \\times 10^${e}⟦/MATH⟧`;
     }
   );
-  // "3.2e4" or "1.6e-19"
   s = s.replace(
     /(?<![a-zA-Z])(-?\d+(?:\.\d+)?)[eE]([+-]?\d+)(?![a-zA-Z\d])/g,
     (_, coeff, exp) =>
@@ -514,35 +524,27 @@ function scientificToLatex(s) {
 }
 
 // ════════════════════════════════════════════════════
-//  SEGMENT TYPES
-//  { type: 'text', content: string }
-//  { type: 'math', content: string, display: bool }
-//  { type: 'newline' }
-//  { type: 'state', content: string }   ← (s),(aq) etc
-// ════════════════════════════════════════════════════
-
-// ════════════════════════════════════════════════════
 //  renderSegments(el, segments)
-//  Converts segment array → DOM nodes appended to el.
-//  KEY FIX: each text run is a separate Text node,
-//  never concatenated — prevents blue-text bleed.
+//  Converts segment array → DOM nodes.
+//  KEY: each text run is a separate Text node.
+//       Never concatenated → no colour bleed.
 // ════════════════════════════════════════════════════
 function renderSegments(el, segments) {
-  // Clear element safely
   while (el.firstChild) el.removeChild(el.firstChild);
 
   segments.forEach(seg => {
     if (!seg) return;
 
     switch (seg.type) {
+
       case 'newline': {
         el.appendChild(document.createElement('br'));
         break;
       }
 
       case 'state': {
-        // State symbols rendered as plain styled text, never KaTeX
-        const span = document.createElement('span');
+        // State symbols: always plain text, styled separately
+        const span       = document.createElement('span');
         span.className   = 'chem-state';
         span.textContent = seg.content;
         el.appendChild(span);
@@ -552,9 +554,8 @@ function renderSegments(el, segments) {
       case 'math': {
         if (katexReady && seg.content) {
           try {
-            const wrap = document.createElement('span');
+            const wrap     = document.createElement('span');
             wrap.className = 'math-rendered';
-            // KaTeX renders into wrap; colour controlled by CSS
             wrap.innerHTML = katex.renderToString(seg.content, {
               throwOnError: false,
               errorColor:   '#ef4444',
@@ -571,7 +572,6 @@ function renderSegments(el, segments) {
             el.appendChild(span);
           }
         } else if (seg.content) {
-          // KaTeX not available — show raw
           const span       = document.createElement('span');
           span.className   = 'math-fallback';
           span.textContent = seg.content;
@@ -583,8 +583,7 @@ function renderSegments(el, segments) {
       case 'text':
       default: {
         if (seg.content) {
-          // CRITICAL: plain text nodes — never innerHTML
-          // This prevents any colour bleed from KaTeX into prose
+          // Plain text node — never innerHTML → no colour bleed
           el.appendChild(document.createTextNode(seg.content));
         }
         break;
@@ -595,7 +594,6 @@ function renderSegments(el, segments) {
 
 // ════════════════════════════════════════════════════
 //  renderSafe(el, rawText)
-//  Main entry point: parse rawText → segments → DOM
 // ════════════════════════════════════════════════════
 function renderSafe(el, rawText) {
   if (!el) return;
@@ -605,7 +603,7 @@ function renderSafe(el, rawText) {
 
 // ════════════════════════════════════════════════════
 //  convertToSegments(raw)
-//  Handles explicit LaTeX blocks ($…$ / $$…$$) first,
+//  Handles explicit $…$ / $$…$$ blocks first,
 //  then passes plain text to processPlainText().
 // ════════════════════════════════════════════════════
 function convertToSegments(raw) {
@@ -613,8 +611,7 @@ function convertToSegments(raw) {
 
   const out = [];
 
-  // Match $$display$$ and $inline$ blocks
-  // Guard: $5.00 (money) must NOT match — require no digit after $
+  // Match $$display$$ and $inline$ — protect money $5.00
   const MATH_BLOCK_RE =
     /(\$\$[\s\S]+?\$\$|\$(?![\d.,\s])[^$\n]{1,300}?\$(?![0-9\w]))/g;
 
@@ -627,9 +624,9 @@ function convertToSegments(raw) {
     const block     = m[0];
     const isDisplay = block.startsWith('$$');
     const inner     = isDisplay
-      ? block.slice(2, -2).trim()
-      : block.slice(1, -1).trim();
-    if (inner) out.push({ type:'math', content: inner, display: isDisplay });
+      ? block.slice(2,-2).trim()
+      : block.slice(1,-1).trim();
+    if (inner) out.push({ type:'math', content:inner, display:isDisplay });
     last = m.index + block.length;
   }
   if (last < raw.length) {
@@ -641,7 +638,7 @@ function convertToSegments(raw) {
 
 // ════════════════════════════════════════════════════
 //  processPlainText(text)
-//  Splits on newlines first, then processes each line.
+//  Split on newlines, process each line separately.
 // ════════════════════════════════════════════════════
 function processPlainText(text) {
   if (!text) return [];
@@ -650,275 +647,329 @@ function processPlainText(text) {
   lines.forEach((line, i) => {
     out.push(...processLine(line));
     if (i < lines.length - 1) {
-      out.push({ type: 'newline' });
+      out.push({ type:'newline' });
     }
   });
   return out;
 }
 
 // ════════════════════════════════════════════════════
-//  processLine(line)
-//  Core processing pipeline for a single line of text.
+//  processLine(line)  v7.1
 //
-//  ORDER MATTERS:
-//  1. Protect money ($52.40) and state symbols
-//  2. Extract scientific notation
-//  3. Extract chemical formulas
-//  4. Extract fractions / mixed numbers
-//  5. Extract indices / subscripts
-//  6. Extract roots, degrees, Greek letters
-//  7. Emit remaining text as plain text nodes
-//
-//  FIX: Uses a token-list approach (not regex chaining)
-//  so segments never merge and blue text can't bleed.
+//  Token-list pipeline for one line of text.
+//  Processes patterns in priority order.
+//  Chemical formulas extracted in BOTH prose and
+//  math mode using two passes:
+//    Pass A — parenthesised groups: Ca(NO3)2, Al(OH)3
+//    Pass B — standard formulas:   Fe2O3, ZnCl2, H2SO4
 // ════════════════════════════════════════════════════
 function processLine(line) {
-  if (!line) return [];
+  if (line === undefined || line === null) return [];
+  if (!line.trim()) return [{ type:'text', content: line }];
 
-  // Detect whether this line is prose or math-heavy
-  const wordCount = (line.match(/\b[a-zA-Z]{4,}\b/g) || []).length;
-  const isProse   = wordCount >= 2;
-
-  // We'll build a list of tokens: {type:'raw'|'math'|'state', content, display}
-  // Then convert to segments at the end.
-  // Start with entire line as a single raw token.
+  // Start with the whole line as a single raw token
   let tokens = [{ type:'raw', content: line }];
 
-  // ── Step 1: Extract state symbols (s)(l)(g)(aq) ──
-  tokens = extractPattern(tokens, STATE_RE, match => ({
-    type: 'state', content: match[0]
-  }));
+  // ── 1. State symbols (s)(l)(g)(aq) ──
+  // Extract FIRST so they're never parsed as math
+  tokens = extractPattern(tokens, STATE_RE,
+    match => ({ type:'state', content: match[0] })
+  );
 
-  // ── Step 2: Protect money amounts ──
-  // Mark $52.40 etc. so later steps don't touch them
+  // ── 2. Money amounts $52.40 — mark as plain text ──
   tokens = extractPattern(tokens,
     /\$\d[\d.,]*/g,
     match => ({ type:'text', content: match[0] })
   );
 
-  // ── Step 3: Scientific notation ──
+  // ── 3. Scientific notation ──
   // "6.02 x 10^23", "3.2e4", "1.6e-19"
   tokens = extractPattern(tokens,
     /(-?\d+(?:\.\d+)?)\s*[×x]\s*10\^(\{[^}]+\}|-?\d+)/g,
     match => {
-      const exp = match[2].startsWith('{') ? match[2] : `{${match[2]}}`;
-      return { type:'math', content:`${match[1]} \\times 10^${exp}`, display:false };
+      const exp = match[2].startsWith('{')
+        ? match[2] : `{${match[2]}}`;
+      return { type:'math',
+        content:`${match[1]} \\times 10^${exp}`, display:false };
     }
   );
   tokens = extractPattern(tokens,
     /(?<![a-zA-Z])(-?\d+(?:\.\d+)?)[eE]([+-]?\d+)(?![a-zA-Z\d])/g,
     match => ({
       type:'math',
-      content: `${match[1]} \\times 10^{${match[2]}}`,
+      content:`${match[1]} \\times 10^{${match[2]}}`,
+      display:false
+    })
+  );
+
+  // ── 4A. Chemical formulas WITH parenthesised groups ──
+  // e.g. Ca(NO3)2, Al(OH)3, (NH4)2CO3, Mg(NO3)2
+  // Run in ALL contexts (prose + math)
+  tokens = extractPattern(tokens,
+    /\b(\d*)([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)+[a-zA-Z0-9]*)\b/g,
+    match => {
+      const coeff   = match[1] || '';
+      const formula = match[2] || '';
+      if (!isChemicalFormula(formula)) return null;
+      const latex = coeff + chemicalToLatex(formula);
+      return { type:'math', content:latex, display:false };
+    }
+  );
+
+  // ── 4B. Standard chemical formulas (no parentheses) ──
+  // e.g. Fe2O3, H2SO4, ZnCl2, NaOH, CO2, H2O, Cl2, KMnO4
+  // Pattern: starts uppercase, contains mix of letters + digits
+  // Must have at least one digit (subscript) or two element symbols
+  tokens = extractPattern(tokens,
+    /\b(\d*)([A-Z][a-z]?(?:[A-Z][a-z]?|\d)+(?:[A-Z][a-z]?\d*)*)\b/g,
+    match => {
+      const coeff   = match[1] || '';
+      const formula = match[2] || '';
+      if (!isChemicalFormula(formula)) return null;
+      const latex = coeff + chemicalToLatex(formula);
+      return { type:'math', content:latex, display:false };
+    }
+  );
+
+  // ── 4C. Diatomic molecules (standalone) ──
+  // e.g. Cl2, H2, O2, N2 — may be missed by 4B in some contexts
+  tokens = extractPattern(tokens,
+    /\b(H2|O2|N2|F2|Cl2|Br2|I2|P4|S8|CO|NO|HF|HCl|HBr|HI)\b/g,
+    match => ({
+      type:'math',
+      content: chemicalToLatex(match[1]),
       display: false
     })
   );
 
-  // ── Step 4: Chemical formulas ──
-  // Match things like H2O, CO2, C6H12O6, Ca(NO3)2, Fe2O3, ZnCl2
-  // Also match leading coefficient: 2H2O
-  if (!isProse) {
-    tokens = extractPattern(tokens,
-      /\b(\d*)([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)*(?:[A-Z][a-z]?\d*)*)\b/g,
-      match => {
-        const coeff   = match[1] || '';
-        const formula = match[2] || '';
-        if (!isChemicalFormula(formula)) return null; // null = keep as raw
-        const latex = (coeff ? coeff : '') + chemicalToLatex(formula);
-        return { type:'math', content: latex, display: false };
-      }
-    );
-  } else {
-    // In prose, be more conservative — only clear chemical patterns
-    tokens = extractPattern(tokens,
-      /\b([A-Z][a-z]?\d+(?:[A-Z][a-z]?\d*)*)\b/g,
-      match => {
-        const formula = match[1];
-        if (!isChemicalFormula(formula)) return null;
-        return { type:'math', content: chemicalToLatex(formula), display: false };
-      }
-    );
-  }
-
-  // ── Step 5: Mixed numbers "2 3/4" → 2\dfrac{3}{4} ──
+  // ── 5. Mixed numbers "2 3/4" → 2\dfrac{3}{4} ──
   tokens = extractPattern(tokens,
     /(?<!\d)(\d+)\s+(\d{1,3})\/(\d{1,3})(?!\d)/g,
     match => {
-      const whole = match[1], num = match[2], den = match[3];
+      const [, whole, num, den] = match;
       if (parseInt(den) === 0) return null;
-      return { type:'math', content:`${whole}\\dfrac{${num}}{${den}}`, display:false };
+      return { type:'math',
+        content:`${whole}\\dfrac{${num}}{${den}}`, display:false };
     }
   );
 
-  // ── Step 6: Negative fractions "-3/4" ──
+  // ── 6. Negative fractions "-3/4" ──
   tokens = extractPattern(tokens,
     /(?<![0-9])-(\d{1,4})\/(\d{1,4})(?![0-9])/g,
     match => {
-      const num = match[1], den = match[2];
+      const [, num, den] = match;
       if (parseInt(den) === 0) return null;
-      return { type:'math', content:`-\\dfrac{${num}}{${den}}`, display:false };
+      return { type:'math',
+        content:`-\\dfrac{${num}}{${den}}`, display:false };
     }
   );
 
-  // ── Step 7: Plain fractions "3/4" ──
-  // Guard: not preceded by $ £ € ¥ (money), not part of date/time
+  // ── 7. Plain fractions "3/4" ──
   tokens = extractPattern(tokens,
     /(?<![$/£€¥:])(?<!\d)(\d{1,4})\s*\/\s*(\d{1,4})(?![0-9a-zA-Z/])/g,
     match => {
-      const num = match[1], den = match[2];
+      const [, num, den] = match;
       if (parseInt(den) === 0) return null;
-      // Reject things like 1/1/2024 (dates) — context check
-      return { type:'math', content:`\\dfrac{${num}}{${den}}`, display:false };
+      return { type:'math',
+        content:`\\dfrac{${num}}{${den}}`, display:false };
     }
   );
 
-  // ── Step 8: Superscripts x^2, 10^{-3}, a^{n+1} ──
+  // ── 8. Superscripts x^2, 10^{-3}, a^{n+1} ──
   tokens = extractPattern(tokens,
     /([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     match => {
       const base = match[1];
-      const exp  = match[2].startsWith('{') ? match[2] : `{${match[2]}}`;
+      const exp  = match[2].startsWith('{')
+        ? match[2] : `{${match[2]}}`;
       return { type:'math', content:`${base}^${exp}`, display:false };
     }
   );
 
-  // ── Step 9: Unicode superscripts ² ³ ──
+  // ── 9. Unicode superscripts ² ³ ──
   tokens = extractPattern(tokens,
     /([a-zA-Z0-9]+)([²³])/g,
     match => {
       const base = match[1];
       const exp  = match[2] === '²' ? '2' : '3';
-      return { type:'math', content:`${base}^{${exp}}`, display:false };
+      return { type:'math',
+        content:`${base}^{${exp}}`, display:false };
     }
   );
 
-  // ── Step 10: Subscripts x_1, a_n ──
+  // ── 10. Subscripts x_1, a_n ──
   tokens = extractPattern(tokens,
     /(?<![a-zA-Z\d])([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     match => {
       const base = match[1];
-      const sub  = match[2].startsWith('{') ? match[2] : `{${match[2]}}`;
-      return { type:'math', content:`${base}_{${sub}}`, display:false };
+      const sub  = match[2].startsWith('{')
+        ? match[2] : `{${match[2]}}`;
+      return { type:'math',
+        content:`${base}_{${sub}}`, display:false };
     }
   );
 
-  // ── Step 11: sqrt() and cbrt() ──
+  // ── 11. sqrt() and cbrt() ──
   tokens = extractPattern(tokens,
     /\bsqrt\s*\(([^)]+)\)/gi,
-    match => ({ type:'math', content:`\\sqrt{${match[1].trim()}}`, display:false })
+    match => ({
+      type:'math',
+      content:`\\sqrt{${match[1].trim()}}`,
+      display:false
+    })
   );
   tokens = extractPattern(tokens,
     /\bcbrt\s*\(([^)]+)\)/gi,
-    match => ({ type:'math', content:`\\sqrt[3]{${match[1].trim()}}`, display:false })
+    match => ({
+      type:'math',
+      content:`\\sqrt[3]{${match[1].trim()}}`,
+      display:false
+    })
   );
 
-  // ── Step 12: Degrees "90°" or "90 degrees" ──
+  // ── 12. Degrees "90°" or "90 degrees" ──
   tokens = extractPattern(tokens,
     /(\d+(?:\.\d+)?)\s*°/g,
-    match => ({ type:'math', content:`${match[1]}^{\\circ}`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]}^{\\circ}`,
+      display:false
+    })
   );
   tokens = extractPattern(tokens,
     /(\d+(?:\.\d+)?)\s+degrees?\b/gi,
-    match => ({ type:'math', content:`${match[1]}^{\\circ}`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]}^{\\circ}`,
+      display:false
+    })
   );
 
-  // ── Step 13: Multiplication sign "3 × 4" or "3 x 4" ──
+  // ── 13. Multiplication sign "3 × 4" ──
   tokens = extractPattern(tokens,
     /(\d)\s*[×]\s*(\d)/g,
-    match => ({ type:'math', content:`${match[1]} \\times ${match[2]}`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]} \\times ${match[2]}`,
+      display:false
+    })
   );
 
-  // ── Step 14: Arrows → ──
+  // ── 14. Reaction arrows → ──
   tokens = extractPattern(tokens,
     /\s*→\s*/g,
     () => ({ type:'math', content:'\\rightarrow', display:false })
   );
 
-  // ── Step 15: Comparison operators >=, <=, != ──
+  // ── 15. Comparison operators >=, <=, != ──
   tokens = extractPattern(tokens,
     /([^<>!=])>=/g,
-    match => ({ type:'math', content:`${match[1]}\\geq`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]}\\geq`,
+      display:false
+    })
   );
   tokens = extractPattern(tokens,
     /([^<>!=])<=/g,
-    match => ({ type:'math', content:`${match[1]}\\leq`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]}\\leq`,
+      display:false
+    })
   );
   tokens = extractPattern(tokens,
     /([^!<>])!=/g,
-    match => ({ type:'math', content:`${match[1]}\\neq`, display:false })
+    match => ({
+      type:'math',
+      content:`${match[1]}\\neq`,
+      display:false
+    })
   );
 
-  // ── Step 16: Greek letters ──
+  // ── 16. Greek letters ──
   const greekRe = new RegExp(
     `\\b(${Object.keys(GREEK_MAP).join('|')})\\b`, 'g'
   );
-  tokens = extractPattern(tokens, greekRe, match => ({
-    type:'math', content: GREEK_MAP[match[1]], display:false
-  }));
+  tokens = extractPattern(tokens, greekRe,
+    match => ({
+      type:'math',
+      content: GREEK_MAP[match[1]],
+      display:false
+    })
+  );
 
-  // ── Step 17: Unit superscripts cm², m³ ──
+  // ── 17. Unit superscripts cm², m³ ──
   tokens = extractPattern(tokens,
     /\b(cm|mm|km|dm|m|ft|in|yd)([²³])/g,
     match => {
       const unit = match[1];
       const exp  = match[2] === '²' ? '2' : '3';
-      return { type:'math', content:`\\text{${unit}}^{${exp}}`, display:false };
+      return { type:'math',
+        content:`\\text{${unit}}^{${exp}}`, display:false };
     }
   );
 
-  // Convert remaining 'raw' tokens to 'text' segments
-  return tokens.map(tok => {
-    if (tok.type === 'raw') return { type:'text', content: tok.content };
-    return tok;
-  }).filter(tok => tok.content !== '');
+  // Convert any remaining 'raw' tokens to plain 'text'
+  return tokens
+    .map(tok => tok.type === 'raw'
+      ? { type:'text', content: tok.content }
+      : tok
+    )
+    .filter(tok => tok.content !== '');
 }
 
 // ════════════════════════════════════════════════════
 //  extractPattern(tokens, regex, replacer)
 //
-//  Core helper: walks each 'raw' token, applies regex,
-//  splits into [before-text, replacement, after-text].
-//  Non-raw tokens (math, state, text) are passed through.
+//  Core helper: applies regex only to 'raw' tokens.
+//  Splits: [before-text] [replacement] [after-text]
+//  Non-raw tokens pass through unchanged.
 //
-//  replacer(match) → segment object or null
-//  Returning null means "keep as raw text".
+//  replacer(match) → segment object, or null to keep raw
 // ════════════════════════════════════════════════════
 function extractPattern(tokens, regex, replacer) {
   const out = [];
 
   for (const tok of tokens) {
-    // Only process 'raw' tokens
+    // Only process raw tokens
     if (tok.type !== 'raw') {
       out.push(tok);
       continue;
     }
 
     const text = tok.content;
-    // Reset regex state
-    const re   = new RegExp(regex.source, regex.flags.includes('g')
-      ? regex.flags : regex.flags + 'g');
+    // Always use a fresh global regex to avoid lastIndex issues
+    const re = new RegExp(
+      regex.source,
+      regex.flags.includes('g') ? regex.flags : regex.flags + 'g'
+    );
+
     let last = 0;
     let m;
 
     while ((m = re.exec(text)) !== null) {
-      // Text before match
+      // Text before match → raw
       if (m.index > last) {
         out.push({ type:'raw', content: text.slice(last, m.index) });
       }
 
-      // Get replacement
+      // Apply replacer
       const replacement = replacer(m);
       if (replacement === null) {
-        // Keep as raw — put the matched text back
+        // Keep matched text as raw
         out.push({ type:'raw', content: m[0] });
       } else {
         out.push(replacement);
       }
 
       last = m.index + m[0].length;
+
+      // Safety: prevent infinite loop on zero-length matches
+      if (m[0].length === 0) { re.lastIndex++; }
     }
 
-    // Remaining text
+    // Remaining text after last match
     if (last < text.length) {
       out.push({ type:'raw', content: text.slice(last) });
     }
@@ -929,7 +980,7 @@ function extractPattern(tokens, regex, replacer) {
 
 // ════════════════════════════════════════════════════
 //  normalise(s)
-//  Used for answer comparison — strips formatting
+//  For answer comparison — strips formatting
 // ════════════════════════════════════════════════════
 function normalise(s) {
   return String(s || '')
@@ -1006,7 +1057,6 @@ function renderQuestion(container, qObj) {
     const table = document.createElement('table');
     table.className = 'q-table';
 
-    // Header
     const thead = document.createElement('thead');
     const hrow  = document.createElement('tr');
     qObj.table.headers.forEach(h => {
@@ -1017,7 +1067,6 @@ function renderQuestion(container, qObj) {
     thead.appendChild(hrow);
     table.appendChild(thead);
 
-    // Body
     const tbody   = document.createElement('tbody');
     const numCols = qObj.table.headers.length;
     qObj.table.rows.forEach((row, ri) => {
@@ -1085,21 +1134,21 @@ function playSound(type) {
   if (!audioCtx) return;
   const sounds = {
     flip:       () => { tone(300,'sine',0.07,0.1); tone(520,'sine',0.07,0.08,0.06); },
-    correct:    () => { [523,659,784].forEach((f,i) => tone(f,'sine',0.14,0.16,i*0.09)); },
-    wrong:      () => { [280,160,90].forEach((f,i)  => tone(f,'sawtooth',0.2,0.12,i*0.14)); },
+    correct:    () => { [523,659,784].forEach((f,i)  => tone(f,'sine',0.14,0.16,i*0.09)); },
+    wrong:      () => { [280,160,90].forEach((f,i)   => tone(f,'sawtooth',0.2,0.12,i*0.14)); },
     hit:        () => { tone(160,'sine',0.2,0.2); tone(80,'sine',0.16,0.15,0.1); },
     boss_hurt:  () => { tone(200,'sawtooth',0.12,0.15); tone(120,'sawtooth',0.18,0.12,0.1); },
-    bonus:      () => { [440,660,880].forEach((f,i) => tone(f,'triangle',0.14,0.16,i*0.1)); },
-    boss_heal:  () => { [300,200,140].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.14)); },
-    hero_heal:  () => { [440,550,660].forEach((f,i) => tone(f,'sine',0.12,0.15,i*0.1)); },
+    bonus:      () => { [440,660,880].forEach((f,i)  => tone(f,'triangle',0.14,0.16,i*0.1)); },
+    boss_heal:  () => { [300,200,140].forEach((f,i)  => tone(f,'sawtooth',0.3,0.12,i*0.14)); },
+    hero_heal:  () => { [440,550,660].forEach((f,i)  => tone(f,'sine',0.12,0.15,i*0.1)); },
     halved:     () => { [523,784,1047].forEach((f,i) => tone(f,'sine',0.18,0.16,i*0.1)); },
     double_dmg: () => { [660,880,1100].forEach((f,i) => tone(f,'triangle',0.15,0.16,i*0.08)); },
     timeout:    () => { tone(300,'sawtooth',0.38,0.14); },
     victory:    () => { [523,659,784,1047,1319].forEach((f,i) => tone(f,'sine',0.2,0.15,i*0.12)); },
-    defeat:     () => { [350,280,200,120].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.18)); },
-    streak3:    () => { [440,660,880,1100].forEach((f,i) => tone(f,'sine',0.15,0.18,i*0.08)); },
-    streak5:    () => { [523,784,1047,1319].forEach((f,i) => tone(f,'triangle',0.18,0.2,i*0.07)); },
-    levelup:    () => { [392,494,587,784].forEach((f,i) => tone(f,'sine',0.2,0.2,i*0.1)); },
+    defeat:     () => { [350,280,200,120].forEach((f,i)       => tone(f,'sawtooth',0.3,0.12,i*0.18)); },
+    streak3:    () => { [440,660,880,1100].forEach((f,i)      => tone(f,'sine',0.15,0.18,i*0.08)); },
+    streak5:    () => { [523,784,1047,1319].forEach((f,i)     => tone(f,'triangle',0.18,0.2,i*0.07)); },
+    levelup:    () => { [392,494,587,784].forEach((f,i)       => tone(f,'sine',0.2,0.2,i*0.1)); },
   };
   if (sounds[type]) sounds[type]();
 }
@@ -1407,7 +1456,6 @@ function pickCard(index) {
   activeSlot = index;
   const { question, damage } = roundCards[index];
 
-  // Disable all slots while answering
   for (let i = 0; i < CARDS_PER_ROUND; i++) {
     const s = document.getElementById(`slot-${i}`);
     if (s) { s.classList.add('disabled'); s.onclick = null; }
@@ -1437,14 +1485,11 @@ function pickCard(index) {
     ui.qpStreakBadge.classList.remove('hidden');
   }
 
-  // Render question
   renderQuestion(ui.qpQuestion, question);
 
-  // Clear old options
   while (ui.qpOptions.firstChild)
     ui.qpOptions.removeChild(ui.qpOptions.firstChild);
 
-  // Build options
   const opts      = shuffle([...(question.options || [])]);
   const answerRaw = String(question.answer || '').trim();
   const LETTERS   = ['A','B','C','D','E'];
@@ -1455,13 +1500,11 @@ function pickCard(index) {
     btn.className   = 'qp-opt';
     btn.dataset.raw = raw;
 
-    // Letter badge
     const letterSpan       = document.createElement('span');
     letterSpan.className   = 'opt-letter';
     letterSpan.textContent = LETTERS[idx] || '';
     btn.appendChild(letterSpan);
 
-    // Content
     const contentSpan     = document.createElement('span');
     contentSpan.className = 'opt-content';
     renderSafe(contentSpan, raw);
@@ -1473,7 +1516,6 @@ function pickCard(index) {
     ui.qpOptions.appendChild(btn);
   });
 
-  // Scroll to top of question
   if (ui.qpBody) ui.qpBody.scrollTop = 0;
 
   ui.questionPanel.classList.remove('hidden');
@@ -1582,7 +1624,6 @@ function handleAnswer(btn, selected, correct, damage, slotIdx) {
 
   } else {
     btn.classList.add('wrong');
-    // Reveal correct answer
     ui.qpOptions.querySelectorAll('.qp-opt').forEach(b => {
       if (normalise(b.dataset.raw) === normalise(correct))
         b.classList.add('correct');
@@ -1599,7 +1640,6 @@ function handleTimeout(correct, damage, slotIdx) {
   clearCardTimer();
   disableOptions();
 
-  // Reveal correct answer
   ui.qpOptions.querySelectorAll('.qp-opt').forEach(b => {
     if (normalise(b.dataset.raw) === normalise(correct))
       b.classList.add('correct');
@@ -1655,7 +1695,6 @@ function afterAnswer() {
     ui.questionPanel.classList.add('hidden');
     ui.phaseLabel.textContent = 'PICK A CARD';
 
-    // Return unanswered questions to pool
     roundCards.forEach((rc, i) => {
       if (!rc.answered) {
         questionPool.push(rc.question);
@@ -1727,7 +1766,6 @@ function pickBonusCard(index) {
   if (bs.classList.contains('revealed') ||
       bs.classList.contains('disabled')) return;
 
-  // Disable all bonus slots
   for (let i = 0; i < 3; i++) {
     const b = document.getElementById(`bslot-${i}`);
     if (b) { b.classList.add('disabled'); b.onclick = null; }
@@ -1753,7 +1791,6 @@ function pickBonusCard(index) {
     ui.bonusResult.classList.remove('hidden');
 
     setTimeout(() => {
-      // Reveal the other cards
       for (let i = 0; i < 3; i++) {
         if (i === index) continue;
         const b  = document.getElementById(`bslot-${i}`);
@@ -1885,9 +1922,9 @@ function _showFloat(el, text, color, duration = 1450) {
   }, duration);
 }
 
-function showDamageNum(text, color)         { _showFloat(ui.damageNumber,  text, color, 1450); }
-function showEffect(text, color = '#ffd700'){ _showFloat(ui.effectDisplay, text, color, 1550); }
-function showStreakDisplay(text, color)     { _showFloat(ui.streakDisplay,  text, color, 1650); }
+function showDamageNum(text, color)          { _showFloat(ui.damageNumber,  text, color, 1450); }
+function showEffect(text, color = '#ffd700') { _showFloat(ui.effectDisplay, text, color, 1550); }
+function showStreakDisplay(text, color)      { _showFloat(ui.streakDisplay,  text, color, 1650); }
 function showHealFloat(text) {
   _showFloat(ui.healDisplay, `${text} HP`, 'var(--hp-green)', 1450);
 }
@@ -1960,7 +1997,6 @@ function updateBars() {
   if (ui.playerHPText)
     ui.playerHPText.textContent = Math.ceil(Math.max(0, playerHP));
 
-  // Boss ring SVG
   if (ui.bossRingFill) {
     const circ = 213.6;
     ui.bossRingFill.style.strokeDashoffset = circ * (1 - bPct / 100);
@@ -1969,13 +2005,11 @@ function updateBars() {
       bPct < 50 ? '#cc4400' : '#ff3344';
   }
 
-  // Player HP bar colour
   ui.playerHPFill.style.background =
     pPct < 25 ? 'linear-gradient(90deg,#880000,var(--hp-red))' :
     pPct < 50 ? 'linear-gradient(90deg,#994400,#ff8800)' :
                 'linear-gradient(90deg,#1d4ed8,var(--cyan))';
 
-  // Boss sprite changes with HP
   const sprite =
     bPct > 75 ? '👹'    :
     bPct > 50 ? '😤👹' :
@@ -2060,18 +2094,18 @@ function buildBadges(acc, result) {
     ui.badgesRow.removeChild(ui.badgesRow.firstChild);
 
   const badges = [];
-  if (result === 'victory')        badges.push('💀 Boss Slayer');
-  if (acc === 100)                 badges.push('🎯 Perfect Score');
-  if (acc >= 80)                   badges.push('🌟 High Achiever');
+  if (result === 'victory')       badges.push('💀 Boss Slayer');
+  if (acc === 100)                badges.push('🎯 Perfect Score');
+  if (acc >= 80)                  badges.push('🌟 High Achiever');
   if (result === 'victory' && currentRound <= 10)
-                                   badges.push('⚡ Speed Runner');
-  if (playerHP >= 80)              badges.push('🛡️ Untouchable');
-  if (correctCount >= 10)          badges.push('🧠 Knowledge Master');
-  if (bestStreak >= 5)             badges.push('🔥 Streak Master');
-  if (bestStreak >= 10)            badges.push('💥 Unstoppable');
-  if (totalXP >= 200)              badges.push('⭐ XP Hunter');
-  if (doubleDmgActive)             badges.push('⚡ Double Dealer');
-  if (badges.length === 0)         badges.push('📚 Keep Studying!');
+                                  badges.push('⚡ Speed Runner');
+  if (playerHP >= 80)             badges.push('🛡️ Untouchable');
+  if (correctCount >= 10)         badges.push('🧠 Knowledge Master');
+  if (bestStreak >= 5)            badges.push('🔥 Streak Master');
+  if (bestStreak >= 10)           badges.push('💥 Unstoppable');
+  if (totalXP >= 200)             badges.push('⭐ XP Hunter');
+  if (doubleDmgActive)            badges.push('⚡ Double Dealer');
+  if (badges.length === 0)        badges.push('📚 Keep Studying!');
 
   badges.forEach(text => {
     const d = document.createElement('div');
@@ -2127,7 +2161,6 @@ function renderBoxPlot(bp) {
     return e;
   }
 
-  // Whisker lines
   svg.appendChild(el('line',{x1:xMin,y1:boxMid,x2:xMax,y2:boxMid,
     stroke:'#1e1e4e','stroke-width':2}));
   svg.appendChild(el('line',{x1:xMin,y1:boxMid,x2:xQ1,y2:boxMid,
@@ -2138,12 +2171,8 @@ function renderBoxPlot(bp) {
     stroke:'#00d4ff','stroke-width':2.5,'stroke-dasharray':'4,2'}));
   svg.appendChild(el('line',{x1:xMax,y1:boxMid-tickH,x2:xMax,y2:boxMid+tickH,
     stroke:'#00d4ff','stroke-width':2.5,'stroke-linecap':'round'}));
-
-  // IQR box
   svg.appendChild(el('rect',{x:xQ1,y:boxTop,width:xQ3-xQ1,height:boxH,
     fill:'rgba(168,85,247,0.22)',stroke:'#a855f7','stroke-width':2,rx:3}));
-
-  // Median line
   svg.appendChild(el('line',{x1:xMed,y1:boxTop,x2:xMed,y2:boxTop+boxH,
     stroke:'#ffd700','stroke-width':3,'stroke-linecap':'round'}));
 
