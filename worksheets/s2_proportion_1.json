@@ -1,0 +1,290 @@
+[
+  {
+    "question": "It is given that y is directly proportional to x. When x = 4, y = 20.",
+    "stem": "Find the constant of proportionality, k, in the equation y = kx.",
+    "options": [
+      "80",
+      "5",
+      "0.2",
+      "16"
+    ],
+    "answer": "5",
+    "time": 70
+  },
+  {
+    "question": "It is given that y is inversely proportional to x. When x = 6, y = 9.",
+    "stem": "Find the constant of proportionality, k, in the equation y = k / x.",
+    "options": [
+      "1.5",
+      "3",
+      "54",
+      "1.33"
+    ],
+    "answer": "54",
+    "time": 70
+  },
+  {
+    "question": "It is given that y is directly proportional to x².",
+    "stem": "If y = 72 when x = 6, find the value of k in the formula y = kx².",
+    "options": [
+      "12",
+      "0.5",
+      "3",
+      "2"
+    ],
+    "answer": "2",
+    "time": 75
+  },
+  {
+    "question": "The gravitational force F between two objects is inversely proportional to the square of the distance d between them.",
+    "stem": "If F = 20 when d = 3, find the constant of variation k in the formula F = k / d².",
+    "options": [
+      "60",
+      "180",
+      "540",
+      "2.22"
+    ],
+    "answer": "180",
+    "time": 80
+  },
+  {
+    "question": "A variable y is directly proportional to x.",
+    "stem": "What happens to the value of y if x is doubled?",
+    "options": [
+      "y quadruples",
+      "y is halved",
+      "y is doubled",
+      "y remains unchanged"
+    ],
+    "answer": "y is doubled",
+    "time": 65
+  },
+  {
+    "question": "The area of a circle A is directly proportional to the square of its radius r.",
+    "stem": "If the radius of the circle is tripled, how many times larger does the area become?",
+    "options": [
+      "3 times",
+      "27 times",
+      "9 times",
+      "6 times"
+    ],
+    "answer": "9 times",
+    "time": 70
+  },
+  {
+    "question": "The variable y is inversely proportional to x.",
+    "stem": "What happens to the value of y if x is halved?",
+    "options": [
+      "y is halved",
+      "y quadruples",
+      "y decreases by 4 times",
+      "y doubles"
+    ],
+    "answer": "y doubles",
+    "time": 70
+  },
+  {
+    "question": "The intensity of light I is inversely proportional to the square of the distance r from the light source.",
+    "stem": "If the distance r is doubled, how does the intensity I change?",
+    "options": [
+      "It quadruples",
+      "It is halved",
+      "It is reduced to 1/4 of its original value",
+      "It doubles"
+    ],
+    "answer": "It is reduced to 1/4 of its original value",
+    "time": 80
+  },
+  {
+    "question": "The period T of a pendulum is directly proportional to the square root of its length L.",
+    "stem": "If the length L is multiplied by 4, what happens to the period T?",
+    "options": [
+      "T is halved",
+      "T doubles",
+      "T quadruples",
+      "T increases by 16 times"
+    ],
+    "answer": "T doubles",
+    "time": 80
+  },
+  {
+    "question": "12 construction workers can build a boundary wall in 8 days.",
+    "stem": "Assuming all workers work at the same constant rate, how many days will it take 16 workers to build the same wall?",
+    "options": [
+      "10.67 days",
+      "9 days",
+      "4 days",
+      "6 days"
+    ],
+    "answer": "6 days",
+    "time": 85
+  },
+  {
+    "question": "A building contractor uses the formula N × D = k to calculate the time D (in days) taken by N painters to paint a building.",
+    "stem": "Which of the following is a necessary assumption for this inverse proportion model to hold true?",
+    "options": [
+      "The building increases in size over time",
+      "All painters work at the same constant rate",
+      "The cost of paint remains constant",
+      "Painters work faster when there are more people"
+    ],
+    "answer": "All painters work at the same constant rate",
+    "time": 80
+  },
+  {
+    "question": "A car travels a fixed distance between Town A and Town B. At an average speed of 60 km/h, the journey takes 3 hours.",
+    "stem": "How long will the journey take if the car travels at an average speed of 90 km/h?",
+    "options": [
+      "1.5 hours",
+      "2.5 hours",
+      "2 hours",
+      "4.5 hours"
+    ],
+    "answer": "2 hours",
+    "time": 80
+  },
+  {
+    "question": "A driver estimates that doubling his average driving speed will halve his travel time from Singapore to Malacca.",
+    "stem": "What key assumption must be made for this inverse proportion calculation to be valid?",
+    "options": [
+      "Fuel consumption doubles with speed",
+      "Traffic volume increases as speed increases",
+      "The route taken and distance remain unchanged, and average speed is uniform",
+      "The driver takes frequent rests along the highway"
+    ],
+    "answer": "The route taken and distance remain unchanged, and average speed is uniform",
+    "time": 80
+  },
+  {
+    "question": "The extension E cm of a spring is directly proportional to the mass m kg hung on it. A mass of 4 kg produces an extension of 10 cm.",
+    "stem": "What mass is required to produce an extension of 25 cm?",
+    "options": [
+      "8 kg",
+      "12.5 kg",
+      "10 kg",
+      "6.25 kg"
+    ],
+    "answer": "10 kg",
+    "time": 85
+  },
+  {
+    "question": "A student uses Hooke's Law (E = km) to calculate the extension of a spring when hanging heavy weights on it.",
+    "stem": "What assumption is required for this direct proportion relationship to remain accurate?",
+    "options": [
+      "The temperature of the room drops to freezing",
+      "The elastic limit of the spring is not exceeded",
+      "The spring is made of pure copper",
+      "The mass of the spring is greater than the hung weight"
+    ],
+    "answer": "The elastic limit of the spring is not exceeded",
+    "time": 80
+  },
+  {
+    "question": "At constant temperature, the volume V of a gas is inversely proportional to its pressure P. A gas occupies 120 cm³ at a pressure of 2 atm.",
+    "stem": "What will be the volume of the gas when the pressure is increased to 5 atm?",
+    "options": [
+      "300 cm³",
+      "60 cm³",
+      "24 cm³",
+      "48 cm³"
+    ],
+    "answer": "48 cm³",
+    "time": 85
+  },
+  {
+    "question": "The area A of a plot of land drawn on a map is directly proportional to the square of its actual side length L.",
+    "stem": "If the actual side length of a square plot is tripled, how many times larger will its area on the map become?",
+    "options": [
+      "27 times",
+      "9 times",
+      "3 times",
+      "6 times"
+    ],
+    "answer": "9 times",
+    "time": 75
+  },
+  {
+    "question": "The rotation speed N (in rpm) of a gear wheel is inversely proportional to the number of teeth T on the gear. Gear A has 20 teeth and rotates at 120 rpm.",
+    "stem": "Gear B meshes with Gear A and has 30 teeth. What is the rotation speed of Gear B?",
+    "options": [
+      "180 rpm",
+      "90 rpm",
+      "80 rpm",
+      "100 rpm"
+    ],
+    "answer": "80 rpm",
+    "time": 85
+  },
+  {
+    "question": "The mass M kg of a solid sphere of uniform density is directly proportional to the cube of its radius r cm. A sphere with radius 2 cm has a mass of 16 kg.",
+    "stem": "Find the mass of a sphere made of the same material with a radius of 3 cm.",
+    "options": [
+      "36 kg",
+      "54 kg",
+      "81 kg",
+      "24 kg"
+    ],
+    "answer": "54 kg",
+    "time": 90
+  },
+  {
+    "question": "It is given that y is inversely proportional to √x. When x = 16, y = 5.",
+    "stem": "Find the value of y when x = 64.",
+    "options": [
+      "10",
+      "3.125",
+      "2.5",
+      "1.25"
+    ],
+    "answer": "2.5",
+    "time": 85
+  },
+  {
+    "question": "A variable y is directly proportional to x².",
+    "stem": "If x is increased by 100% (doubled), what is the percentage increase in y?",
+    "options": [
+      "400%",
+      "300%",
+      "100%",
+      "200%"
+    ],
+    "answer": "300%",
+    "time": 90
+  },
+  {
+    "question": "The time T taken to tile a floor is inversely proportional to the number of tilers N. 4 tilers take 15 hours to complete the job.",
+    "stem": "If the tiling job needs to be completed in 6 hours, how many tilers in total must be hired?",
+    "options": [
+      "8 tilers",
+      "12 tilers",
+      "6 tilers",
+      "10 tilers"
+    ],
+    "answer": "10 tilers",
+    "time": 85
+  },
+  {
+    "question": "In a floor tiling problem modeled by N × T = 60, a manager assumes that 60 tilers will finish the floor in 1 hour.",
+    "stem": "Which fundamental mathematical assumption is required for this model to hold true?",
+    "options": [
+      "The cost of tiles decreases as more tilers are hired",
+      "The total area of the floor increases over time",
+      "All tilers work at the same constant rate",
+      "The work time increases as the number of tilers increases"
+    ],
+    "answer": "All tilers work at the same constant rate",
+    "time": 80
+  },
+  {
+    "question": "It is given that z is directly proportional to x³. When x = 2, z = 40.",
+    "stem": "Express z in terms of x.",
+    "options": [
+      "z = 20x³",
+      "z = 5x³",
+      "z = 5x²",
+      "z = 10x³"
+    ],
+    "answer": "z = 5x³",
+    "time": 75
+  }
+]
