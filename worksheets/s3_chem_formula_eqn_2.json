@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Balancing Chemical Equations: Combustion",
+    "stem": "Balance the combustion of propane: C3H8 + a O2 → b CO2 + c H2O. What are the balancing coefficients a, b, and c?",
+    "options": [
+      "5, 3, 4",
+      "3, 3, 4",
+      "5, 4, 3",
+      "4, 3, 5"
+    ],
+    "answer": "5, 3, 4",
+    "time": 70
+  },
+  {
+    "question": "Balancing Chemical Equations: Neutralisation",
+    "stem": "What is the missing coefficient for HNO3 in the equation: Ca(OH)2 + __ HNO3 → Ca(NO3)2 + 2H2O?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "time": 60
+  },
+  {
+    "question": "Balancing Chemical Equations: Thermal Decomposition",
+    "stem": "Balance the thermal decomposition of lead(II) nitrate: 2Pb(NO3)2 → 2PbO + x NO2 + O2. What is the value of x?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "time": 75
+  },
+  {
+    "question": "Balancing Chemical Equations: Blast Furnace Reduction",
+    "stem": "Balance the reaction between iron(III) oxide and carbon monoxide: Fe2O3 + 3CO → y Fe + 3CO2. What is the value of y?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "time": 60
+  },
+  {
+    "question": "Balancing Chemical Equations: Polyatomic Neutralisation",
+    "stem": "What set of coefficients (a, b, c, d) balances the equation: a KOH + b H3PO4 → c K3PO4 + d H2O?",
+    "options": [
+      "3, 1, 1, 3",
+      "1, 1, 1, 3",
+      "3, 1, 1, 1",
+      "3, 3, 1, 3"
+    ],
+    "answer": "3, 1, 1, 3",
+    "time": 75
+  },
+  {
+    "question": "Balancing Chemical Equations: Direct Combination",
+    "stem": "Balance the reaction between iron and chlorine gas: 2Fe + 3Cl2 → x FeCl3. What is the value of x?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "6"
+    ],
+    "answer": "2",
+    "time": 55
+  },
+  {
+    "question": "Chemical Equations: Precipitation State Symbols",
+    "stem": "Aqueous barium chloride is mixed with aqueous sodium sulfate. A white precipitate of barium sulfate forms alongside aqueous sodium chloride. What is the state symbol for barium sulfate?",
+    "options": [
+      "(s)",
+      "(aq)",
+      "(l)",
+      "(g)"
+    ],
+    "answer": "(s)",
+    "time": 60
+  },
+  {
+    "question": "Chemical Equations: Metal and Acid State Symbols",
+    "stem": "Zinc metal reacts with dilute sulfuric acid to produce aqueous zinc sulfate and hydrogen gas. What are the correct state symbols for zinc metal and hydrogen gas?",
+    "options": [
+      "Zn(s) and H2(g)",
+      "Zn(aq) and H2(g)",
+      "Zn(s) and H2(aq)",
+      "Zn(l) and H2(g)"
+    ],
+    "answer": "Zn(s) and H2(g)",
+    "time": 65
+  },
+  {
+    "question": "Chemical Equations: Combustion State Symbols",
+    "stem": "When pure liquid ethanol (C2H5OH) burns in oxygen gas, carbon dioxide gas and water vapour (steam) are produced. What are the state symbols for ethanol and water vapour?",
+    "options": [
+      "C2H5OH(l) and H2O(g)",
+      "C2H5OH(aq) and H2O(l)",
+      "C2H5OH(l) and H2O(l)",
+      "C2H5OH(s) and H2O(g)"
+    ],
+    "answer": "C2H5OH(l) and H2O(g)",
+    "time": 70
+  },
+  {
+    "question": "Chemical Equations: Dissolution State Symbols",
+    "stem": "Solid ammonium chloride dissolves completely in water to form a clear solution. What is the state symbol of ammonium chloride after dissolving?",
+    "options": [
+      "(aq)",
+      "(s)",
+      "(l)",
+      "(g)"
+    ],
+    "answer": "(aq)",
+    "time": 55
+  },
+  {
+    "question": "Chemical Equations: Complete Neutralisation State Symbols",
+    "stem": "Dilute nitric acid is added to aqueous potassium hydroxide to form aqueous potassium nitrate and liquid water. Which equation correctly shows all state symbols?",
+    "options": [
+      "HNO3(aq) + KOH(aq) → KNO3(aq) + H2O(l)",
+      "HNO3(l) + KOH(aq) → KNO3(s) + H2O(l)",
+      "HNO3(aq) + KOH(s) → KNO3(aq) + H2O(g)",
+      "HNO3(aq) + KOH(aq) → KNO3(s) + H2O(aq)"
+    ],
+    "answer": "HNO3(aq) + KOH(aq) → KNO3(aq) + H2O(l)",
+    "time": 75
+  },
+  {
+    "question": "Chemical Equations: Gas Production State Symbols",
+    "stem": "Solid silver nitrate is heated strongly until it decomposes into solid silver, brown nitrogen dioxide gas, and oxygen gas. What is the state symbol for nitrogen dioxide?",
+    "options": [
+      "(g)",
+      "(s)",
+      "(l)",
+      "(aq)"
+    ],
+    "answer": "(g)",
+    "time": 60
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "What is the correct chemical formula for dinitrogen tetroxide?",
+    "options": [
+      "N2O4",
+      "NO2",
+      "N4O2",
+      "2NO2"
+    ],
+    "answer": "N2O4",
+    "time": 55
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "What is the chemical formula for tetrachloromethane (carbon tetrachloride)?",
+    "options": [
+      "CCl4",
+      "C4Cl",
+      "CHCl3",
+      "CCl2"
+    ],
+    "answer": "CCl4",
+    "time": 55
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "What is the chemical formula for an ammonia molecule?",
+    "options": [
+      "NH3",
+      "NH4+",
+      "NH4Cl",
+      "NO2"
+    ],
+    "answer": "NH3",
+    "time": 50
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "Which formula correctly represents a molecule of sulfur trioxide gas?",
+    "options": [
+      "SO3",
+      "SO2",
+      "SO4^2-",
+      "S3O"
+    ],
+    "answer": "SO3",
+    "time": 50
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "Methane is the main constituent of natural gas. What is its chemical formula?",
+    "options": [
+      "CH4",
+      "C2H6",
+      "CO2",
+      "CH3OH"
+    ],
+    "answer": "CH4",
+    "time": 50
+  },
+  {
+    "question": "Writing Chemical Formulas: Covalent Molecules",
+    "stem": "What is the correct chemical formula for phosphorus trichloride?",
+    "options": [
+      "PCl3",
+      "P3Cl",
+      "PCl5",
+      "POCl3"
+    ],
+    "answer": "PCl3",
+    "time": 55
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "In the ionic compound iron(III) sulfate, Fe2(SO4)3, what are the correct formulas and charges of the cation and anion present?",
+    "options": [
+      "Cation: Fe^3+, Anion: SO4^2-",
+      "Cation: Fe^2+, Anion: SO4^3-",
+      "Cation: Fe^3+, Anion: SO4^-",
+      "Cation: Fe^2+, Anion: SO4^2-"
+    ],
+    "answer": "Cation: Fe^3+, Anion: SO4^2-",
+    "time": 65
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "An unknown metal M forms an ionic nitrate with the formula M(NO3)2. What is the charge on the metal ion M?",
+    "options": [
+      "2+",
+      "1+",
+      "3+",
+      "2-"
+    ],
+    "answer": "2+",
+    "time": 60
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "Ammonium phosphate has the chemical formula (NH4)3PO4. What is the formula and charge of the phosphate anion present?",
+    "options": [
+      "PO4^3-",
+      "PO4^-",
+      "PO4^2-",
+      "P^3-"
+    ],
+    "answer": "PO4^3-",
+    "time": 60
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "An oxide of a metal X has the formula X2O3. What is the charge on the metal ion X?",
+    "options": [
+      "3+",
+      "2+",
+      "1+",
+      "3-"
+    ],
+    "answer": "3+",
+    "time": 60
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "In copper(I) oxide, Cu2O, what is the charge on the copper ion?",
+    "options": [
+      "1+",
+      "2+",
+      "3+",
+      "1-"
+    ],
+    "answer": "1+",
+    "time": 60
+  },
+  {
+    "question": "Identifying Ions from Chemical Formulas",
+    "stem": "Which pair of ions combines to form chromium(III) hydroxide, Cr(OH)3?",
+    "options": [
+      "Cr^3+ and OH^-",
+      "Cr^2+ and OH^-",
+      "Cr^3+ and OH^3-",
+      "Cr^+ and OH^-"
+    ],
+    "answer": "Cr^3+ and OH^-",
+    "time": 65
+  }
+]
