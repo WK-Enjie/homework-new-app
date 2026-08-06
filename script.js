@@ -1,12 +1,11 @@
 /* =====================================================
-   CARD QUEST — script.js  v6.2
+   CARD QUEST — script.js  v6.3
    FIXES:
-     • Chemical formulas render correctly in options
+     • Chemical formulas render correctly without 'texttext' bug
+     • Tokenized single-pass chemical-to-LaTeX converter
      • State symbols (s)(aq)(g)(l) stay as plain text
-     • Prose mode now handles chemical formulas
-     • Ca(NO3)2, Fe2O3, ZnCl2 all render cleanly
-     • Money $52.40 still protected
-     • No more \, fragments
+     • Prose mode handles Ca(NO3)2, Fe2O3, ZnCl2 cleanly
+     • Money $52.40 protected
    ===================================================== */
 'use strict';
 
@@ -209,7 +208,7 @@ function init() {
   }, { passive: false });
 
   katexReady = (typeof katex !== 'undefined');
-  console.log(`✅ Card Quest v6.2 ready | KaTeX: ${katexReady}`);
+  console.log(`✅ Card Quest v6.3 ready | KaTeX: ${katexReady}`);
 }
 
 document.readyState === 'loading'
@@ -370,15 +369,10 @@ const GREEK_MAP = {
 
 // ════════════════════════════════════════════════════
 //  STATE SYMBOLS — always plain text, never math
-//  Matches: (s), (l), (g), (aq), (s), etc.
-//  These must be protected BEFORE any chemical
-//  formula processing runs.
 // ════════════════════════════════════════════════════
 const STATE_SYMBOL_RE = /\((s|l|g|aq)\)/g;
 
 function protectStateSymbols(s) {
-  // Replace (s),(l),(g),(aq) with placeholders
-  // so they are never processed as math
   return s.replace(STATE_SYMBOL_RE, (m, sym) => `⟦${sym}⟧`);
 }
 
@@ -388,89 +382,37 @@ function restoreStateSymbols(s) {
 
 // ════════════════════════════════════════════════════
 //  isChemicalFormula(str)
-//  More precise detection for science questions.
-//  Handles: H2O, CO2, Fe2O3, Ca(NO3)2, NaOH, ZnCl2
-//  Rejects: plain English words, protected acronyms
 // ════════════════════════════════════════════════════
 function isChemicalFormula(str) {
   if (!str || str.length < 2)      return false;
   if (PROTECTED_CAPS.has(str))     return false;
 
-  // Must start with uppercase
   if (!/^[A-Z]/.test(str)) return false;
 
-  // Must contain digit OR multiple element symbols
   const hasDigit      = /\d/.test(str);
   const hasMultiElem  = /[A-Z][a-z]?[A-Z]/.test(str);
   const hasParenDigit = /\([A-Za-z]+\)\d/.test(str);
 
   if (!hasDigit && !hasMultiElem && !hasParenDigit) return false;
 
-  // Reject plain English words (Title Case words ending in lowercase)
-  // e.g. "Copper", "Solid", "Aqueous"
   if (/^[A-Z][a-z]{3,}$/.test(str)) return false;
-
-  // Reject if it's just a number with a capital
   if (/^[A-Z]\d+$/.test(str) && str.length <= 3) return false;
 
   return true;
 }
 
 // ════════════════════════════════════════════════════
-//  chemicalToLatex(str)
-//  Converts chemical formula to LaTeX.
-//  H2O        → \text{H}_{2}\text{O}
-//  Ca(NO3)2   → \text{Ca}(\text{N}\text{O}_{3})_{2}
-//  Fe2O3      → \text{Fe}_{2}\text{O}_{3}
-//  NaOH       → \text{Na}\text{O}\text{H}
+//  chemicalToLatex(str) — FIXED v6.3
+//  Single-pass tokenizer preventing nested \text{} matches
 // ════════════════════════════════════════════════════
 function chemicalToLatex(str) {
-  let s = str;
-
-  // Step 1: Handle (group)n patterns: Ca(NO3)2
-  s = s.replace(
-    /\(([^)]+)\)(\d+)/g,
-    (_, inner, n) => {
-      // Convert inner group
-      let innerLatex = inner
-        .replace(/([A-Za-z]+)(\d+)/g,
-          (__, L, D) => `\\text{${L}}_{${D}}`)
-        .replace(/([A-Za-z]+)/g,
-          (__, L) => `\\text{${L}}`);
-      return `(${innerLatex})_{${n}}`;
-    }
-  );
-
-  // Step 2: Handle (group) without subscript: (OH) in Al(OH)3 already done above
-  // Handle remaining (group) with no digit — leave parens, convert inside
-  s = s.replace(
-    /\(([^)]+)\)(?!\d)/g,
-    (_, inner) => {
-      let innerLatex = inner
-        .replace(/([A-Za-z]+)(\d+)/g,
-          (__, L, D) => `\\text{${L}}_{${D}}`)
-        .replace(/([A-Za-z]+)/g,
-          (__, L) => `\\text{${L}}`);
-      return `(${innerLatex})`;
-    }
-  );
-
-  // Step 3: Element + subscript: Fe2, O3, Cl2
-  s = s.replace(
-    /([A-Za-z]+)(\d+)/g,
-    (_, L, D) => `\\text{${L}}_{${D}}`
-  );
-
-  // Step 4: Remaining letters → \text{}
-  s = s.replace(
-    /([A-Za-z]+)/g,
-    (_, L) => {
-      if (L.startsWith('\\')) return L; // already LaTeX
-      return `\\text{${L}}`;
-    }
-  );
-
-  return s;
+  if (!str) return '';
+  return str.replace(/([A-Z][a-z]?)|(\d+)|([()])/g, (match, elem, num, paren) => {
+    if (elem)  return `\\text{${elem}}`;
+    if (num)   return `_{${num}}`;
+    if (paren) return paren;
+    return match;
+  });
 }
 
 // ════════════════════════════════════════════════════
@@ -500,11 +442,9 @@ function splitOnMarkers(s) {
   parts.forEach((part, i) => {
     if (!part) return;
     if (i % 2 === 1) {
-      // Restore state symbols inside math segments
       const restored = restoreStateSymbols(part.trim());
       out.push({ type: 'math', content: restored, display: false });
     } else {
-      // Restore state symbols in plain text
       const restored = restoreStateSymbols(part);
       if (restored) out.push({ type: 'text', content: restored });
     }
@@ -514,17 +454,8 @@ function splitOnMarkers(s) {
 
 // ════════════════════════════════════════════════════
 //  processChemicalFormulas(s)
-//  ─────────────────────────
-//  Shared chemical formula conversion for BOTH
-//  prose and math modes. Handles:
-//    • Simple: H2O, CO2, NaCl, Fe2O3
-//    • Parenthesised: Ca(NO3)2, Al(OH)3, (NH4)2CO3
-//    • With state symbols already protected: H2O⟦aq⟧
 // ════════════════════════════════════════════════════
 function processChemicalFormulas(s) {
-  // Match chemical formula patterns:
-  // Optional leading ( for (NH4)2CO3 type
-  // Then uppercase + alphanumeric + optional (group)n
   s = s.replace(
     /\b([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)*(?:[A-Za-z]*\d*)*)\b/g,
     match => {
@@ -534,7 +465,6 @@ function processChemicalFormulas(s) {
     }
   );
 
-  // Also handle formulas starting with ( like (NH4)2CO3
   s = s.replace(
     /(\([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)?\)\d+[A-Z][a-zA-Z0-9]*)/g,
     match => {
@@ -547,50 +477,29 @@ function processChemicalFormulas(s) {
 }
 
 // ════════════════════════════════════════════════════
-//  processPlainSegment  v6.2
-//
-//  PROSE MODE: text with 2+ long English words
-//    → Chemical formulas ✅
-//    → State symbols protected ✅
-//    → Superscripts ✅
-//    → NO aggressive equation parsing
-//
-//  MATH MODE: pure/near-pure math
-//    → Full pipeline
+//  processPlainSegment  v6.3
 // ════════════════════════════════════════════════════
 function processPlainSegment(text) {
   if (!text) return [];
 
-  // Count long English words to detect prose
   const longWords = (text.match(/\b[a-zA-Z]{4,}\b/g) || []).length;
   const isProse   = longWords >= 2;
 
-  // ── Step 0: Protect state symbols FIRST ──
-  // (s), (l), (g), (aq) → placeholders
-  // This prevents them being parsed as math grouping
   let s = protectStateSymbols(text);
 
   if (isProse) {
-    // ════════════════════════════════════
-    //  PROSE MODE
-    // ════════════════════════════════════
-
-    // Chemical formulas (works in prose too)
     s = processChemicalFormulas(s);
 
-    // Unicode superscripts attached to digits/letters
     s = s.replace(/(\d+)²/g, (_, n) => `§${n}^{2}§`);
     s = s.replace(/(\d+)³/g, (_, n) => `§${n}^{3}§`);
     s = s.replace(/([a-zA-Z])²/g, (_, c) => `§${c}^{2}§`);
     s = s.replace(/([a-zA-Z])³/g, (_, c) => `§${c}^{3}§`);
 
-    // Explicit digit^digit (e.g. 10^2)
     s = s.replace(
       /\b(\d+)\^(\d+)\b/g,
       (_, base, exp) => `§${base}^{${exp}}§`
     );
 
-    // Simple fractions — protected from money
     s = s.replace(
       /(?<![$/£€¥\w])(\d{1,3})\/(\d{1,3})(?![\d\w])/g,
       (full, num, den) => {
@@ -599,13 +508,11 @@ function processPlainSegment(text) {
       }
     );
 
-    // Degrees
     s = s.replace(
       /(\d+(?:\.\d+)?)\s*°/g,
       (_, n) => `§${n}^{\\circ}§`
     );
 
-    // Greek letters
     const greekRe = new RegExp(
       `\\b(${Object.keys(GREEK_MAP).join('|')})\\b`, 'g'
     );
@@ -613,20 +520,12 @@ function processPlainSegment(text) {
       GREEK_MAP[m] ? `§${GREEK_MAP[m]}§` : m
     );
 
-    // Arrow → stays as unicode text (renders fine)
-    // No merge of adjacent segments in prose mode
-
     return splitOnMarkers(s);
   }
 
-  // ════════════════════════════════════
-  //  MATH MODE — full pipeline
-  // ════════════════════════════════════
-
-  // Step 1: Scientific notation
+  // MATH MODE
   s = scientificToLatex(s);
 
-  // Step 2: Greek letters
   const greekRe = new RegExp(
     `\\b(${Object.keys(GREEK_MAP).join('|')})\\b`, 'g'
   );
@@ -634,10 +533,8 @@ function processPlainSegment(text) {
     GREEK_MAP[m] ? `§${GREEK_MAP[m]}§` : m
   );
 
-  // Step 3: Chemical formulas
   s = processChemicalFormulas(s);
 
-  // Step 4: Unicode superscripts
   s = s.replace(
     /\b(cm|mm|km|dm|m|ft|in|yd)([²³])/g,
     (_, unit, exp) =>
@@ -648,7 +545,6 @@ function processPlainSegment(text) {
   s = s.replace(/([a-zA-Z])²/g, (_, c) => `§${c}^{2}§`);
   s = s.replace(/([a-zA-Z])³/g, (_, c) => `§${c}^{3}§`);
 
-  // Step 5: Negative fractions
   s = s.replace(
     /(?<![§\d\w^])-(\d{1,4})\/(\d{1,4})(?![/\d\w])/g,
     (full, num, den, offset, orig) => {
@@ -659,7 +555,6 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 6: Mixed numbers
   s = s.replace(
     /(?<!\d)(\d+)\s+(\d{1,3})\/(\d{1,3})(?!\d)/g,
     (_, whole, num, den) => {
@@ -668,7 +563,6 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 7: Simple fractions
   s = s.replace(
     /(?<![$/£€¥:§\w])(\d{1,4})\s*\/\s*(\d{1,4})(?![/\d\w(])/g,
     (full, num, den, offset, orig) => {
@@ -682,7 +576,6 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 8: Powers
   s = s.replace(
     /([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     (_, base, exp) => {
@@ -691,19 +584,16 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 9: Square roots
   s = s.replace(
     /\bsqrt\s*\(([^)]+)\)/gi,
     (_, inner) => `§\\sqrt{${inner.trim()}}§`
   );
 
-  // Step 10: Cube roots
   s = s.replace(
     /\bcbrt\s*\(([^)]+)\)/gi,
     (_, inner) => `§\\sqrt[3]{${inner.trim()}}§`
   );
 
-  // Step 11: Subscripts
   s = s.replace(
     /(?<![§a-zA-Z\d])([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     (_, base, sub) => {
@@ -712,16 +602,13 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 12: Relational operators
   s = s.replace(/([^<>!=])>=([^=])/g, (_, a, b) => `${a}§\\geq§${b}`);
   s = s.replace(/([^<>!=])<=([^=])/g, (_, a, b) => `${a}§\\leq§${b}`);
   s = s.replace(/([^!<>])!=([^=])/g,  (_, a, b) => `${a}§\\neq§${b}`);
   s = s.replace(/\s*->\s*/g, ' §\\rightarrow§ ');
 
-  // Step 13: Multiplication
   s = s.replace(/(\d)\s*×\s*(\d)/g, (_, a, b) => `§${a} \\times ${b}§`);
 
-  // Step 14: Degrees
   s = s.replace(
     /(\d+(?:\.\d+)?)\s*°/g,
     (_, n) => `§${n}^{\\circ}§`
@@ -731,7 +618,6 @@ function processPlainSegment(text) {
     (_, n) => `§${n}^{\\circ}§`
   );
 
-  // Step 15: Merge adjacent math segments
   for (let pass = 0; pass < 3; pass++) {
     s = s.replace(/§([^§]*)§(\s*)§([^§]*)§/g, (_, a, sp, b) => {
       return `§${a}${sp ? '\\;' : '\\,'}${b}§`;
@@ -742,8 +628,7 @@ function processPlainSegment(text) {
 }
 
 // ════════════════════════════════════════════════════
-//  convertToSegments  v6.2
-//  $ before digit = money, not math
+//  convertToSegments  v6.3
 // ════════════════════════════════════════════════════
 function convertToSegments(raw) {
   if (raw === null || raw === undefined) return [];
@@ -752,8 +637,6 @@ function convertToSegments(raw) {
 
   const out = [];
 
-  // $$ = display math
-  // $x$ = inline math ONLY when not followed by digit
   const MATH_RE = /(\$\$[\s\S]+?\$\$|\$(?![\d.,])(?!\s)[^$\n]{1,300}?\$(?![\d\w]))/g;
 
   let lastIndex = 0;
@@ -798,8 +681,6 @@ function processPlainChunk(text) {
 
 // ════════════════════════════════════════════════════
 //  renderSegments
-//  Plain text → createTextNode (KaTeX never sees it)
-//  Math → katex.renderToString → span
 // ════════════════════════════════════════════════════
 function renderSegments(el, segments) {
   while (el.firstChild) el.removeChild(el.firstChild);
@@ -830,15 +711,13 @@ function renderSegments(el, segments) {
   });
 }
 
-// ── Public render helper ──
 function renderSafe(el, rawText) {
   if (!el) return;
   renderSegments(el, convertToSegments(rawText));
 }
 
 // ════════════════════════════════════════════════════
-//  normalise()  v6.2
-//  Strips math wrappers and normalises for comparison
+//  normalise()
 // ════════════════════════════════════════════════════
 function normalise(s) {
   return String(s || '')
@@ -864,7 +743,6 @@ function normalise(s) {
 function renderQuestion(container, qObj) {
   while (container.firstChild) container.removeChild(container.firstChild);
 
-  // 1. Background paragraph(s)
   if (qObj.question && qObj.question.trim()) {
     const paragraphs = qObj.question.split(/\n\n+/);
     paragraphs.forEach(para => {
@@ -899,7 +777,6 @@ function renderQuestion(container, qObj) {
     });
   }
 
-  // 2. Data table
   if (
     qObj.table &&
     Array.isArray(qObj.table.headers) &&
@@ -940,13 +817,11 @@ function renderQuestion(container, qObj) {
     container.appendChild(wrapper);
   }
 
-  // 3. Box plot
   if (qObj.boxplot) {
     const bpEl = renderBoxPlot(qObj.boxplot);
     if (bpEl) container.appendChild(bpEl);
   }
 
-  // 4. Stem
   if (qObj.stem && qObj.stem.trim()) {
     const stemEl = document.createElement('p');
     stemEl.className = 'q-stem';
@@ -988,22 +863,22 @@ function tone(freq, type, dur, vol = 0.14, delay = 0) {
 function playSound(type) {
   if (!audioCtx) return;
   const sounds = {
-    flip:       () => { tone(300,'sine',0.07,0.1); tone(520,'sine',0.07,0.08,0.06); },
-    correct:    () => { [523,659,784].forEach((f,i) => tone(f,'sine',0.14,0.16,i*0.09)); },
-    wrong:      () => { [280,160,90].forEach((f,i) => tone(f,'sawtooth',0.2,0.12,i*0.14)); },
-    hit:        () => { tone(160,'sine',0.2,0.2); tone(80,'sine',0.16,0.15,0.1); },
-    boss_hurt:  () => { tone(200,'sawtooth',0.12,0.15); tone(120,'sawtooth',0.18,0.12,0.1); },
-    bonus:      () => { [440,660,880].forEach((f,i) => tone(f,'triangle',0.14,0.16,i*0.1)); },
-    boss_heal:  () => { [300,200,140].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.14)); },
-    hero_heal:  () => { [440,550,660].forEach((f,i) => tone(f,'sine',0.12,0.15,i*0.1)); },
-    halved:     () => { [523,784,1047].forEach((f,i) => tone(f,'sine',0.18,0.16,i*0.1)); },
-    double_dmg: () => { [660,880,1100].forEach((f,i) => tone(f,'triangle',0.15,0.16,i*0.08)); },
-    timeout:    () => { tone(300,'sawtooth',0.38,0.14); },
-    victory:    () => { [523,659,784,1047,1319].forEach((f,i) => tone(f,'sine',0.2,0.15,i*0.12)); },
-    defeat:     () => { [350,280,200,120].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.18)); },
-    streak3:    () => { [440,660,880,1100].forEach((f,i) => tone(f,'sine',0.15,0.18,i*0.08)); },
-    streak5:    () => { [523,784,1047,1319].forEach((f,i) => tone(f,'triangle',0.18,0.2,i*0.07)); },
-    levelup:    () => { [392,494,587,784].forEach((f,i) => tone(f,'sine',0.2,0.2,i*0.1)); },
+    flip:        () => { tone(300,'sine',0.07,0.1); tone(520,'sine',0.07,0.08,0.06); },
+    correct:     () => { [523,659,784].forEach((f,i) => tone(f,'sine',0.14,0.16,i*0.09)); },
+    wrong:       () => { [280,160,90].forEach((f,i) => tone(f,'sawtooth',0.2,0.12,i*0.14)); },
+    hit:         () => { tone(160,'sine',0.2,0.2); tone(80,'sine',0.16,0.15,0.1); },
+    boss_hurt:   () => { tone(200,'sawtooth',0.12,0.15); tone(120,'sawtooth',0.18,0.12,0.1); },
+    bonus:       () => { [440,660,880].forEach((f,i) => tone(f,'triangle',0.14,0.16,i*0.1)); },
+    boss_heal:   () => { [300,200,140].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.14)); },
+    hero_heal:   () => { [440,550,660].forEach((f,i) => tone(f,'sine',0.12,0.15,i*0.1)); },
+    halved:      () => { [523,784,1047].forEach((f,i) => tone(f,'sine',0.18,0.16,i*0.1)); },
+    double_dmg:  () => { [660,880,1100].forEach((f,i) => tone(f,'triangle',0.15,0.16,i*0.08)); },
+    timeout:     () => { tone(300,'sawtooth',0.38,0.14); },
+    victory:     () => { [523,659,784,1047,1319].forEach((f,i) => tone(f,'sine',0.2,0.15,i*0.12)); },
+    defeat:      () => { [350,280,200,120].forEach((f,i) => tone(f,'sawtooth',0.3,0.12,i*0.18)); },
+    streak3:     () => { [440,660,880,1100].forEach((f,i) => tone(f,'sine',0.15,0.18,i*0.08)); },
+    streak5:     () => { [523,784,1047,1319].forEach((f,i) => tone(f,'triangle',0.18,0.2,i*0.07)); },
+    levelup:     () => { [392,494,587,784].forEach((f,i) => tone(f,'sine',0.2,0.2,i*0.1)); },
   };
   if (sounds[type]) sounds[type]();
 }
@@ -1948,18 +1823,18 @@ function buildBadges(acc, result) {
     ui.badgesRow.removeChild(ui.badgesRow.firstChild);
 
   const badges = [];
-  if (result === 'victory')                badges.push('💀 Boss Slayer');
-  if (acc === 100)                         badges.push('🎯 Perfect Score');
-  if (acc >= 80)                           badges.push('🌟 High Achiever');
+  if (result === 'victory')                 badges.push('💀 Boss Slayer');
+  if (acc === 100)                          badges.push('🎯 Perfect Score');
+  if (acc >= 80)                            badges.push('🌟 High Achiever');
   if (result === 'victory' && currentRound <= 10)
-                                           badges.push('⚡ Speed Runner');
-  if (playerHP >= 80)                      badges.push('🛡️ Untouchable');
+                                            badges.push('⚡ Speed Runner');
+  if (playerHP >= 80)                       badges.push('🛡️ Untouchable');
   if (correctCount >= 10)                  badges.push('🧠 Knowledge Master');
-  if (bestStreak >= 5)                     badges.push('🔥 Streak Master');
-  if (bestStreak >= 10)                    badges.push('💥 Unstoppable');
+  if (bestStreak >= 5)                      badges.push('🔥 Streak Master');
+  if (bestStreak >= 10)                     badges.push('💥 Unstoppable');
   if (totalXP >= 200)                      badges.push('⭐ XP Hunter');
-  if (doubleDmgActive)                     badges.push('⚡ Double Dealer');
-  if (badges.length === 0)                 badges.push('📚 Keep Studying!');
+  if (doubleDmgActive)                      badges.push('⚡ Double Dealer');
+  if (badges.length === 0)                  badges.push('📚 Keep Studying!');
 
   badges.forEach(text => {
     const d = document.createElement('div');
