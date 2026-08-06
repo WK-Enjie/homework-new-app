@@ -1,11 +1,12 @@
 /* =====================================================
-   CARD QUEST — script.js  v6.1
+   CARD QUEST — script.js  v6.2
    FIXES:
-     • $52.40 money no longer turns blue
-     • "10² + 24² = 26²" renders cleanly in options
-     • No more \, fragments in prose text
-     • Prose mode for option text with English words
-     • normalise() strips math wrappers for comparison
+     • Chemical formulas render correctly in options
+     • State symbols (s)(aq)(g)(l) stay as plain text
+     • Prose mode now handles chemical formulas
+     • Ca(NO3)2, Fe2O3, ZnCl2 all render cleanly
+     • Money $52.40 still protected
+     • No more \, fragments
    ===================================================== */
 'use strict';
 
@@ -208,7 +209,7 @@ function init() {
   }, { passive: false });
 
   katexReady = (typeof katex !== 'undefined');
-  console.log(`✅ Card Quest v6.1 ready | KaTeX: ${katexReady}`);
+  console.log(`✅ Card Quest v6.2 ready | KaTeX: ${katexReady}`);
 }
 
 document.readyState === 'loading'
@@ -338,7 +339,7 @@ function waitForKaTeX() {
 }
 
 // ════════════════════════════════════════════════════
-//  PROTECTED CAPS — never treated as chemical formulas
+//  PROTECTED CAPS
 // ════════════════════════════════════════════════════
 const PROTECTED_CAPS = new Set([
   'SGD','USD','EUR','GBP','JPY','AUD','CAD','HKD','CNY',
@@ -351,7 +352,7 @@ const PROTECTED_CAPS = new Set([
 ]);
 
 // ════════════════════════════════════════════════════
-//  GREEK LETTERS → LaTeX
+//  GREEK LETTERS
 // ════════════════════════════════════════════════════
 const GREEK_MAP = {
   alpha:'\\alpha', beta:'\\beta', gamma:'\\gamma',
@@ -368,42 +369,108 @@ const GREEK_MAP = {
 };
 
 // ════════════════════════════════════════════════════
+//  STATE SYMBOLS — always plain text, never math
+//  Matches: (s), (l), (g), (aq), (s), etc.
+//  These must be protected BEFORE any chemical
+//  formula processing runs.
+// ════════════════════════════════════════════════════
+const STATE_SYMBOL_RE = /\((s|l|g|aq)\)/g;
+
+function protectStateSymbols(s) {
+  // Replace (s),(l),(g),(aq) with placeholders
+  // so they are never processed as math
+  return s.replace(STATE_SYMBOL_RE, (m, sym) => `⟦${sym}⟧`);
+}
+
+function restoreStateSymbols(s) {
+  return s.replace(/⟦(s|l|g|aq)⟧/g, '($1)');
+}
+
+// ════════════════════════════════════════════════════
 //  isChemicalFormula(str)
+//  More precise detection for science questions.
+//  Handles: H2O, CO2, Fe2O3, Ca(NO3)2, NaOH, ZnCl2
+//  Rejects: plain English words, protected acronyms
 // ════════════════════════════════════════════════════
 function isChemicalFormula(str) {
-  if (PROTECTED_CAPS.has(str)) return false;
-  if (!/^[A-Z]/.test(str))     return false;
-  const hasDigit   = /\d/.test(str);
-  const hasElement = /[A-Z][a-z]?[A-Z]/.test(str);
-  if (!hasDigit && !hasElement) return false;
-  if (/^[A-Z][a-z]+$/.test(str)) return false;
+  if (!str || str.length < 2)      return false;
+  if (PROTECTED_CAPS.has(str))     return false;
+
+  // Must start with uppercase
+  if (!/^[A-Z]/.test(str)) return false;
+
+  // Must contain digit OR multiple element symbols
+  const hasDigit      = /\d/.test(str);
+  const hasMultiElem  = /[A-Z][a-z]?[A-Z]/.test(str);
+  const hasParenDigit = /\([A-Za-z]+\)\d/.test(str);
+
+  if (!hasDigit && !hasMultiElem && !hasParenDigit) return false;
+
+  // Reject plain English words (Title Case words ending in lowercase)
+  // e.g. "Copper", "Solid", "Aqueous"
+  if (/^[A-Z][a-z]{3,}$/.test(str)) return false;
+
+  // Reject if it's just a number with a capital
+  if (/^[A-Z]\d+$/.test(str) && str.length <= 3) return false;
+
   return true;
 }
 
 // ════════════════════════════════════════════════════
 //  chemicalToLatex(str)
+//  Converts chemical formula to LaTeX.
+//  H2O        → \text{H}_{2}\text{O}
+//  Ca(NO3)2   → \text{Ca}(\text{N}\text{O}_{3})_{2}
+//  Fe2O3      → \text{Fe}_{2}\text{O}_{3}
+//  NaOH       → \text{Na}\text{O}\text{H}
 // ════════════════════════════════════════════════════
 function chemicalToLatex(str) {
-  let result = str.replace(
+  let s = str;
+
+  // Step 1: Handle (group)n patterns: Ca(NO3)2
+  s = s.replace(
     /\(([^)]+)\)(\d+)/g,
     (_, inner, n) => {
-      const innerLatex = inner
+      // Convert inner group
+      let innerLatex = inner
         .replace(/([A-Za-z]+)(\d+)/g,
-          (_, L, D) => `\\text{${L}}_{${D}}`)
+          (__, L, D) => `\\text{${L}}_{${D}}`)
         .replace(/([A-Za-z]+)/g,
-          (_, L) => `\\text{${L}}`);
+          (__, L) => `\\text{${L}}`);
       return `(${innerLatex})_{${n}}`;
     }
   );
-  result = result.replace(
+
+  // Step 2: Handle (group) without subscript: (OH) in Al(OH)3 already done above
+  // Handle remaining (group) with no digit — leave parens, convert inside
+  s = s.replace(
+    /\(([^)]+)\)(?!\d)/g,
+    (_, inner) => {
+      let innerLatex = inner
+        .replace(/([A-Za-z]+)(\d+)/g,
+          (__, L, D) => `\\text{${L}}_{${D}}`)
+        .replace(/([A-Za-z]+)/g,
+          (__, L) => `\\text{${L}}`);
+      return `(${innerLatex})`;
+    }
+  );
+
+  // Step 3: Element + subscript: Fe2, O3, Cl2
+  s = s.replace(
     /([A-Za-z]+)(\d+)/g,
     (_, L, D) => `\\text{${L}}_{${D}}`
   );
-  result = result.replace(
+
+  // Step 4: Remaining letters → \text{}
+  s = s.replace(
     /([A-Za-z]+)/g,
-    (_, L) => L.startsWith('\\') ? L : `\\text{${L}}`
+    (_, L) => {
+      if (L.startsWith('\\')) return L; // already LaTeX
+      return `\\text{${L}}`;
+    }
   );
-  return result;
+
+  return s;
 }
 
 // ════════════════════════════════════════════════════
@@ -425,8 +492,7 @@ function scientificToLatex(s) {
 }
 
 // ════════════════════════════════════════════════════
-//  splitOnMarkers — shared helper
-//  Splits string on § markers into text/math segments
+//  splitOnMarkers — split § delimited string
 // ════════════════════════════════════════════════════
 function splitOnMarkers(s) {
   const parts = s.split('§');
@@ -434,51 +500,91 @@ function splitOnMarkers(s) {
   parts.forEach((part, i) => {
     if (!part) return;
     if (i % 2 === 1) {
-      out.push({ type: 'math', content: part.trim(), display: false });
+      // Restore state symbols inside math segments
+      const restored = restoreStateSymbols(part.trim());
+      out.push({ type: 'math', content: restored, display: false });
     } else {
-      out.push({ type: 'text', content: part });
+      // Restore state symbols in plain text
+      const restored = restoreStateSymbols(part);
+      if (restored) out.push({ type: 'text', content: restored });
     }
   });
   return out;
 }
 
 // ════════════════════════════════════════════════════
-//  processPlainSegment  v6.1
+//  processChemicalFormulas(s)
+//  ─────────────────────────
+//  Shared chemical formula conversion for BOTH
+//  prose and math modes. Handles:
+//    • Simple: H2O, CO2, NaCl, Fe2O3
+//    • Parenthesised: Ca(NO3)2, Al(OH)3, (NH4)2CO3
+//    • With state symbols already protected: H2O⟦aq⟧
+// ════════════════════════════════════════════════════
+function processChemicalFormulas(s) {
+  // Match chemical formula patterns:
+  // Optional leading ( for (NH4)2CO3 type
+  // Then uppercase + alphanumeric + optional (group)n
+  s = s.replace(
+    /\b([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)*(?:[A-Za-z]*\d*)*)\b/g,
+    match => {
+      if (match.includes('§')) return match;
+      if (!isChemicalFormula(match)) return match;
+      return `§${chemicalToLatex(match)}§`;
+    }
+  );
+
+  // Also handle formulas starting with ( like (NH4)2CO3
+  s = s.replace(
+    /(\([A-Z][a-zA-Z0-9]*(?:\([A-Za-z0-9]+\)\d*)?\)\d+[A-Z][a-zA-Z0-9]*)/g,
+    match => {
+      if (match.includes('§')) return match;
+      return `§${chemicalToLatex(match)}§`;
+    }
+  );
+
+  return s;
+}
+
+// ════════════════════════════════════════════════════
+//  processPlainSegment  v6.2
 //
-//  TWO MODES:
-//  ─────────────────────────────────────────────────
-//  PROSE MODE (text contains 2+ long English words):
-//    Safe conversions only — ² ³ superscripts,
-//    simple fractions, degrees.
-//    NO equation detection, NO aggressive parsing.
-//    Fixes: "10^{2}\," fragments in option text.
+//  PROSE MODE: text with 2+ long English words
+//    → Chemical formulas ✅
+//    → State symbols protected ✅
+//    → Superscripts ✅
+//    → NO aggressive equation parsing
 //
-//  MATH MODE (pure/near-pure math strings):
-//    Full conversion pipeline.
+//  MATH MODE: pure/near-pure math
+//    → Full pipeline
 // ════════════════════════════════════════════════════
 function processPlainSegment(text) {
   if (!text) return [];
 
-  // ── Detect prose vs math ──
-  // Count English words of 4+ letters
+  // Count long English words to detect prose
   const longWords = (text.match(/\b[a-zA-Z]{4,}\b/g) || []).length;
   const isProse   = longWords >= 2;
 
-  let s = text;
+  // ── Step 0: Protect state symbols FIRST ──
+  // (s), (l), (g), (aq) → placeholders
+  // This prevents them being parsed as math grouping
+  let s = protectStateSymbols(text);
 
   if (isProse) {
     // ════════════════════════════════════
-    //  PROSE MODE — safe conversions only
+    //  PROSE MODE
     // ════════════════════════════════════
 
-    // Unicode superscripts attached to digits
-    // "10²" → §10^{2}§   BUT NOT standalone ²
+    // Chemical formulas (works in prose too)
+    s = processChemicalFormulas(s);
+
+    // Unicode superscripts attached to digits/letters
     s = s.replace(/(\d+)²/g, (_, n) => `§${n}^{2}§`);
     s = s.replace(/(\d+)³/g, (_, n) => `§${n}^{3}§`);
     s = s.replace(/([a-zA-Z])²/g, (_, c) => `§${c}^{2}§`);
     s = s.replace(/([a-zA-Z])³/g, (_, c) => `§${c}^{3}§`);
 
-    // Explicit digit^digit powers only (e.g. 10^2)
+    // Explicit digit^digit (e.g. 10^2)
     s = s.replace(
       /\b(\d+)\^(\d+)\b/g,
       (_, base, exp) => `§${base}^{${exp}}§`
@@ -493,7 +599,7 @@ function processPlainSegment(text) {
       }
     );
 
-    // Degrees 90°
+    // Degrees
     s = s.replace(
       /(\d+(?:\.\d+)?)\s*°/g,
       (_, n) => `§${n}^{\\circ}§`
@@ -507,13 +613,14 @@ function processPlainSegment(text) {
       GREEK_MAP[m] ? `§${GREEK_MAP[m]}§` : m
     );
 
-    // NO merge of adjacent segments in prose mode
-    // — prevents \, noise between fragments
+    // Arrow → stays as unicode text (renders fine)
+    // No merge of adjacent segments in prose mode
+
     return splitOnMarkers(s);
   }
 
   // ════════════════════════════════════
-  //  MATH MODE — full conversion
+  //  MATH MODE — full pipeline
   // ════════════════════════════════════
 
   // Step 1: Scientific notation
@@ -528,14 +635,7 @@ function processPlainSegment(text) {
   );
 
   // Step 3: Chemical formulas
-  s = s.replace(
-    /\b([A-Z][a-zA-Z0-9]{1,18}(?:\([A-Za-z0-9]+\)\d*)?)\b/g,
-    match => {
-      if (match.includes('§')) return match;
-      if (!isChemicalFormula(match)) return match;
-      return `§${chemicalToLatex(match)}§`;
-    }
-  );
+  s = processChemicalFormulas(s);
 
   // Step 4: Unicode superscripts
   s = s.replace(
@@ -548,7 +648,7 @@ function processPlainSegment(text) {
   s = s.replace(/([a-zA-Z])²/g, (_, c) => `§${c}^{2}§`);
   s = s.replace(/([a-zA-Z])³/g, (_, c) => `§${c}^{3}§`);
 
-  // Step 5: Negative fractions -1/4
+  // Step 5: Negative fractions
   s = s.replace(
     /(?<![§\d\w^])-(\d{1,4})\/(\d{1,4})(?![/\d\w])/g,
     (full, num, den, offset, orig) => {
@@ -559,7 +659,7 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 6: Mixed numbers 2 3/4
+  // Step 6: Mixed numbers
   s = s.replace(
     /(?<!\d)(\d+)\s+(\d{1,3})\/(\d{1,3})(?!\d)/g,
     (_, whole, num, den) => {
@@ -568,7 +668,7 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 7: Simple fractions 3/4
+  // Step 7: Simple fractions
   s = s.replace(
     /(?<![$/£€¥:§\w])(\d{1,4})\s*\/\s*(\d{1,4})(?![/\d\w(])/g,
     (full, num, den, offset, orig) => {
@@ -582,7 +682,7 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 8: Powers x^2, 10^-3, a^{n+1}
+  // Step 8: Powers
   s = s.replace(
     /([a-zA-Z0-9]+)\^(\{[^}]+\}|-?\d+(?:\.\d+)?|[a-zA-Z])/g,
     (_, base, exp) => {
@@ -591,19 +691,19 @@ function processPlainSegment(text) {
     }
   );
 
-  // Step 9: Square roots sqrt(x)
+  // Step 9: Square roots
   s = s.replace(
     /\bsqrt\s*\(([^)]+)\)/gi,
     (_, inner) => `§\\sqrt{${inner.trim()}}§`
   );
 
-  // Step 10: Cube roots cbrt(x)
+  // Step 10: Cube roots
   s = s.replace(
     /\bcbrt\s*\(([^)]+)\)/gi,
     (_, inner) => `§\\sqrt[3]{${inner.trim()}}§`
   );
 
-  // Step 11: Subscripts x_1
+  // Step 11: Subscripts
   s = s.replace(
     /(?<![§a-zA-Z\d])([a-zA-Z])_(\{[^}]+\}|\d+|[a-zA-Z])(?!\w)/g,
     (_, base, sub) => {
@@ -618,7 +718,7 @@ function processPlainSegment(text) {
   s = s.replace(/([^!<>])!=([^=])/g,  (_, a, b) => `${a}§\\neq§${b}`);
   s = s.replace(/\s*->\s*/g, ' §\\rightarrow§ ');
 
-  // Step 13: Multiplication digit × digit
+  // Step 13: Multiplication
   s = s.replace(/(\d)\s*×\s*(\d)/g, (_, a, b) => `§${a} \\times ${b}§`);
 
   // Step 14: Degrees
@@ -642,10 +742,8 @@ function processPlainSegment(text) {
 }
 
 // ════════════════════════════════════════════════════
-//  convertToSegments  v6.1
-//  ─────────────────────────────────────────────────
-//  FIX: $ followed by digit = MONEY, not math.
-//  So $52.40 and $28.80 are NEVER math blocks.
+//  convertToSegments  v6.2
+//  $ before digit = money, not math
 // ════════════════════════════════════════════════════
 function convertToSegments(raw) {
   if (raw === null || raw === undefined) return [];
@@ -654,11 +752,8 @@ function convertToSegments(raw) {
 
   const out = [];
 
-  // $$...$$ = display math
-  // $...$   = inline math ONLY when:
-  //   • $ is NOT followed by a digit       → blocks $52.40
-  //   • $ is NOT followed by . then digit  → blocks $.50
-  //   • closing $ is NOT followed by digit → blocks ambiguous cases
+  // $$ = display math
+  // $x$ = inline math ONLY when not followed by digit
   const MATH_RE = /(\$\$[\s\S]+?\$\$|\$(?![\d.,])(?!\s)[^$\n]{1,300}?\$(?![\d\w]))/g;
 
   let lastIndex = 0;
@@ -692,7 +787,6 @@ function processPlainChunk(text) {
   if (!text) return [];
   const out   = [];
   const lines = text.split('\n');
-
   for (let i = 0; i < lines.length; i++) {
     out.push(...processPlainSegment(lines[i]));
     if (i < lines.length - 1) {
@@ -705,7 +799,7 @@ function processPlainChunk(text) {
 // ════════════════════════════════════════════════════
 //  renderSegments
 //  Plain text → createTextNode (KaTeX never sees it)
-//  Math       → katex.renderToString → span
+//  Math → katex.renderToString → span
 // ════════════════════════════════════════════════════
 function renderSegments(el, segments) {
   while (el.firstChild) el.removeChild(el.firstChild);
@@ -743,25 +837,20 @@ function renderSafe(el, rawText) {
 }
 
 // ════════════════════════════════════════════════════
-//  normalise()  v6.1
-//  Strips math wrappers before comparing answers.
-//  Handles $...$, $$...$$, ² ³ symbols.
+//  normalise()  v6.2
+//  Strips math wrappers and normalises for comparison
 // ════════════════════════════════════════════════════
 function normalise(s) {
   return String(s || '')
     .trim()
-    // Strip LaTeX delimiters
     .replace(/\$\$([^$]+)\$\$/g, '$1')
     .replace(/\$([^$]+)\$/g,     '$1')
     .replace(/\s+/g, ' ')
     .toLowerCase()
-    // Normalise superscript symbols
     .replace(/²/g, '2')
     .replace(/³/g, '3')
-    // Normalise LaTeX power notation to plain
     .replace(/\^{?2}?/g, '2')
     .replace(/\^{?3}?/g, '3')
-    // Normalise fraction symbols
     .replace(/½/g, '1/2')
     .replace(/¼/g, '1/4')
     .replace(/¾/g, '3/4')
