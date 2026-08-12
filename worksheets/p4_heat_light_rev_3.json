@@ -1,266 +1,290 @@
 [
   {
-    "question": "Why do road safety vests worn by traffic officers at night have silver reflective strips on them?",
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Which material is a good conductor of heat?",
     "options": [
-      "They reflect light from car headlights into the driver's eyes, making the officer visible",
-      "They produce their own bright light continuously in total darkness",
-      "They absorb heat from car engines and glow in the dark",
-      "They bend car headlight rays away from the road"
+      "Wood",
+      "Plastic",
+      "Metal",
+      "Cloth"
     ],
-    "answer": "They reflect light from car headlights into the driver's eyes, making the officer visible",
-    "time": 25
+    "answer": "Metal",
+    "time": 60
   },
   {
-    "question": "How can a dentist inspect the back of a patient's upper tooth using a small angled mirror?",
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "A metal spoon is left in a bowl of hot soup. After a minute, the handle of the spoon feels warm. This shows that the metal spoon __________.",
     "options": [
-      "The mirror reflects light from the dental lamp off the back of the tooth into the dentist's eyes",
-      "The mirror produces its own light to shine on the dark tooth",
-      "The mirror bends light rays around the tooth so no shadow is formed",
-      "The mirror absorbs cold air from the patient's mouth"
+      "is a poor conductor of heat",
+      "is a good conductor of heat",
+      "reflects heat away",
+      "absorbs cold from the soup"
     ],
-    "answer": "The mirror reflects light from the dental lamp off the back of the tooth into the dentist's eyes",
-    "time": 25
+    "answer": "is a good conductor of heat",
+    "time": 70
   },
   {
-    "question": "Why is frosted glass often used for bathroom windows instead of clear glass?",
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Why are the handles of cooking pots often made of wood or plastic?",
     "options": [
-      "It is translucent, so it lets some light pass through while casting a faint shadow to block clear view",
-      "It is opaque, so it blocks all light and casts a very dark shadow",
-      "It is transparent, so it allows all light to pass through without casting any shadow",
-      "It acts as a light source to illuminate the bathroom automatically"
+      "Wood and plastic are strong.",
+      "Wood and plastic are good conductors of heat so they stay cool.",
+      "Wood and plastic are poor conductors of heat so they do not become too hot to hold.",
+      "Wood and plastic reflect heat back into the pot."
     ],
-    "answer": "It is translucent, so it lets some light pass through while casting a faint shadow to block clear view",
-    "time": 30
+    "answer": "Wood and plastic are poor conductors of heat so they do not become too hot to hold.",
+    "time": 75
   },
   {
-    "question": "Ali tried to look at a lit candle through a flexible plastic hose bent into an S-shape. Why could he NOT see the flame?",
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "On a cold morning, a metal railing feels colder to touch than a wooden bench, even though both are at the same temperature. Why?",
     "options": [
-      "Light travels in straight lines and cannot pass through a bent hose",
-      "Plastic hose absorbs all light rays completely",
-      "Light turns into heat energy inside bent hoses",
-      "The candle flame stops glowing when viewed through plastic"
+      "The metal is colder than the bench.",
+      "Metal conducts heat away from your hand faster than wood.",
+      "Wood absorbs cold from the air.",
+      "Metal has a lower temperature than wood in the same place."
     ],
-    "answer": "Light travels in straight lines and cannot pass through a bent hose",
-    "time": 25
+    "answer": "Metal conducts heat away from your hand faster than wood.",
+    "time": 80
   },
   {
-    "question": "During a shadow puppet show, an actor wants a dragon puppet's shadow on the screen to become LARGER. What adjustment should he make?",
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Which of these would be the best material for making an oven glove to protect your hands from heat?",
     "options": [
-      "Move the torch closer to the puppet",
-      "Move the puppet closer to the screen",
-      "Move the torch further away from the puppet",
-      "Move both the torch and screen further away"
+      "Aluminium foil",
+      "Thin steel sheet",
+      "Thick cotton cloth",
+      "Copper wire"
     ],
-    "answer": "Move the torch closer to the puppet",
-    "time": 25
+    "answer": "Thick cotton cloth",
+    "time": 65
   },
   {
-    "question": "An unopened soup can is held between a light source and a screen. Depending on how it is held, which pair of shadow shapes can it cast?",
+    "question": "Part B – Expansion and Contraction",
+    "stem": "On a hot day, a metal lid on a glass jar is too tight to open. When hot water is poured over the lid, it becomes easier to open. This is because the metal lid __________.",
     "options": [
-      "A circle or a rectangle",
-      "A circle or a triangle",
-      "A square or a triangle",
-      "An oval or a square"
+      "contracts and becomes smaller",
+      "expands more than the glass jar",
+      "changes colour and becomes slippery",
+      "melts in the hot water"
     ],
-    "answer": "A circle or a rectangle",
-    "time": 25
+    "answer": "expands more than the glass jar",
+    "time": 75
   },
   {
-    "question": "At 9:00 am, a vertical pole outdoors casts a long shadow pointing west. At 12:00 noon, how does the shadow compare?",
+    "question": "Part B – Expansion and Contraction",
+    "stem": "Railway tracks have small gaps between the rails. What is the main reason for leaving these gaps?",
     "options": [
-      "The shadow is much shorter and positioned near the base of the pole",
-      "The shadow is much longer and points towards the east",
-      "The shadow stays the exact same length and position",
-      "The shadow turns into bright light because the Sun is overhead"
+      "To let rainwater drain away",
+      "To save money by using less metal",
+      "To allow the metal rails to expand on hot days without bending",
+      "To make the train ride smoother"
     ],
-    "answer": "The shadow is much shorter and positioned near the base of the pole",
-    "time": 25
+    "answer": "To allow the metal rails to expand on hot days without bending",
+    "time": 75
   },
   {
-    "question": "A light sensor measures light passing through four material sheets: Sheet A (0 units), Sheet B (450 units), Sheet C (150 units), Sheet D (900 units). The torch gives off 900 units. Which sheet is OPAQUE?",
+    "question": "Part B – Expansion and Contraction",
+    "stem": "A metal ball is heated strongly. What will happen to the size of the ball?",
     "options": [
-      "Sheet A",
-      "Sheet B",
-      "Sheet C",
-      "Sheet D"
+      "It will become smaller.",
+      "It will become larger.",
+      "It will stay exactly the same size.",
+      "It will change shape but not size."
     ],
-    "answer": "Sheet A",
-    "time": 25
+    "answer": "It will become larger.",
+    "time": 65
   },
   {
-    "question": "During a night football match, four large stadium lights shine on a player from four different directions. How many separate shadows will be cast on the field?",
+    "question": "Part B – Expansion and Contraction",
+    "stem": "Which of the following happens when most liquids are cooled?",
     "options": [
-      "Four separate shadows because the player blocks light coming from four sources",
-      "Only one single black shadow directly beneath the player",
-      "No shadows because multiple lights cancel each other out",
-      "Two shadows because light rays merge in pairs"
+      "They expand.",
+      "They contract.",
+      "They turn into metal.",
+      "They disappear."
     ],
-    "answer": "Four separate shadows because the player blocks light coming from four sources",
-    "time": 30
+    "answer": "They contract.",
+    "time": 60
   },
   {
-    "question": "An opaque wooden card with a small square hole cut in its center is placed between a torch and a screen. What appears on the screen?",
+    "question": "Part B – Expansion and Contraction",
+    "stem": "A tight metal cap on a bottle can be loosened by running hot water over it. What causes the cap to become looser?",
     "options": [
-      "A dark rectangular shadow with a bright square patch in the middle",
-      "A bright background with a dark square shadow in the middle",
-      "A completely dark shadow with no light passing through",
-      "A dark square shadow with a bright circle in the middle"
+      "The bottle contracts more than the cap.",
+      "The cap expands more than the bottle.",
+      "The cap melts.",
+      "The bottle expands more than the cap."
     ],
-    "answer": "A dark rectangular shadow with a bright square patch in the middle",
-    "time": 30
+    "answer": "The cap expands more than the bottle.",
+    "time": 70
   },
   {
-    "question": "Mei Ling wants to test if the DISTANCE between a light source and an object affects the height of its shadow. What is the ONLY variable she should change in her experiment?",
+    "question": "Part C – Light and Materials",
+    "stem": "A pupil shines a torch at a material and places a light sensor on the other side. With no material, the sensor reads 100 units. With Material X, the sensor reads 95 units. Material X is most likely __________.",
     "options": [
-      "The distance between the light source and the object",
-      "The height and shape of the object",
-      "The distance between the object and the screen",
-      "The brightness of the light source"
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
     ],
-    "answer": "The distance between the light source and the object",
-    "time": 30
+    "answer": "transparent",
+    "time": 75
   },
   {
-    "question": "A periscope uses two flat mirrors set at 45-degree angles inside a tube. How does a sailor inside a submarine view ships on the sea surface?",
+    "question": "Part C – Light and Materials",
+    "stem": "Which type of material does not let any light pass through and creates a dark shadow?",
     "options": [
-      "Light from the ship reflects off the top mirror, then off the bottom mirror into his eyes",
-      "Light from his eyes shines out through both mirrors to illuminate the ship",
-      "Light bends continuously inside the tube without touching any mirrors",
-      "Light is absorbed by the top mirror and recreated by the bottom mirror"
+      "Transparent",
+      "Translucent",
+      "Opaque",
+      "Shiny"
     ],
-    "answer": "Light from the ship reflects off the top mirror, then off the bottom mirror into his eyes",
-    "time": 30
+    "answer": "Opaque",
+    "time": 60
   },
   {
-    "question": "A chef uses a stainless steel frying pan with a wooden handle to cook. Why are stainless steel and wood chosen for these parts?",
+    "question": "Part C – Light and Materials",
+    "stem": "You look through a window made of frosted glass. You can see some light coming through, but you cannot see clearly what is on the other side. The frosted glass is __________.",
     "options": [
-      "Stainless steel is a good conductor of heat so food cooks fast; wood is a poor conductor of heat so the chef's hand does not get burned",
-      "Stainless steel is a poor conductor of heat so food cooks slowly; wood is a good conductor of heat to warm the chef's hand",
-      "Both stainless steel and wood are good conductors of heat to speed up cooking",
-      "Both stainless steel and wood are poor conductors of heat to keep the kitchen cool"
+      "transparent",
+      "translucent",
+      "opaque",
+      "reflective"
     ],
-    "answer": "Stainless steel is a good conductor of heat so food cooks fast; wood is a poor conductor of heat so the chef's hand does not get burned",
-    "time": 35
+    "answer": "translucent",
+    "time": 70
   },
   {
-    "question": "An identical cold egg is added to Mug A (100 ml of hot water at 95°C) and Pot B (1000 ml of hot water at 95°C). Why does the egg cook faster and more thoroughly in Pot B?",
+    "question": "Part C – Light and Materials",
+    "stem": "A cardboard box is placed between a torch and a white screen. A dark patch is seen on the screen. This is because the cardboard is __________.",
     "options": [
-      "Pot B contains a larger volume of water with more heat energy, so its temperature drops less when the cold egg is added",
-      "Pot B has a higher starting temperature than Mug A",
-      "Mug A absorbs coldness from the egg much faster",
-      "The larger volume of water in Pot B creates higher pressure on the egg"
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
     ],
-    "answer": "Pot B contains a larger volume of water with more heat energy, so its temperature drops less when the cold egg is added",
-    "time": 35
+    "answer": "opaque",
+    "time": 65
   },
   {
-    "question": "Cup 1 contains 100 ml of hot water at 90°C. Pot 2 contains 2000 ml of hot water at 90°C. Both are left on a table in a room at 25°C. Why does Cup 1 cool down to 25°C much faster than Pot 2?",
+    "question": "Part C – Light and Materials",
+    "stem": "A pupil wants to make a shadow puppet that is dark and sharp. Which material should she choose?",
     "options": [
-      "Cup 1 contains a smaller volume of water with less heat energy, so it takes less time to lose its heat energy to the room",
-      "Cup 1 has a lower starting temperature than Pot 2",
-      "Pot 2 generates its own heat energy continuously while sitting in the room",
-      "Air in the room transfers coldness into Cup 1 faster than into Pot 2"
+      "Clear plastic sheet",
+      "Tracing paper",
+      "Thick black paper",
+      "Transparent cling film"
     ],
-    "answer": "Cup 1 contains a smaller volume of water with less heat energy, so it takes less time to lose its heat energy to the room",
-    "time": 35
+    "answer": "Thick black paper",
+    "time": 70
   },
   {
-    "question": "A baker places a glass bowl of solid chocolate chips over a pot of hot water at 80°C. Why do the chocolate chips melt into a liquid?",
+    "question": "Part D – Reflection",
+    "stem": "You can see your face in a mirror because light __________.",
     "options": [
-      "The chocolate chips gain heat from the hotter water, causing their temperature to rise and melt",
-      "Coldness leaves the chocolate chips and enters the hot water",
-      "The glass bowl transfers coldness from the room into the chocolate",
-      "The hot water loses heat to the air, forcing the chocolate to melt"
+      "passes through the mirror",
+      "bounces off the mirror into your eyes",
+      "goes around the mirror",
+      "is absorbed by the mirror"
     ],
-    "answer": "The chocolate chips gain heat from the hotter water, causing their temperature to rise and melt",
-    "time": 30
+    "answer": "bounces off the mirror into your eyes",
+    "time": 65
   },
   {
-    "question": "A cook inserts a digital temperature probe into the middle of a roasting turkey. What does the reading on the probe measure?",
+    "question": "Part D – Reflection",
+    "stem": "Which surface reflects light the best?",
     "options": [
-      "The degree of hotness of the turkey",
-      "The total amount of heat energy stored inside the entire turkey",
-      "The weight of heat transferred from the oven",
-      "The time needed for the turkey skin to turn brown"
+      "A sheet of white paper",
+      "A polished, smooth mirror",
+      "A rough wooden table",
+      "A dark woollen scarf"
     ],
-    "answer": "The degree of hotness of the turkey",
-    "time": 25
+    "answer": "A polished, smooth mirror",
+    "time": 65
   },
   {
-    "question": "A boy drops two ice cubes at 0°C into a glass of hot lemon tea at 60°C. What happens to the heat energy and temperature of the tea?",
+    "question": "Part D – Reflection",
+    "stem": "A boy sees a red apple on the table. The apple does not give out its own light. How can the boy see the apple?",
     "options": [
-      "Heat energy flows from the hot tea into the colder ice cubes; the temperature of the tea decreases",
-      "Coldness flows from the ice cubes into the hot tea; the temperature of the ice cubes increases",
-      "Heat energy flows from the ice cubes into the hot tea; the temperature of the tea increases",
-      "No heat flows because ice cubes do not contain heat energy"
+      "Light from the lamp passes through the apple.",
+      "Light from the lamp reflects off the apple into the boy’s eyes.",
+      "The apple takes in light and then gives it out later.",
+      "The boy’s eyes send out light that hits the apple."
     ],
-    "answer": "Heat energy flows from the hot tea into the colder ice cubes; the temperature of the tea decreases",
-    "time": 30
+    "answer": "Light from the lamp reflects off the apple into the boy’s eyes.",
+    "time": 75
   },
   {
-    "question": "Mother finds it difficult to unscrew a tight metal lid on a glass jam jar. She runs hot water over the metal lid for 30 seconds, and the lid opens easily. Why?",
+    "question": "Heat Transfer Applications",
+    "stem": "A piece of chicken is placed on a hot BBQ grill. After a few minutes, the outer part becomes burnt while the inside is still partly raw. Why does this happen?",
     "options": [
-      "The metal lid gains heat from the hot water and expands more than the glass jar",
-      "The glass jar gains heat from the hot water and contracts, releasing the lid",
-      "The metal lid loses heat to the hot water and shrinks, becoming looser",
-      "The hot water melts the glass jar rim so the metal lid slides off"
+      "The chicken is a good conductor of heat, so heat spreads evenly through it.",
+      "The chicken is a poor conductor of heat, so heat does not spread quickly to the inside and the outside overheats and burns.",
+      "The metal grill is a poor conductor of heat, so only the outside cooks.",
+      "The chicken reflects most of the heat away from its surface."
     ],
-    "answer": "The metal lid gains heat from the hot water and expands more than the glass jar",
-    "time": 30
+    "answer": "The chicken is a poor conductor of heat, so heat does not spread quickly to the inside and the outside overheats and burns.",
+    "time": 85
   },
   {
-    "question": "Small gaps are intentionally left between concrete slabs on outdoor footpaths in Singapore. What is the main purpose of these gaps?",
+    "question": "Heat Transfer Applications",
+    "stem": "A metal skewer and a wooden skewer are both left on a hot BBQ grill for the same amount of time. The metal skewer becomes too hot to touch very quickly, but the wooden skewer stays cool enough to hold. This is because __________.",
     "options": [
-      "To allow space for the concrete slabs to expand when they gain heat on hot days without buckling",
-      "To allow space for the concrete slabs to contract when they gain heat on sunny days",
-      "To allow coldness to flow into the ground so the path stays cool",
-      "To prevent light from casting dark shadows under the footpath"
+      "wood is a better conductor of heat than metal",
+      "metal is a better conductor of heat than wood",
+      "wood absorbs more heat than metal",
+      "metal absorbs cold from the air"
     ],
-    "answer": "To allow space for the concrete slabs to expand when they gain heat on hot days without buckling",
-    "time": 30
+    "answer": "metal is a better conductor of heat than wood",
+    "time": 75
   },
   {
-    "question": "A baker wears thick cloth oven mitts when removing a hot metal tray at 180°C from the oven. Why do oven mitts protect his hands?",
+    "question": "Expansion & Contraction Applications",
+    "stem": "A hot glass dish is taken out of an oven and placed on a cold, wet countertop. The dish cracks almost immediately. What is the most likely reason?",
     "options": [
-      "Cloth is a poor conductor of heat, so heat flows very slowly from the hot tray to his hands",
-      "Cloth is a good conductor of heat, so it absorbs all the heat energy from the tray instantly",
-      "Cloth transfers coldness from the air into his hands while holding the tray",
-      "Cloth stops the metal tray from expanding further inside his hands"
+      "The glass expanded rapidly when it touched the cold surface.",
+      "The glass contracted unevenly because it is a poor conductor of heat, causing it to crack.",
+      "The glass melted when it touched the cold surface.",
+      "The water on the countertop boiled and pushed the glass apart."
     ],
-    "answer": "Cloth is a poor conductor of heat, so heat flows very slowly from the hot tray to his hands",
-    "time": 30
+    "answer": "The glass contracted unevenly because it is a poor conductor of heat, causing it to crack.",
+    "time": 80
   },
   {
-    "question": "While boiling water on a stove to cook soup, the water temperature reaches 100°C and stays at 100°C for 10 minutes while boiling continuously. Why does the temperature NOT rise above 100°C?",
+    "question": "Expansion & Contraction Applications",
+    "stem": "A tight metal cap on a glass bottle is difficult to open. After holding the cap under hot running water for a short while, it becomes loose. Why does the cap loosen?",
     "options": [
-      "Water stays at its boiling point of 100°C while changing state into steam, even as heat is continuously supplied",
-      "The stove flame stops transferring heat energy once the water reaches 100°C",
-      "The water loses all its heat energy to the room at 100°C so no heat is gained",
-      "The thermometer stops recording temperature above 100°C"
+      "The glass bottle contracts, making the cap fall off.",
+      "The metal cap expands more than the glass bottle, so it becomes slightly larger.",
+      "The hot water dissolves the metal cap.",
+      "The cap becomes heavier and drops off."
     ],
-    "answer": "Water stays at its boiling point of 100°C while changing state into steam, even as heat is continuously supplied",
-    "time": 35
+    "answer": "The metal cap expands more than the glass bottle, so it becomes slightly larger.",
+    "time": 75
   },
   {
-    "question": "A chef uses a digital temperature sensor connected to a datalogger to monitor hot oil continuously while frying chicken. Why is this method preferred over using a glass thermometer?",
+    "question": "Light & Materials Applications",
+    "stem": "A light sensor is used to test a material. When the material is placed between a torch and the sensor, the sensor reading drops from 100 units to 20 units. This material is most likely __________.",
     "options": [
-      "It provides real-time, accurate digital readings safely without the risk of glass breaking in hot oil",
-      "It generates extra heat to make the oil reach 200°C faster",
-      "It prevents the cooking oil from gaining heat from the stove burner",
-      "It turns the hot oil into a poor conductor of heat"
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
     ],
-    "answer": "It provides real-time, accurate digital readings safely without the risk of glass breaking in hot oil",
-    "time": 30
+    "answer": "translucent",
+    "time": 75
   },
   {
-    "question": "A student poured 200 ml of hot coffee at 90°C into four cups made of different materials (W, X, Y, and Z). After 20 minutes in a room at 25°C, the temperatures were recorded: Cup W = 75°C, Cup X = 50°C, Cup Y = 62°C, and Cup Z = 40°C. Which material is MOST suitable for making a mug to keep cold coffee cool for the longest time?",
+    "question": "Light & Reflection Applications",
+    "stem": "A pupil shines a torch at a flat mirror. A bright spot appears on the wall opposite the mirror. What makes the bright spot appear on the wall?",
     "options": [
-      "Material W, because its coffee had the highest remaining temperature, showing it is a poor conductor of heat that lost heat slowest",
-      "Material Z, because its coffee dropped to 40°C, showing it gained coldness fastest",
-      "Material X, because a middle temperature of 50°C shows it is a good conductor of heat",
-      "Material Y, because its coffee cooled down faster than Cup W"
+      "Light from the torch passes through the mirror.",
+      "Light from the torch is reflected by the mirror onto the wall.",
+      "The mirror produces its own light.",
+      "The wall absorbs the light and then gives it out again."
     ],
-    "answer": "Material W, because its coffee had the highest remaining temperature, showing it is a poor conductor of heat that lost heat slowest so it will also gain heat the slowest",
-    "time": 35
+    "answer": "Light from the torch is reflected by the mirror onto the wall.",
+    "time": 75
   }
 ]
