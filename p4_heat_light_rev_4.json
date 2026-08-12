@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Which material is a good conductor of heat?",
+    "options": [
+      "Wood",
+      "Plastic",
+      "Metal",
+      "Cloth"
+    ],
+    "answer": "Metal",
+    "time": 60
+  },
+  {
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "A metal spoon is left in a bowl of hot soup. After a minute, the handle of the spoon feels warm. This shows that the metal spoon __________.",
+    "options": [
+      "is a poor conductor of heat",
+      "is a good conductor of heat",
+      "reflects heat away",
+      "absorbs cold from the soup"
+    ],
+    "answer": "is a good conductor of heat",
+    "time": 70
+  },
+  {
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Why are the handles of cooking pots often made of wood or plastic?",
+    "options": [
+      "Wood and plastic are strong.",
+      "Wood and plastic are good conductors of heat so they stay cool.",
+      "Wood and plastic are poor conductors of heat so they do not become too hot to hold.",
+      "Wood and plastic reflect heat back into the pot."
+    ],
+    "answer": "Wood and plastic are poor conductors of heat so they do not become too hot to hold.",
+    "time": 75
+  },
+  {
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "On a cold morning, a metal railing feels colder to touch than a wooden bench, even though both are at the same temperature. Why?",
+    "options": [
+      "The metal is colder than the bench.",
+      "Metal conducts heat away from your hand faster than wood.",
+      "Wood absorbs cold from the air.",
+      "Metal has a lower temperature than wood in the same place."
+    ],
+    "answer": "Metal conducts heat away from your hand faster than wood.",
+    "time": 80
+  },
+  {
+    "question": "Part A – Good and Poor Heat Conductors",
+    "stem": "Which of these would be the best material for making an oven glove to protect your hands from heat?",
+    "options": [
+      "Aluminium foil",
+      "Thin steel sheet",
+      "Thick cotton cloth",
+      "Copper wire"
+    ],
+    "answer": "Thick cotton cloth",
+    "time": 65
+  },
+  {
+    "question": "Part B – Expansion and Contraction",
+    "stem": "On a hot day, a metal lid on a glass jar is too tight to open. When hot water is poured over the lid, it becomes easier to open. This is because the metal lid __________.",
+    "options": [
+      "contracts and becomes smaller",
+      "expands more than the glass jar",
+      "changes colour and becomes slippery",
+      "melts in the hot water"
+    ],
+    "answer": "expands more than the glass jar",
+    "time": 75
+  },
+  {
+    "question": "Part B – Expansion and Contraction",
+    "stem": "Railway tracks have small gaps between the rails. What is the main reason for leaving these gaps?",
+    "options": [
+      "To let rainwater drain away",
+      "To save money by using less metal",
+      "To allow the metal rails to expand on hot days without bending",
+      "To make the train ride smoother"
+    ],
+    "answer": "To allow the metal rails to expand on hot days without bending",
+    "time": 75
+  },
+  {
+    "question": "Part B – Expansion and Contraction",
+    "stem": "A metal ball is heated strongly. What will happen to the size of the ball?",
+    "options": [
+      "It will become smaller.",
+      "It will become larger.",
+      "It will stay exactly the same size.",
+      "It will change shape but not size."
+    ],
+    "answer": "It will become larger.",
+    "time": 65
+  },
+  {
+    "question": "Part B – Expansion and Contraction",
+    "stem": "Which of the following happens when most liquids are cooled?",
+    "options": [
+      "They expand.",
+      "They contract.",
+      "They turn into metal.",
+      "They disappear."
+    ],
+    "answer": "They contract.",
+    "time": 60
+  },
+  {
+    "question": "Part B – Expansion and Contraction",
+    "stem": "A tight metal cap on a bottle can be loosened by running hot water over it. What causes the cap to become looser?",
+    "options": [
+      "The bottle contracts more than the cap.",
+      "The cap expands more than the bottle.",
+      "The cap melts.",
+      "The bottle expands more than the cap."
+    ],
+    "answer": "The cap expands more than the bottle.",
+    "time": 70
+  },
+  {
+    "question": "Part C – Light and Materials",
+    "stem": "A pupil shines a torch at a material and places a light sensor on the other side. With no material, the sensor reads 100 units. With Material X, the sensor reads 95 units. Material X is most likely __________.",
+    "options": [
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
+    ],
+    "answer": "transparent",
+    "time": 75
+  },
+  {
+    "question": "Part C – Light and Materials",
+    "stem": "Which type of material does not let any light pass through and creates a dark shadow?",
+    "options": [
+      "Transparent",
+      "Translucent",
+      "Opaque",
+      "Shiny"
+    ],
+    "answer": "Opaque",
+    "time": 60
+  },
+  {
+    "question": "Part C – Light and Materials",
+    "stem": "You look through a window made of frosted glass. You can see some light coming through, but you cannot see clearly what is on the other side. The frosted glass is __________.",
+    "options": [
+      "transparent",
+      "translucent",
+      "opaque",
+      "reflective"
+    ],
+    "answer": "translucent",
+    "time": 70
+  },
+  {
+    "question": "Part C – Light and Materials",
+    "stem": "A cardboard box is placed between a torch and a white screen. A dark patch is seen on the screen. This is because the cardboard is __________.",
+    "options": [
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
+    ],
+    "answer": "opaque",
+    "time": 65
+  },
+  {
+    "question": "Part C – Light and Materials",
+    "stem": "A pupil wants to make a shadow puppet that is dark and sharp. Which material should she choose?",
+    "options": [
+      "Clear plastic sheet",
+      "Tracing paper",
+      "Thick black paper",
+      "Transparent cling film"
+    ],
+    "answer": "Thick black paper",
+    "time": 70
+  },
+  {
+    "question": "Part D – Reflection",
+    "stem": "You can see your face in a mirror because light __________.",
+    "options": [
+      "passes through the mirror",
+      "bounces off the mirror into your eyes",
+      "goes around the mirror",
+      "is absorbed by the mirror"
+    ],
+    "answer": "bounces off the mirror into your eyes",
+    "time": 65
+  },
+  {
+    "question": "Part D – Reflection",
+    "stem": "Which surface reflects light the best?",
+    "options": [
+      "A sheet of white paper",
+      "A polished, smooth mirror",
+      "A rough wooden table",
+      "A dark woollen scarf"
+    ],
+    "answer": "A polished, smooth mirror",
+    "time": 65
+  },
+  {
+    "question": "Part D – Reflection",
+    "stem": "A boy sees a red apple on the table. The apple does not give out its own light. How can the boy see the apple?",
+    "options": [
+      "Light from the lamp passes through the apple.",
+      "Light from the lamp reflects off the apple into the boy’s eyes.",
+      "The apple takes in light and then gives it out later.",
+      "The boy’s eyes send out light that hits the apple."
+    ],
+    "answer": "Light from the lamp reflects off the apple into the boy’s eyes.",
+    "time": 75
+  },
+  {
+    "question": "Heat Transfer Applications",
+    "stem": "A piece of chicken is placed on a hot BBQ grill. After a few minutes, the outer part becomes burnt while the inside is still partly raw. Why does this happen?",
+    "options": [
+      "The chicken is a good conductor of heat, so heat spreads evenly through it.",
+      "The chicken is a poor conductor of heat, so heat does not spread quickly to the inside and the outside overheats and burns.",
+      "The metal grill is a poor conductor of heat, so only the outside cooks.",
+      "The chicken reflects most of the heat away from its surface."
+    ],
+    "answer": "The chicken is a poor conductor of heat, so heat does not spread quickly to the inside and the outside overheats and burns.",
+    "time": 85
+  },
+  {
+    "question": "Heat Transfer Applications",
+    "stem": "A metal skewer and a wooden skewer are both left on a hot BBQ grill for the same amount of time. The metal skewer becomes too hot to touch very quickly, but the wooden skewer stays cool enough to hold. This is because __________.",
+    "options": [
+      "wood is a better conductor of heat than metal",
+      "metal is a better conductor of heat than wood",
+      "wood absorbs more heat than metal",
+      "metal absorbs cold from the air"
+    ],
+    "answer": "metal is a better conductor of heat than wood",
+    "time": 75
+  },
+  {
+    "question": "Expansion & Contraction Applications",
+    "stem": "A hot glass dish is taken out of an oven and placed on a cold, wet countertop. The dish cracks almost immediately. What is the most likely reason?",
+    "options": [
+      "The glass expanded rapidly when it touched the cold surface.",
+      "The glass contracted unevenly because it is a poor conductor of heat, causing it to crack.",
+      "The glass melted when it touched the cold surface.",
+      "The water on the countertop boiled and pushed the glass apart."
+    ],
+    "answer": "The glass contracted unevenly because it is a poor conductor of heat, causing it to crack.",
+    "time": 80
+  },
+  {
+    "question": "Expansion & Contraction Applications",
+    "stem": "A tight metal cap on a glass bottle is difficult to open. After holding the cap under hot running water for a short while, it becomes loose. Why does the cap loosen?",
+    "options": [
+      "The glass bottle contracts, making the cap fall off.",
+      "The metal cap expands more than the glass bottle, so it becomes slightly larger.",
+      "The hot water dissolves the metal cap.",
+      "The cap becomes heavier and drops off."
+    ],
+    "answer": "The metal cap expands more than the glass bottle, so it becomes slightly larger.",
+    "time": 75
+  },
+  {
+    "question": "Light & Materials Applications",
+    "stem": "A light sensor is used to test a material. When the material is placed between a torch and the sensor, the sensor reading drops from 100 units to 20 units. This material is most likely __________.",
+    "options": [
+      "transparent",
+      "translucent",
+      "opaque",
+      "shiny"
+    ],
+    "answer": "translucent",
+    "time": 75
+  },
+  {
+    "question": "Light & Reflection Applications",
+    "stem": "A pupil shines a torch at a flat mirror. A bright spot appears on the wall opposite the mirror. What makes the bright spot appear on the wall?",
+    "options": [
+      "Light from the torch passes through the mirror.",
+      "Light from the torch is reflected by the mirror onto the wall.",
+      "The mirror produces its own light.",
+      "The wall absorbs the light and then gives it out again."
+    ],
+    "answer": "Light from the torch is reflected by the mirror onto the wall.",
+    "time": 75
+  }
+]
