@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Percentage Discount",
+    "stem": "The usual price of a jacket is $120. During a sale, a 25% discount is given. What is the discount amount?",
+    "options": [
+      "$90",
+      "$30",
+      "$25",
+      "$35"
+    ],
+    "answer": "$30",
+    "time": 50
+  },
+  {
+    "question": "Percentage Discount",
+    "stem": "A tablet has a usual price of $400. During a tech fair, it is sold at a 15% discount. What is the sale price of the tablet?",
+    "options": [
+      "$340",
+      "$360",
+      "$60",
+      "$320"
+    ],
+    "answer": "$340",
+    "time": 60
+  },
+  {
+    "question": "Percentage Discount",
+    "stem": "The usual price of a toy was $50. During a clearance sale, it was sold for $40. What was the percentage discount given?",
+    "options": [
+      "10%",
+      "25%",
+      "20%",
+      "80%"
+    ],
+    "answer": "20%",
+    "time": 60
+  },
+  {
+    "question": "Percentage Discount",
+    "stem": "Mrs. Tan bought a dress at a 40% discount and saved $24. What was the usual price of the dress?",
+    "options": [
+      "$36",
+      "$60",
+      "$80",
+      "$96"
+    ],
+    "answer": "$60",
+    "time": 65
+  },
+  {
+    "question": "Percentage Discount",
+    "stem": "A game set has a usual price of $250. It is sold at a 20% discount. What is the selling price of the game set?",
+    "options": [
+      "$200",
+      "$50",
+      "$220",
+      "$180"
+    ],
+    "answer": "$200",
+    "time": 55
+  },
+  {
+    "question": "Simple Interest (1 Year)",
+    "stem": "Mr. Lee deposited $2000 in a bank for 1 year at an annual interest rate of 3%. How much interest did he earn at the end of 1 year?",
+    "options": [
+      "$600",
+      "$60",
+      "$2060",
+      "$6"
+    ],
+    "answer": "$60",
+    "time": 50
+  },
+  {
+    "question": "Simple Interest (1 Year)",
+    "stem": "Siti deposited $5000 in a fixed deposit account for 1 year at an interest rate of 2% per annum. What is the total amount in her account after 1 year?",
+    "options": [
+      "$5100",
+      "$5010",
+      "$100",
+      "$5200"
+    ],
+    "answer": "$5100",
+    "time": 60
+  },
+  {
+    "question": "Simple Interest (1 Year)",
+    "stem": "A company deposited $8000 into a savings account for 1 year and received $320 in interest. What was the annual interest rate?",
+    "options": [
+      "3.2%",
+      "5%",
+      "4%",
+      "40%"
+    ],
+    "answer": "4%",
+    "time": 60
+  },
+  {
+    "question": "Simple Interest (1 Year)",
+    "stem": "Mr. Raj earned $180 in interest after depositing a sum of money into a bank for 1 year at an interest rate of 6% per annum. How much money did he deposit at first?",
+    "options": [
+      "$1080",
+      "$3000",
+      "$1800",
+      "$3600"
+    ],
+    "answer": "$3000",
+    "time": 65
+  },
+  {
+    "question": "Simple Interest (1 Year)",
+    "stem": "Benjamin deposited $1500 in a bank account that pays 1.5% interest per year. How much total money will he have in the account at the end of 1 year?",
+    "options": [
+      "$1522.50",
+      "$22.50",
+      "$1515.00",
+      "$1530.00"
+    ],
+    "answer": "$1522.50",
+    "time": 65
+  },
+  {
+    "question": "Percentage of a Group",
+    "stem": "There are 60 pupils in a school choir. 35% of them are boys. How many girls are there in the choir?",
+    "options": [
+      "21",
+      "39",
+      "40",
+      "25"
+    ],
+    "answer": "39",
+    "time": 55
+  },
+  {
+    "question": "Percentage of Remaining",
+    "stem": "John had 120 marbles. He lost 25% of them. He then gave 20% of the remaining marbles to his brother. How many marbles did he give to his brother?",
+    "options": [
+      "24",
+      "18",
+      "72",
+      "30"
+    ],
+    "answer": "18",
+    "time": 70
+  },
+  {
+    "question": "Percentage of Remaining",
+    "stem": "Siti spent 30% of her money on a book. She spent 50% of the remaining money on lunch. What percentage of her total money was spent on lunch?",
+    "options": [
+      "50%",
+      "20%",
+      "35%",
+      "15%"
+    ],
+    "answer": "35%",
+    "time": 70
+  },
+  {
+    "question": "Percentage of Remaining",
+    "stem": "David spent 20% of his allowance on a toy and 50% of the remaining money on food. If he had $30 left, how much was his allowance at first?",
+    "options": [
+      "$60",
+      "$100",
+      "$75",
+      "$90"
+    ],
+    "answer": "$75",
+    "time": 75
+  },
+  {
+    "question": "Percentage of a Group",
+    "stem": "In a box of 80 fruits, 30% are apples, 45% are oranges, and the rest are pears. How many pears are there in the box?",
+    "options": [
+      "20",
+      "24",
+      "36",
+      "15"
+    ],
+    "answer": "20",
+    "time": 60
+  },
+  {
+    "question": "Percentage of Remaining",
+    "stem": "A baker baked 300 tarts. He sold 60% of them in the morning. In the afternoon, he sold 30% of the remaining tarts. How many tarts did he sell in the afternoon?",
+    "options": [
+      "90",
+      "36",
+      "84",
+      "180"
+    ],
+    "answer": "36",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Multiplication",
+    "stem": "Find the value of 3.64 × 7.",
+    "options": [
+      "21.48",
+      "25.48",
+      "25.18",
+      "24.48"
+    ],
+    "answer": "25.48",
+    "time": 50
+  },
+  {
+    "question": "Decimals - Division",
+    "stem": "What is 21.35 divided by 5?",
+    "options": [
+      "4.07",
+      "4.72",
+      "4.27",
+      "4.35"
+    ],
+    "answer": "4.27",
+    "time": 50
+  },
+  {
+    "question": "Decimals - Conversion",
+    "stem": "Express the mixed number 5 3/4 as a decimal.",
+    "options": [
+      "5.34",
+      "5.75",
+      "5.25",
+      "5.30"
+    ],
+    "answer": "5.75",
+    "time": 45
+  },
+  {
+    "question": "Decimals - Word Problem",
+    "stem": "A glass bottle filled with juice has a total mass of 1.85 kg. The empty bottle has a mass of 0.35 kg. What is the total mass of the juice in 4 such bottles?",
+    "options": [
+      "7.4 kg",
+      "6 kg",
+      "5.4 kg",
+      "6.2 kg"
+    ],
+    "answer": "6 kg",
+    "time": 65
+  },
+  {
+    "question": "Decimals - Word Problem",
+    "stem": "A piece of wire 12.4 m long is cut into 8 equal pieces. What is the length of each piece in metres?",
+    "options": [
+      "1.45 m",
+      "1.65 m",
+      "1.55 m",
+      "1.50 m"
+    ],
+    "answer": "1.55 m",
+    "time": 55
+  },
+  {
+    "question": "Decimals - Conversion",
+    "stem": "Express the fraction 7/20 as a decimal.",
+    "options": [
+      "0.35",
+      "0.70",
+      "0.27",
+      "0.37"
+    ],
+    "answer": "0.35",
+    "time": 45
+  },
+  {
+    "question": "Decimals - Word Problem",
+    "stem": "A jug contains 2.45 litres of water. Water from 3 such full jugs is poured into an empty container. How many litres of water are in the container?",
+    "options": [
+      "6.35 litres",
+      "7.35 litres",
+      "7.45 litres",
+      "8.15 litres"
+    ],
+    "answer": "7.35 litres",
+    "time": 55
+  },
+  {
+    "question": "Rate - Unit Cost",
+    "stem": "6 identical pens cost $13.20. How much do 9 such pens cost?",
+    "options": [
+      "$18.60",
+      "$19.80",
+      "$21.20",
+      "$17.80"
+    ],
+    "answer": "$19.80",
+    "time": 55
+  },
+  {
+    "question": "Rate - Work Rate",
+    "stem": "A packaging machine seals 180 packets of snacks in 6 minutes. At this rate, how many packets can it seal in 15 minutes?",
+    "options": [
+      "420",
+      "360",
+      "450",
+      "500"
+    ],
+    "answer": "450",
+    "time": 55
+  },
+  {
+    "question": "Rate - Flow Rate",
+    "stem": "A water pipe fills a tank at a rate of 24 litres every 3 minutes. How many minutes will it take to fill 120 litres of water into the tank?",
+    "options": [
+      "12 minutes",
+      "15 minutes",
+      "18 minutes",
+      "20 minutes"
+    ],
+    "answer": "15 minutes",
+    "time": 60
+  },
+  {
+    "question": "Rate - Hourly Wages",
+    "stem": "A private tutor earns $35 per hour. If she tutors for 2.5 hours each day for 4 days, how much does she earn in total?",
+    "options": [
+      "$280",
+      "$350",
+      "$320",
+      "$400"
+    ],
+    "answer": "$350",
+    "time": 60
+  },
+  {
+    "question": "Rate - Parking Charges",
+    "stem": "A carpark charges $1.80 per hour for parking. How much does it cost to park a car for 5 hours?",
+    "options": [
+      "$8.50",
+      "$10.00",
+      "$9.00",
+      "$7.20"
+    ],
+    "answer": "$9.00",
+    "time": 50
+  },
+  {
+    "question": "Rate - Tiered Rates",
+    "stem": "A utility company charges $1.50 per cubic metre for the first 20 cubic metres of water, and $2.00 per cubic metre for any additional volume. How much does a household pay for using 25 cubic metres of water?",
+    "options": [
+      "$37.50",
+      "$40.00",
+      "$50.00",
+      "$42.50"
+    ],
+    "answer": "$40.00",
+    "time": 65
+  },
+  {
+    "question": "Rate - Typing Rate",
+    "stem": "Rachel types at a rate of 45 words per minute. How many words can she type in 12 minutes?",
+    "options": [
+      "480",
+      "600",
+      "540",
+      "500"
+    ],
+    "answer": "540",
+    "time": 55
+  }
+]

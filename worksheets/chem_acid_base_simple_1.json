@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Acid and Base Equations: Acid + Metal",
+    "stem": "Which products are formed when dilute hydrochloric acid reacts with magnesium ribbon?",
+    "options": [
+      "Magnesium oxide and hydrogen gas",
+      "Magnesium chloride and hydrogen gas",
+      "Magnesium chloride and water",
+      "Magnesium sulfate and carbon dioxide"
+    ],
+    "answer": "Magnesium chloride and hydrogen gas",
+    "time": 60
+  },
+  {
+    "question": "Acid and Base Equations: Acid + Carbonate",
+    "stem": "What products are formed when dilute nitric acid reacts with solid calcium carbonate?",
+    "options": [
+      "Calcium nitrate and hydrogen gas",
+      "Calcium oxide, water, and nitrogen gas",
+      "Calcium nitrate, water, and carbon dioxide",
+      "Calcium sulfate and carbon dioxide"
+    ],
+    "answer": "Calcium nitrate, water, and carbon dioxide",
+    "time": 65
+  },
+  {
+    "question": "Acid and Base Equations: Neutralisation",
+    "stem": "Which balanced chemical equation represents the neutralisation reaction between dilute sulfuric acid and aqueous sodium hydroxide?",
+    "options": [
+      "H2SO4 + 2NaOH → Na2SO4 + 2H2O",
+      "H2SO4 + NaOH → NaSO4 + H2O",
+      "2HCl + NaOH → NaCl + H2O",
+      "H2SO4 + Na2O → Na2SO4 + H2O"
+    ],
+    "answer": "H2SO4 + 2NaOH → Na2SO4 + 2H2O",
+    "time": 75
+  },
+  {
+    "question": "Acid and Base Equations: Gas Identification",
+    "stem": "A student adds dilute hydrochloric acid to an unknown solid X. Bubbles of a gas are produced that turn limewater cloudy. What is solid X?",
+    "options": [
+      "Zinc metal",
+      "Sodium carbonate",
+      "Sodium hydroxide",
+      "Copper(II) oxide"
+    ],
+    "answer": "Sodium carbonate",
+    "time": 60
+  },
+  {
+    "question": "Properties of Acids: Definition of a Strong Acid",
+    "stem": "Hydrochloric acid (HCl) is classified as a strong acid. What is the correct definition of a 'strong acid'?",
+    "options": [
+      "An acid that completely ionises in aqueous solution to produce hydrogen ions (H+).",
+      "An acid that contains a large amount of solute dissolved in a small volume of water.",
+      "An acid that reacts rapidly with all metals without requiring heat.",
+      "An acid that partially dissociates in water to release hydrogen ions (H+)."
+    ],
+    "answer": "An acid that completely ionises in aqueous solution to produce hydrogen ions (H+).",
+    "time": 65
+  },
+  {
+    "question": "Properties of Acids: Ionisation of Weak Acids",
+    "stem": "Ethanoic acid (CH3COOH) is classified as a weak acid. Which statement correctly describes its behavior when dissolved in water?",
+    "options": [
+      "It completely dissociates into CH3COO- and H+ ions.",
+      "It partially ionises in water, forming an equilibrium mixture of molecules and ions.",
+      "It does not produce any H+ ions in water.",
+      "It reacts with water molecules to form hydrogen gas."
+    ],
+    "answer": "It partially ionises in water, forming an equilibrium mixture of molecules and ions.",
+    "time": 65
+  },
+  {
+    "question": "Properties of Acids: Distinguishing Strength from Concentration",
+    "stem": "Which statement correctly distinguishes between acid 'strength' and acid 'concentration'?",
+    "options": [
+      "Strength refers to the extent of ionisation in water, whereas concentration refers to the amount of acid dissolved per unit volume.",
+      "Strength refers to the volume of the solution, whereas concentration refers to how fast it reacts.",
+      "Strength and concentration mean the exact same thing in chemistry.",
+      "Strength depends on the temperature of the solution, whereas concentration depends on pH."
+    ],
+    "answer": "Strength refers to the extent of ionisation in water, whereas concentration refers to the amount of acid dissolved per unit volume.",
+    "time": 70
+  },
+  {
+    "question": "Properties of Acids: Electrical Conductivity",
+    "stem": "Why does a 1.0 mol/dm³ solution of hydrochloric acid conduct electricity better than a 1.0 mol/dm³ solution of ethanoic acid?",
+    "options": [
+      "HCl completely ionises in water, producing a higher concentration of mobile H+ and Cl- ions.",
+      "HCl contains more total hydrogen atoms per molecule than ethanoic acid.",
+      "Ethanoic acid is an organic liquid that repels electrical current.",
+      "HCl contains free electrons that move through the liquid."
+    ],
+    "answer": "HCl completely ionises in water, producing a higher concentration of mobile H+ and Cl- ions.",
+    "time": 75
+  },
+  {
+    "question": "Properties of Acids: pH Comparison",
+    "stem": "Both Solution A (HCl) and Solution B (CH3COOH) have a concentration of 0.1 mol/dm³. Why does Solution A have a lower pH than Solution B?",
+    "options": [
+      "Solution A completely ionises, resulting in a higher concentration of H+ ions in solution.",
+      "Solution A has a larger volume of water than Solution B.",
+      "Solution B completely dissociates, which removes H+ ions from solution.",
+      "Solution A is a strong alkali, whereas Solution B is a weak acid."
+    ],
+    "answer": "Solution A completely ionises, resulting in a higher concentration of H+ ions in solution.",
+    "time": 70
+  },
+  {
+    "question": "Properties of Acids: Species Present in Weak Acid",
+    "stem": "In an aqueous solution of a weak acid such as ethanoic acid (CH3COOH), which species is present in the highest concentration?",
+    "options": [
+      "Un-ionised ethanoic acid molecules (CH3COOH)",
+      "Hydrogen ions (H+)",
+      "Ethanoate ions (CH3COO-)",
+      "Hydroxide ions (OH-)"
+    ],
+    "answer": "Un-ionised ethanoic acid molecules (CH3COOH)",
+    "time": 65
+  },
+  {
+    "question": "Types of Oxides: Basic Oxide + Acid Equation",
+    "stem": "Copper(II) oxide (CuO) is a basic oxide. Which equation correctly shows its reaction with dilute sulfuric acid?",
+    "options": [
+      "CuO(s) + H2SO4(aq) → CuSO4(aq) + H2O(l)",
+      "CuO(s) + H2SO4(aq) → CuSO4(aq) + H2(g)",
+      "CuO(s) + 2HCl(aq) → CuCl2(aq) + H2O(l)",
+      "CuO(s) + H2O(l) → Cu(OH)2(aq)"
+    ],
+    "answer": "CuO(s) + H2SO4(aq) → CuSO4(aq) + H2O(l)",
+    "time": 70
+  },
+  {
+    "question": "Types of Oxides: Basic Oxide + Water Equation",
+    "stem": "Calcium oxide (CaO) is a basic oxide. What product is formed when calcium oxide reacts with water?",
+    "options": [
+      "Calcium carbonate, CaCO3",
+      "Calcium hydroxide, Ca(OH)2",
+      "Calcium hydride, CaH2",
+      "Calcium nitrate, Ca(NO3)2"
+    ],
+    "answer": "Calcium hydroxide, Ca(OH)2",
+    "time": 60
+  },
+  {
+    "question": "Types of Oxides: Acidic Oxide + Water Equation",
+    "stem": "Sulfur trioxide (SO3) is an acidic oxide. Which equation correctly represents its reaction with water?",
+    "options": [
+      "SO3(g) + H2O(l) → H2SO3(aq)",
+      "SO3(g) + 2H2O(l) → H2SO4(aq) + H2(g)",
+      "SO3(g) + H2O(l) → H2SO4(aq)",
+      "SO3(g) + H2O(l) → S(s) + 2O2(g)"
+    ],
+    "answer": "SO3(g) + H2O(l) → H2SO4(aq)",
+    "time": 65
+  },
+  {
+    "question": "Types of Oxides: Acidic Oxide + Alkali Equation",
+    "stem": "Carbon dioxide gas reacts with aqueous sodium hydroxide. Which equation represents this reaction?",
+    "options": [
+      "CO2(g) + 2NaOH(aq) → Na2CO3(aq) + H2O(l)",
+      "CO2(g) + NaOH(aq) → NaHCO3(s)",
+      "CO2(g) + NaOH(aq) → Na2O(s) + H2O(l) + C(s)",
+      "CO2(g) + H2O(l) → H2CO3(aq)"
+    ],
+    "answer": "CO2(g) + 2NaOH(aq) → Na2CO3(aq) + H2O(l)",
+    "time": 70
+  },
+  {
+    "question": "Types of Oxides: Classification of Basic Oxides",
+    "stem": "Which group consists ONLY of basic oxides?",
+    "options": [
+      "CO2, SO2, NO2",
+      "CaO, MgO, Na2O",
+      "Al2O3, ZnO, PbO",
+      "CO, NO, H2O"
+    ],
+    "answer": "CaO, MgO, Na2O",
+    "time": 60
+  },
+  {
+    "question": "Types of Oxides: Classification of Acidic Oxides",
+    "stem": "Which oxide reacts with alkalis to form a salt and water, but does NOT react with acids?",
+    "options": [
+      "Magnesium oxide, MgO",
+      "Zinc oxide, ZnO",
+      "Sulfur dioxide, SO2",
+      "Carbon monoxide, CO"
+    ],
+    "answer": "Sulfur dioxide, SO2",
+    "time": 65
+  },
+  {
+    "question": "Types of Oxides: Neutral Oxides",
+    "stem": "Which oxide does NOT react with either acids or alkalis?",
+    "options": [
+      "Carbon dioxide, CO2",
+      "Calcium oxide, CaO",
+      "Carbon monoxide, CO",
+      "Zinc oxide, ZnO"
+    ],
+    "answer": "Carbon monoxide, CO",
+    "time": 55
+  },
+  {
+    "question": "Types of Oxides: Amphoteric Oxides",
+    "stem": "Zinc oxide (ZnO) can react with BOTH dilute hydrochloric acid and sodium hydroxide solution. What type of oxide is zinc oxide?",
+    "options": [
+      "Basic oxide",
+      "Acidic oxide",
+      "Amphoteric oxide",
+      "Neutral oxide"
+    ],
+    "answer": "Amphoteric oxide",
+    "time": 60
+  },
+  {
+    "question": "Agricultural Applications: Treating Acidic Soil",
+    "stem": "A farmer finds that the soil in his field has a pH of 5.0, which is too acidic for crops. Which compound should he add to neutralise excess soil acidity?",
+    "options": [
+      "Ammonium nitrate",
+      "Calcium hydroxide (slaked lime)",
+      "Sulfuric acid",
+      "Sodium chloride"
+    ],
+    "answer": "Calcium hydroxide (slaked lime)",
+    "time": 60
+  },
+  {
+    "question": "Agricultural Applications: Ammonium Salt Reaction",
+    "stem": "When an alkali like calcium hydroxide reacts with an ammonium salt like ammonium chloride, what gas is evolved?",
+    "options": [
+      "Ammonia gas, NH3",
+      "Hydrogen gas, H2",
+      "Nitrogen dioxide gas, NO2",
+      "Chlorine gas, Cl2"
+    ],
+    "answer": "Ammonia gas, NH3",
+    "time": 60
+  },
+  {
+    "question": "Agricultural Applications: Equation for Ammonium Salt + Base",
+    "stem": "Which chemical equation correctly represents the reaction when ammonium sulfate reacts with calcium hydroxide?",
+    "options": [
+      "(NH4)2SO4 + Ca(OH)2 → CaSO4 + 2NH4OH",
+      "(NH4)2SO4 + Ca(OH)2 → CaSO4 + 2H2O + 2NH3",
+      "NH4SO4 + CaOH → CaSO4 + NH3 + H2O",
+      "(NH4)2SO4 + CaO → CaSO4 + 2NH3"
+    ],
+    "answer": "(NH4)2SO4 + Ca(OH)2 → CaSO4 + 2H2O + 2NH3",
+    "time": 75
+  },
+  {
+    "question": "Agricultural Applications: Soil Treatment Warning",
+    "stem": "Why should a farmer NOT apply slaked lime, Ca(OH)2, to soil at the same time as ammonium-based fertilizers?",
+    "options": [
+      "Slaked lime reacts with ammonium fertilizer to release ammonia gas, causing a loss of nitrogen from the soil.",
+      "Slaked lime makes the fertilizer too acidic for plant roots to absorb.",
+      "Slaked lime converts ammonium fertilizer into insoluble solid sulfur.",
+      "The mixture explodes upon reaction with water."
+    ],
+    "answer": "Slaked lime reacts with ammonium fertilizer to release ammonia gas, causing a loss of nitrogen from the soil.",
+    "time": 75
+  },
+  {
+    "question": "Agricultural Applications: Gas Testing",
+    "stem": "When a mixture of ammonium chloride and sodium hydroxide is warmed, a gas with a pungent smell is evolved. How can this gas be identified?",
+    "options": [
+      "It extinguishes a burning splint with a 'pop' sound.",
+      "It turns damp red litmus paper blue.",
+      "It turns damp blue litmus paper red.",
+      "It forms a white precipitate when bubbled into limewater."
+    ],
+    "answer": "It turns damp red litmus paper blue.",
+    "time": 65
+  },
+  {
+    "question": "Agricultural Applications: Basic Oxide Ionic Equation",
+    "stem": "A farmer uses quicklime (CaO) to neutralise acidic soil. Which equation represents quicklime reacting with hydrogen ions (H+) from soil acid?",
+    "options": [
+      "CaO(s) + H+(aq) → CaOH+(aq)",
+      "CaO(s) + 2H+(aq) → Ca2+(aq) + H2O(l)",
+      "CaO(s) + H2O(l) → Ca(OH)2(s) + H+(aq)",
+      "CaO(s) + 2H+(aq) → Ca2+(aq) + H2(g)"
+    ],
+    "answer": "CaO(s) + 2H+(aq) → Ca2+(aq) + H2O(l)",
+    "time": 70
+  }
+]
