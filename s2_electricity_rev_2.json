@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Electrical Concepts - Resistance",
+    "stem": "Which statement best describes the concept of electrical resistance in a circuit?",
+    "options": [
+      "It is the pushing force that drives electric current through the wires.",
+      "It is a measure of how difficult it is for electric current to flow through a material.",
+      "It is the total number of battery cells connected in an electrical circuit.",
+      "It is the rate at which electrical energy is turned into chemical energy."
+    ],
+    "answer": "It is a measure of how difficult it is for electric current to flow through a material.",
+    "time": 60
+  },
+  {
+    "question": "Circuit Dynamics - Adding Batteries",
+    "stem": "If an extra battery is added in series to a simple circuit with one bulb, what happens to the electrical push and current?",
+    "options": [
+      "The electrical push increases, causing a greater flow of current through the bulb.",
+      "The electrical push decreases, causing the current in the circuit to drop to zero.",
+      "The electrical push stays the same because the bulb determines total current.",
+      "The electrical push increases, but the current decreases due to thicker wires."
+    ],
+    "answer": "The electrical push increases, causing a greater flow of current through the bulb.",
+    "time": 65
+  },
+  {
+    "question": "Circuit Dynamics - Series Changes",
+    "stem": "Two identical bulbs are connected in series with two batteries. What happens to the brightness of both bulbs if one battery is removed?",
+    "options": [
+      "Both bulbs will become noticeably dimmer.",
+      "One bulb goes out while the other remains bright.",
+      "Both bulbs will become noticeably brighter.",
+      "The brightness of both bulbs remains unchanged."
+    ],
+    "answer": "Both bulbs will become noticeably dimmer.",
+    "time": 60
+  },
+  {
+    "question": "Measuring Instruments - Voltmeter Connection",
+    "stem": "A student mistakenly connects a voltmeter in series inside a single-bulb circuit. What will be observed?",
+    "options": [
+      "The bulb lights up very brightly and the connecting wires melt.",
+      "The bulb does not light up because voltmeters allow almost no current to pass.",
+      "The battery explodes due to a complete short circuit across its terminals.",
+      "The voltmeter accurately measures the current flowing through the light bulb."
+    ],
+    "answer": "The bulb does not light up because voltmeters allow almost no current to pass.",
+    "time": 70
+  },
+  {
+    "question": "Measuring Instruments - Circuit Symbols",
+    "stem": "Which circuit diagram symbol represents an instrument used to measure the rate of flow of electricity?",
+    "options": [
+      "A circle containing the letter 'V'",
+      "A circle containing the letter 'A'",
+      "A rectangle with a diagonal line through it",
+      "A circle containing the letter 'M'"
+    ],
+    "answer": "A circle containing the letter 'A'",
+    "time": 50
+  },
+  {
+    "question": "Circuit Analysis - Resistance Comparison",
+    "stem": "Bulb X and Bulb Y are tested separately with the same battery. The ammeter reads 0.4 A for Bulb X and 0.9 A for Bulb Y. What can you conclude?",
+    "options": [
+      "Bulb X has higher resistance than Bulb Y because less current flows through it.",
+      "Bulb Y has higher resistance than Bulb X because more current flows through it.",
+      "Both bulbs have identical resistance because the battery used is the same.",
+      "It is impossible to compare resistance without knowing the length of the connecting wires."
+    ],
+    "answer": "Bulb X has higher resistance than Bulb Y because less current flows through it.",
+    "time": 70
+  },
+  {
+    "question": "Circuit Fault Finding - Series Circuit",
+    "stem": "A decorative string of 20 festive lamps is wired in a single series loop. Why is it tedious to locate a single faulty lamp when the string fails?",
+    "options": [
+      "The remaining working lamps become too bright to look at safely.",
+      "All lamps go out simultaneously, so each lamp must be tested individually.",
+      "The parallel branches continue drawing large currents from the wall socket.",
+      "The fuse automatically disconnects every individual bulb socket permanently."
+    ],
+    "answer": "All lamps go out simultaneously, so each lamp must be tested individually.",
+    "time": 70
+  },
+  {
+    "question": "Circuit Operation - Parallel Switches",
+    "stem": "In a home lighting circuit with lamps in parallel, what happens when the switch for the bedroom lamp is turned off?",
+    "options": [
+      "Only the bedroom branch is disconnected; other lamps in different rooms stay lit.",
+      "All lamps throughout the entire home turn off because the main loop is broken.",
+      "The remaining lamps in other rooms become significantly dimmer.",
+      "The current flowing from the main supply increases dramatically."
+    ],
+    "answer": "Only the bedroom branch is disconnected; other lamps in different rooms stay lit.",
+    "time": 65
+  },
+  {
+    "question": "Circuit Advantages - Parallel Arrangement",
+    "stem": "Why are major electrical appliances (e.g. ovens, refrigerators) wired in parallel across the household mains supply?",
+    "options": [
+      "Each appliance receives the full mains electrical push and operates independently.",
+      "Connecting appliances in parallel ensures that the total household current remains near zero.",
+      "Parallel wiring forces all appliances to consume identical amounts of electrical power.",
+      "Series circuits are prohibited because they make appliances heat up too quickly."
+    ],
+    "answer": "Each appliance receives the full mains electrical push and operates independently.",
+    "time": 70
+  },
+  {
+    "question": "Parallel Circuits - Current Distribution",
+    "stem": "A parallel circuit splits into two paths: Path A has a lower resistance than Path B. How does current divide between them?",
+    "options": [
+      "Path A draws more current than Path B because electricity flows more easily through lower resistance.",
+      "Path B draws more current than Path A because higher resistance attracts more current.",
+      "Both paths draw exactly equal current because they share the same battery source.",
+      "All current travels along Path B while Path A receives no current at all."
+    ],
+    "answer": "Path A draws more current than Path B because electricity flows more easily through lower resistance.",
+    "time": 70
+  },
+  {
+    "question": "Unit Conversions - Power Ratings",
+    "stem": "An electric toaster has a power rating of 800 W. What is its power rating expressed in kilowatts (kW)?",
+    "options": [
+      "8.0 kW",
+      "0.8 kW",
+      "0.08 kW",
+      "80.0 kW"
+    ],
+    "answer": "0.8 kW",
+    "time": 50
+  },
+  {
+    "question": "Cost Calculation - Power Conversion",
+    "stem": "An LED floodlight is rated at 200 W. How much electrical energy in kWh does it consume if it remains on for 10 hours?",
+    "options": [
+      "20.0 kWh",
+      "2.0 kWh",
+      "0.2 kWh",
+      "2000 kWh"
+    ],
+    "answer": "2.0 kWh",
+    "time": 60
+  },
+  {
+    "question": "Cost Calculation - Time in Minutes",
+    "stem": "A microwave oven rated at 1.2 kW is used to heat food for 30 minutes. How much electrical energy is consumed?",
+    "options": [
+      "36.0 kWh",
+      "0.6 kWh",
+      "2.4 kWh",
+      "0.04 kWh"
+    ],
+    "answer": "0.6 kWh",
+    "time": 65
+  },
+  {
+    "question": "Cost Calculation - Multi-step Problem",
+    "stem": "An air conditioner rated at 2 kW runs for 5 hours each day. If electricity costs 25 cents per kWh, what is the daily running cost?",
+    "options": [
+      "$2.50",
+      "$1.00",
+      "$5.00",
+      "$0.50"
+    ],
+    "answer": "$2.50",
+    "time": 70
+  },
+  {
+    "question": "Cost Calculation - Appliance Comparison",
+    "stem": "Appliance X (3 kW) is used for 2 hours, while Appliance Y (1 kW) is used for 8 hours. Which appliance consumes more energy?",
+    "options": [
+      "Appliance X consumes more energy (6 kWh vs 8 kWh).",
+      "Appliance Y consumes more energy (8 kWh vs 6 kWh).",
+      "Both appliances consume the exact same amount of energy.",
+      "Appliance X consumes more energy because its power rating is higher."
+    ],
+    "answer": "Appliance Y consumes more energy (8 kWh vs 6 kWh).",
+    "time": 70
+  },
+  {
+    "question": "Electrical Safety - Frayed Cords",
+    "stem": "Why does an electrical appliance cord with cracked outer plastic pose an immediate safety risk?",
+    "options": [
+      "The exposed inner copper wire can be touched directly, resulting in an electric shock.",
+      "The electricity will continuously leak out into the room air, wasting electrical energy.",
+      "The appliance will draw twice as much voltage from the socket, burning out the motor.",
+      "The cracked plastic attracts moisture that causes the circuit breaker to rust."
+    ],
+    "answer": "The exposed inner copper wire can be touched directly, resulting in an electric shock.",
+    "time": 65
+  },
+  {
+    "question": "Dangers of Electricity - Wet Hands",
+    "stem": "Why must electrical switches never be operated with wet hands?",
+    "options": [
+      "Water is a good conductor that lowers skin resistance, allowing current to flow into the body.",
+      "Water causes the switch mechanism to produce a high magnetic field that damages nearby devices.",
+      "Water increases the voltage supplied by the mains socket beyond its normal limit.",
+      "Water cools down the switch contacts, preventing the circuit from closing properly."
+    ],
+    "answer": "Water is a good conductor that lowers skin resistance, allowing current to flow into the body.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Circuit Breaker Tripping",
+    "stem": "When several high-power appliances in a kitchen are switched on together, the master circuit breaker trips. Why does this happen?",
+    "options": [
+      "The total current drawn exceeded the safe limit, triggering the breaker to cut power and prevent fire.",
+      "The appliances ran out of electrical energy and signalled the breaker to shut down.",
+      "The circuit breaker detected that one of the appliances was operating at too low a resistance.",
+      "The voltage supplied by the power station dropped to zero automatically."
+    ],
+    "answer": "The total current drawn exceeded the safe limit, triggering the breaker to cut power and prevent fire.",
+    "time": 70
+  },
+  {
+    "question": "Electrical Safety - Fuses vs Circuit Breakers",
+    "stem": "What is an operational advantage of using a modern circuit breaker over a traditional fuse?",
+    "options": [
+      "A circuit breaker can simply be reset with a switch, whereas a blown fuse wire must be replaced.",
+      "A circuit breaker completely eliminates the need for plastic insulation on wires.",
+      "A circuit breaker allows appliances to operate without consuming any electrical energy.",
+      "A circuit breaker increases the current capacity of all connected household cables."
+    ],
+    "answer": "A circuit breaker can simply be reset with a switch, whereas a blown fuse wire must be replaced.",
+    "time": 65
+  },
+  {
+    "question": "Materials - Poor Conductors in Safety",
+    "stem": "Why are electrical plugs and cable sheaths manufactured using materials that are poor conductors of electricity?",
+    "options": [
+      "They prevent electric current from passing to the outside surfaces where users make contact.",
+      "They allow electrical energy to move at much higher speeds through the internal wires.",
+      "They convert excess electrical current into light rather than releasing heat.",
+      "They increase the electrical push delivered to low-power household devices."
+    ],
+    "answer": "They prevent electric current from passing to the outside surfaces where users make contact.",
+    "time": 65
+  },
+  {
+    "question": "Dangers of Electricity - Adapter Overloading",
+    "stem": "Plugging four high-power heating appliances into a single wall socket adapter causes the adapter cord to feel hot. What causes this heating?",
+    "options": [
+      "The total current flowing through the adapter cable is excessively large, generating intense heat.",
+      "The wall socket is supplying too little push, forcing appliances to generate extra heat.",
+      "The plastic insulation around the adapter cord is absorbing electrical current.",
+      "The appliances are returning electrical energy back into the mains supply."
+    ],
+    "answer": "The total current flowing through the adapter cable is excessively large, generating intense heat.",
+    "time": 70
+  },
+  {
+    "question": "Dangers of Electricity - Damaged Insulation",
+    "stem": "What is the primary danger if two bare, damaged wires inside an appliance cord touch each other while plugged in?",
+    "options": [
+      "A short circuit is formed, causing a massive surge of current that can spark and start a fire.",
+      "The appliance stops working permanently because all electrical push is drained away.",
+      "The resistance of the circuit increases dramatically, slowing down the flow of electricity.",
+      "The power consumption of the appliance drops to zero while remaining on."
+    ],
+    "answer": "A short circuit is formed, causing a massive surge of current that can spark and start a fire.",
+    "time": 70
+  },
+  {
+    "question": "Electrical Safety - Undersized Fuses",
+    "stem": "An electric kettle that requires 10 A of current is fitted with a 3 A fuse. What will happen when the kettle is switched on?",
+    "options": [
+      "The fuse wire will melt immediately, breaking the circuit before the kettle can heat up.",
+      "The kettle will heat up normally but take three times as long to boil water.",
+      "The kettle body will become electrified and deliver an electric shock to the user.",
+      "The electrical cables inside the wall will instantly catch fire."
+    ],
+    "answer": "The fuse wire will melt immediately, breaking the circuit before the kettle can heat up.",
+    "time": 65
+  },
+  {
+    "question": "Dangers of Electricity - Mains Supply Hazards",
+    "stem": "Why does mains electricity in homes (230 V) pose a much greater danger of severe electric shock than a standard 1.5 V dry cell?",
+    "options": [
+      "The high push of mains electricity can drive dangerously large currents through the human body.",
+      "Mains electricity travels through metal wires, whereas dry cells do not use metal conductors.",
+      "Dry cells do not produce any electrical current when connected in complete circuits.",
+      "Mains electricity circuits cannot be fitted with safety fuses or circuit breakers."
+    ],
+    "answer": "The high push of mains electricity can drive dangerously large currents through the human body.",
+    "time": 70
+  }
+]

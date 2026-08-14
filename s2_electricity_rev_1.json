@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Electrical Concepts - Voltage",
+    "stem": "What provides the main electrical 'push' that causes electricity to flow through a complete circuit?",
+    "options": [
+      "Light bulb",
+      "Connecting wire",
+      "Electric battery",
+      "Closed switch"
+    ],
+    "answer": "Electric battery",
+    "time": 50
+  },
+  {
+    "question": "Electrical Components - Switch",
+    "stem": "Which component in an electrical circuit is used to open or close the pathway to control the flow of electricity?",
+    "options": [
+      "Voltmeter",
+      "Electric switch",
+      "Connecting wire",
+      "Light bulb"
+    ],
+    "answer": "Electric switch",
+    "time": 50
+  },
+  {
+    "question": "Electrical Concepts - Resistance",
+    "stem": "How would you describe a component that opposes or restricts the flow of electricity through it?",
+    "options": [
+      "A high current component",
+      "A good electrical conductor",
+      "A high resistance component",
+      "A high push component"
+    ],
+    "answer": "A high resistance component",
+    "time": 55
+  },
+  {
+    "question": "Measuring Instruments - Ammeter",
+    "stem": "How must an ammeter be connected in a circuit to measure the flow of electricity through a light bulb?",
+    "options": [
+      "In parallel across the battery",
+      "In series along the circuit pathway",
+      "In parallel across the bulb",
+      "Across the open terminals of a switch"
+    ],
+    "answer": "In series along the circuit pathway",
+    "time": 60
+  },
+  {
+    "question": "Measuring Instruments - Voltmeter",
+    "stem": "What is the primary function of a voltmeter in an electrical circuit?",
+    "options": [
+      "To measure the electrical push across a component",
+      "To measure how fast electric current flows",
+      "To measure the total resistance of the wires",
+      "To measure the energy consumed by a bulb"
+    ],
+    "answer": "To measure the electrical push across a component",
+    "time": 60
+  },
+  {
+    "question": "Materials - Conductors and Poor Conductors",
+    "stem": "Which of the following materials is a poor conductor of electricity and is commonly used as safety casing for appliances?",
+    "options": [
+      "Copper metal",
+      "Aluminium foil",
+      "Plastic casing",
+      "Iron nail"
+    ],
+    "answer": "Plastic casing",
+    "time": 50
+  },
+  {
+    "question": "Circuit Arrangements - Series Circuit",
+    "stem": "What happens in a series circuit containing three light bulbs if one of the bulbs fuses?",
+    "options": [
+      "Only that bulb goes out while the other two bulbs stay lit.",
+      "The remaining bulbs become much brighter than before.",
+      "All the bulbs go out because the single pathway is broken.",
+      "The battery instantly becomes hot and stops functioning."
+    ],
+    "answer": "All the bulbs go out because the single pathway is broken.",
+    "time": 65
+  },
+  {
+    "question": "Circuit Arrangements - Parallel Circuit",
+    "stem": "Why are electrical lights and appliances in homes arranged in parallel circuits instead of series circuits?",
+    "options": [
+      "They allow each appliance to be controlled independently without affecting others.",
+      "They make all the bulbs in the house dimmer to conserve electrical energy.",
+      "They require far fewer connecting wires throughout the home building.",
+      "They prevent any electrical current from reaching the master breaker."
+    ],
+    "answer": "They allow each appliance to be controlled independently without affecting others.",
+    "time": 65
+  },
+  {
+    "question": "Circuit Arrangements - Series Circuit",
+    "stem": "What happens to the brightness of the bulbs when another identical bulb is added in series to an existing loop?",
+    "options": [
+      "All bulbs in the loop become brighter.",
+      "The overall flow increases in the loop.",
+      "All bulbs in the loop become dimmer.",
+      "The brightness of all bulbs remains unchanged."
+    ],
+    "answer": "All bulbs in the loop become dimmer.",
+    "time": 60
+  },
+  {
+    "question": "Circuit Arrangements - Parallel Current",
+    "stem": "In a parallel circuit with two branches, how is the total current flowing from the battery related to the branches?",
+    "options": [
+      "Branch 1 always receives all the current while Branch 2 receives none.",
+      "The total current from the battery equals the sum of the currents in both branches.",
+      "Current must always split exactly equally regardless of bulb resistance.",
+      "The branch with greater resistance always draws a higher current."
+    ],
+    "answer": "The total current from the battery equals the sum of the currents in both branches.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Energy - Billing Units",
+    "stem": "What standard unit of electrical energy is typically used on household electricity utility bills?",
+    "options": [
+      "Kilowatt-hour (kWh)",
+      "Watts per hour (W/h)",
+      "Kilowatt per hour (kW/h)",
+      "Volts per second (V/s)"
+    ],
+    "answer": "Kilowatt-hour (kWh)",
+    "time": 50
+  },
+  {
+    "question": "Cost Calculation - Energy Used",
+    "stem": "A vacuum cleaner has a power rating of 1 kW. If it is used continuously for 2 hours, how much electrical energy does it consume?",
+    "options": [
+      "0.5 kWh",
+      "3.0 kWh",
+      "2.0 kWh",
+      "1.5 kWh"
+    ],
+    "answer": "2.0 kWh",
+    "time": 50
+  },
+  {
+    "question": "Cost Calculation - Energy Used",
+    "stem": "An electric room heater is rated at 2.5 kW. How much electrical energy does it use when operated for 4 hours?",
+    "options": [
+      "6.5 kWh",
+      "10.0 kWh",
+      "0.6 kWh",
+      "1.6 kWh"
+    ],
+    "answer": "10.0 kWh",
+    "time": 55
+  },
+  {
+    "question": "Cost Calculation - Cost of Electricity",
+    "stem": "A television uses 2 kWh of electrical energy. If the cost of electricity is 30 cents per kWh, what is the cost of using the television?",
+    "options": [
+      "15 cents",
+      "60 cents",
+      "32 cents",
+      "90 cents"
+    ],
+    "answer": "60 cents",
+    "time": 55
+  },
+  {
+    "question": "Cost Calculation - Cost of Electricity",
+    "stem": "A desktop computer uses 1.5 kW of power for 2 hours. If electricity costs 20 cents per kWh, what is the total cost?",
+    "options": [
+      "30 cents",
+      "60 cents",
+      "45 cents",
+      "15 cents"
+    ],
+    "answer": "60 cents",
+    "time": 60
+  },
+  {
+    "question": "Dangers of Electricity - Water Hazard",
+    "stem": "Which of the following situations presents the greatest risk of receiving an electric shock?",
+    "options": [
+      "Touching an insulated appliance handle with dry hands",
+      "Operating an electrical appliance while standing barefoot in a puddle of water",
+      "Plugging a clean, dry two-pin plug into an indoor wall socket",
+      "Switching off a table lamp in a well-ventilated dry bedroom"
+    ],
+    "answer": "Operating an electrical appliance while standing barefoot in a puddle of water",
+    "time": 60
+  },
+  {
+    "question": "Dangers of Electricity - Overloading",
+    "stem": "What is the primary danger of plugging too many high-power appliances into a single multi-plug socket adapter?",
+    "options": [
+      "The appliances will become very cold and stop working properly.",
+      "The wiring in the adapter can overheat and potentially cause an electrical fire.",
+      "The electrical current will drop to zero across all connected devices.",
+      "The appliances will permanently switch into battery-powered mode."
+    ],
+    "answer": "The wiring in the adapter can overheat and potentially cause an electrical fire.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Insulation",
+    "stem": "Why must the flexible plastic coating on electrical cables always remain in good condition without cracks?",
+    "options": [
+      "To prevent direct contact with the live metal conductor wires inside",
+      "To prevent electricity from escaping into the surrounding room air",
+      "To ensure the electrical current travels much faster along the wire",
+      "To increase the total electrical push provided by the wall socket"
+    ],
+    "answer": "To prevent direct contact with the live metal conductor wires inside",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Damaged Wires",
+    "stem": "Why is it hazardous to continue using an electrical iron that has a frayed connecting cord?",
+    "options": [
+      "The iron will use significantly less power and take longer to heat up.",
+      "The frayed cord exposes bare metal wires that can cause an electric shock.",
+      "The plastic outer layer will react chemically with moisture in the air.",
+      "The appliance will cause all circuit breakers in the neighbourhood to trip."
+    ],
+    "answer": "The frayed cord exposes bare metal wires that can cause an electric shock.",
+    "time": 60
+  },
+  {
+    "question": "Electrical Safety - Fuse Function",
+    "stem": "How does a fuse protect an electrical appliance when an excessively large current flows through it?",
+    "options": [
+      "The thin wire inside heats up and melts, breaking the circuit pathway.",
+      "The fuse wire expands to allow more current to pass safely through.",
+      "The fuse releases a cooling gas to reduce the temperature of the wires.",
+      "The fuse automatically sends an alert signal to the power station."
+    ],
+    "answer": "The thin wire inside heats up and melts, breaking the circuit pathway.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Circuit Breakers",
+    "stem": "What is the purpose of a circuit breaker in a home electrical distribution box?",
+    "options": [
+      "To measure the amount of electrical energy consumed by the home daily",
+      "To automatically switch off the circuit when dangerously high current is detected",
+      "To increase the electrical voltage supplied to high-power kitchen devices",
+      "To convert alternating electrical current into direct battery current"
+    ],
+    "answer": "To automatically switch off the circuit when dangerously high current is detected",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Tool Materials",
+    "stem": "Why are the handles of screwdrivers used for electrical work covered with thick rubber or plastic?",
+    "options": [
+      "These materials are poor conductors of electricity and protect the user from shock.",
+      "These materials make the screwdriver magnetic so it attracts small screws.",
+      "These materials prevent the metal blade of the screwdriver from rusting.",
+      "These materials allow electric current to pass harmlessly into the floor."
+    ],
+    "answer": "These materials are poor conductors of electricity and protect the user from shock.",
+    "time": 65
+  },
+  {
+    "question": "Dangers of Electricity - Damp Conditions",
+    "stem": "Why does having wet skin greatly increase the risk and severity of an electric shock?",
+    "options": [
+      "Water increases the push of the electrical source connected to the mains.",
+      "Water allows electricity to flow much more readily through the human body.",
+      "Water blocks all current from leaving the body back into the ground.",
+      "Water immediately melts the safety fuse inside the wall socket."
+    ],
+    "answer": "Water allows electricity to flow much more readily through the human body.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Fuse Rating",
+    "stem": "Why is it dangerous to replace a blown 3 A fuse in an appliance with a 13 A fuse?",
+    "options": [
+      "The 13 A fuse will blow immediately under normal working current.",
+      "The 13 A fuse may not melt during an overload, allowing dangerous currents to flow.",
+      "The 13 A fuse causes the appliance to operate at a much lower speed.",
+      "The 13 A fuse reduces the electrical push delivered to the device."
+    ],
+    "answer": "The 13 A fuse may not melt during an overload, allowing dangerous currents to flow.",
+    "time": 70
+  }
+]
