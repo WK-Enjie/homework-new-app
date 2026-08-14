@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Changes of State in the Water Cycle",
+    "stem": "Which row correctly pairs a change of state with whether heat is gained or lost?",
+    "options": [
+      "Water evaporating into water vapour: Heat Loss",
+      "Water vapour condensing into water droplets: Heat Gain",
+      "Ice melting into liquid water: Heat Gain",
+      "Liquid water freezing into ice: Heat Gain"
+    ],
+    "answer": "Ice melting into liquid water: Heat Gain",
+    "time": 60
+  },
+  {
+    "question": "Condensation Process",
+    "stem": "Tiny water droplets form on the outer surface of a cold metal can of soda when left on a table. Where did these water droplets come from?",
+    "options": [
+      "Water from inside the can seeped through tiny pores in the metal.",
+      "Cold air around the can melted into liquid water.",
+      "Warm water vapour from the surrounding air lost heat and condensed onto the cooler surface of the can.",
+      "The cold drink evaporated and condensed immediately outside."
+    ],
+    "answer": "Warm water vapour from the surrounding air lost heat and condensed onto the cooler surface of the can.",
+    "time": 65
+  },
+  {
+    "question": "Factors Affecting Evaporation",
+    "stem": "Which condition will slow down the rate of evaporation of water from an open container?",
+    "options": [
+      "An increase in surrounding temperature",
+      "An increase in surrounding humidity",
+      "An increase in exposed surface area of water",
+      "An increase in wind speed"
+    ],
+    "answer": "An increase in surrounding humidity",
+    "time": 60
+  },
+  {
+    "question": "Environmental Science - Global Warming",
+    "stem": "Which action helps reduce the enhanced greenhouse effect and slows down global warming?",
+    "options": [
+      "Clearing large areas of rainforest for agriculture",
+      "Increasing the use of fossil fuels in transport",
+      "Increasing the use of renewable energy sources such as solar and wind power",
+      "Increasing the continuous usage of air-conditioners"
+    ],
+    "answer": "Increasing the use of renewable energy sources such as solar and wind power",
+    "time": 60
+  },
+  {
+    "question": "Evaporation and Water Conservation",
+    "stem": "Placing floating solar panel platforms on the surface of water reservoirs helps conserve water primarily because:",
+    "options": [
+      "the panels generate electricity that cools the reservoir water",
+      "the panels cover the water surface, reducing the exposed surface area and decreasing the rate of evaporation",
+      "the panels absorb all rainfall directly",
+      "the panels prevent fish from consuming the water"
+    ],
+    "answer": "the panels cover the water surface, reducing the exposed surface area and decreasing the rate of evaporation",
+    "time": 70
+  },
+  {
+    "question": "Forms and Conversions of Energy",
+    "stem": "Which of the following processes does NOT involve an energy conversion?",
+    "options": [
+      "An apple falling from a tree",
+      "A slice of bread being toasted in an electric toaster",
+      "Hot soup cooling down naturally to room temperature",
+      "A solar panel generating electricity to light a bulb"
+    ],
+    "answer": "Hot soup cooling down naturally to room temperature",
+    "time": 65
+  },
+  {
+    "question": "Energy Conversions in Devices",
+    "stem": "What is the energy conversion in a solar-powered street lamp during the daytime when charging its internal battery?",
+    "options": [
+      "Light energy (Sun) → Electrical energy (Solar panel) → Chemical potential energy (Battery)",
+      "Heat energy → Kinetic energy → Light energy",
+      "Electrical energy → Light energy → Heat energy",
+      "Chemical potential energy → Kinetic energy → Light energy"
+    ],
+    "answer": "Light energy (Sun) → Electrical energy (Solar panel) → Chemical potential energy (Battery)",
+    "time": 70
+  },
+  {
+    "question": "Solar Energy Efficiency",
+    "stem": "When dust and soot cover the surface of a solar panel, why does its electrical energy output drop?",
+    "options": [
+      "Dirt conducts the electrical current away into the air.",
+      "Less light energy from the sun reaches the solar cells to be converted into electrical energy.",
+      "The solar panel becomes too hot to function.",
+      "Dust changes the direction of electric current in the circuit."
+    ],
+    "answer": "Less light energy from the sun reaches the solar cells to be converted into electrical energy.",
+    "time": 65
+  },
+  {
+    "question": "States of Matter & Melting/Boiling Points",
+    "stem": "Substance S is a solid at 25°C. After heating to 80°C, it turns into a liquid. Which of the following could be the melting and boiling points of substance S?",
+    "options": [
+      "Melting Point: 15°C; Boiling Point: 70°C",
+      "Melting Point: 20°C; Boiling Point: 80°C",
+      "Melting Point: 30°C; Boiling Point: 95°C",
+      "Melting Point: 85°C; Boiling Point: 120°C"
+    ],
+    "answer": "Melting Point: 30°C; Boiling Point: 95°C",
+    "time": 75
+  },
+  {
+    "question": "Thermal Expansion of Gases",
+    "stem": "A student stuck a sticker onto a plastic toy. Tiny air bubbles trapped under the sticker grew larger after the toy was left under the hot sun for several hours. Why did this happen?",
+    "options": [
+      "The sticker shrank under the sun.",
+      "More air leaked through the solid plastic into the bubbles.",
+      "The trapped air gained heat and expanded.",
+      "The trapped air changed into a liquid state."
+    ],
+    "answer": "The trapped air gained heat and expanded.",
+    "time": 65
+  },
+  {
+    "question": "Properties of Air",
+    "stem": "When you blow air into a rolled party blower toy, the paper tube unrolls and straightens instantly. Which property of air does this demonstrate?",
+    "options": [
+      "Air takes up space.",
+      "Air has no definite mass.",
+      "Air conducts heat poorly.",
+      "Air cannot be compressed."
+    ],
+    "answer": "Air takes up space.",
+    "time": 55
+  },
+  {
+    "question": "Heat and Evaporation",
+    "stem": "A pot of wet sand placed in a dry, sunny area causes the temperature of an inner chamber to drop from 32°C to 29°C. What is the scientific explanation for this cooling effect?",
+    "options": [
+      "Wet sand is a good conductor of heat.",
+      "Water in the sand absorbs heat from the inner chamber as it evaporates.",
+      "Water vapour condenses onto the sand, cooling the surroundings.",
+      "Sand reflects all heat energy away."
+    ],
+    "answer": "Water in the sand absorbs heat from the inner chamber as it evaporates.",
+    "time": 70
+  },
+  {
+    "question": "Heat Transfer & Surface Area",
+    "stem": "Two identical cans of warm drink are placed in two cooler boxes: Box A has cans buried inside crushed ice, while Box B has cans placed on top of a single ice block. The drinks in Box A cool down faster because:",
+    "options": [
+      "crushed ice has a lower melting point than block ice",
+      "the cans in Box A have a greater surface area of contact with the ice, allowing faster heat loss from the can to the ice",
+      "coldness from the crushed ice travels faster by radiation",
+      "crushed ice prevents all air from entering Box A"
+    ],
+    "answer": "the cans in Box A have a greater surface area of contact with the ice, allowing faster heat loss from the can to the ice",
+    "time": 75
+  },
+  {
+    "question": "Measuring Volume of Matter",
+    "stem": "A measuring cylinder has 100 cm³ of water. A dry sponge of volume 30 cm³ is placed inside. When removed, the water level drops to 80 cm³. Why can't we determine the exact volume of the sponge using this water displacement method?",
+    "options": [
+      "Sponges have no definite volume.",
+      "The porous sponge absorbs some of the water, making the measured water level inaccurate.",
+      "Water evaporates instantly when touching a sponge.",
+      "The sponge dissolved in the water."
+    ],
+    "answer": "The porous sponge absorbs some of the water, making the measured water level inaccurate.",
+    "time": 70
+  },
+  {
+    "question": "Forms of Energy - Gravitational Potential Energy",
+    "stem": "Which of the following objects possesses gravitational potential energy?",
+    "options": [
+      "A ball rolling along a level floor",
+      "A stretched rubber band lying on the floor",
+      "A ripe mango hanging from a high branch",
+      "A battery connected in a closed circuit"
+    ],
+    "answer": "A ripe mango hanging from a high branch",
+    "time": 55
+  },
+  {
+    "question": "Energy Conversions - Friction",
+    "stem": "When a wooden block slides down a rough ramp and comes to a complete stop at the bottom, what energy conversion has taken place?",
+    "options": [
+      "Gravitational potential energy → Kinetic energy → Heat and sound energy",
+      "Chemical potential energy → Electrical energy → Heat energy",
+      "Kinetic energy → Gravitational potential energy",
+      "Elastic potential energy → Kinetic energy"
+    ],
+    "answer": "Gravitational potential energy → Kinetic energy → Heat and sound energy",
+    "time": 70
+  },
+  {
+    "question": "Material Properties",
+    "stem": "A steel cable is used to suspend a heavy gondola holding two window cleaners high up a building wall. Which property of steel makes it the most suitable material for this purpose?",
+    "options": [
+      "Flexibility",
+      "High strength (ability to support heavy loads without breaking)",
+      "Magnetic property",
+      "Transparency"
+    ],
+    "answer": "High strength (ability to support heavy loads without breaking)",
+    "time": 60
+  },
+  {
+    "question": "Forces Acting on Objects",
+    "stem": "A magnet holds an iron ball stationary underneath it in mid-air. What force(s) is/are acting on the iron ball?",
+    "options": [
+      "Magnetic force only",
+      "Gravitational force only",
+      "Both magnetic force and gravitational force",
+      "Frictional force and elastic spring force"
+    ],
+    "answer": "Both magnetic force and gravitational force",
+    "time": 65
+  },
+  {
+    "question": "Forces - Friction Reduction",
+    "stem": "A magnetic floating globe suspended in mid-air spins for a much longer time than a regular globe mounted on an axle when given the same push. Why does the floating globe spin longer?",
+    "options": [
+      "It has less gravitational force acting on it.",
+      "It experiences no contact friction between the globe and a solid support.",
+      "It has greater magnetic attraction pulling it forward.",
+      "It is lighter than air."
+    ],
+    "answer": "It experiences no contact friction between the globe and a solid support.",
+    "time": 70
+  },
+  {
+    "question": "Elastic Spring Force",
+    "stem": "Four identical-length springs (20 cm) are compressed by a 1 kg mass. The compressed lengths are: Spring A is 18 cm, Spring B is 15 cm, Spring C is 12 cm, and Spring D is 8 cm. Which spring is the most stiff?",
+    "options": [
+      "Spring A",
+      "Spring B",
+      "Spring C",
+      "Spring D"
+    ],
+    "answer": "Spring A",
+    "time": 70
+  },
+  {
+    "question": "Frictional Force Applications",
+    "stem": "An object is pushed with the same force across 3 floor materials: It slides 5 cm on Material X, 10 cm on Material Y, and 14 cm on Material Z. Which material is the best choice for non-slip safety stair treads?",
+    "options": [
+      "Material X, because it produces the greatest friction against shoes",
+      "Material Y, because it is smooth",
+      "Material Z, because it allows objects to slide easily",
+      "None of the materials are suitable"
+    ],
+    "answer": "Material X, because it produces the greatest friction against shoes",
+    "time": 70
+  },
+  {
+    "question": "Forces - Gravity",
+    "stem": "Why is it more tiring to climb up a flight of stairs than to walk down the same flight of stairs?",
+    "options": [
+      "There is greater friction when walking up than walking down.",
+      "You are moving against the direction of gravitational force when climbing up.",
+      "The stairs exert a pulling force downwards only when walking down.",
+      "Gravitational force acts on a person only when going upwards."
+    ],
+    "answer": "You are moving against the direction of gravitational force when climbing up.",
+    "time": 65
+  },
+  {
+    "question": "Light and Vision",
+    "stem": "Ella is able to see a black rabbit sitting on the floor under a lighted table lamp. Which of the following explains how she sees the rabbit?",
+    "options": [
+      "Light from Ella's eyes travels to the rabbit.",
+      "The rabbit produces its own light that enters Ella's eyes.",
+      "Light from the lamp is reflected from the rabbit into Ella's eyes.",
+      "Light from the lamp enters Ella's eyes directly and reflects onto the rabbit."
+    ],
+    "answer": "Light from the lamp is reflected from the rabbit into Ella's eyes.",
+    "time": 65
+  },
+  {
+    "question": "Electricity - Circuit Arrangements",
+    "stem": "In a food-warming display cabinet, four identical heating bulbs are connected in parallel instead of in series. What are the advantages of connecting the bulbs in parallel?",
+    "options": [
+      "The bulbs are dimmer and consume more energy.",
+      "Each bulb receives the full voltage, shines brighter, and produces more heat, and if one bulb fuses, the others remain lit.",
+      "The total electrical resistance of the circuit increases.",
+      "It reduces the current flowing through every branch to zero."
+    ],
+    "answer": "Each bulb receives the full voltage, shines brighter, and produces more heat, and if one bulb fuses, the others remain lit.",
+    "time": 75
+  }
+]

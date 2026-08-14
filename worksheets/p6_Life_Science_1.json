@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Human Body Systems",
+    "stem": "Which human body system works directly with the circulatory system to transport oxygen from inhaled air to all cells in the body?",
+    "options": [
+      "Skeletal system",
+      "Muscular system",
+      "Digestive system",
+      "Respiratory system"
+    ],
+    "answer": "Respiratory system",
+    "time": 60
+  },
+  {
+    "question": "Diversity of Living Things",
+    "stem": "Which of the following organisms reproduces by spores?",
+    "options": [
+      "Rose plant",
+      "Sunflower plant",
+      "Bird's nest fern",
+      "Papaya tree"
+    ],
+    "answer": "Bird's nest fern",
+    "time": 55
+  },
+  {
+    "question": "Animal Classification",
+    "stem": "Which characteristic can be used to differentiate between mammals and amphibians?",
+    "options": [
+      "Presence of a backbone",
+      "Type of outer body covering",
+      "Number of legs",
+      "Presence of eyes"
+    ],
+    "answer": "Type of outer body covering",
+    "time": 60
+  },
+  {
+    "question": "Plant Reproduction",
+    "stem": "For an adult flowering plant to develop and produce fruits containing seeds, which processes must occur in order?",
+    "options": [
+      "Germination → Pollination",
+      "Fertilisation → Pollination",
+      "Pollination → Fertilisation",
+      "Seed dispersal → Germination"
+    ],
+    "answer": "Pollination → Fertilisation",
+    "time": 60
+  },
+  {
+    "question": "Seed Dispersal by Wind",
+    "stem": "A seed is equipped with a wing-like structure. In an experiment with an electric fan, as the wind speed increases, what happens to the horizontal distance travelled by the seed?",
+    "options": [
+      "It decreases.",
+      "It increases.",
+      "It remains unchanged.",
+      "It increases, then suddenly drops to zero."
+    ],
+    "answer": "It increases.",
+    "time": 60
+  },
+  {
+    "question": "Seed Dispersal - Explosive Action",
+    "stem": "Which of the following describes an advantage of a fruit that splits open explosively to shoot out tiny seeds with wing-like structures?",
+    "options": [
+      "It prevents animals from eating the parent plant.",
+      "It allows seeds to be dispersed further away from the parent plant to reduce overcrowding and competition.",
+      "It ensures all seeds germinate under the shade of the parent tree.",
+      "It attracts insect pollinators to the young seedlings."
+    ],
+    "answer": "It allows seeds to be dispersed further away from the parent plant to reduce overcrowding and competition.",
+    "time": 65
+  },
+  {
+    "question": "Human Circulatory System",
+    "stem": "Blood flows from the lungs to the heart, and is then pumped from the heart to the rest of the body. Which statement correctly compares the blood flowing from the lungs to the heart and from the heart to the rest of the body?",
+    "options": [
+      "Both carry oxygen-rich blood.",
+      "Blood from the lungs is rich in carbon dioxide; blood to the body is rich in oxygen.",
+      "Both carry blood poor in oxygen.",
+      "Blood from the lungs contains less oxygen than blood pumped to the body."
+    ],
+    "answer": "Both carry oxygen-rich blood.",
+    "time": 70
+  },
+  {
+    "question": "Human Digestive and Circulatory Systems",
+    "stem": "As blood flows through the small intestine, what change occurs to the composition of the blood?",
+    "options": [
+      "It gains oxygen and loses digested food.",
+      "It loses carbon dioxide and gains oxygen.",
+      "It gains digested food and loses oxygen.",
+      "It loses digested food and loses carbon dioxide."
+    ],
+    "answer": "It gains digested food and loses oxygen.",
+    "time": 65
+  },
+  {
+    "question": "Plant Transport System",
+    "stem": "Amy coated only the lower surfaces of several leaves on a potted plant with a layer of waterproof oil. After 3 hours in the sun, the rate of water loss from the plant decreased significantly. What can she conclude?",
+    "options": [
+      "The plant lost water through its roots.",
+      "There are more tiny openings (stomata) on the lower surface than on the upper surface.",
+      "Photosynthesis occurs only on the upper surface of leaves.",
+      "Water is absorbed through the upper surface of leaves."
+    ],
+    "answer": "There are more tiny openings (stomata) on the lower surface than on the upper surface.",
+    "time": 75
+  },
+  {
+    "question": "Human Digestive System",
+    "stem": "Which of the following human digestive organs produces digestive juices that digest food, but does not absorb digested food into the bloodstream?",
+    "options": [
+      "Mouth",
+      "Stomach",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "answer": "Stomach",
+    "time": 60
+  },
+  {
+    "question": "Physical Digestion",
+    "stem": "Food that is chewed into smaller pieces is digested faster by digestive juices because:",
+    "options": [
+      "smaller pieces have a smaller total volume",
+      "smaller pieces provide a greater exposed surface area for digestive juices to act on",
+      "chewing adds more moisture to dissolve all the food completely",
+      "chewing turns solid food directly into liquid nutrients"
+    ],
+    "answer": "smaller pieces provide a greater exposed surface area for digestive juices to act on",
+    "time": 65
+  },
+  {
+    "question": "Respiratory System Adaptations",
+    "stem": "How do the gill filaments of a fish and the air sacs (alveoli) of a human lung share similar structural adaptations for efficient gaseous exchange?",
+    "options": [
+      "Both are covered with thick scales to prevent water loss.",
+      "Both provide a large surface area and are richly supplied with blood vessels.",
+      "Both pump air directly into the heart.",
+      "Both can absorb water to produce nutrients."
+    ],
+    "answer": "Both provide a large surface area and are richly supplied with blood vessels.",
+    "time": 70
+  },
+  {
+    "question": "Photosynthesis and Respiration",
+    "stem": "In a sealed test tube containing a water plant placed under bright sunlight, what changes occur to the oxygen and carbon dioxide levels in the water after several hours?",
+    "options": [
+      "Oxygen increases; carbon dioxide decreases.",
+      "Oxygen decreases; carbon dioxide increases.",
+      "Both oxygen and carbon dioxide increase.",
+      "Both oxygen and carbon dioxide decrease."
+    ],
+    "answer": "Oxygen increases; carbon dioxide decreases.",
+    "time": 65
+  },
+  {
+    "question": "Interactions in Ecosystems",
+    "stem": "If a live fish is placed into a sealed glass container with a green water plant under bright sunlight, how do the organisms interact?",
+    "options": [
+      "The fish will consume all carbon dioxide and give out oxygen.",
+      "The plant takes in carbon dioxide produced by the fish for photosynthesis.",
+      "The plant will stop carrying out respiration.",
+      "The amount of oxygen in the water will drop to zero immediately."
+    ],
+    "answer": "The plant takes in carbon dioxide produced by the fish for photosynthesis.",
+    "time": 70
+  },
+  {
+    "question": "Gaseous Exchange in Organisms",
+    "stem": "When people are trapped in an enclosed, airtight underground cave, how do the levels of gases in the cave air change over time?",
+    "options": [
+      "Nitrogen increases; oxygen decreases",
+      "Oxygen decreases; carbon dioxide increases",
+      "Carbon dioxide decreases; oxygen increases",
+      "Both oxygen and carbon dioxide stay unchanged"
+    ],
+    "answer": "Oxygen decreases; carbon dioxide increases",
+    "time": 60
+  },
+  {
+    "question": "Life Cycles of Animals",
+    "stem": "The life cycle of a butterfly consists of 4 stages: Egg → Larva → Pupa → Adult. Which statement correctly describes the larva and pupa stages?",
+    "options": [
+      "The larva eats voraciously and does not look like the adult, while the pupa is non-feeding.",
+      "The larva lives in water, while the pupa lives on land.",
+      "The larva can fly, while the pupa cannot fly.",
+      "Both the larva and pupa look identical to the adult butterfly."
+    ],
+    "answer": "The larva eats voraciously and does not look like the adult, while the pupa is non-feeding.",
+    "time": 65
+  },
+  {
+    "question": "Conditions for Seed Germination",
+    "stem": "Identical seeds are placed in 3 setups at 28°C: Setup A has moist cotton wool in a dark cupboard; Setup B has dry cotton wool in a brightly lit room; Setup C is submerged in boiled cooled water covered with oil. In which setup(s) will the seeds germinate?",
+    "options": [
+      "Setup A only",
+      "Setup B only",
+      "Setups A and B only",
+      "Setups A, B, and C"
+    ],
+    "answer": "Setup A only",
+    "time": 75
+  },
+  {
+    "question": "Plant Reproduction & Growth",
+    "stem": "Why can seeds germinate in total darkness?",
+    "options": [
+      "Seeds do not require energy to grow into seedlings.",
+      "Seeds obtain their food from the seed leaves (cotyledons), not from photosynthesis.",
+      "Seeds carry out photosynthesis using heat energy.",
+      "Seeds absorb glucose directly from the air."
+    ],
+    "answer": "Seeds obtain their food from the seed leaves (cotyledons), not from photosynthesis.",
+    "time": 65
+  },
+  {
+    "question": "Seed Dispersal by Animals",
+    "stem": "An animal eats the sweet flesh of a fruit together with its hard seeds, but passes the undamaged seeds out in its droppings far away. How does this benefit the plant?",
+    "options": [
+      "The droppings provide shade for the seeds.",
+      "The seeds are dispersed far from the parent plant and the droppings provide nutrients for growth.",
+      "The seeds can germinate inside the animal's stomach.",
+      "The plant does not need to produce flowers anymore."
+    ],
+    "answer": "The seeds are dispersed far from the parent plant and the droppings provide nutrients for growth.",
+    "time": 70
+  },
+  {
+    "question": "Parts of a Flower",
+    "stem": "Which part of a flower receives pollen grains during pollination?",
+    "options": [
+      "Anther",
+      "Stigma",
+      "Ovary",
+      "Filament"
+    ],
+    "answer": "Stigma",
+    "time": 50
+  },
+  {
+    "question": "Ecology - Populations",
+    "stem": "In a pond habitat, a student counted 4 water lilies, 6 guppies, 2 water snails, 3 tadpoles, and 5 dragonflies. How many populations of organisms are there in this pond community?",
+    "options": [
+      "1",
+      "5",
+      "20",
+      "4"
+    ],
+    "answer": "5",
+    "time": 60
+  },
+  {
+    "question": "Interactions between Organisms",
+    "stem": "A sea anemone attaches itself to the hard shell of a hermit crab. The sea anemone has stinging tentacles that deter predators, while the crab carries the sea anemone to different areas to feed on food scraps. This interaction shows that:",
+    "options": [
+      "both organisms benefit from living together",
+      "the hermit crab is a parasite feeding on the anemone",
+      "the sea anemone is a predator of the hermit crab",
+      "neither organism gains any survival advantage"
+    ],
+    "answer": "both organisms benefit from living together",
+    "time": 70
+  },
+  {
+    "question": "Ecology - Food Chains",
+    "stem": "In a grassland food chain (Grass → Zebra → Lion), what will most likely happen if all the lions are removed?",
+    "options": [
+      "Zebra population will decrease; grass population will increase.",
+      "Zebra population will increase at first; grass population will decrease due to overgrazing.",
+      "Both zebra and grass populations will remain completely unchanged.",
+      "Grass population will increase continuously without limit."
+    ],
+    "answer": "Zebra population will increase at first; grass population will decrease due to overgrazing.",
+    "time": 70
+  },
+  {
+    "question": "Ecosystems - Decomposers",
+    "stem": "Which group consists entirely of decomposers?",
+    "options": [
+      "Earthworms and millipedes",
+      "Fungi and bacteria",
+      "Green algae and mosses",
+      "Caterpillars and aphids"
+    ],
+    "answer": "Fungi and bacteria",
+    "time": 55
+  }
+]
