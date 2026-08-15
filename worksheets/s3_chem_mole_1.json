@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Mole Calculations - Mass and Moles",
+    "stem": "How many moles of sodium hydroxide (NaOH) are present in 8.0 g of solid NaOH? [Ar: Na = 23, O = 16, H = 1]",
+    "options": [
+      "0.10 mol",
+      "0.20 mol",
+      "0.40 mol",
+      "0.50 mol"
+    ],
+    "answer": "0.20 mol",
+    "time": 50
+  },
+  {
+    "question": "Mole Calculations - Mass from Moles",
+    "stem": "What is the mass of 0.15 mol of copper(II) sulfate (CuSO4)? [Ar: Cu = 64, S = 32, O = 16]",
+    "options": [
+      "16.0 g",
+      "24.0 g",
+      "32.0 g",
+      "40.0 g"
+    ],
+    "answer": "24.0 g",
+    "time": 55
+  },
+  {
+    "question": "Molar Mass Determination",
+    "stem": "A 0.25 mol sample of an unknown gas X has a mass of 11.0 g. Which of the following is gas X? [Ar: C = 12, N = 14, O = 16, S = 32]",
+    "options": [
+      "NO2",
+      "CO2",
+      "SO2",
+      "CH4"
+    ],
+    "answer": "CO2",
+    "time": 60
+  },
+  {
+    "question": "Molar Volume of Gases",
+    "stem": "What is the volume occupied by 0.050 mol of oxygen gas (O2) at room temperature and pressure (r.t.p.)? [Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "0.60 dm³",
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³"
+    ],
+    "answer": "1.20 dm³",
+    "time": 50
+  },
+  {
+    "question": "Molar Volume of Gases",
+    "stem": "How many moles of ammonia gas (NH3) are present in 480 cm³ of the gas measured at r.t.p.?",
+    "options": [
+      "0.010 mol",
+      "0.020 mol",
+      "0.040 mol",
+      "0.200 mol"
+    ],
+    "answer": "0.020 mol",
+    "time": 55
+  },
+  {
+    "question": "Gas Volume from Mass",
+    "stem": "What volume is occupied by 4.4 g of carbon dioxide gas (CO2) at r.t.p.? [Ar: C = 12, O = 16; Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "1.2 dm³",
+      "2.4 dm³",
+      "4.8 dm³",
+      "24 dm³"
+    ],
+    "answer": "2.4 dm³",
+    "time": 60
+  },
+  {
+    "question": "Gas Density and Molar Mass",
+    "stem": "A gaseous hydride has a density of 1.25 g/dm³ at room temperature and pressure. What is the relative molecular mass (Mr) of the gas? [Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "44"
+    ],
+    "answer": "30",
+    "time": 60
+  },
+  {
+    "question": "Solution Concentration - mol/dm³",
+    "stem": "A student dissolves 10.6 g of sodium carbonate (Na2CO3) in distilled water to make 250 cm³ of solution. What is the molar concentration of the solution? [Mr of Na2CO3 = 106]",
+    "options": [
+      "0.20 mol/dm³",
+      "0.40 mol/dm³",
+      "0.80 mol/dm³",
+      "1.00 mol/dm³"
+    ],
+    "answer": "0.40 mol/dm³",
+    "time": 65
+  },
+  {
+    "question": "Concentration Units Conversion",
+    "stem": "A sample of dilute sulfuric acid (H2SO4) has a concentration of 49.0 g/dm³. What is its concentration in mol/dm³? [Mr of H2SO4 = 98]",
+    "options": [
+      "0.25 mol/dm³",
+      "0.50 mol/dm³",
+      "1.00 mol/dm³",
+      "2.00 mol/dm³"
+    ],
+    "answer": "0.50 mol/dm³",
+    "time": 50
+  },
+  {
+    "question": "Solution Dilution",
+    "stem": "What is the final concentration when 50 cm³ of 2.0 mol/dm³ hydrochloric acid (HCl) is diluted with distilled water to a total volume of 250 cm³?",
+    "options": [
+      "0.20 mol/dm³",
+      "0.40 mol/dm³",
+      "0.50 mol/dm³",
+      "0.80 mol/dm³"
+    ],
+    "answer": "0.40 mol/dm³",
+    "time": 55
+  },
+  {
+    "question": "Mass of Solute in Solution",
+    "stem": "What mass of potassium hydroxide (KOH) is dissolved in 200 cm³ of a 0.75 mol/dm³ KOH solution? [Ar: K = 39, O = 16, H = 1]",
+    "options": [
+      "4.20 g",
+      "5.60 g",
+      "8.40 g",
+      "11.2 g"
+    ],
+    "answer": "8.40 g",
+    "time": 60
+  },
+  {
+    "question": "Avogadro Constant - Number of Molecules",
+    "stem": "How many molecules are present in 0.25 mol of methane gas (CH4)? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "1.5 × 10²³",
+      "3.0 × 10²³",
+      "6.0 × 10²³",
+      "1.2 × 10²⁴"
+    ],
+    "answer": "1.5 × 10²³",
+    "time": 50
+  },
+  {
+    "question": "Avogadro Constant - Total Atoms",
+    "stem": "What is the total number of atoms present in 0.10 mol of sulfuric acid (H2SO4)? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "6.0 × 10²²",
+      "1.8 × 10²³",
+      "4.2 × 10²³",
+      "7.0 × 10²³"
+    ],
+    "answer": "4.2 × 10²³",
+    "time": 60
+  },
+  {
+    "question": "Avogadro Constant - Number of Ions",
+    "stem": "How many total ions are released when 0.50 mol of magnesium chloride (MgCl2) is dissolved completely in water? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "3.0 × 10²³",
+      "6.0 × 10²³",
+      "9.0 × 10²³",
+      "1.8 × 10²⁴"
+    ],
+    "answer": "9.0 × 10²³",
+    "time": 60
+  },
+  {
+    "question": "Comparing Number of Molecules",
+    "stem": "Which of the following gas samples contains the greatest number of molecules? [Ar: H = 1, C = 12, N = 14, O = 16]",
+    "options": [
+      "2.0 g of H2",
+      "16.0 g of O2",
+      "22.0 g of CO2",
+      "14.0 g of N2"
+    ],
+    "answer": "2.0 g of H2",
+    "time": 65
+  },
+  {
+    "question": "Percentage Composition by Mass",
+    "stem": "What is the percentage by mass of nitrogen in ammonium nitrate (NH4NO3)? [Ar: N = 14, H = 1, O = 16]",
+    "options": [
+      "17.5%",
+      "28.0%",
+      "35.0%",
+      "42.5%"
+    ],
+    "answer": "35.0%",
+    "time": 60
+  },
+  {
+    "question": "Water of Crystallisation Percentage",
+    "stem": "What is the percentage by mass of water in hydrated copper(II) sulfate (CuSO4·5H2O)? [Ar: Cu = 64, S = 32, O = 16, H = 1]",
+    "options": [
+      "18.0%",
+      "28.8%",
+      "36.0%",
+      "45.0%"
+    ],
+    "answer": "36.0%",
+    "time": 60
+  },
+  {
+    "question": "Empirical Formula from Element Masses",
+    "stem": "A hydrocarbon sample contains 4.8 g of carbon and 0.8 g of hydrogen. What is its empirical formula? [Ar: C = 12, H = 1]",
+    "options": [
+      "CH",
+      "CH2",
+      "CH3",
+      "C2H5"
+    ],
+    "answer": "CH2",
+    "time": 60
+  },
+  {
+    "question": "Empirical Formula from Percentage",
+    "stem": "An oxide of iron contains 70.0% iron and 30.0% oxygen by mass. What is its empirical formula? [Ar: Fe = 56, O = 16]",
+    "options": [
+      "FeO",
+      "Fe2O3",
+      "Fe3O4",
+      "FeO2"
+    ],
+    "answer": "Fe2O3",
+    "time": 65
+  },
+  {
+    "question": "Empirical Formula from Combustion Data",
+    "stem": "Complete combustion of a sample of a hydrocarbon produced 8.8 g of carbon dioxide and 5.4 g of water. What is the empirical formula of the hydrocarbon? [Ar: C = 12, H = 1, O = 16]",
+    "options": [
+      "CH2",
+      "CH3",
+      "C2H5",
+      "C3H8"
+    ],
+    "answer": "CH3",
+    "time": 75
+  },
+  {
+    "question": "Molecular Formula Determination",
+    "stem": "A compound has the empirical formula CH2O and a relative molecular mass (Mr) of 180. What is its molecular formula? [Ar: C = 12, H = 1, O = 16]",
+    "options": [
+      "C3H6O3",
+      "C4H8O4",
+      "C5H10O5",
+      "C6H12O6"
+    ],
+    "answer": "C6H12O6",
+    "time": 55
+  },
+  {
+    "question": "Hydrated Salt Formula Determination",
+    "stem": "When 5.72 g of hydrated sodium carbonate crystals (Na2CO3·xH2O) is heated to constant mass, 2.12 g of anhydrous Na2CO3 remains. What is the value of x? [Mr: Na2CO3 = 106, H2O = 18]",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "10"
+    ],
+    "answer": "10",
+    "time": 70
+  },
+  {
+    "question": "Subatomic Particle Comparison",
+    "stem": "Which of the following samples contains the exact same total number of electrons as 1.0 mol of neon gas (Ne)? [Atomic numbers: H = 1, C = 6, N = 7, O = 8, Ne = 10]",
+    "options": [
+      "1.0 mol of H2O",
+      "1.0 mol of CO2",
+      "0.5 mol of NH3",
+      "2.0 mol of CH4"
+    ],
+    "answer": "1.0 mol of H2O",
+    "time": 75
+  },
+  {
+    "question": "Deducing Unknown Relative Atomic Mass",
+    "stem": "When 4.00 g of an anhydrous divalent metal carbonate (MCO3) is thermally decomposed completely, 0.96 dm³ of carbon dioxide gas is produced at r.t.p. What is the relative atomic mass (Ar) of metal M? [Ar: C = 12, O = 16]",
+    "options": [
+      "24",
+      "40",
+      "56",
+      "64"
+    ],
+    "answer": "40",
+    "time": 80
+  }
+]

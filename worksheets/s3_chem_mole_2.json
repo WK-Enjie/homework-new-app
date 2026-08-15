@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Stoichiometry - Mole Ratios",
+    "stem": "According to the equation: 2Al + 3Cl2 → 2AlCl3, how many moles of aluminium chloride are formed when 0.60 mol of chlorine gas reacts completely with excess aluminium?",
+    "options": [
+      "0.20 mol",
+      "0.40 mol",
+      "0.60 mol",
+      "0.90 mol"
+    ],
+    "answer": "0.40 mol",
+    "time": 55
+  },
+  {
+    "question": "Mass-Mass Stoichiometry",
+    "stem": "What mass of iron(III) oxide (Fe2O3) is produced when 11.2 g of iron reacts completely with excess oxygen? (4Fe + 3O2 → 2Fe2O3) [Ar: Fe = 56, O = 16]",
+    "options": [
+      "8.0 g",
+      "16.0 g",
+      "24.0 g",
+      "32.0 g"
+    ],
+    "answer": "16.0 g",
+    "time": 65
+  },
+  {
+    "question": "Mass to Gas Volume Calculation",
+    "stem": "What volume of carbon dioxide gas (at r.t.p.) is evolved when 25.0 g of calcium carbonate decomposes completely? (CaCO3 → CaO + CO2) [Mr of CaCO3 = 100; Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "3.0 dm³",
+      "6.0 dm³",
+      "12.0 dm³",
+      "24.0 dm³"
+    ],
+    "answer": "6.0 dm³",
+    "time": 60
+  },
+  {
+    "question": "Solution Stoichiometry - Gas Evolution",
+    "stem": "Excess magnesium ribbon is added to 50 cm³ of 2.0 mol/dm³ hydrochloric acid. What volume of hydrogen gas is collected at r.t.p.? (Mg + 2HCl → MgCl2 + H2)",
+    "options": [
+      "0.60 dm³",
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³"
+    ],
+    "answer": "1.20 dm³",
+    "time": 65
+  },
+  {
+    "question": "Volumetric Neutralisation Stoichiometry",
+    "stem": "What volume of 0.50 mol/dm³ sulfuric acid (H2SO4) is required to exactly neutralise 25.0 cm³ of 1.00 mol/dm³ sodium hydroxide (NaOH)? (H2SO4 + 2NaOH → Na2SO4 + 2H2O)",
+    "options": [
+      "12.5 cm³",
+      "25.0 cm³",
+      "50.0 cm³",
+      "100.0 cm³"
+    ],
+    "answer": "25.0 cm³",
+    "time": 65
+  },
+  {
+    "question": "Gas Volume Ratio - Carbon Monoxide Reaction",
+    "stem": "A 40 cm³ sample of carbon monoxide is reacted with 30 cm³ of oxygen gas: 2CO(g) + O2(g) → 2CO2(g). What is the total volume of gas remaining after the reaction at r.t.p.?",
+    "options": [
+      "40 cm³",
+      "50 cm³",
+      "60 cm³",
+      "70 cm³"
+    ],
+    "answer": "50 cm³",
+    "time": 70
+  },
+  {
+    "question": "Hydrocarbon Gas Combustion Volume",
+    "stem": "A mixture of 20 cm³ of methane (CH4) and 60 cm³ of oxygen is ignited: CH4(g) + 2O2(g) → CO2(g) + 2H2O(l). What is the total volume of gas remaining after cooling to room temperature?",
+    "options": [
+      "20 cm³",
+      "40 cm³",
+      "60 cm³",
+      "80 cm³"
+    ],
+    "answer": "40 cm³",
+    "time": 70
+  },
+  {
+    "question": "Deducing Hydrocarbon Molecular Formula",
+    "stem": "A 10 cm³ sample of a gaseous hydrocarbon CxHy requires 50 cm³ of oxygen gas for complete combustion, producing 30 cm³ of carbon dioxide gas at r.t.p. What is the formula of the hydrocarbon?",
+    "options": [
+      "C2H4",
+      "C2H6",
+      "C3H6",
+      "C3H8"
+    ],
+    "answer": "C3H8",
+    "time": 75
+  },
+  {
+    "question": "Limiting Reactant from Moles",
+    "stem": "A reaction vessel contains 0.40 mol of N2 and 0.90 mol of H2: N2 + 3H2 → 2NH3. Which is the limiting reactant and what is the maximum amount of ammonia formed?",
+    "options": [
+      "N2 is limiting; 0.80 mol of NH3 formed",
+      "H2 is limiting; 0.60 mol of NH3 formed",
+      "N2 is limiting; 0.40 mol of NH3 formed",
+      "H2 is limiting; 0.90 mol of NH3 formed"
+    ],
+    "answer": "H2 is limiting; 0.60 mol of NH3 formed",
+    "time": 65
+  },
+  {
+    "question": "Limiting Reactant with Masses",
+    "stem": "A mixture of 6.0 g of hydrogen gas and 32.0 g of oxygen gas is sparked to form water: 2H2 + O2 → 2H2O. What is the maximum mass of water produced? [Ar: H = 1, O = 16]",
+    "options": [
+      "18.0 g",
+      "27.0 g",
+      "36.0 g",
+      "54.0 g"
+    ],
+    "answer": "36.0 g",
+    "time": 70
+  },
+  {
+    "question": "Calculating Excess Reactant Remaining",
+    "stem": "In the reaction between 6.0 g of H2 and 32.0 g of O2 (2H2 + O2 → 2H2O), what mass of the excess reactant remains unreacted at the end? [Ar: H = 1, O = 16]",
+    "options": [
+      "1.0 g",
+      "2.0 g",
+      "3.0 g",
+      "4.0 g"
+    ],
+    "answer": "2.0 g",
+    "time": 65
+  },
+  {
+    "question": "Limiting Reactant with Solutions & Metals",
+    "stem": "A 2.70 g sample of aluminium powder is added to 100 cm³ of 2.0 mol/dm³ hydrochloric acid: 2Al + 6HCl → 2AlCl3 + 3H2. What volume of hydrogen gas is collected at r.t.p.? [Ar: Al = 27]",
+    "options": [
+      "1.20 dm³",
+      "2.40 dm³",
+      "3.60 dm³",
+      "4.80 dm³"
+    ],
+    "answer": "2.40 dm³",
+    "time": 75
+  },
+  {
+    "question": "Mass of Unreacted Metal in Excess",
+    "stem": "When 2.70 g of aluminium reacts with 100 cm³ of 2.0 mol/dm³ HCl (2Al + 6HCl → 2AlCl3 + 3H2), what mass of aluminium remains unreacted? [Ar: Al = 27]",
+    "options": [
+      "0.45 g",
+      "0.90 g",
+      "1.35 g",
+      "1.80 g"
+    ],
+    "answer": "0.90 g",
+    "time": 75
+  },
+  {
+    "question": "Concentration of Residual Reactant",
+    "stem": "A 50 cm³ sample of 1.0 mol/dm³ H2SO4 is mixed with 50 cm³ of 1.0 mol/dm³ NaOH: H2SO4 + 2NaOH → Na2SO4 + 2H2O. What is the concentration of unreacted H2SO4 in the final mixture?",
+    "options": [
+      "0.125 mol/dm³",
+      "0.250 mol/dm³",
+      "0.375 mol/dm³",
+      "0.500 mol/dm³"
+    ],
+    "answer": "0.250 mol/dm³",
+    "time": 75
+  },
+  {
+    "question": "Percentage Yield Calculation",
+    "stem": "When 12.0 g of carbon is heated in excess oxygen, 33.0 g of carbon dioxide is collected: C + O2 → CO2. What is the percentage yield of carbon dioxide? [Ar: C = 12, O = 16]",
+    "options": [
+      "60.0%",
+      "66.7%",
+      "75.0%",
+      "80.0%"
+    ],
+    "answer": "75.0%",
+    "time": 65
+  },
+  {
+    "question": "Percentage Purity Calculation",
+    "stem": "A 5.00 g sample of impure calcium carbonate reacts with excess dilute hydrochloric acid to produce 1.08 dm³ of CO2 gas at r.t.p. What is the percentage purity of the calcium carbonate sample? [Mr of CaCO3 = 100]",
+    "options": [
+      "75.0%",
+      "85.0%",
+      "90.0%",
+      "95.0%"
+    ],
+    "answer": "90.0%",
+    "time": 75
+  },
+  {
+    "question": "Solid Mixture Composition Analysis",
+    "stem": "A 10.0 g solid mixture of NaCl and Na2CO3 reacts with excess dilute hydrochloric acid to produce 1.20 dm³ of CO2 at r.t.p. What is the percentage by mass of NaCl in the mixture? [Mr of Na2CO3 = 106]",
+    "options": [
+      "35.0%",
+      "47.0%",
+      "53.0%",
+      "65.0%"
+    ],
+    "answer": "47.0%",
+    "time": 80
+  },
+  {
+    "question": "Back Titration - Reacted Acid Amount",
+    "stem": "An excess of 50.0 cm³ of 1.00 mol/dm³ HCl was added to 1.00 g of an impure basic metal oxide. The unreacted excess acid required 20.0 cm³ of 1.00 mol/dm³ NaOH for neutralisation. How many moles of HCl reacted with the metal oxide?",
+    "options": [
+      "0.010 mol",
+      "0.020 mol",
+      "0.030 mol",
+      "0.050 mol"
+    ],
+    "answer": "0.030 mol",
+    "time": 75
+  },
+  {
+    "question": "Consecutive Multi-Step Reactions",
+    "stem": "Sulfur is converted to sulfuric acid via three consecutive reactions: S + O2 → SO2; 2SO2 + O2 → 2SO3; SO3 + H2O → H2SO4. What is the maximum mass of H2SO4 obtained from 16.0 g of sulfur assuming 100% conversion? [Ar: S = 32, H = 1, O = 16]",
+    "options": [
+      "24.5 g",
+      "49.0 g",
+      "98.0 g",
+      "196.0 g"
+    ],
+    "answer": "49.0 g",
+    "time": 70
+  },
+  {
+    "question": "Nitrogen Oxide Thermal Decomposition",
+    "stem": "When 20 cm³ of a gaseous nitrogen oxide NxOy decomposes completely, it produces 20 cm³ of nitrogen gas (N2) and 10 cm³ of oxygen gas (O2) at r.t.p. What is the formula of the oxide?",
+    "options": [
+      "NO",
+      "NO2",
+      "N2O",
+      "N2O4"
+    ],
+    "answer": "N2O",
+    "time": 70
+  },
+  {
+    "question": "Metal Oxide Reduction Stoichiometry",
+    "stem": "When 3.20 g of a copper oxide is completely reduced by heating in dry hydrogen gas, 2.56 g of copper metal is obtained. What is the empirical formula of this copper oxide? [Ar: Cu = 64, O = 16]",
+    "options": [
+      "CuO",
+      "Cu2O",
+      "CuO2",
+      "Cu2O3"
+    ],
+    "answer": "CuO",
+    "time": 70
+  },
+  {
+    "question": "Nitrate Thermal Decomposition Gas Volume",
+    "stem": "Solid lead(II) nitrate decomposes on heating: 2Pb(NO3)2(s) → 2PbO(s) + 4NO2(g) + O2(g). What is the total volume of gas evolved at r.t.p. when 0.10 mol of Pb(NO3)2 is completely decomposed?",
+    "options": [
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³",
+      "6.00 dm³"
+    ],
+    "answer": "6.00 dm³",
+    "time": 75
+  },
+  {
+    "question": "Industrial Synthesis Percentage Yield",
+    "stem": "In the Haber process: N2 + 3H2 ⇌ 2NH3, 140 kg of nitrogen gas reacts with excess hydrogen to produce 102 kg of ammonia. What is the percentage yield of ammonia? [Ar: N = 14, H = 1]",
+    "options": [
+      "50.0%",
+      "60.0%",
+      "72.9%",
+      "85.0%"
+    ],
+    "answer": "60.0%",
+    "time": 75
+  },
+  {
+    "question": "Combustion Analysis of Gas Mixtures",
+    "stem": "A 20.0 cm³ mixture of carbon monoxide (CO) and methane (CH4) requires 22.0 cm³ of oxygen for complete combustion to carbon dioxide and water. What is the volume of methane in the original mixture? [2CO + O2 → 2CO2; CH4 + 2O2 → CO2 + 2H2O]",
+    "options": [
+      "6.0 cm³",
+      "8.0 cm³",
+      "10.0 cm³",
+      "12.0 cm³"
+    ],
+    "answer": "8.0 cm³",
+    "time": 85
+  }
+]

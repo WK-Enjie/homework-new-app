@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Mole Calculations - Mass to Moles",
+    "stem": "How many moles are present in 22.0 g of carbon dioxide gas (CO2)? [Ar: C = 12, O = 16]",
+    "options": [
+      "0.25 mol",
+      "0.50 mol",
+      "1.00 mol",
+      "2.00 mol"
+    ],
+    "answer": "0.50 mol",
+    "time": 50
+  },
+  {
+    "question": "Mole Calculations - Moles to Mass",
+    "stem": "What is the mass of 0.40 mol of calcium carbonate (CaCO3)? [Ar: Ca = 40, C = 12, O = 16]",
+    "options": [
+      "25.0 g",
+      "40.0 g",
+      "50.0 g",
+      "100.0 g"
+    ],
+    "answer": "40.0 g",
+    "time": 50
+  },
+  {
+    "question": "Molar Volume of Gases - Volume to Moles",
+    "stem": "How many moles of sulfur dioxide gas (SO2) are present in 720 cm³ of the gas measured at room temperature and pressure (r.t.p.)? [Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "0.015 mol",
+      "0.030 mol",
+      "0.060 mol",
+      "0.300 mol"
+    ],
+    "answer": "0.030 mol",
+    "time": 55
+  },
+  {
+    "question": "Molar Volume of Gases - Mass to Volume",
+    "stem": "What volume is occupied by 0.80 g of methane gas (CH4) at r.t.p.? [Ar: C = 12, H = 1; Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "0.60 dm³",
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³"
+    ],
+    "answer": "1.20 dm³",
+    "time": 55
+  },
+  {
+    "question": "Solution Concentration - mol/dm³",
+    "stem": "A solution contains 0.25 mol of sodium chloride (NaCl) dissolved in distilled water to make 500 cm³ of solution. What is its concentration in mol/dm³?",
+    "options": [
+      "0.125 mol/dm³",
+      "0.250 mol/dm³",
+      "0.500 mol/dm³",
+      "1.000 mol/dm³"
+    ],
+    "answer": "0.500 mol/dm³",
+    "time": 50
+  },
+  {
+    "question": "Solution Concentration - Mass of Solute",
+    "stem": "What mass of potassium hydroxide (KOH) is present in 250 cm³ of a 0.40 mol/dm³ KOH solution? [Ar: K = 39, O = 16, H = 1]",
+    "options": [
+      "2.80 g",
+      "5.60 g",
+      "11.2 g",
+      "14.0 g"
+    ],
+    "answer": "5.60 g",
+    "time": 60
+  },
+  {
+    "question": "Concentration Units Conversion",
+    "stem": "A sample of dilute sulfuric acid (H2SO4) has a concentration of 9.80 g/dm³. What is its concentration in mol/dm³? [Mr of H2SO4 = 98]",
+    "options": [
+      "0.05 mol/dm³",
+      "0.10 mol/dm³",
+      "0.20 mol/dm³",
+      "1.00 mol/dm³"
+    ],
+    "answer": "0.10 mol/dm³",
+    "time": 50
+  },
+  {
+    "question": "Avogadro Constant - Number of Molecules",
+    "stem": "How many molecules are contained in 0.50 mol of nitrogen gas (N2)? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "1.5 × 10²³",
+      "3.0 × 10²³",
+      "6.0 × 10²³",
+      "1.2 × 10²⁴"
+    ],
+    "answer": "3.0 × 10²³",
+    "time": 50
+  },
+  {
+    "question": "Avogadro Constant - Total Atoms",
+    "stem": "What is the total number of atoms present in 0.20 mol of carbon dioxide gas (CO2)? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "1.2 × 10²³",
+      "2.4 × 10²³",
+      "3.6 × 10²³",
+      "7.2 × 10²³"
+    ],
+    "answer": "3.6 × 10²³",
+    "time": 60
+  },
+  {
+    "question": "Avogadro Constant - Number of Ions",
+    "stem": "How many chloride ions (Cl⁻) are released when 0.10 mol of calcium chloride (CaCl2) dissolves completely in water? [Avogadro constant, L = 6.0 × 10²³ mol⁻¹]",
+    "options": [
+      "6.0 × 10²²",
+      "1.2 × 10²³",
+      "1.8 × 10²³",
+      "2.4 × 10²³"
+    ],
+    "answer": "1.2 × 10²³",
+    "time": 60
+  },
+  {
+    "question": "Comparing Particle Numbers",
+    "stem": "Which of the following gas samples contains the greatest number of molecules? [Ar: H = 1, C = 12, N = 14, O = 16]",
+    "options": [
+      "2.0 g of H2",
+      "14.0 g of N2",
+      "16.0 g of O2",
+      "22.0 g of CO2"
+    ],
+    "answer": "2.0 g of H2",
+    "time": 60
+  },
+  {
+    "question": "Reacting Masses - Metal and Oxygen",
+    "stem": "Magnesium burns in oxygen according to the equation: 2Mg + O2 → 2MgO. What mass of magnesium oxide is formed when 4.80 g of magnesium reacts completely? [Ar: Mg = 24, O = 16]",
+    "options": [
+      "4.00 g",
+      "6.40 g",
+      "8.00 g",
+      "16.0 g"
+    ],
+    "answer": "8.00 g",
+    "time": 60
+  },
+  {
+    "question": "Mass to Gas Volume Stoichiometry",
+    "stem": "Calcium carbonate decomposes on heating: CaCO3(s) → CaO(s) + CO2(g). What volume of CO2 gas is collected at r.t.p. when 5.00 g of CaCO3 decomposes completely? [Mr of CaCO3 = 100; Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "0.60 dm³",
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³"
+    ],
+    "answer": "1.20 dm³",
+    "time": 60
+  },
+  {
+    "question": "Solution to Gas Volume Stoichiometry",
+    "stem": "Excess zinc is added to 50.0 cm³ of 1.00 mol/dm³ hydrochloric acid: Zn + 2HCl → ZnCl2 + H2. What volume of hydrogen gas is evolved at r.t.p.?",
+    "options": [
+      "0.30 dm³",
+      "0.60 dm³",
+      "1.20 dm³",
+      "2.40 dm³"
+    ],
+    "answer": "0.60 dm³",
+    "time": 65
+  },
+  {
+    "question": "Volumetric Neutralisation",
+    "stem": "What volume of 0.10 mol/dm³ sulfuric acid (H2SO4) is required to completely neutralise 25.0 cm³ of 0.20 mol/dm³ sodium hydroxide (NaOH)? (H2SO4 + 2NaOH → Na2SO4 + 2H2O)",
+    "options": [
+      "12.5 cm³",
+      "25.0 cm³",
+      "50.0 cm³",
+      "100.0 cm³"
+    ],
+    "answer": "25.0 cm³",
+    "time": 65
+  },
+  {
+    "question": "Reacting Gas Volumes - Water Formation",
+    "stem": "A 30 cm³ sample of hydrogen gas is sparked with 20 cm³ of oxygen gas: 2H2(g) + O2(g) → 2H2O(l). What volume of gas remains after cooling back to room temperature?",
+    "options": [
+      "5 cm³",
+      "10 cm³",
+      "20 cm³",
+      "35 cm³"
+    ],
+    "answer": "5 cm³",
+    "time": 65
+  },
+  {
+    "question": "Reacting Gas Volumes - Ammonia Synthesis",
+    "stem": "In the reaction: N2(g) + 3H2(g) → 2NH3(g), 10 cm³ of nitrogen gas reacts completely with 30 cm³ of hydrogen gas. What volume of ammonia gas is produced at r.t.p.?",
+    "options": [
+      "10 cm³",
+      "20 cm³",
+      "30 cm³",
+      "40 cm³"
+    ],
+    "answer": "20 cm³",
+    "time": 55
+  },
+  {
+    "question": "Limiting Reactant from Moles",
+    "stem": "Sodium reacts with chlorine according to the equation: 2Na + Cl2 → 2NaCl. If 0.60 mol of Na is mixed with 0.40 mol of Cl2, which is the limiting reactant and how much NaCl is produced?",
+    "options": [
+      "Na is limiting; 0.60 mol of NaCl formed",
+      "Cl2 is limiting; 0.80 mol of NaCl formed",
+      "Na is limiting; 0.30 mol of NaCl formed",
+      "Cl2 is limiting; 0.40 mol of NaCl formed"
+    ],
+    "answer": "Na is limiting; 0.60 mol of NaCl formed",
+    "time": 65
+  },
+  {
+    "question": "Limiting Reactant from Masses",
+    "stem": "Iron reacts with sulfur on heating: Fe + S → FeS. If 5.60 g of iron is heated with 4.80 g of sulfur, what is the maximum mass of iron(II) sulfide produced? [Ar: Fe = 56, S = 32]",
+    "options": [
+      "4.40 g",
+      "8.80 g",
+      "10.4 g",
+      "13.2 g"
+    ],
+    "answer": "8.80 g",
+    "time": 70
+  },
+  {
+    "question": "Excess Reactant Calculation",
+    "stem": "When 5.60 g of iron reacts with 4.80 g of sulfur (Fe + S → FeS), what mass of the excess reactant remains unreacted? [Ar: Fe = 56, S = 32]",
+    "options": [
+      "0.80 g",
+      "1.60 g",
+      "2.40 g",
+      "3.20 g"
+    ],
+    "answer": "1.60 g",
+    "time": 65
+  },
+  {
+    "question": "Solution Dilution Calculation",
+    "stem": "What is the final concentration when 25.0 cm³ of 2.00 mol/dm³ nitric acid (HNO3) is diluted with distilled water to a total volume of 200.0 cm³?",
+    "options": [
+      "0.15 mol/dm³",
+      "0.25 mol/dm³",
+      "0.40 mol/dm³",
+      "0.50 mol/dm³"
+    ],
+    "answer": "0.25 mol/dm³",
+    "time": 60
+  },
+  {
+    "question": "Thermal Decomposition Gas Volume",
+    "stem": "Sodium hydrogencarbonate decomposes on heating: 2NaHCO3(s) → Na2CO3(s) + H2O(l) + CO2(g). What volume of CO2 gas is collected at r.t.p. when 16.8 g of NaHCO3 is completely decomposed? [Mr of NaHCO3 = 84; Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "1.20 dm³",
+      "2.40 dm³",
+      "4.80 dm³",
+      "6.00 dm³"
+    ],
+    "answer": "2.40 dm³",
+    "time": 70
+  },
+  {
+    "question": "Molar Mass from Gas Density",
+    "stem": "An unknown gas has a density of 1.33 g/dm³ at room temperature and pressure. What is the relative molecular mass (Mr) of the gas? [Molar volume of gas at r.t.p. = 24 dm³/mol]",
+    "options": [
+      "16",
+      "28",
+      "32",
+      "44"
+    ],
+    "answer": "32",
+    "time": 60
+  },
+  {
+    "question": "Precipitation Reaction Stoichiometry",
+    "stem": "Barium chloride reacts with sodium sulfate: BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2NaCl(aq). What mass of BaSO4 precipitate is formed when 50.0 cm³ of 0.20 mol/dm³ BaCl2 reacts with excess Na2SO4? [Ar: Ba = 137, S = 32, O = 16]",
+    "options": [
+      "1.17 g",
+      "2.33 g",
+      "4.66 g",
+      "23.3 g"
+    ],
+    "answer": "2.33 g",
+    "time": 70
+  }
+]
