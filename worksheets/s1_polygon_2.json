@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Sum of Interior Angles",
+    "stem": "Find the sum of the interior angles of a 16-sided convex polygon.",
+    "options": [
+      "2700°",
+      "2520°",
+      "2340°",
+      "2880°"
+    ],
+    "answer": "2520°",
+    "time": 55
+  },
+  {
+    "question": "Finding Number of Sides",
+    "stem": "If the sum of the interior angles of a polygon is 3240°, how many sides does the polygon have?",
+    "options": [
+      "18",
+      "22",
+      "20",
+      "24"
+    ],
+    "answer": "20",
+    "time": 55
+  },
+  {
+    "question": "Regular Polygon - Interior Angle",
+    "stem": "Calculate the size of each interior angle of a regular 24-sided polygon.",
+    "options": [
+      "160°",
+      "165°",
+      "170°",
+      "150°"
+    ],
+    "answer": "165°",
+    "time": 60
+  },
+  {
+    "question": "Sides from Interior Angle",
+    "stem": "Each interior angle of a regular polygon is 170°. How many sides does this polygon have?",
+    "options": [
+      "30",
+      "40",
+      "36",
+      "32"
+    ],
+    "answer": "36",
+    "time": 60
+  },
+  {
+    "question": "Sides from Interior Angle",
+    "stem": "A regular polygon has an interior angle of 172°. What is the number of sides of this polygon?",
+    "options": [
+      "40",
+      "45",
+      "48",
+      "50"
+    ],
+    "answer": "45",
+    "time": 60
+  },
+  {
+    "question": "Difference of Angles",
+    "stem": "In a regular polygon, each interior angle is 140° greater than each exterior angle. Find the number of sides of the polygon.",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "24"
+    ],
+    "answer": "18",
+    "time": 65
+  },
+  {
+    "question": "Ratio of Interior to Exterior",
+    "stem": "The ratio of each interior angle to each exterior angle of a regular polygon is 11 : 1. How many sides does the polygon have?",
+    "options": [
+      "22",
+      "26",
+      "24",
+      "20"
+    ],
+    "answer": "24",
+    "time": 60
+  },
+  {
+    "question": "Algebra in Quadrilaterals",
+    "stem": "The interior angles of an irregular quadrilateral are (2x + 15)°, (3x - 5)°, (x + 20)°, and (2x + 10)°. Find the size of the smallest interior angle.",
+    "options": [
+      "55°",
+      "60°",
+      "65°",
+      "70°"
+    ],
+    "answer": "60°",
+    "time": 65
+  },
+  {
+    "question": "Algebra in Pentagons",
+    "stem": "The interior angles of an irregular pentagon are x°, (x + 20)°, (x + 40)°, (x + 60)°, and (x + 80)°. Find the size of the largest angle.",
+    "options": [
+      "128°",
+      "148°",
+      "138°",
+      "158°"
+    ],
+    "answer": "148°",
+    "time": 65
+  },
+  {
+    "question": "Algebra in Pentagons",
+    "stem": "The interior angles of an irregular pentagon are (2x + 10)°, (2x - 15)°, (3x + 20)°, (2x + 5)°, and (2x + 25)°. Find the size of the smallest interior angle.",
+    "options": [
+      "65°",
+      "80°",
+      "75°",
+      "70°"
+    ],
+    "answer": "75°",
+    "time": 70
+  },
+  {
+    "question": "Algebra in Hexagons",
+    "stem": "The interior angles of an irregular hexagon are (2x + 15)°, (2x - 10)°, (3x + 25)°, (2x + 5)°, (3x - 15)°, and 2x°. Find the value of x.",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "40"
+    ],
+    "answer": "50",
+    "time": 70
+  },
+  {
+    "question": "Algebra in Hexagons",
+    "stem": "An irregular hexagon has three interior angles of 130° each. The remaining three angles are 2x°, (3x - 10)°, and (x + 40)°. Find the size of the largest unknown angle.",
+    "options": [
+      "135°",
+      "145°",
+      "140°",
+      "150°"
+    ],
+    "answer": "140°",
+    "time": 70
+  },
+  {
+    "question": "Algebra in Heptagons",
+    "stem": "An irregular 7-sided polygon has five interior angles of 125° each. The remaining two interior angles are (2x + 15)° and (x + 20)°. Find the value of x.",
+    "options": [
+      "75",
+      "85",
+      "90",
+      "80"
+    ],
+    "answer": "80",
+    "time": 70
+  },
+  {
+    "question": "Algebra in Octagons",
+    "stem": "The interior angles of an irregular octagon are (x + 10)°, (x + 20)°, (x + 30)°, (x + 40)°, (x + 50)°, (x + 60)°, (x + 70)°, and (x + 80)°. Find the size of the smallest interior angle.",
+    "options": [
+      "95°",
+      "100°",
+      "105°",
+      "90°"
+    ],
+    "answer": "100°",
+    "time": 70
+  },
+  {
+    "question": "Algebra in Exterior Angles",
+    "stem": "The exterior angles of an irregular pentagon are x°, 2x°, 3x°, 4x°, and 5x°. Find the size of the largest exterior angle.",
+    "options": [
+      "96°",
+      "144°",
+      "120°",
+      "108°"
+    ],
+    "answer": "120°",
+    "time": 65
+  },
+  {
+    "question": "Mixed Polygon Angles",
+    "stem": "An n-sided polygon has 2 interior angles of 120° each, and the remaining (n - 2) interior angles are each 160°. Find the value of n.",
+    "options": [
+      "12",
+      "16",
+      "15",
+      "14"
+    ],
+    "answer": "14",
+    "time": 70
+  },
+  {
+    "question": "Feasibility of Regular Polygon",
+    "stem": "Can a regular polygon have an interior angle of 155°?",
+    "options": [
+      "Yes, it is a regular 14-sided polygon.",
+      "Yes, it is a regular 15-sided polygon.",
+      "No, because the exterior angle 25° does not divide 360° into a whole number.",
+      "No, because interior angles of regular polygons cannot exceed 150°."
+    ],
+    "answer": "No, because the exterior angle 25° does not divide 360° into a whole number.",
+    "time": 65
+  },
+  {
+    "question": "Feasibility of Regular Polygon",
+    "stem": "Can a regular polygon have an exterior angle of 50°?",
+    "options": [
+      "No, because 360° cannot be divided by 50° to give an integer number of sides.",
+      "Yes, it is a regular 7-sided polygon.",
+      "Yes, it is a regular 8-sided polygon.",
+      "No, because exterior angles of regular polygons must always be even numbers."
+    ],
+    "answer": "No, because 360° cannot be divided by 50° to give an integer number of sides.",
+    "time": 65
+  },
+  {
+    "question": "Combined Polygons at a Vertex",
+    "stem": "A regular pentagon and a regular hexagon share a common edge. Find the angle between their other adjacent edges at the shared vertex.",
+    "options": [
+      "142°",
+      "122°",
+      "132°",
+      "152°"
+    ],
+    "answer": "132°",
+    "time": 65
+  },
+  {
+    "question": "Combined Polygons at a Vertex",
+    "stem": "A regular octagon and a square share a common edge. What is the angle between their non-shared adjacent edges at the meeting vertex?",
+    "options": [
+      "145°",
+      "135°",
+      "125°",
+      "150°"
+    ],
+    "answer": "135°",
+    "time": 60
+  },
+  {
+    "question": "Tessellation at a Vertex",
+    "stem": "Two identical regular n-sided polygons and one equilateral triangle meet at a point without overlapping to fill 360°. Find n.",
+    "options": [
+      "10",
+      "15",
+      "8",
+      "12"
+    ],
+    "answer": "12",
+    "time": 70
+  },
+  {
+    "question": "Tessellation at a Vertex",
+    "stem": "Three regular polygons meet at a point without overlapping: a regular hexagon, a square, and an n-sided regular polygon. Find n.",
+    "options": [
+      "10",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer": "12",
+    "time": 70
+  },
+  {
+    "question": "Comparing Two Polygons",
+    "stem": "A regular polygon with n sides has an interior angle of x°. A regular polygon with 2n sides has an interior angle of (x + 15)°. Find the value of n.",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "16"
+    ],
+    "answer": "12",
+    "time": 75
+  },
+  {
+    "question": "Sum of Interior vs Exterior",
+    "stem": "In an n-sided polygon, the sum of all interior angles is 4 times the sum of all exterior angles. Find the number of sides n.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "10",
+    "time": 65
+  }
+]
