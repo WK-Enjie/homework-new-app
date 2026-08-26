@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Pressure - Formula and Calculation",
+    "stem": "A solid rectangular metal block of weight 120 N has dimensions 0.20 m by 0.30 m by 0.50 m. What is the maximum pressure the block can exert when placed on a flat horizontal table?",
+    "options": [
+      "800 Pa",
+      "1200 Pa",
+      "2000 Pa",
+      "4000 Pa"
+    ],
+    "answer": "2000 Pa",
+    "time": 60
+  },
+  {
+    "question": "Pressure - Surface Area Application",
+    "stem": "Why do heavy construction vehicles such as excavators and tanks use continuous wide tracks instead of ordinary wheels?",
+    "options": [
+      "To increase the frictional force acting against the ground",
+      "To increase the weight of the vehicle to provide greater grip",
+      "To increase the contact surface area and reduce the pressure exerted on soft ground",
+      "To decrease the contact area so that the tracks dig firmly into the mud"
+    ],
+    "answer": "To increase the contact surface area and reduce the pressure exerted on soft ground",
+    "time": 50
+  },
+  {
+    "question": "Pressure - Two-Foot Standing Calculation",
+    "stem": "A student of mass 60 kg stands upright on both feet on a classroom floor. The contact area of each shoe sole is 0.015 m². Taking the gravitational field strength g = 10 N/kg, calculate the pressure exerted by the student on the floor.",
+    "options": [
+      "10 000 Pa",
+      "20 000 Pa",
+      "40 000 Pa",
+      "60 000 Pa"
+    ],
+    "answer": "20 000 Pa",
+    "time": 60
+  },
+  {
+    "question": "Turning Effect - Moment of a Force Definition",
+    "stem": "How is the moment of a force about a pivot defined?",
+    "options": [
+      "The product of the force and the total length of the lever",
+      "The product of the force and the perpendicular distance from the pivot to the line of action of the force",
+      "The ratio of the applied force to the contact surface area",
+      "The rate of work done by the applied force per unit time"
+    ],
+    "answer": "The product of the force and the perpendicular distance from the pivot to the line of action of the force",
+    "time": 50
+  },
+  {
+    "question": "Turning Effect - Principle of Moments Calculation",
+    "stem": "A uniform metre rule is pivoted at its midpoint (50 cm mark). A weight of 40 N is hung at the 20 cm mark. Where must a 60 N weight be placed to keep the metre rule balanced horizontally?",
+    "options": [
+      "60 cm mark",
+      "70 cm mark",
+      "80 cm mark",
+      "90 cm mark"
+    ],
+    "answer": "70 cm mark",
+    "time": 65
+  },
+  {
+    "question": "Centre of Gravity - Non-Uniform Object",
+    "stem": "A non-uniform metal rod AB of length 1.0 m is pivoted at 0.40 m from end A. To keep the rod balanced horizontally, a downward force of 6.0 N must be applied at end A. Given that the weight of the rod is 10.0 N, what is the distance of the centre of gravity of the rod from the pivot?",
+    "options": [
+      "0.15 m to the right of the pivot",
+      "0.24 m to the right of the pivot",
+      "0.30 m to the right of the pivot",
+      "0.40 m to the right of the pivot"
+    ],
+    "answer": "0.24 m to the right of the pivot",
+    "time": 75
+  },
+  {
+    "question": "Stability - Centre of Gravity and Base Area",
+    "stem": "Which design modification will significantly increase the stability of a racing car to prevent it from toppling when taking sharp turns?",
+    "options": [
+      "Raising the position of the heavy engine and narrowing the wheelbase",
+      "Lowering the centre of gravity and widening the base area between the wheels",
+      "Increasing the overall mass while keeping the centre of gravity high",
+      "Reducing tyre contact area with the ground to reduce road friction"
+    ],
+    "answer": "Lowering the centre of gravity and widening the base area between the wheels",
+    "time": 50
+  },
+  {
+    "question": "Waves - Transverse vs Longitudinal Waves",
+    "stem": "Which statement correctly distinguishes a transverse wave from a longitudinal wave?",
+    "options": [
+      "In transverse waves, particles vibrate parallel to the direction of wave travel.",
+      "In longitudinal waves, particles vibrate perpendicular to the direction of wave travel.",
+      "In transverse waves, particles vibrate perpendicular to the direction of wave travel.",
+      "Longitudinal waves can propagate through a vacuum whereas transverse waves cannot."
+    ],
+    "answer": "In transverse waves, particles vibrate perpendicular to the direction of wave travel.",
+    "time": 50
+  },
+  {
+    "question": "Waves - Longitudinal Wave Properties",
+    "stem": "A sound wave travels through air as a series of compressions and rarefactions. What happens to air particles at a compression?",
+    "options": [
+      "Air particles are momentarily brought to rest and cooled down.",
+      "Air particles are pushed closer together, resulting in higher pressure than normal.",
+      "Air particles are spread further apart, creating a region of zero pressure.",
+      "Air particles move permanently in the direction of the wave."
+    ],
+    "answer": "Air particles are pushed closer together, resulting in higher pressure than normal.",
+    "time": 55
+  },
+  {
+    "question": "Waves - Wave Equation Calculation",
+    "stem": "A water wave in a ripple tank has a frequency of 5.0 Hz and a wavelength of 0.12 m. What is the speed of the wave?",
+    "options": [
+      "0.024 m/s",
+      "0.60 m/s",
+      "2.4 m/s",
+      "41.7 m/s"
+    ],
+    "answer": "0.60 m/s",
+    "time": 50
+  },
+  {
+    "question": "EM Waves - Prefix Conversion (Giga to Standard)",
+    "stem": "A satellite communicates using microwaves with a frequency of 6.0 GHz. Taking the speed of electromagnetic waves in vacuum as 3.0 × 10⁸ m/s, what is the wavelength of these microwaves?",
+    "options": [
+      "0.050 m",
+      "0.50 m",
+      "2.0 m",
+      "5.0 × 10⁻¹² m"
+    ],
+    "answer": "0.050 m",
+    "time": 65
+  },
+  {
+    "question": "EM Waves - Prefix Conversion (Nano to Standard)",
+    "stem": "Red light has a wavelength of 600 nm. Which of the following correctly expresses this wavelength in metres (m)?",
+    "options": [
+      "6.0 × 10⁻⁵ m",
+      "6.0 × 10⁻⁷ m",
+      "6.0 × 10⁻⁹ m",
+      "6.0 × 10⁻¹¹ m"
+    ],
+    "answer": "6.0 × 10⁻⁷ m",
+    "time": 50
+  },
+  {
+    "question": "Waves - Period to Frequency Conversion (Milli to Standard)",
+    "stem": "An alternating signal displays a period of 4.0 ms (milliseconds) on an oscilloscope screen. What is the frequency of this wave?",
+    "options": [
+      "25 Hz",
+      "250 Hz",
+      "400 Hz",
+      "2500 Hz"
+    ],
+    "answer": "250 Hz",
+    "time": 55
+  },
+  {
+    "question": "Sound - Medium Requirement",
+    "stem": "An electric bell is ringing inside a sealed glass bell jar. As air is gradually pumped out of the jar using a vacuum pump, the sound of the bell becomes faint and eventually cannot be heard. Why?",
+    "options": [
+      "The frequency of the sound decreases below human hearing range.",
+      "Sound is a mechanical wave that requires physical particles in a medium to transmit vibrations.",
+      "The glass walls of the bell jar absorb all sound energy in the absence of air.",
+      "The bell stops vibrating when surrounding air pressure drops to zero."
+    ],
+    "answer": "Sound is a mechanical wave that requires physical particles in a medium to transmit vibrations.",
+    "time": 55
+  },
+  {
+    "question": "Sound - Echo Distance Calculation",
+    "stem": "A ship uses an underwater sonar system to determine the depth of the sea. An ultrasound pulse is emitted downwards, and its echo from the seabed is detected 0.60 s later. If the speed of sound in water is 1500 m/s, what is the depth of the sea at that location?",
+    "options": [
+      "225 m",
+      "450 m",
+      "900 m",
+      "1800 m"
+    ],
+    "answer": "450 m",
+    "time": 60
+  },
+  {
+    "question": "Sound - Pitch and Loudness",
+    "stem": "Two sound notes X and Y are played. Note X has a higher frequency and smaller amplitude than Note Y. How does Note X compare to Note Y?",
+    "options": [
+      "Note X is louder and has a higher pitch.",
+      "Note X is softer and has a higher pitch.",
+      "Note X is louder and has a lower pitch.",
+      "Note X is softer and has a lower pitch."
+    ],
+    "answer": "Note X is softer and has a higher pitch.",
+    "time": 50
+  },
+  {
+    "question": "Static Electricity - Law of Electrostatics",
+    "stem": "Two light, freely suspended polystyrene balls P and Q are brought close together. Ball P is positively charged, and Ball Q is negatively charged. What interaction will be observed?",
+    "options": [
+      "They attract each other because unlike charges attract.",
+      "They repel each other because like charges repel.",
+      "They remain completely motionless because charges cannot exert forces in air.",
+      "They both acquire a neutral charge before repelling."
+    ],
+    "answer": "They attract each other because unlike charges attract.",
+    "time": 45
+  },
+  {
+    "question": "Static Electricity - Charging by Friction",
+    "stem": "When a dry polythene rod is rubbed with a dry woolen cloth, the polythene rod gains a negative charge. Which statement explains why this occurs?",
+    "options": [
+      "Protons are transferred from the woolen cloth to the polythene rod.",
+      "Electrons are transferred from the woolen cloth to the polythene rod.",
+      "Protons move to the surface of the cloth while electrons remain stationary.",
+      "Electrons are transferred from the polythene rod to the woolen cloth."
+    ],
+    "answer": "Electrons are transferred from the woolen cloth to the polythene rod.",
+    "time": 55
+  },
+  {
+    "question": "Static Electricity - Attraction of Neutral Objects",
+    "stem": "Why does a negatively charged plastic comb attract small neutral bits of paper without initially touching them?",
+    "options": [
+      "The comb transfers all its electrons to the paper instantly through the air.",
+      "The negative comb repels electrons in the paper away, inducing a positive charge near the surface and causing net attraction.",
+      "Neutral paper always carries a permanent positive magnetic pole.",
+      "The air between the comb and paper turns into an insulator that pushes them together."
+    ],
+    "answer": "The negative comb repels electrons in the paper away, inducing a positive charge near the surface and causing net attraction.",
+    "time": 65
+  },
+  {
+    "question": "Current Electricity - Ohm's Law Calculation",
+    "stem": "A 12.0 V battery is connected across a fixed ohmic resistor. If the electric current flowing through the resistor is 1.5 A, what is the resistance of the resistor?",
+    "options": [
+      "4.0 Ω",
+      "8.0 Ω",
+      "13.5 Ω",
+      "18.0 Ω"
+    ],
+    "answer": "8.0 Ω",
+    "time": 45
+  },
+  {
+    "question": "Circuits - Series Circuit Potential Difference",
+    "stem": "Two resistors of resistance 4.0 Ω and 6.0 Ω are connected in series to a 20.0 V DC power supply. What is the potential difference across the 6.0 Ω resistor?",
+    "options": [
+      "6.0 V",
+      "8.0 V",
+      "12.0 V",
+      "20.0 V"
+    ],
+    "answer": "12.0 V",
+    "time": 60
+  },
+  {
+    "question": "Circuits - Parallel Effective Resistance",
+    "stem": "Two identical 10.0 Ω resistors are connected in parallel across a 6.0 V battery. What is the total current drawn from the battery?",
+    "options": [
+      "0.30 A",
+      "0.60 A",
+      "1.20 A",
+      "2.40 A"
+    ],
+    "answer": "1.20 A",
+    "time": 60
+  },
+  {
+    "question": "Circuits - Parallel Circuit Effects",
+    "stem": "In a household lighting circuit, light bulbs are arranged in parallel rather than in series. What is a key advantage of this parallel arrangement?",
+    "options": [
+      "If one light bulb blows, the remaining light bulbs continue to operate normally.",
+      "The total current drawn from the mains supply decreases with every bulb switched on.",
+      "The potential difference across each bulb is divided equally among all operating bulbs.",
+      "The overall circuit resistance increases whenever an additional bulb is switched on."
+    ],
+    "answer": "If one light bulb blows, the remaining light bulbs continue to operate normally.",
+    "time": 50
+  },
+  {
+    "question": "Electrical Power - P = VI Calculation",
+    "stem": "An electric hair dryer is rated 240 V, 1200 W. What is the operating current drawn by the hair dryer under normal operating conditions?",
+    "options": [
+      "0.20 A",
+      "2.5 A",
+      "5.0 A",
+      "10.0 A"
+    ],
+    "answer": "5.0 A",
+    "time": 50
+  },
+  {
+    "question": "Electrical Safety - Fuse Rating Selection",
+    "stem": "An electric water heater is rated 240 V, 2400 W. Which fuse rating is most appropriate to install in the three-pin plug of this heater? [Available fuse ratings: 3 A, 5 A, 10 A, 13 A]",
+    "options": [
+      "5 A",
+      "10 A",
+      "13 A",
+      "30 A"
+    ],
+    "answer": "13 A",
+    "time": 55
+  },
+  {
+    "question": "Electrical Safety - Fuse Placement on Live Wire",
+    "stem": "Why must a fuse and its controlling switch always be placed along the Live wire rather than the Neutral wire?",
+    "options": [
+      "To ensure that electrical current only flows into the appliance when the voltage is negative",
+      "To ensure that when the fuse blows, the appliance is completely isolated from the high mains voltage",
+      "To prevent excess electric charge from flowing through the earth wire into the ground",
+      "Because the neutral wire cannot conduct large currents during a fault"
+    ],
+    "answer": "To ensure that when the fuse blows, the appliance is completely isolated from the high mains voltage",
+    "time": 60
+  },
+  {
+    "question": "Electrical Safety - Earth Wire and Metal Casing",
+    "stem": "In an electrical appliance with a metal casing, a fault causes the live wire to come loose and touch the metal casing. What happens immediately if the casing is properly connected to the earth wire?",
+    "options": [
+      "The metal casing remains safe because electricity cannot flow through metal.",
+      "A very large current flows through the low-resistance earth wire, melting the fuse and disconnecting the supply.",
+      "The potential difference of the live wire drops to zero without affecting the fuse.",
+      "The appliance continues to work safely because the earth wire absorbs all excess electrical power."
+    ],
+    "answer": "A very large current flows through the low-resistance earth wire, melting the fuse and disconnecting the supply.",
+    "time": 65
+  },
+  {
+    "question": "Electrical Safety - Double Insulation",
+    "stem": "Why do electrical appliances with double insulation (bearing the square-within-a-square symbol) only require a two-pin plug with no earth wire?",
+    "options": [
+      "They operate only at very low currents under 0.5 A.",
+      "All internal electrical components are enclosed in non-conducting plastic casings, preventing live contact.",
+      "The appliance casing is connected directly to an internal battery instead of mains voltage.",
+      "They contain an internal automatic circuit breaker that eliminates the need for any safety earthing."
+    ],
+    "answer": "All internal electrical components are enclosed in non-conducting plastic casings, preventing live contact.",
+    "time": 55
+  },
+  {
+    "question": "Electrical Dangers - Wet Environments",
+    "stem": "Why is handling mains electrical switches with wet hands dangerous?",
+    "options": [
+      "Water increases the voltage supplied by the mains socket.",
+      "Water is an electrical insulator that traps heat inside the wall switch.",
+      "Water significantly lowers skin resistance, allowing a fatal current to flow through the human body.",
+      "Water causes the fuse in the consumer unit to melt immediately without warning."
+    ],
+    "answer": "Water significantly lowers skin resistance, allowing a fatal current to flow through the human body.",
+    "time": 50
+  },
+  {
+    "question": "Energy Stores - Gravitational Potential Energy",
+    "stem": "A box of mass 4.0 kg is lifted vertically through a height of 3.0 m. Taking the gravitational field strength g = 10 N/kg, what is the gain in gravitational potential energy of the box?",
+    "options": [
+      "12 J",
+      "40 J",
+      "70 J",
+      "120 J"
+    ],
+    "answer": "120 J",
+    "time": 45
+  },
+  {
+    "question": "Energy Stores - Kinetic Energy Calculation",
+    "stem": "A sports car of mass 1200 kg travels at a constant speed of 20 m/s along a straight level road. What is the kinetic energy of the car?",
+    "options": [
+      "12 kJ",
+      "24 kJ",
+      "240 kJ",
+      "480 kJ"
+    ],
+    "answer": "240 kJ",
+    "time": 50
+  },
+  {
+    "question": "Energy Conservation - Free Fall Speed",
+    "stem": "A stone of mass 0.50 kg is dropped from the top of a cliff of height 45 m. Assuming air resistance is negligible and taking g = 10 m/s², what is the speed of the stone just before it hits the ground?",
+    "options": [
+      "15 m/s",
+      "20 m/s",
+      "30 m/s",
+      "45 m/s"
+    ],
+    "answer": "30 m/s",
+    "time": 65
+  },
+  {
+    "question": "Magnetism - Magnetic Induction",
+    "stem": "When the North pole of a permanent bar magnet is brought near (without touching) end X of an unmagnetised soft iron bar XY, what magnetic pole is induced at end X and what is the resulting force?",
+    "options": [
+      "North pole is induced at X; the iron bar is repelled.",
+      "South pole is induced at X; the iron bar is attracted.",
+      "South pole is induced at X; the iron bar is repelled.",
+      "No magnetic pole is induced; no magnetic force is exerted."
+    ],
+    "answer": "South pole is induced at X; the iron bar is attracted.",
+    "time": 55
+  },
+  {
+    "question": "Magnetism - Soft vs Hard Magnetic Materials",
+    "stem": "Why is soft iron used as the core of an electromagnet instead of steel?",
+    "options": [
+      "Soft iron is easily magnetised and loses its magnetism easily when current is switched off.",
+      "Soft iron retains its magnetism permanently even after current is switched off.",
+      "Steel cannot be magnetised by an electric current under any circumstances.",
+      "Soft iron is a poor electrical conductor which prevents the coil from heating up."
+    ],
+    "answer": "Soft iron is easily magnetised and loses its magnetism easily when current is switched off.",
+    "time": 55
+  },
+  {
+    "question": "Magnetism - Magnetic Field Line Conventions",
+    "stem": "Which statement correctly describes the magnetic field lines around a permanent bar magnet?",
+    "options": [
+      "They emerge from the South pole and enter the North pole.",
+      "They emerge from the North pole and enter the South pole outside the magnet.",
+      "They cross each other at regions where the magnetic field is strongest.",
+      "The spacing between lines is widest near the magnetic poles where the field is strongest."
+    ],
+    "answer": "They emerge from the North pole and enter the South pole outside the magnet.",
+    "time": 50
+  },
+  {
+    "question": "Electrical Energy and Cost - kWh Calculation",
+    "stem": "An air-conditioner with a power rating of 2.0 kW is switched on for 5.0 hours each night. If the electricity tariff is $0.30 per kWh, what is the cost of running the air-conditioner for 30 nights?",
+    "options": [
+      "$9.00",
+      "$18.00",
+      "$45.00",
+      "$90.00"
+    ],
+    "answer": "$90.00",
+    "time": 65
+  }
+]
