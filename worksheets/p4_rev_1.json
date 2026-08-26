@@ -1,0 +1,290 @@
+[
+  {
+    "question": "More Than / Less Than - Adjusted Multiples",
+    "stem": "Alice and Brenda had $78.40 altogether. If Alice spent $3.40 and Brenda received $5.00, Alice would have 3 times as much money as Brenda. How much money did Alice have at first?",
+    "options": [
+      "$63.40",
+      "$58.80",
+      "$60.00",
+      "$65.20"
+    ],
+    "answer": "$63.40",
+    "time": 75
+  },
+  {
+    "question": "More Than / Less Than - Adjusted Mass",
+    "stem": "Caleb and Dylan had a total of 15.6 kg of flour. If Caleb used 2.4 kg and Dylan bought another 1.8 kg, Caleb would have twice as much flour as Dylan. How many kilograms of flour did Dylan have at first?",
+    "options": [
+      "3.2 kg",
+      "4.5 kg",
+      "5.0 kg",
+      "2.8 kg"
+    ],
+    "answer": "3.2 kg",
+    "time": 75
+  },
+  {
+    "question": "More Than / Less Than - Bill Sharing",
+    "stem": "Ethan and Fiona shared a restaurant bill of $94.60. If Ethan had paid $7.40 more and Fiona had paid $2.00 less, Ethan would have paid 4 times as much as Fiona. How much did Fiona actually pay?",
+    "options": [
+      "$20.00",
+      "$22.00",
+      "$18.50",
+      "$24.20"
+    ],
+    "answer": "$22.00",
+    "time": 75
+  },
+  {
+    "question": "Internal Transfer - Constant Total",
+    "stem": "George and Hannah have $62.80 in total. If George gave Hannah $6.40, Hannah would have 3 times as much money as George. How much money did George have at first?",
+    "options": [
+      "$22.10",
+      "$15.70",
+      "$20.40",
+      "$24.80"
+    ],
+    "answer": "$22.10",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - 3 Quantities with Decimals",
+    "stem": "Ivan, Jacob, and Kevin saved $105.50 altogether. Ivan saved twice as much money as Jacob. Kevin saved $7.50 less than Jacob. How much money did Ivan save?",
+    "options": [
+      "$56.50",
+      "$28.25",
+      "$52.00",
+      "$60.50"
+    ],
+    "answer": "$56.50",
+    "time": 80
+  },
+  {
+    "question": "Comparison Model - Liquid Volumes",
+    "stem": "Three containers X, Y, and Z hold 26.8 litres of water altogether. Container X holds 3 times as much water as Container Y. Container Z holds 1.6 litres more water than Container X. How much water is in Container Z?",
+    "options": [
+      "12.4 litres",
+      "10.8 litres",
+      "13.2 litres",
+      "11.6 litres"
+    ],
+    "answer": "12.4 litres",
+    "time": 80
+  },
+  {
+    "question": "Working Backwards - Fraction of Remainder",
+    "stem": "A fruit seller had some apples. On Monday, he sold 2/5 of his apples plus 12 more apples. On Tuesday, he sold 1/2 of the remaining apples and had 36 apples left. How many apples did the fruit seller have at first?",
+    "options": [
+      "140",
+      "120",
+      "150",
+      "160"
+    ],
+    "answer": "140",
+    "time": 80
+  },
+  {
+    "question": "Working Backwards - Multi-Step Expenses",
+    "stem": "Rachel had some money. She spent $18.50 on a bag. She then spent 1/2 of her remaining money on shoes, and another $6.25 on lunch. In the end, she had $15.75 left. How much money did Rachel have at first?",
+    "options": [
+      "$62.50",
+      "$58.00",
+      "$65.50",
+      "$70.00"
+    ],
+    "answer": "$62.50",
+    "time": 80
+  },
+  {
+    "question": "Working Backwards - Bus Passengers",
+    "stem": "A bus started from an interchange with some passengers. At the first stop, 1/4 of the passengers alighted and 6 passengers boarded. At the second stop, 1/2 of the passengers alighted and 8 passengers boarded. If there were 26 passengers on the bus in the end, how many passengers were on the bus at first?",
+    "options": [
+      "40",
+      "36",
+      "48",
+      "52"
+    ],
+    "answer": "40",
+    "time": 80
+  },
+  {
+    "question": "Working Backwards - Leaking Tank",
+    "stem": "A tank was filled with water. 3.45 litres of water leaked out on Day 1. On Day 2, 1/2 of the remaining water was used for watering plants. On Day 3, 1.8 litres was added into the tank, leaving 7.2 litres of water. How many litres of water were in the tank at first?",
+    "options": [
+      "14.25 litres",
+      "12.60 litres",
+      "15.45 litres",
+      "13.80 litres"
+    ],
+    "answer": "14.25 litres",
+    "time": 75
+  },
+  {
+    "question": "Working Backwards - Cookie Batch Sharing",
+    "stem": "Mrs. Goh baked a batch of cookies. She gave 3/10 of the cookies to her neighbour and 14 cookies to her son. She then gave 1/2 of the remaining cookies to her daughter and kept the last 28 cookies for herself. How many cookies did Mrs. Goh bake altogether?",
+    "options": [
+      "100",
+      "90",
+      "110",
+      "120"
+    ],
+    "answer": "100",
+    "time": 80
+  },
+  {
+    "question": "Working Backwards - Sharing Beads",
+    "stem": "A container of beads was shared among three friends. Liam took 1/5 of the beads plus 8 beads. Noah took 1/2 of the remaining beads. Olivia took the last 32 beads. How many beads were in the container at first?",
+    "options": [
+      "90",
+      "80",
+      "100",
+      "85"
+    ],
+    "answer": "90",
+    "time": 75
+  },
+  {
+    "question": "Difference and Multiples - Total Spending",
+    "stem": "Marcus and Nathan bought some books. Marcus spent $24.60 more than Nathan. If Marcus spent 4 times as much as Nathan, how much did both boys spend altogether?",
+    "options": [
+      "$41.00",
+      "$32.80",
+      "$45.20",
+      "$36.90"
+    ],
+    "answer": "$41.00",
+    "time": 70
+  },
+  {
+    "question": "Comparison Model - Equipment Sets",
+    "stem": "A pair of roller skates and 3 identical helmets cost $142.50. The pair of roller skates costs $28.50 more than 1 helmet. Find the cost of the pair of roller skates.",
+    "options": [
+      "$57.00",
+      "$28.50",
+      "$48.00",
+      "$62.50"
+    ],
+    "answer": "$57.00",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - Furniture Multiples",
+    "stem": "2 identical dining tables and 5 identical chairs cost $395.00 in total. 1 dining table costs $40.00 more than 1 chair. Find the cost of 1 dining table.",
+    "options": [
+      "$85.00",
+      "$45.00",
+      "$90.00",
+      "$75.00"
+    ],
+    "answer": "$85.00",
+    "time": 80
+  },
+  {
+    "question": "More Than / Less Than - Adjusted Mass",
+    "stem": "Pen A and Pen B have a total mass of 48.6 g. If 3.4 g is added to Pen A and 1.6 g is removed from Pen B, Pen A will be twice as heavy as Pen B. What was the mass of Pen A at first?",
+    "options": [
+      "30.2 g",
+      "33.6 g",
+      "28.4 g",
+      "31.8 g"
+    ],
+    "answer": "30.2 g",
+    "time": 75
+  },
+  {
+    "question": "More Than / Less Than - Unequal Spending",
+    "stem": "Samantha and Tiffany had a total of $86.20. After Samantha spent $14.20 and Tiffany spent $12.00, Tiffany had 3 times as much money as Samantha. How much money did Samantha have at first?",
+    "options": [
+      "$29.20",
+      "$15.00",
+      "$27.50",
+      "$31.40"
+    ],
+    "answer": "$29.20",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - 3 Ribbons",
+    "stem": "The total length of Red, Blue, and Green ribbons is 19.5 m. The Red ribbon is 1.5 m longer than the Blue ribbon. The Green ribbon is twice as long as the Red ribbon. What is the length of the Green ribbon?",
+    "options": [
+      "10.50 m",
+      "5.25 m",
+      "9.75 m",
+      "11.25 m"
+    ],
+    "answer": "10.50 m",
+    "time": 80
+  },
+  {
+    "question": "Comparison Model - Nested Multiples",
+    "stem": "Ben, Calvin, and Darren shared $112.50. Ben received $12.50 more than Calvin. Darren received twice as much money as the total amount Calvin and Ben received together. How much money did Calvin receive?",
+    "options": [
+      "$12.50",
+      "$25.00",
+      "$15.00",
+      "$18.75"
+    ],
+    "answer": "$12.50",
+    "time": 80
+  },
+  {
+    "question": "Comparison Model - Bags of Flour",
+    "stem": "A baker packed 19.0 kg of flour into 4 small bags and 3 large bags. Each large bag contained 1.2 kg more flour than each small bag. What was the mass of flour in one large bag?",
+    "options": [
+      "3.4 kg",
+      "2.2 kg",
+      "3.6 kg",
+      "2.8 kg"
+    ],
+    "answer": "3.4 kg",
+    "time": 75
+  },
+  {
+    "question": "Internal Transfer - Two Friends",
+    "stem": "Valerie and Wendy had $74.80 altogether. After Valerie gave Wendy $8.40, Valerie had 3 times as much money as Wendy. How much money did Wendy have at first?",
+    "options": [
+      "$10.30",
+      "$18.70",
+      "$12.50",
+      "$14.20"
+    ],
+    "answer": "$10.30",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - Cut Plank",
+    "stem": "A wooden plank of total length 12.6 m is cut into 3 pieces: P, Q, and R. Piece P is 1.6 m shorter than Piece Q. Piece R is 3 times as long as Piece P. Find the length of Piece R.",
+    "options": [
+      "6.6 m",
+      "2.2 m",
+      "5.8 m",
+      "7.2 m"
+    ],
+    "answer": "6.6 m",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - Unit Cost Multiples",
+    "stem": "Zoe bought 4 notebooks and 5 pens for $21.40. Each notebook cost $1.30 more than each pen. What was the cost of 2 notebooks?",
+    "options": [
+      "$6.20",
+      "$3.10",
+      "$5.80",
+      "$6.80"
+    ],
+    "answer": "$6.20",
+    "time": 75
+  },
+  {
+    "question": "Working Backwards - Fraction of Remainder",
+    "stem": "Aaron had some money. He spent $16.40 on a book. Then, he spent 3/5 of the remaining money on a game and was left with $15.20. How much money did Aaron have at first?",
+    "options": [
+      "$54.40",
+      "$48.60",
+      "$52.00",
+      "$56.20"
+    ],
+    "answer": "$54.40",
+    "time": 75
+  }
+]
