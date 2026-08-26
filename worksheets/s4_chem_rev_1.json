@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Atomic Structure - Subatomic Particles",
+    "stem": "An atom of an element has an atomic number of 17 and a mass number of 35. How many protons, neutrons, and electrons are present in this neutral atom?",
+    "options": [
+      "17 protons, 18 neutrons, 17 electrons",
+      "17 protons, 35 neutrons, 17 electrons",
+      "18 protons, 17 neutrons, 18 electrons",
+      "35 protons, 18 neutrons, 17 electrons"
+    ],
+    "answer": "17 protons, 18 neutrons, 17 electrons",
+    "time": 50
+  },
+  {
+    "question": "Atomic Structure - Electronic Configuration",
+    "stem": "An element X has 15 protons in its nucleus. What is the electronic configuration of an atom of X and which group in the Periodic Table does it belong to?",
+    "options": [
+      "2.8.3 and Group 13",
+      "2.8.5 and Group 15",
+      "2.8.5 and Group 13",
+      "2.5.8 and Group 18"
+    ],
+    "answer": "2.8.5 and Group 15",
+    "time": 55
+  },
+  {
+    "question": "Atomic Structure - Isotopes",
+    "stem": "Chlorine exists as two isotopes, Chlorine-35 and Chlorine-37. Which statement correctly describes these two isotopes?",
+    "options": [
+      "They have identical numbers of protons but different numbers of neutrons.",
+      "They have different numbers of protons and identical numbers of neutrons.",
+      "They exhibit completely different chemical properties during reactions.",
+      "They have the same mass number but different atomic numbers."
+    ],
+    "answer": "They have identical numbers of protons but different numbers of neutrons.",
+    "time": 55
+  },
+  {
+    "question": "Atomic Structure - Ion Formation",
+    "stem": "An atom of oxygen has an electronic configuration of 2.6. How does this atom form a stable oxide ion (O²⁻)?",
+    "options": [
+      "By losing six electrons to form a fully empty outer electron shell",
+      "By sharing two electrons equally with a neighbouring oxygen atom",
+      "By gaining two electrons to achieve a stable octet electronic structure",
+      "By gaining two protons into the atomic nucleus"
+    ],
+    "answer": "By gaining two electrons to achieve a stable octet electronic structure",
+    "time": 55
+  },
+  {
+    "question": "Chemical Bonding - Ionic Bond Formation",
+    "stem": "Which pair of elements will react together by electron transfer to form an ionic compound?",
+    "options": [
+      "Carbon and hydrogen",
+      "Nitrogen and oxygen",
+      "Sulfur and chlorine",
+      "Magnesium and oxygen"
+    ],
+    "answer": "Magnesium and oxygen",
+    "time": 50
+  },
+  {
+    "question": "Chemical Bonding - Formula of Ionic Compound",
+    "stem": "Element X forms an ion X²⁺ and element Y forms an ion Y³⁻. What is the chemical formula of the ionic compound formed between X and Y?",
+    "options": [
+      "X3Y2",
+      "X2Y3",
+      "XY",
+      "X2Y"
+    ],
+    "answer": "X3Y2",
+    "time": 50
+  },
+  {
+    "question": "Chemical Bonding - Simple Covalent Bonding",
+    "stem": "How many pairs of electrons are shared between the carbon and oxygen atoms in a single molecule of carbon dioxide (CO₂)?",
+    "options": [
+      "Two pairs of shared electrons",
+      "Four pairs of shared electrons",
+      "Six pairs of shared electrons",
+      "Eight pairs of shared electrons"
+    ],
+    "answer": "Four pairs of shared electrons",
+    "time": 55
+  },
+  {
+    "question": "Chemical Bonding - Physical Properties of Covalent Molecules",
+    "stem": "Methane (CH₄) has a very low boiling point of -161 °C. Why does methane exist as a gas at room temperature?",
+    "options": [
+      "Little energy is needed to overcome the weak intermolecular forces between molecules.",
+      "The strong covalent bonds inside the methane molecules break very easily on heating.",
+      "Methane molecules are held together by very weak ionic bonds in a giant lattice.",
+      "Methane completely dissociates into separate carbon and hydrogen ions when warmed."
+    ],
+    "answer": "Little energy is needed to overcome the weak intermolecular forces between molecules.",
+    "time": 60
+  },
+  {
+    "question": "Chemical Bonding - Electrical Conductivity",
+    "stem": "Why does solid sodium chloride not conduct electricity, whereas molten sodium chloride is an electrical conductor?",
+    "options": [
+      "In molten state, electrons become free to move, whereas in solid state, electrons are trapped.",
+      "Solid sodium chloride contains simple molecules that do not carry any electrical charge.",
+      "In molten state, the ions are mobile and free to move, whereas in solid state, they are fixed in a lattice.",
+      "Melting sodium chloride causes it to decompose into sodium metal and chlorine gas."
+    ],
+    "answer": "In molten state, the ions are mobile and free to move, whereas in solid state, they are fixed in a lattice.",
+    "time": 65
+  },
+  {
+    "question": "Reactivity Series - Metal Displacement in Solution",
+    "stem": "An iron nail is placed into a blue solution of copper(II) sulfate. What is observed after several hours?",
+    "options": [
+      "The blue solution turns pale green and a reddish-brown solid is deposited on the nail.",
+      "The blue solution turns colourless and rapid effervescence of hydrogen gas is observed.",
+      "No visible change occurs because iron is less reactive than copper.",
+      "The iron nail dissolves completely to form a bright blue precipitate."
+    ],
+    "answer": "The blue solution turns pale green and a reddish-brown solid is deposited on the nail.",
+    "time": 60
+  },
+  {
+    "question": "Reactivity Series - Reduction of Oxides with Carbon",
+    "stem": "Which metal oxide can be reduced to the metal by heating strongly with carbon powder?",
+    "options": [
+      "Magnesium oxide",
+      "Iron(III) oxide",
+      "Calcium oxide",
+      "Aluminium oxide"
+    ],
+    "answer": "Iron(III) oxide",
+    "time": 50
+  },
+  {
+    "question": "Reactivity Series - Deducing Order of Reactivity",
+    "stem": "Metal X displaces metal Y from an aqueous solution of Y(NO₃)₂. Metal Y displaces metal Z from ZSO₄. Metal X does NOT react with cold water, but metal W reacts vigorously with cold water. Which is the correct order of reactivity from MOST reactive to LEAST reactive?",
+    "options": [
+      "X > Y > Z > W",
+      "W > Z > Y > X",
+      "W > X > Y > Z",
+      "Z > Y > X > W"
+    ],
+    "answer": "W > X > Y > Z",
+    "time": 65
+  },
+  {
+    "question": "Reactivity Series - Reaction with Dilute Acid",
+    "stem": "Four different metal strips (Copper, Magnesium, Iron, Zinc) of identical dimensions are added to separate test tubes containing dilute hydrochloric acid. Which metal produces the most vigorous effervescence?",
+    "options": [
+      "Copper",
+      "Zinc",
+      "Iron",
+      "Magnesium"
+    ],
+    "answer": "Magnesium",
+    "time": 50
+  },
+  {
+    "question": "Reactivity Series - Extraction Principles",
+    "stem": "Why is magnesium extracted from its molten ore by electrolysis rather than by heating with carbon?",
+    "options": [
+      "Magnesium is more reactive than carbon and forms very stable bonds with oxygen.",
+      "Magnesium oxide is a simple molecular compound that evaporates when heated with carbon.",
+      "Carbon reacts violently with molten magnesium metal to form toxic hydrocarbon gases.",
+      "Magnesium has a higher melting point than all other transition elements in the series."
+    ],
+    "answer": "Magnesium is more reactive than carbon and forms very stable bonds with oxygen.",
+    "time": 65
+  },
+  {
+    "question": "Redox - Oxidation State Assignment",
+    "stem": "What is the oxidation state of manganese in potassium manganate(VII), KMnO₄?",
+    "options": [
+      "+2",
+      "+4",
+      "+7",
+      "+6"
+    ],
+    "answer": "+7",
+    "time": 50
+  },
+  {
+    "question": "Redox - Oxidation State Calculation",
+    "stem": "In which of the following compounds does sulfur have an oxidation state of +4?",
+    "options": [
+      "SO2",
+      "SO3",
+      "H2SO4",
+      "H2S"
+    ],
+    "answer": "SO2",
+    "time": 55
+  },
+  {
+    "question": "Redox - Potassium Manganate(VII) as Oxidising Agent",
+    "stem": "Acidified potassium manganate(VII) solution is added to a solution containing a reducing agent. What colour change confirms that the manganate(VII) ion has been reduced?",
+    "options": [
+      "Colourless to reddish-brown",
+      "Orange to dark green",
+      "Purple to colourless",
+      "Blue to pale green"
+    ],
+    "answer": "Purple to colourless",
+    "time": 55
+  },
+  {
+    "question": "Redox - Potassium Iodide as Reducing Agent",
+    "stem": "Aqueous potassium iodide (KI) is added to a test tube containing an oxidising agent. What colour change is observed and which product is formed?",
+    "options": [
+      "The solution turns from purple to colourless due to the formation of iodide ions (I⁻).",
+      "The solution turns from colourless to brown due to the formation of aqueous iodine (I₂).",
+      "The solution turns from orange to green due to the precipitation of potassium metal.",
+      "The solution turns from blue to colourless due to the release of hydrogen gas."
+    ],
+    "answer": "The solution turns from colourless to brown due to the formation of aqueous iodine (I₂).",
+    "time": 60
+  },
+  {
+    "question": "Redox - Halogen Displacement Reaction",
+    "stem": "Chlorine gas is bubbled into a colourless solution of potassium bromide. What observation is made and which equation represents this reaction?",
+    "options": [
+      "The solution turns purple; Br₂ + 2KCl → 2KBr + Cl₂",
+      "A white precipitate forms; Cl₂ + KBr → KCl + Br",
+      "No visible reaction occurs because bromine is more reactive than chlorine.",
+      "The solution turns reddish-brown; Cl₂ + 2KBr → 2KCl + Br₂"
+    ],
+    "answer": "The solution turns reddish-brown; Cl₂ + 2KBr → 2KCl + Br₂",
+    "time": 65
+  },
+  {
+    "question": "Redox - Identifying Redox Changes",
+    "stem": "In the reaction: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s), which statement correctly describes the redox process in terms of oxidation state?",
+    "options": [
+      "Zinc is oxidised because its oxidation state increases from 0 to +2.",
+      "Copper is oxidised because its oxidation state decreases from +2 to 0.",
+      "Sulfate ion is reduced because its oxidation state decreases.",
+      "Zinc is reduced because it gains two electrons from copper."
+    ],
+    "answer": "Zinc is oxidised because its oxidation state increases from 0 to +2.",
+    "time": 60
+  },
+  {
+    "question": "Energy Changes - Exothermic Reactions",
+    "stem": "When solid sodium hydroxide is dissolved in a beaker of water, the temperature of the solution increases from 24 °C to 38 °C. What type of reaction is this and why?",
+    "options": [
+      "Endothermic, because thermal energy is absorbed from the surroundings.",
+      "Exothermic, because thermal energy is released to the surroundings.",
+      "Endothermic, because the solution gains chemical potential energy.",
+      "Exothermic, because the total mass of the solution decreases."
+    ],
+    "answer": "Exothermic, because thermal energy is released to the surroundings.",
+    "time": 55
+  },
+  {
+    "question": "Energy Changes - Endothermic Reactions",
+    "stem": "When ammonium nitrate crystals dissolve in water, the temperature of the mixture decreases from 25 °C to 18 °C. What can be concluded about this process?",
+    "options": [
+      "The reaction is endothermic because thermal energy is absorbed from the surroundings.",
+      "The reaction is exothermic because thermal energy is released into the water.",
+      "The products have less chemical energy stored in their bonds than the reactants.",
+      "The reaction creates new thermal energy that disappears into the container."
+    ],
+    "answer": "The reaction is endothermic because thermal energy is absorbed from the surroundings.",
+    "time": 55
+  },
+  {
+    "question": "Energy Changes - Energy Levels in Exothermic Reactions",
+    "stem": "In an exothermic chemical reaction, how does the energy of the reactants compare to the energy of the products?",
+    "options": [
+      "The products have higher energy than the reactants.",
+      "The reactants and products have identical energy levels.",
+      "The reactants have higher energy than the products.",
+      "The energy of the products is always double that of the reactants."
+    ],
+    "answer": "The reactants have higher energy than the products.",
+    "time": 50
+  },
+  {
+    "question": "Energy Changes - Energy Levels in Endothermic Reactions",
+    "stem": "Which statement correctly describes the energy levels in an endothermic reaction?",
+    "options": [
+      "The energy level of the reactants is higher than the energy level of the products.",
+      "The energy level of the products is higher than the energy level of the reactants.",
+      "The overall energy change of the reaction is zero because energy is destroyed.",
+      "The reactants and products always have equal chemical energy content."
+    ],
+    "answer": "The energy level of the products is higher than the energy level of the reactants.",
+    "time": 55
+  },
+  {
+    "question": "Speed of Reaction - Particle Size and Surface Area",
+    "stem": "In an experiment, 2.0 g of calcium carbonate is reacted with excess dilute hydrochloric acid. Why do powdered marble chips react much faster than large marble lumps?",
+    "options": [
+      "Powdered chips have a larger exposed surface area, increasing collision frequency between particles.",
+      "Powdered chips give particles higher kinetic energy to move faster through the solution.",
+      "Powdered chips increase the total mass of reactants available for collision.",
+      "Powdered chips produce more moles of carbon dioxide gas than large lumps."
+    ],
+    "answer": "Powdered chips have a larger exposed surface area, increasing collision frequency between particles.",
+    "time": 65
+  },
+  {
+    "question": "Speed of Reaction - Concentration of Reactants",
+    "stem": "Why does increasing the concentration of hydrochloric acid from 1.0 mol/dm³ to 2.0 mol/dm³ increase the initial rate of reaction with zinc?",
+    "options": [
+      "The reactant particles possess greater kinetic energy and travel at higher speeds.",
+      "There are more reacting particles per unit volume, resulting in a higher frequency of collisions.",
+      "Higher concentration makes the reacting particles expand significantly in size.",
+      "Increasing the concentration changes the reaction from endothermic to exothermic."
+    ],
+    "answer": "There are more reacting particles per unit volume, resulting in a higher frequency of collisions.",
+    "time": 60
+  },
+  {
+    "question": "Speed of Reaction - Temperature Effect",
+    "stem": "Why does increasing the temperature of a reaction mixture increase the speed of the reaction?",
+    "options": [
+      "Particles expand in volume, which increases the total concentration of the solution.",
+      "Higher temperature increases the overall mass of the reacting particles.",
+      "Higher temperature decreases the number of collisions needed to form products.",
+      "Particles gain kinetic energy, move faster, and collide with each other more frequently."
+    ],
+    "answer": "Particles gain kinetic energy, move faster, and collide with each other more frequently.",
+    "time": 65
+  },
+  {
+    "question": "Speed of Reaction - Effect of Gas Pressure",
+    "stem": "In the gaseous reaction: 2SO₂(g) + O₂(g) → 2SO₃(g), how does increasing the overall pressure affect the rate of reaction?",
+    "options": [
+      "The rate increases because gas particles are crowded closer together, increasing collision frequency.",
+      "The rate decreases because higher pressure slows down the movement of gas molecules.",
+      "The rate remains unchanged because pressure only affects liquid solutions.",
+      "The rate decreases because gas molecules decompose under high pressure."
+    ],
+    "answer": "The rate increases because gas particles are crowded closer together, increasing collision frequency.",
+    "time": 60
+  },
+  {
+    "question": "Speed of Reaction - Interpreting Reaction Graphs",
+    "stem": "Equal masses of magnesium react with excess 1.0 mol/dm³ HCl at 20 °C (Experiment 1) and at 45 °C (Experiment 2). Which statement correctly compares the graphs of total hydrogen volume collected against time?",
+    "options": [
+      "Curve 2 has a gentler initial gradient than Curve 1 and produces a greater total volume of gas.",
+      "Curve 2 has a steeper initial gradient than Curve 1, but both curves level off at the same total volume.",
+      "Curve 2 has a steeper initial gradient and produces double the total volume of gas compared to Curve 1.",
+      "Both curves have the exact same gradient, but Curve 2 reaches completion much later."
+    ],
+    "answer": "Curve 2 has a steeper initial gradient than Curve 1, but both curves level off at the same total volume.",
+    "time": 65
+  },
+  {
+    "question": "Organic Chemistry - Crude Oil and Boiling Point Trends",
+    "stem": "In the fractional distillation of crude oil, fractions are separated based on their boiling points. Which statement correctly describes the relationship between carbon chain length and boiling point?",
+    "options": [
+      "Longer carbon chains have lower boiling points because covalent bonds break more readily.",
+      "Shorter carbon chains have higher boiling points because they contain more double bonds.",
+      "Longer carbon chains have higher boiling points because intermolecular forces of attraction are stronger.",
+      "Carbon chain length has no effect on boiling points because all hydrocarbons are non-polar."
+    ],
+    "answer": "Longer carbon chains have higher boiling points because intermolecular forces of attraction are stronger.",
+    "time": 60
+  },
+  {
+    "question": "Organic Chemistry - Physical Trends of Petroleum Fractions",
+    "stem": "Which row correctly compares the physical properties of a petroleum fraction with long carbon chains to a fraction with short carbon chains?",
+    "options": [
+      "Long chain fraction: Higher viscosity, less easily flammable; Short chain fraction: Lower viscosity, more easily flammable",
+      "Long chain fraction: Lower boiling point, more viscous; Short chain fraction: Higher boiling point, less viscous",
+      "Long chain fraction: Highly volatile, low viscosity; Short chain fraction: Non-volatile, high viscosity",
+      "Long chain fraction: Burns with clean blue flame; Short chain fraction: Burns with smoky yellow flame"
+    ],
+    "answer": "Long chain fraction: Higher viscosity, less easily flammable; Short chain fraction: Lower viscosity, more easily flammable",
+    "time": 65
+  },
+  {
+    "question": "Organic Chemistry - Alkane vs Alkene Structure",
+    "stem": "What is the key structural difference between an alkane and an alkene with the same number of carbon atoms?",
+    "options": [
+      "Alkanes contain carbon-carbon double bonds, whereas alkenes contain only carbon-carbon single bonds.",
+      "Alkanes contain only single carbon-carbon bonds, whereas alkenes contain at least one carbon-carbon double bond.",
+      "Alkanes contain oxygen atoms in their structure, whereas alkenes contain only carbon and hydrogen.",
+      "Alkanes have fewer hydrogen atoms per molecule than corresponding alkenes."
+    ],
+    "answer": "Alkanes contain only single carbon-carbon bonds, whereas alkenes contain at least one carbon-carbon double bond.",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Test for Unsaturation (Alkenes)",
+    "stem": "When aqueous bromine (bromine water) is shaken with an unknown hydrocarbon X in the dark, the reddish-brown colour rapidly turns colourless. What does this test indicate about hydrocarbon X?",
+    "options": [
+      "Hydrocarbon X is a saturated hydrocarbon containing only single covalent bonds (an alkane).",
+      "Hydrocarbon X is an unreactive noble gas dissolved in an organic solvent.",
+      "Hydrocarbon X is an unsaturated hydrocarbon containing a carbon-carbon double bond (an alkene).",
+      "Hydrocarbon X is a carboxylic acid that neutralises the bromine solution."
+    ],
+    "answer": "Hydrocarbon X is an unsaturated hydrocarbon containing a carbon-carbon double bond (an alkene).",
+    "time": 60
+  },
+  {
+    "question": "Organic Chemistry - Bromine Water with Alkanes in the Dark",
+    "stem": "A sample of hexane (an alkane) is mixed with aqueous bromine in the absence of light (in the dark). What is the observed result?",
+    "options": [
+      "The reddish-brown colour immediately decolourises to form a colourless solution.",
+      "A white precipitate forms and effervescence of hydrogen gas is observed.",
+      "The mixture remains reddish-brown because alkanes do not react with aqueous bromine without UV light.",
+      "The solution turns dark purple as the alkane is oxidised."
+    ],
+    "answer": "The mixture remains reddish-brown because alkanes do not react with aqueous bromine without UV light.",
+    "time": 60
+  },
+  {
+    "question": "Organic Chemistry - Oxidation of Alcohols",
+    "stem": "Ethanol is heated with acidified potassium manganate(VII) solution. What colour change is observed during this oxidation reaction?",
+    "options": [
+      "Purple to colourless",
+      "Orange to green",
+      "Colourless to brown",
+      "Blue to pink"
+    ],
+    "answer": "Purple to colourless",
+    "time": 50
+  },
+  {
+    "question": "Organic Chemistry - Product of Alcohol Oxidation",
+    "stem": "When ethanol (C₂H₅OH) is oxidised by heating with acidified potassium manganate(VII), which organic compound is produced?",
+    "options": [
+      "Ethene, C₂H₄",
+      "Ethane, C₂H₆",
+      "Ethyl ethanoate, CH₃COOC₂H₅",
+      "Ethanoic acid, CH₃COOH"
+    ],
+    "answer": "Ethanoic acid, CH₃COOH",
+    "time": 50
+  }
+]

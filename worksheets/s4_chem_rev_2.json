@@ -1,0 +1,434 @@
+[
+  {
+    "question": "Kinetic Particle Theory - States of Matter",
+    "stem": "Which statement correctly describes the arrangement and motion of particles in a substance in the liquid state?",
+    "options": [
+      "Particles are closely packed in an orderly arrangement and vibrate about fixed positions.",
+      "Particles are closely packed in a disorderly arrangement and slide past one another.",
+      "Particles are very far apart in a random arrangement and move at high speeds in all directions.",
+      "Particles are widely separated in an orderly pattern and remain completely stationary."
+    ],
+    "answer": "Particles are closely packed in a disorderly arrangement and slide past one another.",
+    "time": 50
+  },
+  {
+    "question": "Kinetic Particle Theory - State at Room Temperature",
+    "stem": "Substance X has a melting point of -114 °C and a boiling point of 78 °C. What is the physical state of substance X at 25 °C?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Mixture of liquid and gas"
+    ],
+    "answer": "Liquid",
+    "time": 45
+  },
+  {
+    "question": "Kinetic Particle Theory - Changes of State",
+    "stem": "Why does the temperature remain constant while a pure liquid is boiling at its boiling point?",
+    "options": [
+      "Thermal energy is absorbed to overcome the attractive forces between particles.",
+      "Thermal energy is released to the surroundings as particles move further apart.",
+      "The kinetic energy of the particles increases rapidly during the state change.",
+      "The mass of the substance decreases as particles escape into the atmosphere."
+    ],
+    "answer": "Thermal energy is absorbed to overcome the attractive forces between particles.",
+    "time": 60
+  },
+  {
+    "question": "Kinetic Particle Theory - Gas Diffusion and Molar Mass",
+    "stem": "Which of the following gases will diffuse most rapidly at room temperature and pressure? [Ar: H = 1, C = 12, N = 14, O = 16, S = 32, Cl = 35.5]",
+    "options": [
+      "Methane, CH₄ (Mr = 16)",
+      "Ammonia, NH₃ (Mr = 17)",
+      "Oxygen, O₂ (Mr = 32)",
+      "Chlorine, Cl₂ (Mr = 71)"
+    ],
+    "answer": "Methane, CH₄ (Mr = 16)",
+    "time": 50
+  },
+  {
+    "question": "Kinetic Particle Theory - Compressibility",
+    "stem": "Why can a gas be easily compressed into a smaller volume, whereas a solid cannot?",
+    "options": [
+      "Gas particles are very small and can change their individual physical sizes.",
+      "There are large spaces between gas particles compared to closely packed solid particles.",
+      "Gas particles have stronger forces of attraction than solid particles.",
+      "Gas particles lose kinetic energy and stop moving when pressure is applied."
+    ],
+    "answer": "There are large spaces between gas particles compared to closely packed solid particles.",
+    "time": 55
+  },
+  {
+    "question": "Experimental Chemistry - Measuring Fixed Liquid Volume",
+    "stem": "Which piece of apparatus is most suitable for accurately delivering exactly 25.0 cm³ of standard alkali solution during a titration?",
+    "options": [
+      "Measuring cylinder",
+      "Volumetric pipette",
+      "Conical flask",
+      "Dropping funnel"
+    ],
+    "answer": "Volumetric pipette",
+    "time": 45
+  },
+  {
+    "question": "Experimental Chemistry - Measuring Variable Liquid Volume",
+    "stem": "A student needs to accurately deliver 18.40 cm³ of dilute hydrochloric acid into a flask. Which apparatus should be used?",
+    "options": [
+      "25 cm³ beaker",
+      "25 cm³ pipette",
+      "50 cm³ burette",
+      "50 cm³ measuring cylinder"
+    ],
+    "answer": "50 cm³ burette",
+    "time": 50
+  },
+  {
+    "question": "Experimental Chemistry - Apparatus Precision",
+    "stem": "Which laboratory measuring instrument is least accurate for measuring a volume of 20 cm³ of aqueous solution?",
+    "options": [
+      "50 cm³ beaker",
+      "50 cm³ burette",
+      "25 cm³ pipette",
+      "25 cm³ measuring cylinder"
+    ],
+    "answer": "50 cm³ beaker",
+    "time": 45
+  },
+  {
+    "question": "Experimental Chemistry - Titration Setup",
+    "stem": "In an acid-alkali titration experiment, which apparatus is used to hold the acid being added incrementally until the indicator changes colour?",
+    "options": [
+      "Burette",
+      "Pipette",
+      "Measuring cylinder",
+      "Volumetric flask"
+    ],
+    "answer": "Burette",
+    "time": 45
+  },
+  {
+    "question": "Gas Collection - Ammonia Gas",
+    "stem": "Ammonia gas is extremely soluble in water and is less dense than air (Mr = 17, average Mr of air ≈ 29). Which method is most suitable for collecting a dry sample of ammonia gas?",
+    "options": [
+      "Displacement of water",
+      "Downward delivery (upward displacement of air)",
+      "Upward delivery (downward displacement of air)",
+      "Filtration through filter paper"
+    ],
+    "answer": "Upward delivery (downward displacement of air)",
+    "time": 60
+  },
+  {
+    "question": "Gas Collection - Carbon Dioxide",
+    "stem": "Carbon dioxide gas (Mr = 44) is denser than air and is slightly soluble in water. Which method is most suitable to collect a dry sample of carbon dioxide gas in the laboratory?",
+    "options": [
+      "Downward delivery (upward displacement of air)",
+      "Upward delivery (downward displacement of air)",
+      "Displacement of water using a gas jar",
+      "Passing through cold water in a condenser"
+    ],
+    "answer": "Downward delivery (upward displacement of air)",
+    "time": 60
+  },
+  {
+    "question": "Gas Collection - Hydrogen Gas",
+    "stem": "Hydrogen gas (Mr = 2) is almost insoluble in water and is much less dense than air. Which method can be used to collect hydrogen gas over water?",
+    "options": [
+      "Displacement of water",
+      "Downward delivery only",
+      "Centrifugation of gas mixture",
+      "Condensation at room temperature"
+    ],
+    "answer": "Displacement of water",
+    "time": 50
+  },
+  {
+    "question": "Gas Collection - Measuring Reaction Rate",
+    "stem": "A student investigates the rate of reaction between marble chips and acid. Which apparatus is best suited to collect and measure the volume of gas evolved continuously over time?",
+    "options": [
+      "Gas syringe",
+      "Open beaker",
+      "Conical flask",
+      "Separating funnel"
+    ],
+    "answer": "Gas syringe",
+    "time": 50
+  },
+  {
+    "question": "Mole Calculations - Relative Molecular Mass",
+    "stem": "What is the relative molecular mass (Mr) of ethanoic acid, CH₃COOH? [Ar: H = 1, C = 12, O = 16]",
+    "options": [
+      "32",
+      "44",
+      "60",
+      "74"
+    ],
+    "answer": "60",
+    "time": 50
+  },
+  {
+    "question": "Mole Calculations - Mass to Moles",
+    "stem": "How many moles of sulfuric acid (H₂SO₄) are present in 19.6 g of pure H₂SO₄? [Ar: H = 1, S = 32, O = 16]",
+    "options": [
+      "0.10 mol",
+      "0.20 mol",
+      "0.50 mol",
+      "2.00 mol"
+    ],
+    "answer": "0.20 mol",
+    "time": 55
+  },
+  {
+    "question": "Mole Calculations - Moles to Mass",
+    "stem": "What is the mass of 0.40 mol of sodium nitrate (NaNO₃)? [Ar: Na = 23, N = 14, O = 16]",
+    "options": [
+      "21.25 g",
+      "34.00 g",
+      "42.50 g",
+      "85.00 g"
+    ],
+    "answer": "34.00 g",
+    "time": 55
+  },
+  {
+    "question": "Mole Calculations - Concentration from Moles",
+    "stem": "What is the molar concentration of a solution containing 0.15 mol of sodium hydroxide dissolved in 250 cm³ of distilled water?",
+    "options": [
+      "0.30 mol/dm³",
+      "0.60 mol/dm³",
+      "0.75 mol/dm³",
+      "1.50 mol/dm³"
+    ],
+    "answer": "0.60 mol/dm³",
+    "time": 55
+  },
+  {
+    "question": "Mole Calculations - Moles in Solution",
+    "stem": "How many moles of hydrochloric acid (HCl) are contained in 50.0 cm³ of a 2.0 mol/dm³ HCl solution?",
+    "options": [
+      "0.025 mol",
+      "0.100 mol",
+      "0.250 mol",
+      "1.000 mol"
+    ],
+    "answer": "0.100 mol",
+    "time": 50
+  },
+  {
+    "question": "Combustion - Complete vs Incomplete",
+    "stem": "What are the chemical products formed during the complete combustion of a hydrocarbon in excess oxygen supply?",
+    "options": [
+      "Carbon monoxide and water",
+      "Carbon dioxide and water",
+      "Carbon soot and hydrogen gas",
+      "Carbon dioxide and hydrogen gas"
+    ],
+    "answer": "Carbon dioxide and water",
+    "time": 50
+  },
+  {
+    "question": "Combustion - Incomplete Combustion Products",
+    "stem": "Which poisonous gas is formed when carbon-containing fossil fuels are burned in a limited or insufficient supply of air?",
+    "options": [
+      "Carbon dioxide",
+      "Sulfur dioxide",
+      "Carbon monoxide",
+      "Nitrogen dioxide"
+    ],
+    "answer": "Carbon monoxide",
+    "time": 45
+  },
+  {
+    "question": "Air Pollutants - Carbon Monoxide Hazard",
+    "stem": "Why is carbon monoxide gas extremely hazardous to human health?",
+    "options": [
+      "It dissolves in lung moisture to form concentrated carbonic acid that burns lung tissues.",
+      "It binds irreversibly to haemoglobin in red blood cells, reducing oxygen transport to body tissues.",
+      "It causes immediate photochemical smog that reduces visibility in urban areas.",
+      "It destroys the ozone layer, allowing harmful ultraviolet radiation to reach the skin."
+    ],
+    "answer": "It binds irreversibly to haemoglobin in red blood cells, reducing oxygen transport to body tissues.",
+    "time": 60
+  },
+  {
+    "question": "Air Pollutants - Sulfur Dioxide Source",
+    "stem": "What is the primary human-made source of sulfur dioxide (SO₂) gas in the atmosphere?",
+    "options": [
+      "Decay of organic plant matter in swamp waters",
+      "Incomplete combustion of petrol in car engines",
+      "Combustion of fossil fuels containing sulfur impurities in power stations",
+      "Reaction between nitrogen and oxygen gases during lightning strikes"
+    ],
+    "answer": "Combustion of fossil fuels containing sulfur impurities in power stations",
+    "time": 60
+  },
+  {
+    "question": "Air Pollutants - Sulfur Dioxide Effects",
+    "stem": "What harmful environmental effect is directly caused by sulfur dioxide emissions dissolving in rainwater?",
+    "options": [
+      "Formation of acid rain that corrodes limestone buildings and acidifies lakes",
+      "Depletion of dissolved nitrogen needed by aquatic plants",
+      "Accelerated greenhouse effect leading to higher global sea levels",
+      "Excessive formation of carbon soot on agricultural crops"
+    ],
+    "answer": "Formation of acid rain that corrodes limestone buildings and acidifies lakes",
+    "time": 60
+  },
+  {
+    "question": "Air Pollutants - Oxides of Nitrogen Source",
+    "stem": "How are oxides of nitrogen (NO and NO₂) formed inside vehicle internal combustion engines?",
+    "options": [
+      "Sulfur impurities in petrol react with atmospheric carbon dioxide under high pressure.",
+      "Nitrogen and oxygen gases from the air react together at the extremely high temperatures of the engine.",
+      "Nitrogen compounds in the fuel undergo incomplete combustion due to limited air supply.",
+      "Unburnt hydrocarbons decompose into nitrogen gas and soot inside the exhaust pipe."
+    ],
+    "answer": "Nitrogen and oxygen gases from the air react together at the extremely high temperatures of the engine.",
+    "time": 65
+  },
+  {
+    "question": "Air Pollutants - Oxides of Nitrogen Effects",
+    "stem": "Which of the following is a harmful effect of nitrogen dioxide (NO₂) in the atmosphere?",
+    "options": [
+      "It dissolves in rainwater to produce acid rain and irritates human lungs.",
+      "It combines with haemoglobin to prevent the transport of carbon dioxide.",
+      "It causes immediate cooling of the atmosphere by absorbing infrared heat.",
+      "It reacts with water to form solid sodium nitrate in water supplies."
+    ],
+    "answer": "It dissolves in rainwater to produce acid rain and irritates human lungs.",
+    "time": 60
+  },
+  {
+    "question": "Organic Chemistry - Alkene Addition of Hydrogen",
+    "stem": "What are the required reaction conditions for the catalytic hydrogenation of ethene to form ethane?",
+    "options": [
+      "Nickel catalyst at 200 °C",
+      "Concentrated sulfuric acid at room temperature",
+      "Phosphoric acid catalyst at 300 °C and 60 atm",
+      "Ultraviolet light at room temperature"
+    ],
+    "answer": "Nickel catalyst at 200 °C",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Industrial Application of Hydrogenation",
+    "stem": "How is the hydrogenation of unsaturated vegetable oils applied in the food industry?",
+    "options": [
+      "To produce solid margarine from liquid vegetable oils by adding hydrogen across C=C bonds",
+      "To convert edible oils into ethanol for use in alcoholic beverages",
+      "To oxidise unsaturated fats into carboxylic acids for food preservation",
+      "To remove all carbon atoms from vegetable oils to make them low in calories"
+    ],
+    "answer": "To produce solid margarine from liquid vegetable oils by adding hydrogen across C=C bonds",
+    "time": 65
+  },
+  {
+    "question": "Organic Chemistry - Alkene Addition of Steam",
+    "stem": "What organic product is formed when ethene reacts with steam in the presence of phosphoric(V) acid catalyst at 300 °C and 60 atm?",
+    "options": [
+      "Ethane",
+      "Ethanol",
+      "Ethanoic acid",
+      "Ethyl ethanoate"
+    ],
+    "answer": "Ethanol",
+    "time": 50
+  },
+  {
+    "question": "Organic Chemistry - Alkene Addition Reaction",
+    "stem": "When ethene gas is bubbled into reddish-brown aqueous bromine in the dark, the solution rapidly turns colourless. What type of reaction has occurred?",
+    "options": [
+      "Addition reaction across the carbon-carbon double bond",
+      "Substitution reaction occurring only under bright sunlight",
+      "Neutralisation reaction producing a soluble salt and water",
+      "Thermal decomposition reaction breaking carbon-carbon bonds"
+    ],
+    "answer": "Addition reaction across the carbon-carbon double bond",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Deducing Addition Reaction Product",
+    "stem": "When propene (CH₃-CH=CH₂) reacts completely with hydrogen gas in the presence of a nickel catalyst, which compound is produced?",
+    "options": [
+      "Propane, CH₃CH₂CH₃",
+      "Propanol, CH₃CH₂CH₂OH",
+      "Propanoic acid, CH₃CH₂COOH",
+      "Cyclopropane, C₃H₆"
+    ],
+    "answer": "Propane, CH₃CH₂CH₃",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Distinguishing Alkanes from Alkenes",
+    "stem": "Which chemical test and condition is used in the laboratory to distinguish unsaturated ethene gas from saturated ethane gas?",
+    "options": [
+      "Shaking with aqueous bromine in the absence of light (dark conditions)",
+      "Testing with damp blue litmus paper under room lighting",
+      "Bubbling through limewater solution at elevated temperatures",
+      "Adding acidified silver nitrate solution at low temperatures"
+    ],
+    "answer": "Shaking with aqueous bromine in the absence of light (dark conditions)",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Carboxylic Acid Functional Group",
+    "stem": "Which of the following represents the functional group present in all carboxylic acid molecules?",
+    "options": [
+      "-OH (hydroxyl group)",
+      "-COOH (carboxyl group)",
+      "C=C (carbon-carbon double bond)",
+      "-COO- (ester linkage)"
+    ],
+    "answer": "-COOH (carboxyl group)",
+    "time": 45
+  },
+  {
+    "question": "Organic Chemistry - Carboxylic Acid Identification",
+    "stem": "Which chemical formula represents a member of the homologous series of carboxylic acids?",
+    "options": [
+      "C₂H₅OH",
+      "C₃H₇COOH",
+      "C₄H₈",
+      "CH₃COOCH₃"
+    ],
+    "answer": "C₃H₇COOH",
+    "time": 50
+  },
+  {
+    "question": "Organic Chemistry - Acidity of Carboxylic Acids",
+    "stem": "Why is aqueous ethanoic acid classified as a weak acid compared to hydrochloric acid of the same concentration?",
+    "options": [
+      "Ethanoic acid only partially ionises in aqueous solution to produce a low concentration of H⁺ ions.",
+      "Ethanoic acid does not contain any hydrogen atoms in its chemical formula.",
+      "Ethanoic acid contains hydroxide ions (OH⁻) that neutralise its own acidity.",
+      "Ethanoic acid completely dissociates in water to produce high concentrations of H⁺ ions."
+    ],
+    "answer": "Ethanoic acid only partially ionises in aqueous solution to produce a low concentration of H⁺ ions.",
+    "time": 65
+  },
+  {
+    "question": "Organic Chemistry - Carboxylic Acid + Metal",
+    "stem": "What products are formed when dilute ethanoic acid reacts with magnesium ribbon?",
+    "options": [
+      "Magnesium ethanoate and hydrogen gas",
+      "Magnesium oxide, water, and carbon dioxide",
+      "Magnesium ethanoate and water only",
+      "Magnesium carbonate and hydrogen gas"
+    ],
+    "answer": "Magnesium ethanoate and hydrogen gas",
+    "time": 55
+  },
+  {
+    "question": "Organic Chemistry - Carboxylic Acid + Carbonate",
+    "stem": "What is observed when solid sodium carbonate is added to a test tube containing aqueous ethanoic acid?",
+    "options": [
+      "Effervescence of a gas that extinguishes a lighted splint with a 'pop' sound",
+      "Effervescence of a gas that forms a white precipitate in limewater",
+      "A brown precipitate forms and the solution turns colourless",
+      "No visible reaction occurs because ethanoic acid is an organic compound"
+    ],
+    "answer": "Effervescence of a gas that forms a white precipitate in limewater",
+    "time": 60
+  }
+]
