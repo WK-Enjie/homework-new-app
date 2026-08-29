@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Fraction Division - Direct Application",
+    "stem": "A baker has 5/6 kg of icing sugar. He uses 1/12 kg of icing sugar to decorate each cake. How many cakes can he decorate altogether?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": "10",
+    "time": 100
+  },
+  {
+    "question": "Fraction Division - Rate and Time",
+    "stem": "A machine takes 3/4 of a minute to print 2/5 of a large poster. At this rate, how long will the machine take to print 1 entire poster?",
+    "options": [
+      "1 1/4 minutes",
+      "1 1/2 minutes",
+      "1 7/8 minutes",
+      "2 1/8 minutes"
+    ],
+    "answer": "1 7/8 minutes",
+    "time": 110
+  },
+  {
+    "question": "Fraction Division - Equal Packaging",
+    "stem": "A beverage dispenser contains 7/8 litre of concentrated fruit syrup. How many cups of capacity 1/16 litre each can be completely filled from the dispenser?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "answer": "14",
+    "time": 100
+  },
+  {
+    "question": "Fraction Division - Area and Dimensions",
+    "stem": "The area of a rectangular glass panel is 7/10 m². Its breadth is 2/5 m. What is the length of the glass panel?",
+    "options": [
+      "1 1/4 m",
+      "1 1/2 m",
+      "1 3/4 m",
+      "2 1/4 m"
+    ],
+    "answer": "1 3/4 m",
+    "time": 105
+  },
+  {
+    "question": "Fraction Division with Remainder - Fraction of an Item",
+    "stem": "A tailor has 6 2/3 m of fabric. She uses 4/5 m of fabric to sew each scarf. How many complete scarves can she sew, and what fraction of a scarf can be made from the leftover fabric?",
+    "options": [
+      "8 complete scarves, with 1/3 of a scarf left over",
+      "8 complete scarves, with 4/15 of a scarf left over",
+      "7 complete scarves, with 2/3 of a scarf left over",
+      "7 complete scarves, with 1/5 of a scarf left over"
+    ],
+    "answer": "8 complete scarves, with 1/3 of a scarf left over",
+    "time": 125
+  },
+  {
+    "question": "Fraction Division with Remainder - Actual Unit Volume",
+    "stem": "A container holds 5 1/4 litres of cooking oil. The chef pours the oil into small jugs of capacity 3/5 litre each until no more full jugs can be filled. What is the actual volume of cooking oil left in the container?",
+    "options": [
+      "3/20 litre",
+      "1/4 litre",
+      "9/20 litre",
+      "3/5 litre"
+    ],
+    "answer": "9/20 litre",
+    "time": 120
+  },
+  {
+    "question": "Fraction Division with Remainder - Leftover Mass",
+    "stem": "A grocer has 3 1/2 kg of brown sugar. He packs the sugar into as many bags of 4/9 kg as possible. What is the mass of sugar left unpacked?",
+    "options": [
+      "1/9 kg",
+      "5/18 kg",
+      "7/18 kg",
+      "1/2 kg"
+    ],
+    "answer": "7/18 kg",
+    "time": 125
+  },
+  {
+    "question": "Two-Tier Packaging with Fraction Remainder",
+    "stem": "A factory has 7 1/3 kg of premium tea leaves. The tea leaves are first packed into as many tins of 4/5 kg each as possible. The leftover tea leaves are then packed into small sample packets of 1/30 kg each. How many sample packets were packed?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": "4",
+    "time": 130
+  },
+  {
+    "question": "Multi-Stage Remainder - Production Schedule",
+    "stem": "A factory produced a batch of electronic components. In the morning, the workers made 1/5 of the total batch plus 12 components. In the afternoon, they made 3/6 of the remaining components plus 10 more components. If there were 48 components left to be made in the evening, how many components were in the total batch?",
+    "options": [
+      "140",
+      "150",
+      "160",
+      "180"
+    ],
+    "answer": "160",
+    "time": 135
+  },
+  {
+    "question": "Multi-Stage Remainder - Bakery Afternoon Sales",
+    "stem": "A baker baked some curry puffs. In the morning, he sold 2/7 of the curry puffs. In the afternoon, he sold 4/9 of the remaining curry puffs plus 15 more. In the evening, he sold 3/5 of the new remainder and had 44 curry puffs left. How many curry puffs did the baker sell in the afternoon?",
+    "options": [
+      "100",
+      "115",
+      "125",
+      "135"
+    ],
+    "answer": "115",
+    "time": 140
+  },
+  {
+    "question": "Multi-Stage Remainder - Difference Between Two Spends",
+    "stem": "Chloe had a sum of money. She spent 1/4 of her money on a watch and 3/8 of the remainder on a handbag. She then spent 2/5 of the new remainder on a pair of shoes and had $180 left. How much more money did Chloe spend on the handbag than on the shoes?",
+    "options": [
+      "$40",
+      "$60",
+      "$80",
+      "$90"
+    ],
+    "answer": "$60",
+    "time": 135
+  },
+  {
+    "question": "Branching Remainder - Multi-Fruit Harvest",
+    "stem": "A farmer harvested a crate of fruits. 3/10 of the fruits were watermelons. 4/7 of the remaining fruits were honeydews. 1/3 of the rest of the fruits were papayas, and the final 96 fruits were rockmelons. How many more honeydews than watermelons did the farmer harvest?",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "answer": "48",
+    "time": 135
+  },
+  {
+    "question": "Multi-Stage Working Backwards - Token Consumption",
+    "stem": "Ethan had some arcade tokens. On Day 1, he used 1/3 of his tokens plus 8 tokens. On Day 2, he used 3/5 of the remaining tokens plus 4 tokens. On Day 3, he used 1/2 of the new remainder plus 6 tokens. If he had 14 tokens left at the end of Day 3, how many tokens did Ethan have at first?",
+    "options": [
+      "162",
+      "177",
+      "186",
+      "195"
+    ],
+    "answer": "177",
+    "time": 140
+  },
+  {
+    "question": "Multi-Stage Remainder - Income Allocation",
+    "stem": "Mr. Tan allocated his monthly income. He gave 1/6 of his income to his parents. Of the remainder, he spent 2/5 on household expenses plus $100. Next, he put 3/7 of the new remainder into an education fund and saved the remaining $800 in the bank. What was Mr. Tan's monthly income?",
+    "options": [
+      "$2800",
+      "$3000",
+      "$3200",
+      "$3600"
+    ],
+    "answer": "$3000",
+    "time": 140
+  },
+  {
+    "question": "Branching Remainder - Multi-Day Book Printing",
+    "stem": "A printing company printed a run of books over 4 days. On Monday, they printed 2/9 of the total run. On Tuesday, they printed 3/7 of the remainder. On Wednesday, they printed 4/5 of the new remainder plus 24 books. On Thursday, they printed the final 36 books. How many books were printed in total?",
+    "options": [
+      "540",
+      "630",
+      "675",
+      "720"
+    ],
+    "answer": "675",
+    "time": 140
+  },
+  {
+    "question": "Multi-Stage Remainder - Inventory with Discarded Items",
+    "stem": "A fruit seller had a crate of mangoes. On Friday, he sold 2/7 of the mangoes plus 15 more. On Saturday, he sold 3/5 of the remaining mangoes and threw away 12 rotten ones. On Sunday, he sold 1/2 of the new remainder and had 51 mangoes left. How many mangoes were in the crate at first?",
+    "options": [
+      "350",
+      "385",
+      "420",
+      "455"
+    ],
+    "answer": "420",
+    "time": 140
+  },
+  {
+    "question": "Ratio - Combining 3 Persons with Difference",
+    "stem": "The ratio of Andy's savings to Ben's savings was 2 : 3. The ratio of Ben's savings to Charlie's savings was 4 : 5. If Charlie had $35 more than Andy, how much money did the three boys have altogether?",
+    "options": [
+      "$140",
+      "$160",
+      "$175",
+      "$210"
+    ],
+    "answer": "$175",
+    "time": 125
+  },
+  {
+    "question": "Three-Way Internal Transfer - Fractional Working Backwards",
+    "stem": "Daniel, Evan, and Fay shared a total of 180 stickers. First, Daniel gave 1/4 of his stickers to Evan. Next, Evan gave 1/3 of his new total to Fay. Finally, Fay gave 1/5 of her new total to Daniel. In the end, each person had an equal number of 60 stickers. How many stickers did Evan have at first?",
+    "options": [
+      "60",
+      "70",
+      "75",
+      "90"
+    ],
+    "answer": "75",
+    "time": 140
+  },
+  {
+    "question": "Ratio - Constant Total with 3 Persons Making Equal",
+    "stem": "At first, the ratio of stamps owned by Alan, Brandon, and Carl was 5 : 3 : 2. Alan gave 24 stamps to Carl and some stamps to Brandon so that each boy ended up with an equal number of stamps. How many stamps did Alan have at first?",
+    "options": [
+      "60",
+      "75",
+      "90",
+      "120"
+    ],
+    "answer": "90",
+    "time": 130
+  },
+  {
+    "question": "Ratio - Equal Amount Left Over After Spending",
+    "stem": "Adam, Bryan, and Chloe had $540 altogether at first. Adam spent 1/3 of his money, Bryan spent 1/4 of his money, and Chloe spent 2/5 of her money. In the end, they each had the same amount of money left. How much money did Chloe have at first?",
+    "options": [
+      "$160",
+      "$180",
+      "$200",
+      "$240"
+    ],
+    "answer": "$200",
+    "time": 130
+  },
+  {
+    "question": "Whole Numbers - Promotion and Grouping Sets",
+    "stem": "A bookstore sells notebooks at $2.50 each with a special promotion: \"Buy 3 notebooks and get 1 notebook free\". If Mdm Lee needs exactly 20 notebooks, what is the minimum total amount she has to pay?",
+    "options": [
+      "$35.00",
+      "$37.50",
+      "$42.50",
+      "$50.00"
+    ],
+    "answer": "$37.50",
+    "time": 115
+  },
+  {
+    "question": "Whole Numbers - Assumption Method",
+    "stem": "There are 30 vehicles in a car park consisting of motorcycles (2 wheels each) and cars (4 wheels each). If there are 84 wheels in total, how many cars are in the car park?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": "12",
+    "time": 120
+  },
+  {
+    "question": "Whole Numbers - Sets with Value Multiples",
+    "stem": "A cafe owner bought 6 dining tables and 18 chairs for $900. If 1 dining table costs 3 times as much as 1 chair, find the cost of 1 dining table.",
+    "options": [
+      "$25",
+      "$50",
+      "$75",
+      "$90"
+    ],
+    "answer": "$75",
+    "time": 120
+  },
+  {
+    "question": "Whole Numbers - Optimal Package Bundling",
+    "stem": "Cinema ticket prices are as follows: an Adult Ticket costs $14, a Child Ticket costs $9, and a Family Package (2 Adults and 2 Children) costs $38. What is the minimum cost for a group of 5 adults and 4 children to purchase tickets?",
+    "options": [
+      "$88",
+      "$90",
+      "$96",
+      "$106"
+    ],
+    "answer": "$90",
+    "time": 125
+  }
+]
