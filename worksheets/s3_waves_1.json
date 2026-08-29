@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Nature of Waves - Energy Transfer",
+    "stem": "A transverse water wave travels across a pond from left to right. A small wooden cork floats on the water surface. Which statement correctly describes the motion of the cork as the wave passes?",
+    "options": [
+      "It oscillates vertically up and down about its original position without moving across the pond.",
+      "It travels horizontally across the pond to the right along with the wave energy.",
+      "It moves in a continuous straight line downwards to the bottom of the pond.",
+      "It moves horizontally to the left in the opposite direction to the wave."
+    ],
+    "answer": "It oscillates vertically up and down about its original position without moving across the pond.",
+    "time": 50
+  },
+  {
+    "question": "Wave Types - Transverse vs Longitudinal Definition",
+    "stem": "Which statement correctly describes the fundamental difference between a transverse wave and a longitudinal wave?",
+    "options": [
+      "In a transverse wave, particle vibrations are perpendicular to the direction of wave travel, whereas in a longitudinal wave, vibrations are parallel.",
+      "In a transverse wave, particle vibrations are parallel to the direction of wave travel, whereas in a longitudinal wave, vibrations are perpendicular.",
+      "Transverse waves transfer matter, while longitudinal waves only transfer energy.",
+      "Transverse waves require a material medium, while longitudinal waves can travel through a vacuum."
+    ],
+    "answer": "In a transverse wave, particle vibrations are perpendicular to the direction of wave travel, whereas in a longitudinal wave, vibrations are parallel.",
+    "time": 55
+  },
+  {
+    "question": "Wave Classification - Identifying Examples",
+    "stem": "Which row correctly identifies a transverse wave and a longitudinal wave?",
+    "options": [
+      "Transverse: Radio wave; Longitudinal: Ultrasound wave",
+      "Transverse: Sound wave; Longitudinal: Visible light wave",
+      "Transverse: Seismic P-wave; Longitudinal: Water wave",
+      "Transverse: Compression wave in a spring; Longitudinal: X-ray"
+    ],
+    "answer": "Transverse: Radio wave; Longitudinal: Ultrasound wave",
+    "time": 50
+  },
+  {
+    "question": "Wave Terminology - Definition of Wavelength",
+    "stem": "What is the definition of the wavelength of a progressive wave?",
+    "options": [
+      "The shortest distance between any two points that are in the same phase of vibration",
+      "The maximum displacement of a vibrating particle from its rest position",
+      "The total time taken for one complete wave cycle to pass a fixed point",
+      "The number of complete wave cycles produced per unit time"
+    ],
+    "answer": "The shortest distance between any two points that are in the same phase of vibration",
+    "time": 50
+  },
+  {
+    "question": "Wave Terminology - Definition of Wavefront",
+    "stem": "Which statement best defines a wavefront?",
+    "options": [
+      "An imaginary line joining all adjacent points on a wave that are in the same phase of vibration",
+      "The line showing the exact path along which particles travel across a medium",
+      "The distance measured between the highest crest and lowest trough of a wave",
+      "The boundary line where a wave changes speed upon entering a new medium"
+    ],
+    "answer": "An imaginary line joining all adjacent points on a wave that are in the same phase of vibration",
+    "time": 50
+  },
+  {
+    "question": "Wavefronts - Wave Ray and Direction of Propagation",
+    "stem": "In wave theory, what does a wave ray represent and how is it orientated relative to the wavefronts?",
+    "options": [
+      "It represents the direction of wave propagation and is perpendicular to the wavefronts.",
+      "It represents the displacement of particles and is parallel to the wavefronts.",
+      "It represents the speed of the wave and points opposite to the wavefronts.",
+      "It represents the wave amplitude and lies directly along the wavefronts."
+    ],
+    "answer": "It represents the direction of wave propagation and is perpendicular to the wavefronts.",
+    "time": 50
+  },
+  {
+    "question": "Wave Graphs - Displacement-Distance Graph Interpretation",
+    "stem": "A displacement-distance graph of a wave shows that the vertical distance between a crest and a trough is 6.0 cm, and the horizontal distance between a crest and the immediate next trough is 12.0 cm. What are the amplitude and wavelength of the wave?",
+    "options": [
+      "Amplitude = 3.0 cm, Wavelength = 24.0 cm",
+      "Amplitude = 3.0 cm, Wavelength = 12.0 cm",
+      "Amplitude = 6.0 cm, Wavelength = 24.0 cm",
+      "Amplitude = 6.0 cm, Wavelength = 12.0 cm"
+    ],
+    "answer": "Amplitude = 3.0 cm, Wavelength = 24.0 cm",
+    "time": 60
+  },
+  {
+    "question": "Wave Graphs - Displacement-Time Graph and Frequency",
+    "stem": "A displacement-time graph of a vibrating particle in a wave shows that the time interval between the first crest and the fifth consecutive crest is 0.80 s. What is the frequency of the wave?",
+    "options": [
+      "1.25 Hz",
+      "4.0 Hz",
+      "5.0 Hz",
+      "6.25 Hz"
+    ],
+    "answer": "5.0 Hz",
+    "time": 60
+  },
+  {
+    "question": "Wave Equation - Speed Calculation",
+    "stem": "A water wave in a ripple tank has a frequency of 15 Hz and a wavelength of 0.20 m. What is the speed of the wave?",
+    "options": [
+      "0.013 m/s",
+      "0.75 m/s",
+      "3.0 m/s",
+      "75 m/s"
+    ],
+    "answer": "3.0 m/s",
+    "time": 50
+  },
+  {
+    "question": "Wave Equation - Period and Microsecond Conversion",
+    "stem": "An ultrasound wave has a period of 20 μs (microseconds). If it travels through human tissue at a speed of 1500 m/s, what is the wavelength of the ultrasound wave?",
+    "options": [
+      "0.030 m",
+      "0.30 m",
+      "3.0 m",
+      "75 m"
+    ],
+    "answer": "0.030 m",
+    "time": 65
+  },
+  {
+    "question": "EM Waves - Wavelength from Frequency (kHz Conversion)",
+    "stem": "A radio transmitter emits radio waves with a frequency of 600 kHz. Given that electromagnetic waves travel at a speed of 3.0 × 10⁸ m/s in air, what is the wavelength of the emitted radio waves?",
+    "options": [
+      "200 m",
+      "500 m",
+      "1800 m",
+      "5000 m"
+    ],
+    "answer": "500 m",
+    "time": 60
+  },
+  {
+    "question": "Particle Motion - Phase of Oscillation",
+    "stem": "A transverse wave travels horizontally from left to right along a rope. A particle on the rope is currently passing upwards through its equilibrium position. What is the position and state of motion of this particle after three-quarters of a period (3/4 T)?",
+    "options": [
+      "At its maximum negative displacement (trough)",
+      "At its maximum positive displacement (crest)",
+      "At its equilibrium position moving upwards",
+      "At its equilibrium position moving downwards"
+    ],
+    "answer": "At its maximum negative displacement (trough)",
+    "time": 55
+  },
+  {
+    "question": "Particle Kinematics - Instantaneous Speed",
+    "stem": "During the passage of a continuous transverse wave on a string, which particles have maximum speed?",
+    "options": [
+      "Particles passing through the equilibrium position",
+      "Particles at the crests and troughs",
+      "All particles have the same constant speed at all points",
+      "Only particles moving downwards towards a trough"
+    ],
+    "answer": "Particles passing through the equilibrium position",
+    "time": 50
+  },
+  {
+    "question": "Wave Motion - Direction of Instantaneous Particle Motion",
+    "stem": "A transverse wave travels from left to right along a stretched string. For a particle located just ahead of an approaching crest, in which direction is the particle moving at that instant?",
+    "options": [
+      "Vertically upwards towards the incoming crest",
+      "Vertically downwards away from the incoming crest",
+      "Horizontally to the right in the direction of wave travel",
+      "Horizontally to the left opposite to wave travel"
+    ],
+    "answer": "Vertically upwards towards the incoming crest",
+    "time": 55
+  },
+  {
+    "question": "Longitudinal Waves - Compression to Rarefaction Distance",
+    "stem": "In a longitudinal sound wave travelling through air, what is the distance between the centre of a compression and the centre of the immediate adjacent rarefaction?",
+    "options": [
+      "Half a wavelength (0.5 λ)",
+      "One full wavelength (1.0 λ)",
+      "One-quarter of a wavelength (0.25 λ)",
+      "Two full wavelengths (2.0 λ)"
+    ],
+    "answer": "Half a wavelength (0.5 λ)",
+    "time": 50
+  },
+  {
+    "question": "Longitudinal Waves - Pressure and Particle Density",
+    "stem": "Which statement correctly describes a rarefaction in a longitudinal sound wave propagating in air?",
+    "options": [
+      "Air particles are spread further apart, resulting in a region of lower pressure than surrounding air.",
+      "Air particles are crowded closer together, resulting in a region of higher pressure than surrounding air.",
+      "Air particles stop vibrating and remain stationary at atmospheric pressure.",
+      "Air particles move perpendicular to the direction of sound propagation."
+    ],
+    "answer": "Air particles are spread further apart, resulting in a region of lower pressure than surrounding air.",
+    "time": 50
+  },
+  {
+    "question": "Wavefronts - Distance Between Consecutive Wavefronts",
+    "stem": "In a ripple tank, a straight vibrator produces plane water waves at a frequency of 6.0 Hz. The distance between 4 consecutive wavefronts is measured to be 18.0 cm. What is the speed of the water waves?",
+    "options": [
+      "0.24 m/s",
+      "0.36 m/s",
+      "0.48 m/s",
+      "1.08 m/s"
+    ],
+    "answer": "0.36 m/s",
+    "time": 65
+  },
+  {
+    "question": "Wave Behaviour across Media - Constant Source Frequency",
+    "stem": "A water wave travels from deep water into shallow water in a ripple tank. Which row correctly describes what happens to the wave speed, frequency, and wavelength in shallow water?",
+    "options": [
+      "Speed: Decreases; Frequency: Remains unchanged; Wavelength: Decreases",
+      "Speed: Decreases; Frequency: Decreases; Wavelength: Remains unchanged",
+      "Speed: Remains unchanged; Frequency: Increases; Wavelength: Decreases",
+      "Speed: Increases; Frequency: Remains unchanged; Wavelength: Increases"
+    ],
+    "answer": "Speed: Decreases; Frequency: Remains unchanged; Wavelength: Decreases",
+    "time": 60
+  },
+  {
+    "question": "Wave Energy Concept - Nature of Wave Propagation",
+    "stem": "When a mechanical wave travels through a medium, what is transferred from the source to the receiver?",
+    "options": [
+      "Energy is transferred without any permanent displacement of the medium particles.",
+      "Both matter and energy are transported permanently from the source to the receiver.",
+      "Particles of the medium are transported while energy remains at the source.",
+      "Neither energy nor matter is transferred across the medium."
+    ],
+    "answer": "Energy is transferred without any permanent displacement of the medium particles.",
+    "time": 50
+  },
+  {
+    "question": "Pendulum Oscillation - Fraction of Period",
+    "stem": "A simple pendulum is released from its maximum displacement on the left. It takes 0.30 s to swing from the maximum displacement on the left to its central equilibrium position. What is the period of oscillation of the pendulum?",
+    "options": [
+      "0.30 s",
+      "0.60 s",
+      "1.20 s",
+      "2.40 s"
+    ],
+    "answer": "1.20 s",
+    "time": 55
+  },
+  {
+    "question": "Pendulum - Energy Store Concept at Extreme and Lowest Positions",
+    "stem": "A simple pendulum oscillates in the absence of air resistance. Which row correctly identifies the energy stores of the pendulum bob at its highest point (maximum displacement) and lowest point (equilibrium position)?",
+    "options": [
+      "Highest point: Maximum gravitational potential energy, Zero kinetic energy; Lowest point: Minimum gravitational potential energy, Maximum kinetic energy",
+      "Highest point: Minimum gravitational potential energy, Maximum kinetic energy; Lowest point: Maximum gravitational potential energy, Zero kinetic energy",
+      "Highest point: Maximum kinetic energy, Maximum gravitational potential energy; Lowest point: Zero kinetic energy, Zero gravitational potential energy",
+      "Highest point: Equal kinetic and gravitational potential energy; Lowest point: Equal kinetic and gravitational potential energy"
+    ],
+    "answer": "Highest point: Maximum gravitational potential energy, Zero kinetic energy; Lowest point: Minimum gravitational potential energy, Maximum kinetic energy",
+    "time": 55
+  },
+  {
+    "question": "Pendulum - Energy Transfer During Downward Swing",
+    "stem": "As a pendulum bob swings downwards from its highest position towards its central equilibrium position, what energy transfer takes place?",
+    "options": [
+      "Gravitational potential energy is transferred to the kinetic energy store of the bob.",
+      "Kinetic energy is transferred to the gravitational potential energy store of the bob.",
+      "Chemical potential energy is transferred to the elastic potential energy store of the string.",
+      "Thermal energy is transferred to the mechanical energy store of the bob."
+    ],
+    "answer": "Gravitational potential energy is transferred to the kinetic energy store of the bob.",
+    "time": 50
+  },
+  {
+    "question": "Pendulum - Total Mechanical Energy Conservation",
+    "stem": "A simple pendulum swings in an ideal vacuum where there is no air resistance. How does the total mechanical energy (sum of gravitational potential energy and kinetic energy) change during the oscillation?",
+    "options": [
+      "It remains constant at all points throughout the swing.",
+      "It reaches a maximum value at the lowest equilibrium position.",
+      "It reaches a maximum value at the highest extreme positions.",
+      "It continuously decreases to zero as the bob swings back and forth."
+    ],
+    "answer": "It remains constant at all points throughout the swing.",
+    "time": 50
+  },
+  {
+    "question": "Oscillations - Damping and Conservation of Energy",
+    "stem": "A pendulum swinging in a classroom gradually loses amplitude and eventually stops swinging. Which statement correctly explains how the principle of conservation of energy applies?",
+    "options": [
+      "Total energy is conserved because mechanical energy is transferred to the thermal energy store of the surrounding air and pivot.",
+      "Total energy is not conserved because energy is destroyed by friction with air particles.",
+      "Total energy increases because work is done continuously by gravitational force on the bob.",
+      "Total energy is conserved because the bob stores all the mechanical energy as internal chemical energy."
+    ],
+    "answer": "Total energy is conserved because mechanical energy is transferred to the thermal energy store of the surrounding air and pivot.",
+    "time": 55
+  }
+]
