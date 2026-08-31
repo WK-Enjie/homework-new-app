@@ -9,7 +9,7 @@
       "$5.50"
     ],
     "answer": "$5.00",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Decimals - Mass of Identical Items",
@@ -21,7 +21,7 @@
       "0.45 kg"
     ],
     "answer": "0.40 kg",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Decimals - Real-Life Purchasing and Change",
@@ -33,7 +33,7 @@
       "$37.40"
     ],
     "answer": "$30.00",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Decimals - Liquid Volume Transfer",
@@ -45,7 +45,7 @@
       "2.8 litres"
     ],
     "answer": "1.7 litres",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Practical Math - Discount and Final Price",
@@ -57,7 +57,7 @@
       "$65"
     ],
     "answer": "$60",
-    "time": 60
+    "time": 100
   },
   {
     "question": "Practical Math - Tiered Parking Rates",
@@ -69,7 +69,7 @@
       "$7.90"
     ],
     "answer": "$5.70",
-    "time": 75
+    "time": 95
   },
   {
     "question": "Comparison Model - Two Quantities with Difference",
@@ -81,7 +81,7 @@
       "$90"
     ],
     "answer": "$58",
-    "time": 60
+    "time": 100
   },
   {
     "question": "Part-Whole Model - Fractions and Percentages Combined",
@@ -93,7 +93,7 @@
       "96"
     ],
     "answer": "64",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Internal Transfer Model - Equalizing Amounts",
@@ -105,7 +105,7 @@
       "$40"
     ],
     "answer": "$20",
-    "time": 55
+    "time": 85
   },
   {
     "question": "Before-and-After Model - Constant Difference (Age)",
@@ -117,7 +117,7 @@
       "8 years"
     ],
     "answer": "2 years",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Before-and-After Model - One Quantity Unchanged",
@@ -129,7 +129,7 @@
       "36"
     ],
     "answer": "28",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Equal Fractions Model - Finding One Quantity",
@@ -141,7 +141,7 @@
       "$90"
     ],
     "answer": "$90",
-    "time": 60
+    "time": 90
   },
   {
     "question": "Working Backwards - Sequential Arithmetic Operations",
@@ -153,7 +153,7 @@
       "33"
     ],
     "answer": "29",
-    "time": 60
+    "time": 100
   },
   {
     "question": "Working Backwards - Money Spending",
@@ -165,7 +165,7 @@
       "$72"
     ],
     "answer": "$54",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Working Backwards - Passenger Count",
@@ -177,7 +177,7 @@
       "34"
     ],
     "answer": "31",
-    "time": 75
+    "time": 105
   },
   {
     "question": "Working Backwards - Fraction of Items Sold",
@@ -189,7 +189,7 @@
       "64"
     ],
     "answer": "56",
-    "time": 75
+    "time": 105
   },
   {
     "question": "Working Backwards - Two-Way Card Exchange",
@@ -201,7 +201,7 @@
       "43"
     ],
     "answer": "39",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Working Backwards - Accumulated Savings",
@@ -213,7 +213,7 @@
       "$120"
     ],
     "answer": "$80",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Practical Math - Package Ticket Bundling",
@@ -225,7 +225,7 @@
       "$148"
     ],
     "answer": "$122",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Practical Math - Bulk Purchase Promotion",
@@ -237,7 +237,7 @@
       "$18.00"
     ],
     "answer": "$15.30",
-    "time": 65
+    "time": 95
   },
   {
     "question": "Practical Math - Tiered Postal Delivery Rates",
@@ -249,7 +249,7 @@
       "$9.50"
     ],
     "answer": "$7.10",
-    "time": 75
+    "time": 105
   },
   {
     "question": "Practical Math - Shared Expenses",
@@ -261,7 +261,7 @@
       "$40"
     ],
     "answer": "$30",
-    "time": 60
+    "time": 100
   },
   {
     "question": "Assumption Method - Animals and Legs",
@@ -273,7 +273,7 @@
       "23"
     ],
     "answer": "12",
-    "time": 70
+    "time": 100
   },
   {
     "question": "Practical Math - Breakfast Combo Optimization",
@@ -285,6 +285,6 @@
       "$32.40"
     ],
     "answer": "$29.60",
-    "time": 70
+    "time": 100
   }
 ]
