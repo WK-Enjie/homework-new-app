@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Decimal Sets - Value of Grouped Items",
+    "stem": "A fruit seller sells apples in bags of 4 for $3.40 and oranges in bags of 3 for $2.70. Mrs. Lim bought an equal number of bags of apples and bags of oranges. She spent a total of $183.00. How many fruits (apples and oranges) did Mrs. Lim buy altogether?",
+    "options": [
+      "140",
+      "180",
+      "210",
+      "240"
+    ],
+    "answer": "210",
+    "time": 120
+  },
+  {
+    "question": "Decimal Sets - Ratio of Quantities",
+    "stem": "A stationery shop sells mechanical pencils at $1.80 each and correction tapes at $2.40 each. For every 3 mechanical pencils sold, the shop sells 2 correction tapes. If the shop collected a total of $408.00 from the sale of these two items, how many more mechanical pencils than correction tapes were sold?",
+    "options": [
+      "30",
+      "40",
+      "60",
+      "80"
+    ],
+    "answer": "40",
+    "time": 125
+  },
+  {
+    "question": "Decimal Grouping - Mass and Proportions",
+    "stem": "A factory has 45.6 kg of organic oats. The oats are packed into large bags of 0.85 kg each and small bags of 0.35 kg each. There are 3 times as many small bags as large bags. What is the total mass of oats packed into all the small bags?",
+    "options": [
+      "18.9 kg",
+      "20.4 kg",
+      "25.2 kg",
+      "30.6 kg"
+    ],
+    "answer": "25.2 kg",
+    "time": 130
+  },
+  {
+    "question": "Decimal Coin Sets - 3-Denomination Ratio",
+    "stem": "A piggy bank contains a total of $84.00 in 20-cent coins, 50-cent coins, and 1-dollar coins. The ratio of the number of 20-cent coins to 50-cent coins to 1-dollar coins is 5 : 4 : 3. How many coins are there in the piggy bank altogether?",
+    "options": [
+      "120",
+      "144",
+      "168",
+      "192"
+    ],
+    "answer": "168",
+    "time": 125
+  },
+  {
+    "question": "Tiered Decimal Rates - Distance Calculation",
+    "stem": "A car rental agency charges mileage as follows: the first 50 km at $0.80 per km, the next 100 km at $0.65 per km, and every additional kilometre beyond 150 km at $0.45 per km. If Mr. Wong was charged a total of $159.00 for mileage, what was the total distance he drove?",
+    "options": [
+      "240 km",
+      "260 km",
+      "270 km",
+      "285 km"
+    ],
+    "answer": "270 km",
+    "time": 135
+  },
+  {
+    "question": "Decimal Promotions - Rebate and Bundle Sets",
+    "stem": "A shop sells polo shirts at $18.50 each. For every 4 shirts bought, a customer receives an instant cash rebate of $6.00. A school sports club spent $581.00 on these shirts. How many shirts did the sports club buy in total?",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "answer": "34",
+    "time": 130
+  },
+  {
+    "question": "Assumption Method - Two Note Denominations",
+    "stem": "A cashier has a total of 60 pieces of $2 and $10 dollar notes. The total value of all the notes is $288.00. How many $10 notes does the cashier have?",
+    "options": [
+      "18",
+      "21",
+      "24",
+      "28"
+    ],
+    "answer": "21",
+    "time": 120
+  },
+  {
+    "question": "Assumption Method - Payment and Damage Compensation",
+    "stem": "A delivery driver transports 80 fragile ceramic vases. For every intact vase delivered, he is paid $4.50. For every broken vase, he receives no payment and must compensate the company $15.50. At the end of the day, he collected $280.00. How many vases did he break?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "time": 125
+  },
+  {
+    "question": "Assumption Method - 3-Tier Ticket Pricing with Grouping",
+    "stem": "A total of 200 tickets were sold for a concert, collecting $6480.00. An Adult ticket cost $45.00, a Student ticket cost $25.00, and a Child ticket cost $15.00. The number of Student tickets sold was 3 times the number of Child tickets sold. How many Adult tickets were sold?",
+    "options": [
+      "76",
+      "84",
+      "88",
+      "92"
+    ],
+    "answer": "88",
+    "time": 140
+  },
+  {
+    "question": "Assumption Method - Two Products with Revenue Difference",
+    "stem": "A store sold a total of 65 water bottles and lunch boxes. A water bottle cost $14.50 and a lunch box cost $9.50. The total amount of money collected from selling water bottles was $366.50 more than the amount collected from lunch boxes. How many water bottles were sold?",
+    "options": [
+      "38",
+      "41",
+      "44",
+      "47"
+    ],
+    "answer": "41",
+    "time": 135
+  },
+  {
+    "question": "Assumption Method - Decimal Parking Rates",
+    "stem": "In a commercial car park, there were 90 vehicles consisting of cars and vans. The daily parking fee for a car is $3.20 and for a van is $5.80. If the total daily parking fees collected amounted to $376.40, how many vans were parked in the car park?",
+    "options": [
+      "30",
+      "34",
+      "38",
+      "42"
+    ],
+    "answer": "34",
+    "time": 125
+  },
+  {
+    "question": "Assumption Method - 3-Coin Problem with Multiple Relation",
+    "stem": "Calvin has 60 coins in a pouch consisting of 10-cent, 20-cent, and 50-cent coins with a total value of $17.20. The number of 20-cent coins is 4 times the number of 10-cent coins. How many 50-cent coins does Calvin have?",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "24"
+    ],
+    "answer": "20",
+    "time": 135
+  },
+  {
+    "question": "Optimization - Smallest Possible Spend for Target Quantity",
+    "stem": "A school needs to buy at least 86 whiteboard markers. Markers are sold as follows: a box of 12 markers for $14.40, a pack of 5 markers for $6.50, and single markers at $1.50 each. What is the smallest possible amount of money the school needs to spend?",
+    "options": [
+      "$103.80",
+      "$105.40",
+      "$107.30",
+      "$115.20"
+    ],
+    "answer": "$103.80",
+    "time": 140
+  },
+  {
+    "question": "Optimization - Greatest Possible Change Leftover",
+    "stem": "Gabriel has $50.00. He buys some storybooks at $7.80 each and some pens at $2.40 each. He buys at least 2 storybooks and at least 3 pens. What is the greatest possible amount of change (leftover money) Gabriel can receive?",
+    "options": [
+      "$22.80",
+      "$24.60",
+      "$27.20",
+      "$31.40"
+    ],
+    "answer": "$27.20",
+    "time": 120
+  },
+  {
+    "question": "Optimization - Greatest Number of Items on Fixed Budget",
+    "stem": "A bakery sells egg tarts at $1.60 each, in boxes of 4 for $5.80, and in boxes of 6 for $8.10. Janice has a budget of $65.00 for a class gathering. What is the greatest number of egg tarts Janice can buy?",
+    "options": [
+      "46",
+      "47",
+      "48",
+      "49"
+    ],
+    "answer": "48",
+    "time": 130
+  },
+  {
+    "question": "Optimization - Smallest Number of Packing Containers",
+    "stem": "A warehouse needs to pack exactly 145 identical electronic gadgets into boxes. A Large box holds 18 gadgets, a Medium box holds 10 gadgets, and a Small box holds 5 gadgets. All packed boxes must be completely full, and no gadgets can be left unpacked. What is the smallest total number of boxes needed?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "answer": "11",
+    "time": 135
+  },
+  {
+    "question": "Optimization - Smallest Leftover Mass with Constraints",
+    "stem": "A tea merchant has 10.25 kg of green tea. He packs the tea into tins of 0.75 kg each and packets of 0.40 kg each. He must pack at least 6 tins and at least 8 packets. What is the smallest possible mass of green tea left unpacked?",
+    "options": [
+      "0.05 kg",
+      "0.15 kg",
+      "0.20 kg",
+      "0.25 kg"
+    ],
+    "answer": "0.15 kg",
+    "time": 135
+  },
+  {
+    "question": "Optimization - Difference in Leftover Amounts",
+    "stem": "Lucas and Nathan each had $95.00. Lucas bought as many $7.50 storybooks as possible. Nathan bought as many $4.80 board games as possible. What is the difference between the leftover amount of money Lucas had and the leftover amount Nathan had?",
+    "options": [
+      "$1.20",
+      "$1.80",
+      "$2.40",
+      "$3.80"
+    ],
+    "answer": "$1.20",
+    "time": 125
+  },
+  {
+    "question": "Multi-Stage Remainder - Decimal Spend Working Backwards",
+    "stem": "Melissa had some savings. She spent 1/4 of her savings plus $8.50 on a bag. She then spent 2/5 of the remaining money plus $6.90 on a watch. Finally, she spent 1/2 of the new remainder on groceries and was left with $30.00. How much savings did Melissa have at first?",
+    "options": [
+      "$140.00",
+      "$150.00",
+      "$160.00",
+      "$180.00"
+    ],
+    "answer": "$160.00",
+    "time": 140
+  },
+  {
+    "question": "Multi-Stage Remainder - Decimal Length Distribution",
+    "stem": "A craft enthusiast had a roll of ribbon of length 48.0 m. In the morning, she used 1/3 of the ribbon plus 2.4 m. In the afternoon, she used 3/8 of the remaining ribbon plus 1.5 m. In the evening, she used 1/2 of the rest of the ribbon for a school project. What was the length of ribbon used for the school project?",
+    "options": [
+      "6.5 m",
+      "7.2 m",
+      "8.5 m",
+      "9.6 m"
+    ],
+    "answer": "8.5 m",
+    "time": 135
+  },
+  {
+    "question": "Ratio - Unequal Decimal Change Leading to Equal Amounts",
+    "stem": "Caleb and Daniel had money in the ratio 5 : 3. Caleb spent $14.40 on lunch, while Daniel received $9.60 from his mother. After that, both boys had the exact same amount of money. How much money did Caleb have at first?",
+    "options": [
+      "$45.00",
+      "$50.00",
+      "$60.00",
+      "$75.00"
+    ],
+    "answer": "$60.00",
+    "time": 125
+  },
+  {
+    "question": "Multi-Stage Remainder - Decimal Volume Sharing",
+    "stem": "A barrel contained 36.0 litres of water. On Monday, 1/4 of the water plus 1.8 litres was used. On Tuesday, 2/5 of the remaining water plus 2.4 litres was used. The remaining water was then poured equally into 6 watering cans. What was the volume of water poured into each watering can?",
+    "options": [
+      "1.85 litres",
+      "2.12 litres",
+      "2.45 litres",
+      "3.10 litres"
+    ],
+    "answer": "2.12 litres",
+    "time": 135
+  },
+  {
+    "question": "Comparison of Information - Difference After Unequal Fractional Spend",
+    "stem": "Samuel and Ryan each had the same amount of savings at first. Samuel spent 2/3 of his savings plus $15.50 on a video game. Ryan spent 3/5 of his savings plus $7.50 on a soccer jersey. In the end, Ryan had $26.00 more than Samuel. How much savings did each boy have at first?",
+    "options": [
+      "$240.00",
+      "$270.00",
+      "$300.00",
+      "$360.00"
+    ],
+    "answer": "$270.00",
+    "time": 145
+  },
+  {
+    "question": "Optimization - Bundle Discounts with Leftover Change",
+    "stem": "A stationery store offers highlighters at $1.80 each, in packs of 4 for $6.00, and in boxes of 10 for $13.50. Mr. Lim has $70.00. What is the greatest number of highlighters he can buy, and what is the exact amount of change he will receive?",
+    "options": [
+      "50 highlighters, with $2.50 change",
+      "51 highlighters, with $0.70 change",
+      "52 highlighters, with $0.40 change",
+      "53 highlighters, with $1.20 change"
+    ],
+    "answer": "51 highlighters, with $0.70 change",
+    "time": 140
+  }
+]

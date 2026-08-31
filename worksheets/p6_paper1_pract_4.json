@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Decimals - Mixed Purchase and Unit Cost",
+    "stem": "Mrs. Lee bought 3 identical bottles of cooking oil and 4 identical packets of rice for $36.80. If 1 bottle of cooking oil cost $5.60, what was the cost of 1 packet of rice?",
+    "options": [
+      "$4.50",
+      "$5.00",
+      "$5.20",
+      "$5.50"
+    ],
+    "answer": "$5.00",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Mass of Identical Items",
+    "stem": "A box containing 24 identical cans of drinks has a total mass of 10.2 kg. The mass of the empty box is 0.6 kg. What is the mass of one can of drink?",
+    "options": [
+      "0.35 kg",
+      "0.40 kg",
+      "0.42 kg",
+      "0.45 kg"
+    ],
+    "answer": "0.40 kg",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Real-Life Purchasing and Change",
+    "stem": "Megan went shopping with a $50 note. She bought 3 notebooks at $4.20 each and 4 gel pens at $1.85 each. How much change did Megan receive?",
+    "options": [
+      "$28.00",
+      "$30.00",
+      "$32.40",
+      "$37.40"
+    ],
+    "answer": "$30.00",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Liquid Volume Transfer",
+    "stem": "A beverage dispenser contains 4.5 litres of lemonade. A waiter fills 8 cups with 0.35 litres of lemonade each. How much lemonade is left in the dispenser?",
+    "options": [
+      "1.5 litres",
+      "1.7 litres",
+      "1.9 litres",
+      "2.8 litres"
+    ],
+    "answer": "1.7 litres",
+    "time": 65
+  },
+  {
+    "question": "Practical Math - Discount and Final Price",
+    "stem": "The marked price of a backpack was $80. During a festive sale, a 25% discount was given. What was the price of the backpack after the discount?",
+    "options": [
+      "$20",
+      "$55",
+      "$60",
+      "$65"
+    ],
+    "answer": "$60",
+    "time": 60
+  },
+  {
+    "question": "Practical Math - Tiered Parking Rates",
+    "stem": "A carpark charges $2.40 for the first hour of parking and $1.10 for every subsequent half hour or part thereof. Mr. Lim parked his car from 1.15 p.m. to 3.45 p.m. on the same afternoon. How much did he pay for parking?",
+    "options": [
+      "$4.60",
+      "$5.70",
+      "$6.80",
+      "$7.90"
+    ],
+    "answer": "$5.70",
+    "time": 75
+  },
+  {
+    "question": "Comparison Model - Two Quantities with Difference",
+    "stem": "Lucas and Nathan shared $148 altogether. Lucas had $32 more than Nathan. How much money did Nathan have?",
+    "options": [
+      "$58",
+      "$64",
+      "$74",
+      "$90"
+    ],
+    "answer": "$58",
+    "time": 60
+  },
+  {
+    "question": "Part-Whole Model - Fractions and Percentages Combined",
+    "stem": "A bakery baked 240 muffins. 40% of them were chocolate muffins and 1/3 of them were blueberry muffins. The rest were vanilla muffins. How many vanilla muffins did the bakery bake?",
+    "options": [
+      "64",
+      "72",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "time": 65
+  },
+  {
+    "question": "Internal Transfer Model - Equalizing Amounts",
+    "stem": "Alvin had $90 and Bryan had $50. How much money must Alvin give to Bryan so that both of them will have an equal amount of money?",
+    "options": [
+      "$15",
+      "$20",
+      "$25",
+      "$40"
+    ],
+    "answer": "$20",
+    "time": 55
+  },
+  {
+    "question": "Before-and-After Model - Constant Difference (Age)",
+    "stem": "Rachel is 12 years old and her mother is 40 years old. In how many years' time will Rachel's mother be 3 times as old as Rachel?",
+    "options": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "answer": "2 years",
+    "time": 65
+  },
+  {
+    "question": "Before-and-After Model - One Quantity Unchanged",
+    "stem": "Chloe had 20 red beads and 32 blue beads. After she bought some more red beads, 3/5 of her total collection became red beads. How many red beads did Chloe buy?",
+    "options": [
+      "18",
+      "24",
+      "28",
+      "36"
+    ],
+    "answer": "28",
+    "time": 70
+  },
+  {
+    "question": "Equal Fractions Model - Finding One Quantity",
+    "stem": "1/3 of Ethan's savings is equal to 1/2 of Fiona's savings. If Ethan and Fiona have a total of $150 in savings, how much money does Ethan have?",
+    "options": [
+      "$50",
+      "$60",
+      "$75",
+      "$90"
+    ],
+    "answer": "$90",
+    "time": 60
+  },
+  {
+    "question": "Working Backwards - Sequential Arithmetic Operations",
+    "stem": "A secret number is multiplied by 3, then 15 is subtracted from the result, and finally the answer is divided by 4 to give 18. What is the original secret number?",
+    "options": [
+      "24",
+      "27",
+      "29",
+      "33"
+    ],
+    "answer": "29",
+    "time": 60
+  },
+  {
+    "question": "Working Backwards - Money Spending",
+    "stem": "Hannah had some pocket money. She spent $18 on a storybook and then spent 1/3 of her remaining money on lunch. She had $24 left. How much pocket money did Hannah have at first?",
+    "options": [
+      "$48",
+      "$54",
+      "$60",
+      "$72"
+    ],
+    "answer": "$54",
+    "time": 65
+  },
+  {
+    "question": "Working Backwards - Passenger Count",
+    "stem": "A bus left an interchange with some passengers. At the first stop, 8 passengers got off and 5 passengers boarded. At the second stop, half of the remaining passengers got off and 6 passengers boarded. If there were 20 passengers on the bus after the second stop, how many passengers were on the bus at the interchange?",
+    "options": [
+      "27",
+      "29",
+      "31",
+      "34"
+    ],
+    "answer": "31",
+    "time": 75
+  },
+  {
+    "question": "Working Backwards - Fraction of Items Sold",
+    "stem": "A baker baked a batch of egg tarts. In the morning, he sold 1/2 of the tarts plus 4 more tarts. In the afternoon, he sold 1/3 of the remaining tarts and had 16 tarts left. How many egg tarts did the baker bake at first?",
+    "options": [
+      "48",
+      "52",
+      "56",
+      "64"
+    ],
+    "answer": "56",
+    "time": 75
+  },
+  {
+    "question": "Working Backwards - Two-Way Card Exchange",
+    "stem": "Gabriel and Keith each had some game cards. First, Gabriel gave 12 cards to Keith. Next, Keith gave 8 cards back to Gabriel. In the end, Gabriel had 35 cards and Keith had 45 cards. How many cards did Gabriel have at first?",
+    "options": [
+      "31",
+      "35",
+      "39",
+      "43"
+    ],
+    "answer": "39",
+    "time": 70
+  },
+  {
+    "question": "Working Backwards - Accumulated Savings",
+    "stem": "Jonathan deposits a fixed amount of $15 into his savings account every week. At the end of 8 weeks, he withdrew $40 to buy a birthday present and had $160 remaining in his account. How much money did Jonathan have in his savings account at first?",
+    "options": [
+      "$60",
+      "$80",
+      "$100",
+      "$120"
+    ],
+    "answer": "$80",
+    "time": 65
+  },
+  {
+    "question": "Practical Math - Package Ticket Bundling",
+    "stem": "Admission tickets to a wildlife park cost $38 for an adult, $24 for a child, and $98 for a Family Package (2 adults and 2 children). What is the minimum cost for 2 adults and 3 children to purchase admission tickets?",
+    "options": [
+      "$112",
+      "$122",
+      "$136",
+      "$148"
+    ],
+    "answer": "$122",
+    "time": 70
+  },
+  {
+    "question": "Practical Math - Bulk Purchase Promotion",
+    "stem": "A supermarket sells packets of biscuits at $1.80 each, or in promotional packs of 3 for $4.50. What is the least amount of money Mrs. Tan has to pay to buy exactly 10 packets of biscuits?",
+    "options": [
+      "$14.40",
+      "$15.00",
+      "$15.30",
+      "$18.00"
+    ],
+    "answer": "$15.30",
+    "time": 65
+  },
+  {
+    "question": "Practical Math - Tiered Postal Delivery Rates",
+    "stem": "A courier company charges $3.50 for the first 500 g of a parcel, and $1.20 for every additional 250 g or part thereof. What is the total delivery fee for a parcel with a mass of 1.2 kg?",
+    "options": [
+      "$5.90",
+      "$7.10",
+      "$8.30",
+      "$9.50"
+    ],
+    "answer": "$7.10",
+    "time": 75
+  },
+  {
+    "question": "Practical Math - Shared Expenses",
+    "stem": "Four colleagues shared the cost of a celebration dinner equally. Alan paid $84 for the food and Ben paid $36 for the desserts and drinks. What was the equal share that each of the four colleagues had to pay?",
+    "options": [
+      "$25",
+      "$30",
+      "$36",
+      "$40"
+    ],
+    "answer": "$30",
+    "time": 60
+  },
+  {
+    "question": "Assumption Method - Animals and Legs",
+    "stem": "A farm has a total of 35 chickens and cows. Counted together, there are 94 legs. How many cows are there on the farm?",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "23"
+    ],
+    "answer": "12",
+    "time": 70
+  },
+  {
+    "question": "Practical Math - Breakfast Combo Optimization",
+    "stem": "A cafe sells a breakfast set (1 sandwich and 1 coffee) for $5.50. Individually, a sandwich costs $3.80 and a coffee costs $2.40. What is the minimum amount a customer needs to pay for 6 sandwiches and 4 coffees?",
+    "options": [
+      "$27.60",
+      "$29.60",
+      "$31.20",
+      "$32.40"
+    ],
+    "answer": "$29.60",
+    "time": 70
+  }
+]
