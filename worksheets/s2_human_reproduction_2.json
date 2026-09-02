@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Fertile Period - Gamete Survival and Lifespan",
+    "stem": "Which statement accurately describes the survival time of human gametes in the female reproductive tract?",
+    "options": [
+      "Sperm cells can survive for up to 5 days, while an egg cell remains viable for about 24 hours.",
+      "Sperm cells survive for only 6 hours, while an egg cell remains viable for up to 7 days.",
+      "Both sperm cells and egg cells can survive for exactly 28 days.",
+      "Sperm cells survive for up to 10 days, while an egg cell degenerates immediately upon release."
+    ],
+    "answer": "Sperm cells can survive for up to 5 days, while an egg cell remains viable for about 24 hours.",
+    "time": 50
+  },
+  {
+    "question": "Fertile Period - Standard 28-Day Cycle Range",
+    "stem": "In a regular 28-day menstrual cycle with ovulation occurring around Day 14, which span of days represents the fertile period?",
+    "options": [
+      "Day 1 to Day 5",
+      "Day 6 to Day 9",
+      "Day 10 to Day 15",
+      "Day 20 to Day 25"
+    ],
+    "answer": "Day 10 to Day 15",
+    "time": 50
+  },
+  {
+    "question": "Fertile Period - Date Calculation Scenario",
+    "stem": "A woman with a regular 28-day menstrual cycle begins menstruation on 1 May. Taking her fertile period to be Day 10 to Day 15, on which dates is sexual intercourse most likely to result in fertilisation?",
+    "options": [
+      "1 May to 5 May",
+      "6 May to 9 May",
+      "10 May to 15 May",
+      "20 May to 25 May"
+    ],
+    "answer": "10 May to 15 May",
+    "time": 60
+  },
+  {
+    "question": "Fertile Period - Pre-Ovulation Intercourse",
+    "stem": "If sexual intercourse takes place on Day 10 of a 28-day menstrual cycle and ovulation occurs on Day 14, how can pregnancy still occur?",
+    "options": [
+      "Sperm can survive in the female reproductive tract for up to 5 days and fertilise the egg cell when it is released.",
+      "The egg cell is released immediately during intercourse on Day 10.",
+      "The embryo forms immediately in the vagina and waits until Day 14 to implant.",
+      "Sperm cells travel back to the male sex glands to acquire more nutrients."
+    ],
+    "answer": "Sperm can survive in the female reproductive tract for up to 5 days and fertilise the egg cell when it is released.",
+    "time": 60
+  },
+  {
+    "question": "Fertile Period - Post-Ovulation Viability",
+    "stem": "Why does the fertile window typically close by Day 15 if ovulation takes place on Day 14?",
+    "options": [
+      "The unfertilised egg cell survives for only about 24 hours before degenerating in the oviduct.",
+      "Menstruation immediately begins on Day 15.",
+      "The sperm duct closes to prevent further ejaculation.",
+      "The oviduct detaches from the uterus after 24 hours."
+    ],
+    "answer": "The unfertilised egg cell survives for only about 24 hours before degenerating in the oviduct.",
+    "time": 55
+  },
+  {
+    "question": "Natural Family Planning - Limitations of the Rhythm Method",
+    "stem": "Why is the rhythm method (avoiding intercourse during the fertile window) considered unreliable as a method of contraception?",
+    "options": [
+      "Factors such as illness, emotional stress, and poor health can cause the day of ovulation to vary unexpectedly.",
+      "It causes chemical changes in the male sex glands that accelerate sperm production.",
+      "It permanently blocks the oviduct and causes early menstruation.",
+      "Egg cells remain viable in the uterus for several months."
+    ],
+    "answer": "Factors such as illness, emotional stress, and poor health can cause the day of ovulation to vary unexpectedly.",
+    "time": 60
+  },
+  {
+    "question": "Contraception - Dual Protection of Male Condoms",
+    "stem": "Which contraceptive method prevents unwanted pregnancy by stopping sperm from entering the female body and also provides effective protection against sexually transmitted infections (STIs)?",
+    "options": [
+      "Male condom",
+      "Birth control pill",
+      "Intrauterine device (IUD)",
+      "Spermicide"
+    ],
+    "answer": "Male condom",
+    "time": 50
+  },
+  {
+    "question": "Contraception - Mechanism of Condoms",
+    "stem": "How does a male condom function as a barrier method during sexual intercourse?",
+    "options": [
+      "It acts as a physical barrier that prevents semen and sperm from entering the vagina and uterus.",
+      "It alters male hormone levels to stop sperm production in the testes.",
+      "It destroys the spongy uterine lining to prevent an embryo from implanting.",
+      "It dissolves the egg cell upon contact in the oviduct."
+    ],
+    "answer": "It acts as a physical barrier that prevents semen and sperm from entering the vagina and uterus.",
+    "time": 50
+  },
+  {
+    "question": "Contraception - Diaphragm Mode of Action",
+    "stem": "Where is a female diaphragm fitted, and how does it prevent fertilisation?",
+    "options": [
+      "It is a rubber dome fitted over the cervix to block sperm from entering the uterus and oviduct.",
+      "It is inserted into the oviduct to trap mature egg cells.",
+      "It is placed in the testis to prevent the formation of sperm.",
+      "It is implanted in the ovary to stop the development of egg cells."
+    ],
+    "answer": "It is a rubber dome fitted over the cervix to block sperm from entering the uterus and oviduct.",
+    "time": 55
+  },
+  {
+    "question": "Hormonal Contraception - Birth Control Pills",
+    "stem": "How do daily oral birth control pills prevent pregnancy?",
+    "options": [
+      "They contain hormones that prevent the ovaries from releasing mature egg cells (suppress ovulation).",
+      "They physically sever the sperm duct in the male.",
+      "They produce a permanent plug in the cervix that lasts for years.",
+      "They kill all sperm cells mechanically in the urethra."
+    ],
+    "answer": "They contain hormones that prevent the ovaries from releasing mature egg cells (suppress ovulation).",
+    "time": 55
+  },
+  {
+    "question": "Chemical Contraception - Spermicides",
+    "stem": "What is the function of spermicidal cream or gel, and how should it ideally be used?",
+    "options": [
+      "It kills or immobilises sperm and is most effective when used alongside a barrier method such as a diaphragm or condom.",
+      "It is an oral tablet taken daily to stop menstruation completely.",
+      "It is injected directly into the oviduct to dissolve unfertilised egg cells.",
+      "It acts as a permanent surgical sealant for the sperm ducts."
+    ],
+    "answer": "It kills or immobilises sperm and is most effective when used alongside a barrier method such as a diaphragm or condom.",
+    "time": 60
+  },
+  {
+    "question": "Mechanical Contraception - Intrauterine Device (IUD)",
+    "stem": "How does an Intrauterine Device (IUD) prevent pregnancy?",
+    "options": [
+      "It is a small device inserted into the uterus by a doctor to prevent an embryo from implanting in the uterine lining.",
+      "It is a protective sheath worn over the penis to collect semen.",
+      "It is an injection that permanently stops the male sex glands from producing fluid.",
+      "It is a surgical procedure that cuts and ties both oviducts."
+    ],
+    "answer": "It is a small device inserted into the uterus by a doctor to prevent an embryo from implanting in the uterine lining.",
+    "time": 55
+  },
+  {
+    "question": "Surgical Contraception - Vasectomy",
+    "stem": "During a vasectomy, a doctor cuts and ties both sperm ducts. What is the biological result of this procedure?",
+    "options": [
+      "Fluid from the male sex glands is still ejaculated, but it contains no sperm.",
+      "The testes immediately stop producing male hormones and testosterone.",
+      "Urine can no longer exit the body through the urethra.",
+      "The male sex glands are removed, stopping all fluid production."
+    ],
+    "answer": "Fluid from the male sex glands is still ejaculated, but it contains no sperm.",
+    "time": 60
+  },
+  {
+    "question": "Surgical Contraception - Ligation of Oviducts",
+    "stem": "A woman has both of her oviducts cut and tied (tubal ligation). Why does she continue to have monthly menstrual bleeding?",
+    "options": [
+      "Her ovaries still release hormones, so the uterine lining continues to thicken and shed every month.",
+      "Blood from the cut oviducts flows into the vagina each month.",
+      "Egg cells continue to travel into the uterus and break down the lining.",
+      "The male sex glands inside her body stimulate the uterus."
+    ],
+    "answer": "Her ovaries still release hormones, so the uterine lining continues to thicken and shed every month.",
+    "time": 65
+  },
+  {
+    "question": "Surgical Contraception - Irreversibility",
+    "stem": "Why are surgical methods like vasectomy and ligation of oviducts considered permanent methods of contraception?",
+    "options": [
+      "Reversing these surgeries is complex and often unsuccessful, so they are meant for people who do not want any more children.",
+      "They permanently stop the digestive and circulatory systems from working properly.",
+      "They cause an immediate loss of all bodily senses.",
+      "They make the individual completely immune to all future viral infections."
+    ],
+    "answer": "Reversing these surgeries is complex and often unsuccessful, so they are meant for people who do not want any more children.",
+    "time": 55
+  },
+  {
+    "question": "Contraception - Method Suitability for Young Couples",
+    "stem": "A newly married couple plans to have children in two years' time. Which method of contraception is LEAST appropriate for them?",
+    "options": [
+      "Ligation of oviducts",
+      "Male condoms",
+      "Oral contraceptive pills",
+      "Diaphragm used with spermicide"
+    ],
+    "answer": "Ligation of oviducts",
+    "time": 50
+  },
+  {
+    "question": "Contraception - Total Abstinence",
+    "stem": "Which method is completely 100% effective in preventing both unwanted pregnancy and the transmission of sexually transmitted infections (STIs)?",
+    "options": [
+      "Abstinence (refraining from sexual intercourse entirely)",
+      "Daily consumption of birth control pills",
+      "Using an intrauterine device (IUD)",
+      "Rhythm method using temperature monitoring"
+    ],
+    "answer": "Abstinence (refraining from sexual intercourse entirely)",
+    "time": 45
+  },
+  {
+    "question": "Contraception vs Abortion - Core Distinction",
+    "stem": "What is the primary difference between contraception and abortion?",
+    "options": [
+      "Contraception prevents fertilisation or implantation, whereas abortion terminates an established pregnancy.",
+      "Contraception terminates an embryo, while abortion stops ovulation.",
+      "Contraception is only done via surgery, while abortion occurs naturally every month.",
+      "Contraception is permanent, while abortion is a temporary barrier method."
+    ],
+    "answer": "Contraception prevents fertilisation or implantation, whereas abortion terminates an established pregnancy.",
+    "time": 55
+  },
+  {
+    "question": "Abortion - Medical Definition",
+    "stem": "What is the scientific and medical definition of an abortion?",
+    "options": [
+      "The deliberate termination of a pregnancy before the fetus is capable of surviving independently",
+      "The natural shedding of the uterine lining during menstruation",
+      "The surgical removal of the male sex glands to prevent sperm delivery",
+      "The failure of an egg cell to be fertilised in the oviduct"
+    ],
+    "answer": "The deliberate termination of a pregnancy before the fetus is capable of surviving independently",
+    "time": 50
+  },
+  {
+    "question": "Abortion - Direct Physical Risks",
+    "stem": "Which of the following represents a serious physical health risk associated with an unsafe or complicated abortion?",
+    "options": [
+      "Severe uterine bleeding (haemorrhage) and perforation of the uterine wall",
+      "Permanent blockage of the male sperm ducts",
+      "Sudden loss of blood circulation to the brain leading to instant paralysis",
+      "Complete cessation of digestive enzyme production"
+    ],
+    "answer": "Severe uterine bleeding (haemorrhage) and perforation of the uterine wall",
+    "time": 55
+  },
+  {
+    "question": "Abortion - Future Fertility Impact",
+    "stem": "How can pelvic infections resulting from an abortion cause difficulty in conceiving (infertility) in the future?",
+    "options": [
+      "Infections can lead to scarring and blockage of the oviducts, preventing sperm from reaching the egg cell.",
+      "Infections permanently stop the male sex glands from producing semen.",
+      "Infections destroy the kidneys and bladder entirely.",
+      "Infections prevent red blood cells from absorbing oxygen in the lungs."
+    ],
+    "answer": "Infections can lead to scarring and blockage of the oviducts, preventing sperm from reaching the egg cell.",
+    "time": 60
+  },
+  {
+    "question": "Abortion - Emotional and Psychological Impact",
+    "stem": "What emotional or psychological consequences might a woman experience after undergoing an abortion?",
+    "options": [
+      "Feelings of grief, guilt, anxiety, and long-term depression",
+      "Immediate permanent loss of all long-term memories",
+      "An uncontrollable increase in height and bone density",
+      "Total inability of the immune system to fight common colds"
+    ],
+    "answer": "Feelings of grief, guilt, anxiety, and long-term depression",
+    "time": 50
+  },
+  {
+    "question": "Teenage Pregnancy - Social and Economic Challenges",
+    "stem": "Why does an unplanned teenage pregnancy often bring severe social and financial challenges?",
+    "options": [
+      "It frequently disrupts education, limits career prospects, and places financial strain on young families.",
+      "It permanently prevents the young mother from absorbing nutrients from food.",
+      "It stops the physical growth of both parents immediately.",
+      "It causes all reproductive organs to dissolve naturally."
+    ],
+    "answer": "It frequently disrupts education, limits career prospects, and places financial strain on young families.",
+    "time": 55
+  },
+  {
+    "question": "Responsible Decision-Making - Values and Respect",
+    "stem": "Why are mutual respect and making informed, responsible decisions important in teenage relationships?",
+    "options": [
+      "They help teenagers practice self-control and avoid negative consequences like unintended pregnancies and STIs.",
+      "They ensure teenagers will never contract common airborne viruses like influenza.",
+      "They allow teenagers to delay the onset of puberty indefinitely.",
+      "They eliminate the need for personal hygiene and balanced nutrition."
+    ],
+    "answer": "They help teenagers practice self-control and avoid negative consequences like unintended pregnancies and STIs.",
+    "time": 50
+  }
+]
