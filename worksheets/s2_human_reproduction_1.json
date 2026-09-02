@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Male Reproductive System - Scrotum and Temperature",
+    "stem": "Why are the testes situated outside the main abdominal cavity within the scrotum?",
+    "options": [
+      "To maintain a slightly lower temperature essential for healthy sperm production",
+      "To allow easier passage of urine from the urinary bladder",
+      "To store mature egg cells before fertilisation",
+      "To produce nutrient-rich fluid from the male sex glands"
+    ],
+    "answer": "To maintain a slightly lower temperature essential for healthy sperm production",
+    "time": 50
+  },
+  {
+    "question": "Male Reproductive System - Sperm Duct Function",
+    "stem": "What is the primary function of the sperm duct?",
+    "options": [
+      "To produce and store sperm cells",
+      "To carry sperm from the testis towards the urethra",
+      "To produce male sex hormones",
+      "To transport urine from the kidneys to the bladder"
+    ],
+    "answer": "To carry sperm from the testis towards the urethra",
+    "time": 50
+  },
+  {
+    "question": "Male Reproductive System - Male Sex Glands",
+    "stem": "What is the role of the male sex glands in the human male reproductive system?",
+    "options": [
+      "To produce sperm cells through repeated cell division",
+      "To secrete a nutrient-rich fluid that nourishes and activates sperm",
+      "To transport urine out of the body",
+      "To regulate the temperature of the testes"
+    ],
+    "answer": "To secrete a nutrient-rich fluid that nourishes and activates sperm",
+    "time": 50
+  },
+  {
+    "question": "Male Reproductive System - Semen Composition",
+    "stem": "What is semen composed of?",
+    "options": [
+      "Sperm cells mixed with fluid secreted by the male sex glands",
+      "Sperm cells and urine travelling together",
+      "Fluid from the testes without any sperm cells",
+      "Blood cells mixed with hormones from the male sex glands"
+    ],
+    "answer": "Sperm cells mixed with fluid secreted by the male sex glands",
+    "time": 50
+  },
+  {
+    "question": "Male Reproductive System - Function of Urethra",
+    "stem": "Which statement correctly describes the function of the urethra in the human male?",
+    "options": [
+      "It transports only urine from the bladder to the exterior of the body.",
+      "It serves as a shared channel that carries both urine and semen at different times.",
+      "It connects the ovary directly to the uterus.",
+      "It produces fluid to nourish the sperm cells."
+    ],
+    "answer": "It serves as a shared channel that carries both urine and semen at different times.",
+    "time": 55
+  },
+  {
+    "question": "Male Reproductive System - Structure of a Sperm",
+    "stem": "Which part of a sperm cell enables it to swim towards the egg cell in the female reproductive tract?",
+    "options": [
+      "The tail (flagellum)",
+      "The nucleus",
+      "The cell membrane",
+      "The middle piece containing cytoplasm"
+    ],
+    "answer": "The tail (flagellum)",
+    "time": 45
+  },
+  {
+    "question": "Female Reproductive System - Function of Ovaries",
+    "stem": "What are the two main functions of the ovaries in the female reproductive system?",
+    "options": [
+      "Producing egg cells and secreting female sex hormones",
+      "Allowing implantation and producing sperm cells",
+      "Nourishing the developing embryo and producing urine",
+      "Serving as the site of fertilisation and menstrual discharge"
+    ],
+    "answer": "Producing egg cells and secreting female sex hormones",
+    "time": 55
+  },
+  {
+    "question": "Female Reproductive System - Function of Oviduct",
+    "stem": "What is the primary role of the oviduct in human reproduction?",
+    "options": [
+      "It is the site where fertilisation usually occurs and conveys the egg cell towards the uterus.",
+      "It is the muscular organ where the embryo implants and develops throughout pregnancy.",
+      "It produces and releases mature egg cells into the body.",
+      "It serves as the birth canal during childbirth."
+    ],
+    "answer": "It is the site where fertilisation usually occurs and conveys the egg cell towards the uterus.",
+    "time": 55
+  },
+  {
+    "question": "Female Reproductive System - Function of Uterus",
+    "stem": "Which statement correctly describes the function of the uterus?",
+    "options": [
+      "It is the organ where an embryo implants and develops into a fetus.",
+      "It is the muscular tube where fertilisation between sperm and an egg cell takes place.",
+      "It releases one mature egg cell every 28 days into the oviduct.",
+      "It contains male sex glands that nourish the incoming sperm."
+    ],
+    "answer": "It is the organ where an embryo implants and develops into a fetus.",
+    "time": 55
+  },
+  {
+    "question": "Female Reproductive System - Cervix and Vagina",
+    "stem": "Which structure refers to the ring of muscle at the lower end of the uterus that widens during childbirth?",
+    "options": [
+      "Cervix",
+      "Oviduct",
+      "Ovary",
+      "Sperm duct"
+    ],
+    "answer": "Cervix",
+    "time": 45
+  },
+  {
+    "question": "Gametes - Characteristics of an Egg Cell",
+    "stem": "How does a human egg cell compare to a human sperm cell?",
+    "options": [
+      "The egg cell is larger, non-motile, and contains a large food store in its cytoplasm.",
+      "The egg cell has a long tail for swimming, while the sperm cell is stationary.",
+      "The egg cell contains twice the amount of genetic material compared to a sperm cell.",
+      "Millions of egg cells are released at one time, while only one sperm cell is released."
+    ],
+    "answer": "The egg cell is larger, non-motile, and contains a large food store in its cytoplasm.",
+    "time": 60
+  },
+  {
+    "question": "Female Reproductive System - Blockage of Oviducts",
+    "stem": "If both oviducts of a woman become completely blocked, what is the most direct consequence?",
+    "options": [
+      "Sperm cannot reach the egg cell, preventing fertilisation.",
+      "The ovaries will completely stop producing mature egg cells.",
+      "Menstruation will stop permanently because no eggs can be made.",
+      "Fertilisation will take place inside the uterus instead."
+    ],
+    "answer": "Sperm cannot reach the egg cell, preventing fertilisation.",
+    "time": 60
+  },
+  {
+    "question": "Fertilisation - Scientific Definition",
+    "stem": "What takes place during human fertilisation?",
+    "options": [
+      "The nucleus of a sperm fuses with the nucleus of an egg cell to form a zygote.",
+      "A mature egg cell is released from an ovary into the oviduct.",
+      "The embryo attaches itself securely to the spongy lining of the uterus.",
+      "The uterine lining breaks down and exits through the vagina."
+    ],
+    "answer": "The nucleus of a sperm fuses with the nucleus of an egg cell to form a zygote.",
+    "time": 55
+  },
+  {
+    "question": "Fertilisation - Pathway of Sperm",
+    "stem": "Which sequence correctly shows the pathway of sperm from entry into the female body to the site of fertilisation?",
+    "options": [
+      "Vagina → Cervix → Uterus → Oviduct",
+      "Vagina → Uterus → Cervix → Oviduct",
+      "Oviduct → Uterus → Cervix → Vagina",
+      "Vagina → Cervix → Oviduct → Ovary"
+    ],
+    "answer": "Vagina → Cervix → Uterus → Oviduct",
+    "time": 55
+  },
+  {
+    "question": "Early Development - Zygote to Embryo",
+    "stem": "Following fertilisation in the oviduct, what happens to the fertilised egg (zygote) as it travels towards the uterus?",
+    "options": [
+      "It divides repeatedly to form a ball of cells called an embryo.",
+      "It remains as a single cell until birth.",
+      "It immediately breaks down and is discharged through the vagina.",
+      "It fuses with another sperm cell to form an embryo."
+    ],
+    "answer": "It divides repeatedly to form a ball of cells called an embryo.",
+    "time": 60
+  },
+  {
+    "question": "Early Development - Process of Implantation",
+    "stem": "What is meant by implantation in the female reproductive process?",
+    "options": [
+      "The embedding of the embryo into the thick, spongy lining of the uterus",
+      "The release of an egg cell from the ovary into the oviduct",
+      "The entry of a sperm cell into the nucleus of an egg cell",
+      "The development of fluid by the male sex glands"
+    ],
+    "answer": "The embedding of the embryo into the thick, spongy lining of the uterus",
+    "time": 55
+  },
+  {
+    "question": "Male Reproductive System - Blockage of Sperm Ducts",
+    "stem": "If a man has both of his sperm ducts cut and tied, which statement describes what will happen during ejaculation?",
+    "options": [
+      "Fluid from the male sex glands is still ejaculated, but it contains no sperm.",
+      "The testes immediately stop producing male hormones and sperm.",
+      "Ejaculation stops completely because no fluid can be produced.",
+      "Urine can no longer pass out through the urethra."
+    ],
+    "answer": "Fluid from the male sex glands is still ejaculated, but it contains no sperm.",
+    "time": 65
+  },
+  {
+    "question": "Menstrual Cycle - Days 1 to 5",
+    "stem": "What occurs in the female body during Days 1 to 5 of a typical 28-day menstrual cycle?",
+    "options": [
+      "The soft uterine lining breaks down and is discharged through the vagina as menstrual blood.",
+      "A mature egg cell is released from the ovary into the oviduct.",
+      "The embryo implants into the uterine lining.",
+      "The uterine lining grows to its maximum thickness in preparation for an embryo."
+    ],
+    "answer": "The soft uterine lining breaks down and is discharged through the vagina as menstrual blood.",
+    "time": 55
+  },
+  {
+    "question": "Menstrual Cycle - Days 6 to 13",
+    "stem": "What is the primary change occurring in the uterus between Days 6 and 13 of the menstrual cycle?",
+    "options": [
+      "The uterine lining repairs and thickens with blood vessels.",
+      "The uterine lining completely sheds and exits through the vagina.",
+      "An embryo implants into the uterine wall.",
+      "The cervix tightly closes to trap unfertilised egg cells."
+    ],
+    "answer": "The uterine lining repairs and thickens with blood vessels.",
+    "time": 55
+  },
+  {
+    "question": "Menstrual Cycle - Ovulation",
+    "stem": "In a typical 28-day menstrual cycle, what is ovulation and when does it typically take place?",
+    "options": [
+      "The release of a mature egg cell from the ovary around Day 14",
+      "The breakdown of the uterine lining around Day 1",
+      "The fusion of sperm and egg cell around Day 28",
+      "The implantation of an embryo into the uterus around Day 7"
+    ],
+    "answer": "The release of a mature egg cell from the ovary around Day 14",
+    "time": 55
+  },
+  {
+    "question": "Menstrual Cycle - The Fertile Period",
+    "stem": "In a regular 28-day menstrual cycle, why are Days 11 to 17 known as the fertile period?",
+    "options": [
+      "Ovulation occurs around Day 14, and sperm can survive for a few days inside the female reproductive tract.",
+      "Menstruation occurs during these days, increasing the chance of fertilisation.",
+      "The uterine lining is completely shed, clearing the way for sperm.",
+      "Multiple egg cells are continuously formed in the oviduct during this period."
+    ],
+    "answer": "Ovulation occurs around Day 14, and sperm can survive for a few days inside the female reproductive tract.",
+    "time": 65
+  },
+  {
+    "question": "Menstrual Cycle - Function of Thickened Uterine Lining",
+    "stem": "Why does the uterine lining become thick and richly supplied with blood vessels after ovulation?",
+    "options": [
+      "To supply oxygen and nutrients to support an embryo if fertilisation takes place",
+      "To block sperm from swimming into the oviduct",
+      "To produce female sex glands that store unused egg cells",
+      "To provide space for the ovaries to grow"
+    ],
+    "answer": "To supply oxygen and nutrients to support an embryo if fertilisation takes place",
+    "time": 60
+  },
+  {
+    "question": "Menstrual Cycle - Unfertilised Egg Cell",
+    "stem": "What happens if an egg cell released into the oviduct is not fertilised by a sperm?",
+    "options": [
+      "The egg cell dies and breaks down, followed by the shedding of the uterine lining about 14 days later.",
+      "The egg cell moves back into the ovary to be reused in the next cycle.",
+      "The egg cell implants into the uterine lining without developing further.",
+      "The uterine lining remains permanently thickened, stopping all future cycles."
+    ],
+    "answer": "The egg cell dies and breaks down, followed by the shedding of the uterine lining about 14 days later.",
+    "time": 60
+  },
+  {
+    "question": "Menstrual Cycle - Pregnancy and Menstruation",
+    "stem": "Why does a woman not experience menstruation throughout pregnancy?",
+    "options": [
+      "The uterine lining is maintained with rich blood supplies to nourish the developing embryo.",
+      "The ovaries dissolve permanently once an embryo is formed.",
+      "The oviducts are completely blocked by female sex glands.",
+      "The body converts all uterine blood into sperm ducts."
+    ],
+    "answer": "The uterine lining is maintained with rich blood supplies to nourish the developing embryo.",
+    "time": 55
+  }
+]
