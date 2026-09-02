@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Whole Numbers - Forming Largest Odd Number",
+    "stem": "What is the largest 5-digit odd number that can be formed using all the digits 2, 4, 7, 8, and 9, using each digit only once?",
+    "options": [
+      "98742",
+      "98472",
+      "98427",
+      "98247"
+    ],
+    "answer": "98427",
+    "time": 60
+  },
+  {
+    "question": "Whole Numbers - Forming Smallest Even Number",
+    "stem": "What is the smallest 5-digit even number that can be formed using all the digits 0, 3, 5, 6, and 8, using each digit only once?",
+    "options": [
+      "03568",
+      "30568",
+      "30586",
+      "35680"
+    ],
+    "answer": "30568",
+    "time": 60
+  },
+  {
+    "question": "Place Value - Rounding and Missing Digit",
+    "stem": "A 5-digit number is written as 48 □72. When rounded to the nearest thousand, the number becomes 49 000. What is the smallest possible digit that can be placed in the box □?",
+    "options": [
+      "0",
+      "4",
+      "5",
+      "9"
+    ],
+    "answer": "5",
+    "time": 55
+  },
+  {
+    "question": "Whole Numbers - Digits with Sum Condition",
+    "stem": "A 5-digit number is formed using the digits 6, 1, 9, 4, and an unknown digit □. The sum of all five digits is 24. What is the largest 5-digit odd number that can be formed using these five digits?",
+    "options": [
+      "96441",
+      "96414",
+      "94641",
+      "94461"
+    ],
+    "answer": "96441",
+    "time": 70
+  },
+  {
+    "question": "Place Value - Counting Hundreds",
+    "stem": "How many hundreds are there in 58 400?",
+    "options": [
+      "4",
+      "84",
+      "584",
+      "5840"
+    ],
+    "answer": "584",
+    "time": 50
+  },
+  {
+    "question": "Factors and Multiples - Missing Digit",
+    "stem": "The 4-digit number 7 3□4 is a multiple of 6. What is the greatest possible digit that can be placed in the box □?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "time": 65
+  },
+  {
+    "question": "Patterns - Spending Pattern Over a Week",
+    "stem": "During a 7-day school holiday, Ethan spent $2 more each day than the day before. If he spent a total of $84 over the entire week, how much money did Ethan spend on the first day?",
+    "options": [
+      "$4",
+      "$6",
+      "$8",
+      "$10"
+    ],
+    "answer": "$6",
+    "time": 75
+  },
+  {
+    "question": "Patterns - Constant Daily Increase",
+    "stem": "Chloe started reading a storybook on Monday. She read 12 pages on Monday and increased her reading by 4 pages each subsequent day. How many pages did Chloe read altogether from Monday to Friday (5 days)?",
+    "options": [
+      "80",
+      "90",
+      "100",
+      "120"
+    ],
+    "answer": "100",
+    "time": 70
+  },
+  {
+    "question": "Patterns - Accumulated Savings Milestone",
+    "stem": "Sam started saving money in a piggy bank. He saved $3 on Day 1, $6 on Day 2, $9 on Day 3, and continued to save $3 more than the previous day each day. On which day will Sam's total accumulated savings first exceed $60?",
+    "options": [
+      "Day 5",
+      "Day 6",
+      "Day 7",
+      "Day 8"
+    ],
+    "answer": "Day 6",
+    "time": 70
+  },
+  {
+    "question": "Patterns - Toothpick Triangle Sequence",
+    "stem": "Toothpicks are used to form a row of connected triangles as shown in the pattern:\n• Figure 1: 1 triangle (3 toothpicks)\n• Figure 2: 2 triangles (5 toothpicks)\n• Figure 3: 3 triangles (7 toothpicks)\nHow many toothpicks are needed to form Figure 15?",
+    "options": [
+      "29",
+      "30",
+      "31",
+      "33"
+    ],
+    "answer": "31",
+    "time": 65
+  },
+  {
+    "question": "Patterns - Daily Increments and Final Day Amount",
+    "stem": "A charity tin collected $5 more each day than the day before. Over a period of 4 days, a total of $90 was collected. How much money was collected on the 4th day?",
+    "options": [
+      "$20",
+      "$25",
+      "$30",
+      "$35"
+    ],
+    "answer": "$30",
+    "time": 75
+  },
+  {
+    "question": "Patterns - Working Backwards from Sequence",
+    "stem": "During a 5-day holiday camp, Jeremy spent $4 more each day than the previous day. On the 5th day, he spent $28. How much money did Jeremy spend in total over the 5 days?",
+    "options": [
+      "$90",
+      "$100",
+      "$110",
+      "$120"
+    ],
+    "answer": "$100",
+    "time": 75
+  },
+  {
+    "question": "Before-and-After - Constant Quantity (One Person Spends)",
+    "stem": "At first, Alan had 3 times as much money as Ben. After Ben spent $16 on a book, Alan had 5 times as much money as Ben. How much money did Alan have?",
+    "options": [
+      "$80",
+      "$100",
+      "$120",
+      "$140"
+    ],
+    "answer": "$120",
+    "time": 80
+  },
+  {
+    "question": "Before-and-After - One Quantity Decreases",
+    "stem": "At first, Ken had 4 times as many game cards as Leo. After Ken gave away 30 cards to his classmates, Ken had twice as many cards as Leo. How many cards did Ken have at first?",
+    "options": [
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "answer": "60",
+    "time": 75
+  },
+  {
+    "question": "Before-and-After - Increasing One to Equal",
+    "stem": "At first, Box X contained 3 times as many beads as Box Y. After 24 beads were added into Box Y, both boxes had an equal number of beads. How many beads were in Box X at first?",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "60"
+    ],
+    "answer": "36",
+    "time": 70
+  },
+  {
+    "question": "Before-and-After - Multiple Increases After Spending",
+    "stem": "At first, Mark had twice as much money as Luke. After Luke spent $15, Mark had 4 times as much money as Luke. How much money did Mark and Luke have altogether at first?",
+    "options": [
+      "$60",
+      "$75",
+      "$90",
+      "$105"
+    ],
+    "answer": "$90",
+    "time": 80
+  },
+  {
+    "question": "Before-and-After - Selling to Equalize",
+    "stem": "A fruit stall had 5 times as many apples as pears. After selling 48 apples, the number of apples left was equal to the number of pears. How many apples and pears were there in total at first?",
+    "options": [
+      "60",
+      "72",
+      "84",
+      "96"
+    ],
+    "answer": "72",
+    "time": 75
+  },
+  {
+    "question": "Before-and-After - Reversed Multiples After Spending",
+    "stem": "At first, Ryan had 3 times as much money as Sean. After Ryan spent $50 on a pair of shoes, Sean had twice as much money as Ryan. How much money did Ryan have at first?",
+    "options": [
+      "$50",
+      "$60",
+      "$75",
+      "$90"
+    ],
+    "answer": "$60",
+    "time": 85
+  },
+  {
+    "question": "Equal End - One Spends, One Receives",
+    "stem": "Aiden and Bella each had some savings. Aiden spent $25 on a toy, while Bella received $15 from her aunt. In the end, both of them had an equal amount of $40 each. How much money did Aiden have at first?",
+    "options": [
+      "$50",
+      "$55",
+      "$65",
+      "$70"
+    ],
+    "answer": "$65",
+    "time": 70
+  },
+  {
+    "question": "Equal End - Total Changes with Spending and Receiving",
+    "stem": "Alvin and Brandon had $140 altogether at first. Alvin spent $30 on food, while Brandon received $10 as pocket money. In the end, both boys had the exact same amount of money. How much money did Alvin have at first?",
+    "options": [
+      "$70",
+      "$80",
+      "$90",
+      "$100"
+    ],
+    "answer": "$90",
+    "time": 75
+  },
+  {
+    "question": "Equal End - Multiples with Opposite Changes",
+    "stem": "At first, Caleb had twice as much money as Darren. After Caleb spent $45 on games and Darren was given $15 by his father, both boys had an equal amount of money left. How much money did Caleb have at first?",
+    "options": [
+      "$90",
+      "$105",
+      "$120",
+      "$150"
+    ],
+    "answer": "$120",
+    "time": 80
+  },
+  {
+    "question": "Equal End - Capacity Model with Drainage and Filling",
+    "stem": "At first, Tank A contained 3 times as much water as Tank B. After 24 litres of water were drained from Tank A and 16 litres were poured into Tank B, both tanks had an equal volume of water. How much water was in Tank A at first?",
+    "options": [
+      "40 litres",
+      "50 litres",
+      "60 litres",
+      "72 litres"
+    ],
+    "answer": "60 litres",
+    "time": 80
+  },
+  {
+    "question": "Comparison Model - Tracking Ending Differences",
+    "stem": "Marcus had $48 more than Lucas at first. Marcus then spent $32 on books, while Lucas received $12 from his mother. In the end, how much more money did Marcus have than Lucas?",
+    "options": [
+      "$4",
+      "$8",
+      "$16",
+      "$28"
+    ],
+    "answer": "$4",
+    "time": 75
+  },
+  {
+    "question": "Internal Transfer - Making Equal Amounts",
+    "stem": "Jack had $84 and Jill had $36. How much money must Jack give to Jill so that both of them will have an equal amount of money?",
+    "options": [
+      "$18",
+      "$24",
+      "$36",
+      "$48"
+    ],
+    "answer": "$24",
+    "time": 65
+  },
+  {
+    "question": "Comparison Model - Three Persons with Part-Whole",
+    "stem": "Alan, Ben, and Carl collected 180 stamps altogether. Alan had twice as many stamps as Ben. Carl had 20 fewer stamps than Alan. How many stamps did Ben collect?",
+    "options": [
+      "30",
+      "40",
+      "50",
+      "80"
+    ],
+    "answer": "40",
+    "time": 75
+  },
+  {
+    "question": "Whole Numbers - Value of Sets and Grouping",
+    "stem": "A stationery shop sells a bundle pack containing 3 pencils and 2 erasers for $7. Mrs. Tan spent $56 buying these bundle packs. How many pencils did Mrs. Tan buy altogether?",
+    "options": [
+      "16",
+      "21",
+      "24",
+      "28"
+    ],
+    "answer": "24",
+    "time": 65
+  },
+  {
+    "question": "Assumption Method - Two Types of Vehicles",
+    "stem": "A car park has 25 vehicles consisting of bicycles (2 wheels each) and cars (4 wheels each). If there are 74 wheels in total, how many cars are parked in the car park?",
+    "options": [
+      "10",
+      "12",
+      "13",
+      "15"
+    ],
+    "answer": "12",
+    "time": 70
+  },
+  {
+    "question": "Comparison Model - Cutting from One Quantity",
+    "stem": "A red ribbon was 3 times as long as a blue ribbon at first. After 50 cm was cut from the red ribbon, the red ribbon became 10 cm shorter than the blue ribbon. What was the length of the blue ribbon?",
+    "options": [
+      "20 cm",
+      "30 cm",
+      "40 cm",
+      "60 cm"
+    ],
+    "answer": "20 cm",
+    "time": 80
+  },
+  {
+    "question": "Factors and Multiples - Common Multiples",
+    "stem": "Apples are sold in bags of 6, while oranges are sold in bags of 8. Mr. Lee bought the same number of apples and oranges. What is the smallest total number of fruits (apples and oranges combined) that Mr. Lee could have bought?",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "answer": "48",
+    "time": 65
+  },
+  {
+    "question": "Working Backwards - Fraction and Number of Items",
+    "stem": "A baker had some buns in the morning. He sold half of all his buns before noon. In the afternoon, he sold another 45 buns and had 35 buns left at the end of the day. How many buns did the baker have at first?",
+    "options": [
+      "120",
+      "140",
+      "150",
+      "160"
+    ],
+    "answer": "160",
+    "time": 65
+  }
+]
