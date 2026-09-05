@@ -9,7 +9,7 @@
       "78"
     ],
     "answer": "76",
-    "time": 60
+    "time": 80
   },
   {
     "question": "Ungrouped Data - Finding Unknown in an Ordered Set using Median",
@@ -21,7 +21,7 @@
       "20"
     ],
     "answer": "16",
-    "time": 60
+    "time": 80
   },
   {
     "question": "Frequency Table - Calculating Mean",
@@ -45,7 +45,7 @@
       "3.5"
     ],
     "answer": "3.0",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Frequency Table - Smallest Frequency for a Given Mode",
@@ -57,7 +57,7 @@
       "17"
     ],
     "answer": "16",
-    "time": 55
+    "time": 85
   },
   {
     "question": "Combined Mean - Merging Two Classes",
@@ -69,7 +69,7 @@
       "72.5 marks"
     ],
     "answer": "71.0 marks",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Adding Data - Value Equal to Mean",
@@ -81,7 +81,7 @@
       "It cannot be determined without knowing the individual numbers."
     ],
     "answer": "It remains at 40.",
-    "time": 50
+    "time": 70
   },
   {
     "question": "Adding Data - Calculating New Mean (Higher Value)",
@@ -93,7 +93,7 @@
       "156 cm"
     ],
     "answer": "154 cm",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Adding Data - Calculating New Mean (Lower Value)",
@@ -105,7 +105,7 @@
       "$2350"
     ],
     "answer": "$2300",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Adding Data - Effect on Median of Ungrouped Set",
@@ -117,7 +117,7 @@
       "The median increases from 18 to 20."
     ],
     "answer": "The median increases from 18 to 19.",
-    "time": 60
+    "time": 80
   },
   {
     "question": "Adding Data - Effect on Mode",
@@ -129,7 +129,7 @@
       "There is no mode."
     ],
     "answer": "The mode becomes 8 only.",
-    "time": 55
+    "time": 75
   },
   {
     "question": "Adding Data - Determining Score Needed to Reach Target Mean",
@@ -141,7 +141,7 @@
       "94"
     ],
     "answer": "94",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Adding Data - Two Values with Same Average as Mean",
@@ -153,7 +153,7 @@
       "55"
     ],
     "answer": "50",
-    "time": 60
+    "time": 80
   },
   {
     "question": "Adding Data - New Median After Adding Two Values",
@@ -165,7 +165,7 @@
       "20.0"
     ],
     "answer": "19.0",
-    "time": 65
+    "time": 85
   },
   {
     "question": "Adding Data - Mean of Two Added Values",
@@ -177,7 +177,7 @@
       "50"
     ],
     "answer": "25",
-    "time": 70
+    "time": 90
   },
   {
     "question": "Adding Data - Two Identical Values Changing Mode",
@@ -189,7 +189,7 @@
       "5"
     ],
     "answer": "6 only",
-    "time": 50
+    "time": 70
   },
   {
     "question": "Adding Data - Symmetrical Values Around the Mean and Median",
@@ -201,7 +201,7 @@
       "Both the mean and median increase."
     ],
     "answer": "Both the mean and median remain unchanged.",
-    "time": 70
+    "time": 90
   },
   {
     "question": "Removing Data - Value Equal to Mean",
@@ -213,7 +213,7 @@
       "66"
     ],
     "answer": "60",
-    "time": 50
+    "time": 70
   },
   {
     "question": "Removing Data - Calculating New Mean After Removal",
