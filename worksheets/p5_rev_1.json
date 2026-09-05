@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Order of Operations - Mixed Four Operations",
+    "stem": "Find the value of 48 - 18 ÷ 3 + 4 × 5.",
+    "options": [
+      "30",
+      "52",
+      "62",
+      "70"
+    ],
+    "answer": "62",
+    "time": 60
+  },
+  {
+    "question": "Order of Operations - With Brackets",
+    "stem": "Calculate 72 ÷ (12 - 4) + 6 × (15 - 8).",
+    "options": [
+      "45",
+      "51",
+      "56",
+      "63"
+    ],
+    "answer": "51",
+    "time": 60
+  },
+  {
+    "question": "Order of Operations - Nested Calculation",
+    "stem": "What is the value of 120 - (35 + (24 - 9) × 2)?",
+    "options": [
+      "45",
+      "55",
+      "65",
+      "75"
+    ],
+    "answer": "55",
+    "time": 65
+  },
+  {
+    "question": "Order of Operations - Left to Right Precedence",
+    "stem": "Find the value of 80 ÷ 4 × 5 - 36 ÷ (3 + 6).",
+    "options": [
+      "6",
+      "14",
+      "96",
+      "104"
+    ],
+    "answer": "96",
+    "time": 60
+  },
+  {
+    "question": "Order of Operations - Multi-Step",
+    "stem": "Evaluate 15 + 45 ÷ (15 - 6) × 4 - 18.",
+    "options": [
+      "17",
+      "21",
+      "25",
+      "32"
+    ],
+    "answer": "17",
+    "time": 65
+  },
+  {
+    "question": "Decimals - Purchasing and Change",
+    "stem": "Ken bought 4 files at $3.65 each and 2 notebooks at $2.45 each. He paid the cashier with a $50 note. How much change did Ken receive?",
+    "options": [
+      "$19.50",
+      "$30.50",
+      "$31.50",
+      "$35.40"
+    ],
+    "answer": "$30.50",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Mass and Equal Division",
+    "stem": "A sack contained 15.6 kg of rice. Mrs. Tan kept 3.6 kg for herself and packed the rest equally into 8 containers. What was the mass of rice in each container?",
+    "options": [
+      "1.2 kg",
+      "1.5 kg",
+      "1.8 kg",
+      "2.1 kg"
+    ],
+    "answer": "1.5 kg",
+    "time": 65
+  },
+  {
+    "question": "Decimals - Length Comparison",
+    "stem": "Ribbon A is 4.85 m long. Ribbon B is 1.3 m shorter than Ribbon A. Ribbon C is twice as long as Ribbon B. What is the length of Ribbon C?",
+    "options": [
+      "3.55 m",
+      "6.15 m",
+      "7.10 m",
+      "8.40 m"
+    ],
+    "answer": "7.10 m",
+    "time": 70
+  },
+  {
+    "question": "Decimals - Equal Sharing / Transfer",
+    "stem": "Chloe had $45.80 and Dylan had $32.20. How much money must Chloe give to Dylan so that both of them will have an equal amount of money?",
+    "options": [
+      "$6.80",
+      "$8.60",
+      "$13.60",
+      "$17.20"
+    ],
+    "answer": "$6.80",
+    "time": 65
+  },
+  {
+    "question": "Decimals - Perimeter of Rectangle",
+    "stem": "A rectangular garden has a length of 14.75 m and a breadth of 8.5 m. What is the perimeter of the garden?",
+    "options": [
+      "23.25 m",
+      "46.50 m",
+      "58.00 m",
+      "125.38 m"
+    ],
+    "answer": "46.50 m",
+    "time": 60
+  },
+  {
+    "question": "Promotion Optimization - Maximum Items Purchased",
+    "stem": "A bookstore sells storybooks at $8 each. A special promotion states: For every 3 storybooks bought at the regular price of $8 each, the 4th storybook can be purchased at a discount of $2. If Ethan has $70, what is the maximum number of storybooks he can buy?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "9",
+    "time": 80
+  },
+  {
+    "question": "Promotion Optimization - T-Shirt Bundle",
+    "stem": "T-shirts are sold at $12 each. For every 3 T-shirts bought at $12 each, the 4th T-shirt is offered at a discount of $4. What is the maximum number of T-shirts Leon can buy with $100?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "9",
+    "time": 80
+  },
+  {
+    "question": "Promotion Optimization - Pen Bundle Promotion",
+    "stem": "A stationery store sells pens at $2.50 each. Under a promotion, for every 3 pens bought at regular price, the 4th pen is sold at a discount of $1.00. What is the greatest number of pens Sarah can buy with $35.00?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "15",
+    "time": 85
+  },
+  {
+    "question": "Promotion Optimization - Ceramic Mugs",
+    "stem": "Ceramic mugs cost $6 each. For every 3 mugs purchased at full price, the 4th mug is discounted by $2. A customer has a budget of $68. What is the maximum number of mugs the customer can buy?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "12",
+    "time": 75
+  },
+  {
+    "question": "Volume of Liquids - Fraction Filled from Water Depth",
+    "stem": "A rectangular tank measuring 40 cm long, 25 cm wide, and 30 cm high contains water to a depth of 18 cm. What fraction of the tank is filled with water?",
+    "options": [
+      "1/2",
+      "3/5",
+      "2/3",
+      "3/4"
+    ],
+    "answer": "3/5",
+    "time": 65
+  },
+  {
+    "question": "Volume of Liquids - Fraction Filled from Height",
+    "stem": "A rectangular glass container has a length of 50 cm, a width of 20 cm, and a height of 40 cm. The height of the water level in the container is 15 cm. What fraction of the container is filled with water?",
+    "options": [
+      "1/4",
+      "3/8",
+      "2/5",
+      "1/2"
+    ],
+    "answer": "3/8",
+    "time": 65
+  },
+  {
+    "question": "Volume of Liquids - Fraction Filled by Volume",
+    "stem": "A rectangular tank has a base measuring 30 cm by 20 cm and a height of 25 cm. It contains 6 litres of water. What fraction of the tank is filled with water? (1 litre = 1000 cm³)",
+    "options": [
+      "1/5",
+      "1/3",
+      "2/5",
+      "1/2"
+    ],
+    "answer": "2/5",
+    "time": 70
+  },
+  {
+    "question": "Volume of Liquids - Fraction Filled Depth Comparison",
+    "stem": "A rectangular fish tank measures 60 cm by 30 cm by 50 cm. The water level in the tank is currently 35 cm. What fraction of the tank is filled with water in simplest form?",
+    "options": [
+      "3/5",
+      "7/10",
+      "4/5",
+      "5/6"
+    ],
+    "answer": "7/10",
+    "time": 60
+  },
+  {
+    "question": "Volume of Liquids - Finding Capacity when 3/4 Filled",
+    "stem": "A rectangular tank with a base measuring 40 cm by 20 cm is filled with water to a depth of 15 cm. If the tank is 3/4 filled, what is the total capacity of the tank in litres? (1 litre = 1000 cm³)",
+    "options": [
+      "12 litres",
+      "16 litres",
+      "18 litres",
+      "20 litres"
+    ],
+    "answer": "16 litres",
+    "time": 75
+  },
+  {
+    "question": "Volume of Liquids - Finding Capacity when 2/3 Filled",
+    "stem": "A rectangular container has a length of 50 cm and a width of 30 cm. The depth of water in the container is 16 cm. If this amount of water fills 2/3 of the container, what is the total capacity of the container in litres?",
+    "options": [
+      "24 litres",
+      "32 litres",
+      "36 litres",
+      "40 litres"
+    ],
+    "answer": "36 litres",
+    "time": 75
+  },
+  {
+    "question": "Volume of Liquids - Total Capacity when 3/4 Full",
+    "stem": "A rectangular tank with base dimensions of 60 cm by 25 cm has a water level of 24 cm. Given that the tank is 3/4 full, find the total capacity of the tank in litres.",
+    "options": [
+      "36 litres",
+      "42 litres",
+      "48 litres",
+      "54 litres"
+    ],
+    "answer": "48 litres",
+    "time": 75
+  },
+  {
+    "question": "Volume of Liquids - Capacity when 3/5 Filled",
+    "stem": "An aquarium measuring 45 cm long and 20 cm wide is filled with water to a depth of 18 cm. If the aquarium is 3/5 full, what is its full capacity in litres?",
+    "options": [
+      "24.5 litres",
+      "27.0 litres",
+      "30.0 litres",
+      "32.4 litres"
+    ],
+    "answer": "27.0 litres",
+    "time": 75
+  },
+  {
+    "question": "Rate - Printing Output Rate",
+    "stem": "A photocopier prints at a constant rate of 45 test papers per minute. How many test papers can it print in 24 minutes?",
+    "options": [
+      "900",
+      "1020",
+      "1080",
+      "1125"
+    ],
+    "answer": "1080",
+    "time": 60
+  },
+  {
+    "question": "Rate - Flow Rate and Time",
+    "stem": "A water tap fills an empty tank at a rate of 6 litres per minute. How many minutes will it take to fill a tank with a capacity of 150 litres?",
+    "options": [
+      "20 minutes",
+      "25 minutes",
+      "30 minutes",
+      "35 minutes"
+    ],
+    "answer": "25 minutes",
+    "time": 60
+  },
+  {
+    "question": "Rate - Tiered Bicycle Rental",
+    "stem": "A park kiosk rents bicycles at $8.00 for the first hour and $3.50 for every subsequent half hour. Marcus rented a bicycle for 2.5 hours. How much did he pay?",
+    "options": [
+      "$15.00",
+      "$18.50",
+      "$20.00",
+      "$22.00"
+    ],
+    "answer": "$18.50",
+    "time": 70
+  },
+  {
+    "question": "Rate - Leakage Volume",
+    "stem": "A drum leaks water at a steady rate of 250 ml per minute. How many litres of water will leak out of the drum in 1 hour and 20 minutes?",
+    "options": [
+      "15 litres",
+      "18 litres",
+      "20 litres",
+      "24 litres"
+    ],
+    "answer": "20 litres",
+    "time": 65
+  },
+  {
+    "question": "Percentage - Fraction to Percentage",
+    "stem": "Express 7/20 as a percentage.",
+    "options": [
+      "28%",
+      "35%",
+      "40%",
+      "70%"
+    ],
+    "answer": "35%",
+    "time": 45
+  },
+  {
+    "question": "Percentage - Decimal to Percentage",
+    "stem": "Express 0.08 as a percentage.",
+    "options": [
+      "0.8%",
+      "8%",
+      "80%",
+      "800%"
+    ],
+    "answer": "8%",
+    "time": 45
+  },
+  {
+    "question": "Percentage - Discounted Selling Price",
+    "stem": "The usual price of a pair of running shoes is $90. During a year-end sale, a 20% discount is given. What is the sale price of the running shoes?",
+    "options": [
+      "$18",
+      "$68",
+      "$70",
+      "$72"
+    ],
+    "answer": "$72",
+    "time": 60
+  },
+  {
+    "question": "Percentage - Amount of Discount Saved",
+    "stem": "The marked price of a microwave oven was $240. Mr. Lim bought it at a discount of 15%. How much money did Mr. Lim save from the discount?",
+    "options": [
+      "$24",
+      "$36",
+      "$48",
+      "$204"
+    ],
+    "answer": "$36",
+    "time": 60
+  }
+]
