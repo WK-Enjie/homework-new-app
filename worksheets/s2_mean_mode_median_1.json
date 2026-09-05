@@ -25,7 +25,7 @@
   },
   {
     "question": "Frequency Table - Calculating Mean",
-    "stem": "The table below shows the number of goals scored by 30 soccer players in a season:\n\n| Goals | 1 | 2 | 3 | 4 | 5 |\n| Frequency | 4 | 7 | 10 | 6 | 3 |\n\nCalculate the mean number of goals scored.",
+    "stem": "The table shows the goals scored by 30 players: (Goals: 1, Freq: 4), (Goals: 2, Freq: 7), (Goals: 3, Freq: 10), (Goals: 4, Freq: 6), (Goals: 5, Freq: 3). Calculate the mean number of goals scored.",
     "options": [
       "2.7",
       "2.8",
@@ -37,7 +37,7 @@
   },
   {
     "question": "Frequency Table - Determining Median",
-    "stem": "Using the same frequency table of goals scored by 30 players:\n\n| Goals | 1 | 2 | 3 | 4 | 5 |\n| Frequency | 4 | 7 | 10 | 6 | 3 |\n\nWhat is the median number of goals scored?",
+    "stem": "The table shows the goals scored by 30 players: (Goals: 1, Freq: 4), (Goals: 2, Freq: 7), (Goals: 3, Freq: 10), (Goals: 4, Freq: 6), (Goals: 5, Freq: 3). What is the median number of goals scored?",
     "options": [
       "2.0",
       "2.5",
@@ -49,7 +49,7 @@
   },
   {
     "question": "Frequency Table - Smallest Frequency for a Given Mode",
-    "stem": "The table shows the distribution of scores in a game:\n\n| Score | 10 | 20 | 30 | 40 |\n| Frequency | 8 | 15 | k | 7 |\n\nIf the unique mode of the scores is 30, what is the smallest possible integer value of k?",
+    "stem": "The distribution of scores is: (Score: 10, Freq: 8), (Score: 20, Freq: 15), (Score: 30, Freq: k), (Score: 40, Freq: 7). If the unique mode of the scores is 30, what is the smallest possible integer value of k?",
     "options": [
       "14",
       "15",
@@ -337,7 +337,7 @@
   },
   {
     "question": "Frequency Table - Adding Data and Tracking Median",
-    "stem": "The table shows the number of books read by 19 students:\n\n| Books Read | 0 | 1 | 2 | 3 |\n| Frequency | 3 | 5 | 7 | 4 |\n\nA 20th student who read 4 books is included in the survey. What is the median number of books read by the 20 students?",
+    "stem": "The table shows the number of books read by 19 students: (0 books: 3 students), (1 book: 5 students), (2 books: 7 students), (3 books: 4 students). A 20th student who read 4 books is added. What is the median number of books read by the 20 students?",
     "options": [
       "1.5",
       "2.0",
