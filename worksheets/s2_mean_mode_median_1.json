@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Ungrouped Data - Finding an Unknown Value from Mean",
+    "stem": "The mean of five test marks 64, 72, 78, 85, and x is 75. What is the value of x?",
+    "options": [
+      "74",
+      "75",
+      "76",
+      "78"
+    ],
+    "answer": "76",
+    "time": 60
+  },
+  {
+    "question": "Ungrouped Data - Finding Unknown in an Ordered Set using Median",
+    "stem": "A set of eight numbers arranged in ascending order is 11, 14, 15, x, 22, 25, 28, 30. If the median of the set is 19, find the value of x.",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "20"
+    ],
+    "answer": "16",
+    "time": 60
+  },
+  {
+    "question": "Frequency Table - Calculating Mean",
+    "stem": "The table below shows the number of goals scored by 30 soccer players in a season:\n\n| Goals | 1 | 2 | 3 | 4 | 5 |\n| Frequency | 4 | 7 | 10 | 6 | 3 |\n\nCalculate the mean number of goals scored.",
+    "options": [
+      "2.7",
+      "2.8",
+      "2.9",
+      "3.0"
+    ],
+    "answer": "2.9",
+    "time": 70
+  },
+  {
+    "question": "Frequency Table - Determining Median",
+    "stem": "Using the same frequency table of goals scored by 30 players:\n\n| Goals | 1 | 2 | 3 | 4 | 5 |\n| Frequency | 4 | 7 | 10 | 6 | 3 |\n\nWhat is the median number of goals scored?",
+    "options": [
+      "2.0",
+      "2.5",
+      "3.0",
+      "3.5"
+    ],
+    "answer": "3.0",
+    "time": 65
+  },
+  {
+    "question": "Frequency Table - Smallest Frequency for a Given Mode",
+    "stem": "The table shows the distribution of scores in a game:\n\n| Score | 10 | 20 | 30 | 40 |\n| Frequency | 8 | 15 | k | 7 |\n\nIf the unique mode of the scores is 30, what is the smallest possible integer value of k?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": "16",
+    "time": 55
+  },
+  {
+    "question": "Combined Mean - Merging Two Classes",
+    "stem": "Class 2A has 20 students with a mean test score of 65 marks. Class 2B has 30 students with a mean test score of 75 marks. What is the combined mean score of all 50 students from both classes?",
+    "options": [
+      "69.0 marks",
+      "70.0 marks",
+      "71.0 marks",
+      "72.5 marks"
+    ],
+    "answer": "71.0 marks",
+    "time": 65
+  },
+  {
+    "question": "Adding Data - Value Equal to Mean",
+    "stem": "The mean of 9 numbers is 40. If a tenth number with a value of 40 is added to the data set, what is the new mean?",
+    "options": [
+      "It decreases to 36.",
+      "It remains at 40.",
+      "It increases to 44.",
+      "It cannot be determined without knowing the individual numbers."
+    ],
+    "answer": "It remains at 40.",
+    "time": 50
+  },
+  {
+    "question": "Adding Data - Calculating New Mean (Higher Value)",
+    "stem": "A group of 7 students has a mean height of 152 cm. A new student of height 168 cm joins the group. What is the new mean height of the 8 students?",
+    "options": [
+      "153 cm",
+      "154 cm",
+      "155 cm",
+      "156 cm"
+    ],
+    "answer": "154 cm",
+    "time": 65
+  },
+  {
+    "question": "Adding Data - Calculating New Mean (Lower Value)",
+    "stem": "The mean monthly salary of 5 employees is $2400. A new employee with a salary of $1800 is hired. What is the new mean monthly salary of the 6 employees?",
+    "options": [
+      "$2100",
+      "$2250",
+      "$2300",
+      "$2350"
+    ],
+    "answer": "$2300",
+    "time": 65
+  },
+  {
+    "question": "Adding Data - Effect on Median of Ungrouped Set",
+    "stem": "A data set consists of five numbers: 12, 15, 18, 24, 30. If the number 20 is added to this data set, how does the median change?",
+    "options": [
+      "The median decreases from 18 to 17.5.",
+      "The median remains unchanged at 18.",
+      "The median increases from 18 to 19.",
+      "The median increases from 18 to 20."
+    ],
+    "answer": "The median increases from 18 to 19.",
+    "time": 60
+  },
+  {
+    "question": "Adding Data - Effect on Mode",
+    "stem": "A data set consists of the numbers: 4, 5, 5, 6, 7, 8, 8. What happens to the mode of the data set when the number 8 is added?",
+    "options": [
+      "The data set remains bimodal with modes 5 and 8.",
+      "The mode becomes 8 only.",
+      "The mode becomes 6.5.",
+      "There is no mode."
+    ],
+    "answer": "The mode becomes 8 only.",
+    "time": 55
+  },
+  {
+    "question": "Adding Data - Determining Score Needed to Reach Target Mean",
+    "stem": "A student scored 68, 72, 75, and 81 marks in four tests. What mark must the student score in the fifth test to raise their overall mean to 78 marks?",
+    "options": [
+      "88",
+      "90",
+      "92",
+      "94"
+    ],
+    "answer": "94",
+    "time": 65
+  },
+  {
+    "question": "Adding Data - Two Values with Same Average as Mean",
+    "stem": "A set of 6 numbers has a mean of 50. Two new numbers, 45 and 55, are added to the set. What is the new mean of the 8 numbers?",
+    "options": [
+      "48",
+      "50",
+      "52",
+      "55"
+    ],
+    "answer": "50",
+    "time": 60
+  },
+  {
+    "question": "Adding Data - New Median After Adding Two Values",
+    "stem": "A data set contains six numbers: 10, 14, 18, 22, 26, 30. If the numbers 12 and 20 are included in the data set, what is the new median?",
+    "options": [
+      "18.0",
+      "18.5",
+      "19.0",
+      "20.0"
+    ],
+    "answer": "19.0",
+    "time": 65
+  },
+  {
+    "question": "Adding Data - Mean of Two Added Values",
+    "stem": "The mean of 8 numbers is 15. When two new numbers are added, the mean of the 10 numbers becomes 17. What is the mean of the two newly added numbers?",
+    "options": [
+      "20",
+      "22.5",
+      "25",
+      "50"
+    ],
+    "answer": "25",
+    "time": 70
+  },
+  {
+    "question": "Adding Data - Two Identical Values Changing Mode",
+    "stem": "A data set is given as: 2, 3, 4, 4, 5, 6, 7. If two additional numbers, both equal to 6, are added to the data set, what is the new mode?",
+    "options": [
+      "4 only",
+      "6 only",
+      "Both 4 and 6",
+      "5"
+    ],
+    "answer": "6 only",
+    "time": 50
+  },
+  {
+    "question": "Adding Data - Symmetrical Values Around the Mean and Median",
+    "stem": "A data set consists of five values: 20, 22, 25, 28, 30. If two values, 5 and 45, are added to the data set, how do the mean and median change?",
+    "options": [
+      "Both the mean and median remain unchanged.",
+      "The mean increases but the median remains unchanged.",
+      "The median increases but the mean remains unchanged.",
+      "Both the mean and median increase."
+    ],
+    "answer": "Both the mean and median remain unchanged.",
+    "time": 70
+  },
+  {
+    "question": "Removing Data - Value Equal to Mean",
+    "stem": "The mean score of 10 students is 60. If one student who scored 60 is removed from the record, what is the new mean score of the remaining 9 students?",
+    "options": [
+      "54",
+      "59",
+      "60",
+      "66"
+    ],
+    "answer": "60",
+    "time": 50
+  },
+  {
+    "question": "Removing Data - Calculating New Mean After Removal",
+    "stem": "The mean mass of 8 parcels is 4.5 kg. One parcel of mass 8.0 kg is removed from the group. What is the new mean mass of the remaining 7 parcels?",
+    "options": [
+      "3.8 kg",
+      "4.0 kg",
+      "4.2 kg",
+      "4.4 kg"
+    ],
+    "answer": "4.0 kg",
+    "time": 65
+  },
+  {
+    "question": "Correcting Data - Single Misrecorded Value",
+    "stem": "The mean mark of 20 students in a test was calculated as 62. It was later discovered that a mark of 45 was mistakenly recorded as 85. What is the correct mean mark?",
+    "options": [
+      "58",
+      "60",
+      "61",
+      "64"
+    ],
+    "answer": "60",
+    "time": 70
+  },
+  {
+    "question": "Correcting Data - Two Misrecorded Values",
+    "stem": "The mean of 25 numbers was found to be 40. Later, it was discovered that two numbers, 28 and 36, were misread as 18 and 56 respectively. What is the correct mean of the 25 numbers?",
+    "options": [
+      "39.2",
+      "39.6",
+      "40.4",
+      "40.8"
+    ],
+    "answer": "39.6",
+    "time": 75
+  },
+  {
+    "question": "Removing Data - Removing Highest and Lowest Values",
+    "stem": "A competition records 7 scores: 10, 15, 18, 20, 22, 25, 90. If the lowest score (10) and the highest score (90) are removed, what happens to the median?",
+    "options": [
+      "The median decreases to 18.",
+      "The median remains unchanged at 20.",
+      "The median increases to 21.",
+      "The median cannot be determined."
+    ],
+    "answer": "The median remains unchanged at 20.",
+    "time": 60
+  },
+  {
+    "question": "Linear Transformation - Adding a Constant to All Values",
+    "stem": "A test has a mean of 54, a median of 52, and a mode of 50. If every student is awarded 6 bonus marks, what are the new mean, median, and mode?",
+    "options": [
+      "Mean = 54, Median = 52, Mode = 56",
+      "Mean = 60, Median = 52, Mode = 50",
+      "Mean = 60, Median = 58, Mode = 50",
+      "Mean = 60, Median = 58, Mode = 56"
+    ],
+    "answer": "Mean = 60, Median = 58, Mode = 56",
+    "time": 55
+  },
+  {
+    "question": "Linear Transformation - Subtracting a Constant from All Values",
+    "stem": "The mean mark of a class is 78 and the median is 80. If 5 marks are deducted from every student's score, what are the new mean and median?",
+    "options": [
+      "Mean = 73, Median = 75",
+      "Mean = 73, Median = 80",
+      "Mean = 78, Median = 75",
+      "Mean = 83, Median = 85"
+    ],
+    "answer": "Mean = 73, Median = 75",
+    "time": 50
+  },
+  {
+    "question": "Linear Transformation - Multiplying All Values by a Constant",
+    "stem": "A set of data has a mean of 12, a median of 11, and a mode of 10. If each value in the data set is multiplied by 3, what are the new mean, median, and mode?",
+    "options": [
+      "Mean = 36, Median = 11, Mode = 10",
+      "Mean = 36, Median = 33, Mode = 10",
+      "Mean = 36, Median = 33, Mode = 30",
+      "Mean = 15, Median = 14, Mode = 13"
+    ],
+    "answer": "Mean = 36, Median = 33, Mode = 30",
+    "time": 55
+  },
+  {
+    "question": "Linear Transformation - Combined Operation (ax + b)",
+    "stem": "The mean of a set of data is 20. If each value x in the data set is transformed by the formula y = 2x + 5, what is the new mean of the transformed data?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "55"
+    ],
+    "answer": "45",
+    "time": 60
+  },
+  {
+    "question": "Adding Data - Finding Two Values from New Mean",
+    "stem": "The mean of 6 numbers is 18. Two new numbers, x and y, are added to the set. If y = x + 6 and the new mean of all 8 numbers becomes 20, what is the value of x?",
+    "options": [
+      "21",
+      "23",
+      "26",
+      "29"
+    ],
+    "answer": "23",
+    "time": 75
+  },
+  {
+    "question": "Adding Data - Determining Possible Value to Change Median",
+    "stem": "A data set contains five numbers in ascending order: 14, 18, 22, 26, 30. A sixth number, x, is added to the data set such that the new median becomes 24. Which of the following could be the value of x?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "28"
+    ],
+    "answer": "28",
+    "time": 75
+  },
+  {
+    "question": "Frequency Table - Adding Data and Tracking Median",
+    "stem": "The table shows the number of books read by 19 students:\n\n| Books Read | 0 | 1 | 2 | 3 |\n| Frequency | 3 | 5 | 7 | 4 |\n\nA 20th student who read 4 books is included in the survey. What is the median number of books read by the 20 students?",
+    "options": [
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.0"
+    ],
+    "answer": "2.0",
+    "time": 70
+  },
+  {
+    "question": "Replacing Data - Two Simultaneous Changes",
+    "stem": "The mean of a set of 10 numbers is 50. If one number with a value of 40 is replaced by 70, and another number with a value of 60 is replaced by 30, what is the new mean of the 10 numbers?",
+    "options": [
+      "It decreases to 48.",
+      "It remains unchanged at 50.",
+      "It increases to 52.",
+      "It increases to 54."
+    ],
+    "answer": "It remains unchanged at 50.",
+    "time": 65
+  }
+]
